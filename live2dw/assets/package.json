@@ -1,0 +1,14 @@
+{
+  "name": "live2d-widget-model-umaru",
+  "version": "2.0.0",
+  "description": "live2d-widget-model-umaru",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "live2d-widget-model-umaru"
+  ],
+  "author": "panyongkang",
+  "license": "ISC"
+}
