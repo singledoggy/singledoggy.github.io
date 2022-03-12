@@ -10,6 +10,15 @@
     
     
     <url>
+        <loc>https://samhan.fun/moments/</loc>
+        <lastmod>2022-03-12T09:16:34.904Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://samhan.fun/now/</loc>
         <lastmod>2022-03-12T09:08:45.466Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -30,15 +39,6 @@
     <url>
         <loc>https://samhan.fun/about/</loc>
         <lastmod>2022-01-22T04:09:26.442Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://samhan.fun/moments/</loc>
-        <lastmod>2022-01-09T06:28:37.408Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
