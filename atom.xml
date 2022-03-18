@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2022-01-17T12:57:13.000Z</updated>
+  <updated>2022-03-17T02:47:00.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,23 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Learning Swimming</title>
+    <link href="https://samhan.fun/posts/5a367fc4.html"/>
+    <id>https://samhan.fun/posts/5a367fc4.html</id>
+    <published>2022-03-17T02:47:00.000Z</published>
+    <updated>2022-03-17T02:47:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Travel : shichahai</title>
@@ -257,7 +274,7 @@ This particular diamond was extra special&lt;/p&gt;
     <published>2021-11-04T01:55:08.000Z</published>
     <updated>2021-11-06T03:12:00.000Z</updated>
     
-    <content type="html"><![CDATA[<p>List some linux command</p><span id="more"></span><h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1><p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>前缀+<kbd>c</kbd>(creat)<br>前缀+ <kbd>x</kbd>(关闭)</p><h1 id="vim"><a class="header-anchor" href="#vim">¶</a>vim</h1><ol><li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li><li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li><li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li></ol><h1 id="bash"><a class="header-anchor" href="#bash">¶</a>bash</h1>]]></content>
+    <content type="html"><![CDATA[<p>List some linux command</p><span id="more"></span><h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1><p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>前缀+<kbd>c</kbd>(creat)<br>前缀+ <kbd>x</kbd>(关闭)</p><h1 id="vim"><a class="header-anchor" href="#vim">¶</a>vim</h1><ol><li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li><li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li><li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li></ol><h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1><figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">git reset HEAD</span></span><br><span class="line"><span class="attribute">git checkout HEAD</span></span><br><span class="line"><span class="attribute">git rebase</span></span><br></pre></td></tr></table></figure>]]></content>
     
     
     <summary type="html">&lt;p&gt;List some linux command&lt;/p&gt;</summary>
