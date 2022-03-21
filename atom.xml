@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2022-03-17T02:47:00.000Z</updated>
+  <updated>2022-03-21T03:09:05.788Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Bad and interesting translations</title>
+    <link href="https://samhan.fun/posts/25cd51e8.html"/>
+    <id>https://samhan.fun/posts/25cd51e8.html</id>
+    <published>2022-03-21T02:25:00.000Z</published>
+    <updated>2022-03-21T03:09:05.788Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p><p>还有一些有趣的翻译也会放在这里</p><h1 id="Underdog"><a class="header-anchor" href="#Underdog">¶</a>Underdog</h1><p><img data-src="/images/1641801021605.png" width="50%" height="50%"> <center>好汉两个半</center></p><span id="more"></span><p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p><blockquote><p>So you like an underdog?Everyone likes an underdog.<br>所以你喜欢被压迫者?人人都喜欢受压迫的人</p></blockquote><p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p><h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1><p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p><p>那戴望舒的《雨巷》<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>指的是哪一种丁香呢？</p><blockquote><p>我希望逢着<br>一个丁香一样的姑娘</p></blockquote><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102158.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102038.png" width="50%" height="50%"></div></div></div><p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E9%9B%A8%E5%B7%B7/1499166?fr=aladdin">https://baike.baidu.com/item/雨巷/1499166?fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的&lt;/p&gt;
+&lt;p&gt;还有一些有趣的翻译也会放在这里&lt;/p&gt;
+&lt;h1 id=&quot;Underdog&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Underdog&quot;&gt;¶&lt;/a&gt;Underdog&lt;/h1&gt;
+&lt;p&gt;&lt;img data-src=&quot;/images/1641801021605.png&quot; width=&quot;50%&quot; height=&quot;50%&quot;&gt; &lt;center&gt;好汉两个半&lt;/center&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="中文" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Learning Swimming</title>
@@ -57,28 +79,6 @@
     <category term="中文" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/"/>
     
     <category term="Travel" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/Travel/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Bad and interesting translations</title>
-    <link href="https://samhan.fun/posts/25cd51e8.html"/>
-    <id>https://samhan.fun/posts/25cd51e8.html</id>
-    <published>2022-01-10T07:54:18.000Z</published>
-    <updated>2022-03-21T02:25:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p><p>还有一些有趣的翻译也会放在这里</p><h1 id="Underdog"><a class="header-anchor" href="#Underdog">¶</a>Underdog</h1><p><img data-src="/images/1641801021605.png" width="50%" height="50%"> <center>好汉两个半</center></p><span id="more"></span><p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p><blockquote><p>So you like an underdog?Everyone likes an underdog.<br>所以你喜欢被压迫者?人人都喜欢受压迫的人</p></blockquote><p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p><h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1><p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102158.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102038.png" width="50%" height="50%"></div></div></div><p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的&lt;/p&gt;
-&lt;p&gt;还有一些有趣的翻译也会放在这里&lt;/p&gt;
-&lt;h1 id=&quot;Underdog&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Underdog&quot;&gt;¶&lt;/a&gt;Underdog&lt;/h1&gt;
-&lt;p&gt;&lt;img data-src=&quot;/images/1641801021605.png&quot; width=&quot;50%&quot; height=&quot;50%&quot;&gt; &lt;center&gt;好汉两个半&lt;/center&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="中文" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/"/>
     
     
   </entry>
