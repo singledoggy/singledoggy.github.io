@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Bad translations</title>
+    <title>Bad and interesting translations</title>
     <url>/posts/25cd51e8.html</url>
     <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p>
+<p>还有一些有趣的翻译也会放在这里</p>
+<h1 id="Underdog"><a class="header-anchor" href="#Underdog">¶</a>Underdog</h1>
 <p><img data-src="/images/1641801021605.png" width="50%" height="50%"> <center>好汉两个半</center></p>
 <span id="more"></span>
 <p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p>
@@ -12,6 +14,10 @@
 所以你喜欢被压迫者?人人都喜欢受压迫的人</p>
 </blockquote>
 <p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p>
+<h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1>
+<p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102158.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102038.png" width="50%" height="50%"></div></div></div>
+<p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p>
 ]]></content>
       <categories>
         <category>中文</category>
@@ -237,7 +243,7 @@ ipdb&gt; q
 <li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li>
 </ol>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
-<figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">git reset HEAD</span></span><br><span class="line"><span class="attribute">git checkout HEAD</span></span><br><span class="line"><span class="attribute">git rebase</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Code</category>
