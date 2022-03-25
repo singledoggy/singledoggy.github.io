@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2022-03-22T08:17:59.147Z</updated>
+  <updated>2022-03-24T13:08:19.183Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Bad and interesting translations</title>
+    <title>Bad or interesting translations</title>
     <link href="https://samhan.fun/posts/25cd51e8.html"/>
     <id>https://samhan.fun/posts/25cd51e8.html</id>
     <published>2022-03-21T02:25:00.000Z</published>
-    <updated>2022-03-22T08:17:59.147Z</updated>
+    <updated>2022-03-24T13:08:19.183Z</updated>
     
     
     <summary type="html">&lt;p&gt;很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的&lt;/p&gt;
@@ -136,17 +136,16 @@ This particular diamond was extra special&lt;/p&gt;
     <link href="https://samhan.fun/posts/feea6fda.html"/>
     <id>https://samhan.fun/posts/feea6fda.html</id>
     <published>2021-11-30T14:52:13.000Z</published>
-    <updated>2021-11-30T14:52:13.000Z</updated>
+    <updated>2022-03-25T06:07:00.000Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;h1 id=&quot;🎉-My-first-pull-request&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#🎉-My-first-pull-request&quot;&gt;¶&lt;/a&gt;🎉 My first pull</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;🎉-My-first-pull-request&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#🎉-My-first-pull-request&quot;&gt;¶&lt;/a&gt;🎉 My first pull request&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/miniufo/xgrads/pull/31&quot;&gt;Here&lt;/a&gt; is my first pull request in Github. A tool to read .ctl data: xgrads. The author replied quickly. THANKS FOR HIS WORK!&lt;/p&gt;
+&lt;h1 id=&quot;Some-issues&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Some-issues&quot;&gt;¶&lt;/a&gt;Some issues:&lt;/h1&gt;
+&lt;h2 id=&quot;提议添加遵从CF公约的投影信息&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#提议添加遵从CF公约的投影信息&quot;&gt;¶&lt;/a&gt;提议添加遵从CF公约的投影信息&lt;/h2&gt;
+&lt;p&gt;科普一下CF公约， 这里定义了&lt;code&gt;.nc&lt;/code&gt;的投影等元信息的储存方式。看这个公约是因为很奇怪&lt;code&gt;.nc&lt;/code&gt;文件需要额外的说明来自行设定投影，逻辑上很不通顺。然后发现实际上有不少人已经意识到这一问题，开始作出约定了。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;CF Convention&lt;/code&gt; style projection to &lt;code&gt;.nc&lt;/code&gt; file&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/miniufo/xgrads/issues/36&quot;&gt;https://github.com/miniufo/xgrads/issues/36&lt;/a&gt;&lt;/p&gt;</summary>
     
     
     

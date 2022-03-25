@@ -20,14 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Github milestone</title>
-    <url>/posts/feea6fda.html</url>
-    <content><![CDATA[<span id="more"></span>
-<h1 id="🎉-My-first-pull-request"><a class="header-anchor" href="#🎉-My-first-pull-request">¶</a>🎉 My first pull request</h1>
-<p><a href="https://github.com/miniufo/xgrads/pull/31">Here</a> is my first pull request in Github. A tool to read .ctl data: xgrads. The author replied quickly. THANKS FOR HIS WORK!</p>
-]]></content>
-  </entry>
-  <entry>
     <title>NFC</title>
     <url>/posts/ccb38171.html</url>
     <content><![CDATA[<p>Got some NFC stickers today and wants to do something cool with it.</p>
@@ -37,123 +29,17 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Travel in Beijing</title>
-    <url>/posts/9dd9b02f.html</url>
-    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/yuyuan1.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan2.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan3.jpg" width="50%"  height="50%"></div></div></div>
-<center> 玉渊潭 </center>
+    <title>Github milestone</title>
+    <url>/posts/feea6fda.html</url>
+    <content><![CDATA[<h1 id="🎉-My-first-pull-request"><a class="header-anchor" href="#🎉-My-first-pull-request">¶</a>🎉 My first pull request</h1>
+<p><a href="https://github.com/miniufo/xgrads/pull/31">Here</a> is my first pull request in Github. A tool to read .ctl data: xgrads. The author replied quickly. THANKS FOR HIS WORK!</p>
+<h1 id="Some-issues"><a class="header-anchor" href="#Some-issues">¶</a>Some issues:</h1>
+<h2 id="提议添加遵从CF公约的投影信息"><a class="header-anchor" href="#提议添加遵从CF公约的投影信息">¶</a>提议添加遵从CF公约的投影信息</h2>
+<p>科普一下CF公约， 这里定义了<code>.nc</code>的投影等元信息的储存方式。看这个公约是因为很奇怪<code>.nc</code>文件需要额外的说明来自行设定投影，逻辑上很不通顺。然后发现实际上有不少人已经意识到这一问题，开始作出约定了。</p>
+<p><code>CF Convention</code> style projection to <code>.nc</code> file</p>
+<p><a href="https://github.com/miniufo/xgrads/issues/36">https://github.com/miniufo/xgrads/issues/36</a></p>
 <span id="more"></span>
 ]]></content>
-      <categories>
-        <category>Travel</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>python debug with ipdb</title>
-    <url>/posts/f4bfd05a.html</url>
-    <content><![CDATA[<h1 id="为什么使用ipdb而不是IDE"><a class="header-anchor" href="#为什么使用ipdb而不是IDE">¶</a>为什么使用ipdb而不是IDE?</h1>
-<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
-在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
-<span id="more"></span>
-<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
-<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
-<pre><code>IndexError('list index out of range')
-
-
-&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
-[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-[0m
-ipdb&gt; i
-4
-ipdb&gt; number
-*** NameError: name 'number' is not defined
-ipdb&gt; numbers
-[1, 3, 5]
-ipdb&gt; type(i)
-&lt;class 'int'&gt;
-ipdb&gt; q
-</code></pre>
-<hr>
-<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
-<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Linux</title>
-    <url>/posts/9211474f.html</url>
-    <content><![CDATA[<p>List some linux command</p>
-<span id="more"></span>
-<h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1>
-<p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>
-前缀+<kbd>c</kbd>(creat)<br>
-前缀+ <kbd>x</kbd>(关闭)</p>
-<h1 id="vim"><a class="header-anchor" href="#vim">¶</a>vim</h1>
-<ol>
-<li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li>
-<li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li>
-<li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li>
-</ol>
-<h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
-<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>metro_py</title>
-    <url>/posts/e6a0cb8f.html</url>
-    <content><![CDATA[<h1 id="salem"><a class="header-anchor" href="#salem">¶</a>salem</h1>
-<h2 id="Why-salem"><a class="header-anchor" href="#Why-salem">¶</a>Why salem?</h2>
-<p>WRF out are in strange projection<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, so you need to reset cartopy <code>semimajor_axis</code> to make the Earth a sphere. Also, salem has many useful WRF-tools.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>  You can plot beautiful domain…</p>
-<h2 id="Install-in-the-server-without-Network-access"><a class="header-anchor" href="#Install-in-the-server-without-Network-access">¶</a>Install in the server without Network access</h2>
-<p>salem download something when first import, and my server can use pip but can’t access Network.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> , it would cause keep try download. So I need to use:<code>scp .salem_cache [server]</code>.</p>
-<blockquote>
-<p>You need to notice that At the first import, Salem will create a hidden directory called .salem_cache in your home folder. It will be used to download Salem’s demo files and standard shapefiles</p>
-</blockquote>
-<span id="more"></span>
-<h2 id="Quick-adjust-for-Chinese"><a class="header-anchor" href="#Quick-adjust-for-Chinese">¶</a>Quick adjust for Chinese</h2>
-<p>According to the law, Chinese people need to plot with correct Map of China. Key is <code>maps[0].set_shapefile(countries=false)</code>.<br>
-There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/domain1.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/wrong.png" width="50%" height="50%"></div></div></div>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> matplotlib <span class="keyword">as</span> mpl</span><br><span class="line"><span class="keyword">import</span> xarray <span class="keyword">as</span> xr</span><br><span class="line"><span class="keyword">from</span> salem.utils <span class="keyword">import</span> get_demo_file</span><br><span class="line"><span class="keyword">from</span> salem <span class="keyword">import</span> geogrid_simulator</span><br><span class="line"><span class="keyword">import</span> salem</span><br><span class="line">fpath = <span class="string">&quot;/public/lapc/tangx/fenglisha/wrf3.9/wps/namelist.wps&quot;</span></span><br><span class="line">shdf = salem.read_shapefile(</span><br><span class="line">    <span class="string">&quot;/users/sam/downloads/meteoinfo/map/世界 行政区划 world/country.shp&quot;</span>)</span><br><span class="line">fig, ax = plt.subplots(<span class="number">1</span>, <span class="number">1</span>, figsize=(<span class="number">10</span>, <span class="number">10</span>))</span><br><span class="line"></span><br><span class="line">g, maps = geogrid_simulator(fpath)</span><br><span class="line">maps[<span class="number">0</span>].set_shapefile(countries=false)</span><br><span class="line">maps[<span class="number">0</span>].set_shapefile(shape=shdf)</span><br><span class="line">maps[<span class="number">0</span>].set_rgb(natural_earth=<span class="string">&#x27;lr&#x27;</span>)  <span class="comment"># add a background image</span></span><br><span class="line">maps[<span class="number">0</span>].visualize(title=<span class="string">&#x27;our domains 1 to 2&#x27;</span>)</span><br><span class="line">plt.savefig(<span class="string">&#x27;/public/lapc/tangx/fenglisha/WRF3.9/WPS/pic.png&#x27;</span>, dpi=<span class="number">150</span>, bbox_inches=<span class="string">&#x27;tight&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="xarray"><a class="header-anchor" href="#xarray">¶</a>xarray</h1>
-<h2 id="load-data"><a class="header-anchor" href="#load-data">¶</a>load data</h2>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">source = xr.open_mfdataset(</span><br><span class="line">    <span class="string">&#x27;merge_emi_yyyy*nc&#x27;</span>, combine=<span class="string">&#x27;nested&#x27;</span>,</span><br><span class="line">    concat_dim=<span class="string">&#x27;tstep&#x27;</span>, parallel=true)</span><br></pre></td></tr></table></figure>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">list</span><span class="params">(ds.keys()</span></span>)</span><br><span class="line"><span class="function"><span class="title">list</span><span class="params">(ds.coords)</span></span></span><br></pre></td></tr></table></figure>
-<h1 id="geopandas"><a class="header-anchor" href="#geopandas">¶</a>geopandas</h1>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">############</span></span><br><span class="line"><span class="comment">#  concat  #</span></span><br><span class="line"><span class="comment">############</span></span><br><span class="line"></span><br><span class="line">all_sta= gpd.GeoDataFrame(</span><br><span class="line">    pd.concat([fixed_sta,potential_loc]))</span><br><span class="line"><span class="comment">#################################</span></span><br><span class="line"><span class="comment">#  union shape and close_holes  #</span></span><br><span class="line"><span class="comment">#################################</span></span><br><span class="line"></span><br><span class="line">polygon = wuhan.geometry.unary_union</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">close_holes</span>(<span class="params">poly: Polygon</span>) -&gt; Polygon:</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Close polygon holes by limitation to the exterior ring.</span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        poly: Input shapely Polygon</span></span><br><span class="line"><span class="string">    Example:</span></span><br><span class="line"><span class="string">        df.geometry.apply(lambda p: close_holes(p))</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">if</span> poly.interiors:</span><br><span class="line">        <span class="keyword">return</span> Polygon(<span class="built_in">list</span>(poly.exterior.coords))</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> poly</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">wuhan_cas = gpd.GeoDataFrame(geometry=[polygon], crs=wuhan.crs)</span><br><span class="line">wuhan_cas = wuhan_cas.geometry.apply(<span class="keyword">lambda</span> p: close_holes(p))</span><br><span class="line">wuhan_cas = gpd.GeoDataFrame(geometry=wuhan_cas.geometry, crs=wuhan.crs)</span><br><span class="line">wuhan_cas.to_file(</span><br><span class="line">    <span class="string">r&#x27;/Users/sam/Downloads/MeteoInfo/map/Wuhan_cas.shp&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">######################</span></span><br><span class="line"><span class="comment">#  cartopy gridline  #</span></span><br><span class="line"><span class="comment">######################</span></span><br><span class="line">gl = ax.gridlines(draw_labels=<span class="literal">True</span>,</span><br><span class="line">                  x_inline=<span class="literal">False</span>, y_inline=<span class="literal">False</span>,</span><br><span class="line">                  color=<span class="string">&#x27;k&#x27;</span>, linestyle=<span class="string">&#x27;dotted&#x27;</span>, zorder=<span class="number">4</span>)</span><br><span class="line">gl.top_labels = gl.right_labels = <span class="literal">False</span></span><br><span class="line">gl.rotate_labels = <span class="literal">False</span></span><br></pre></td></tr></table></figure>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://fabienmaussion.info/2018/01/06/wrf-projection/">Fabien Maussion</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://salem.readthedocs.io/en/latest/wrf.html">WRF-tools</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p><a href="https://salem.readthedocs.io/en/latest/faq.html#what-s-this-salem-cache-directory-in-my-home-folder">_cache file</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn4" class="footnote-item"><p><a href="https://mp.weixin.qq.com/s/ntn4faVFgIEVTcS-ijpakg">Wrong map example :气象汇</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
   </entry>
   <entry>
     <title>habitica_log</title>
@@ -211,6 +97,126 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       <categories>
         <category>Game</category>
       </categories>
+  </entry>
+  <entry>
+    <title>python debug with ipdb</title>
+    <url>/posts/f4bfd05a.html</url>
+    <content><![CDATA[<h1 id="为什么使用ipdb而不是IDE"><a class="header-anchor" href="#为什么使用ipdb而不是IDE">¶</a>为什么使用ipdb而不是IDE?</h1>
+<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
+在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
+<span id="more"></span>
+<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
+<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
+<pre><code>IndexError('list index out of range')
+
+
+&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
+[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m
+ipdb&gt; i
+4
+ipdb&gt; number
+*** NameError: name 'number' is not defined
+ipdb&gt; numbers
+[1, 3, 5]
+ipdb&gt; type(i)
+&lt;class 'int'&gt;
+ipdb&gt; q
+</code></pre>
+<hr>
+<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
+<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Travel in Beijing</title>
+    <url>/posts/9dd9b02f.html</url>
+    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/yuyuan1.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan2.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan3.jpg" width="50%"  height="50%"></div></div></div>
+<center> 玉渊潭 </center>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Travel</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Linux</title>
+    <url>/posts/9211474f.html</url>
+    <content><![CDATA[<p>List some linux command</p>
+<span id="more"></span>
+<h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1>
+<p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>
+前缀+<kbd>c</kbd>(creat)<br>
+前缀+ <kbd>x</kbd>(关闭)</p>
+<h1 id="vim"><a class="header-anchor" href="#vim">¶</a>vim</h1>
+<ol>
+<li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li>
+<li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li>
+<li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li>
+<li><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置</li>
+</ol>
+<h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
+<figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>metro_py</title>
+    <url>/posts/e6a0cb8f.html</url>
+    <content><![CDATA[<h1 id="salem"><a class="header-anchor" href="#salem">¶</a>salem</h1>
+<h2 id="Why-salem"><a class="header-anchor" href="#Why-salem">¶</a>Why salem?</h2>
+<p>WRF out are in strange projection<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, so you need to reset cartopy <code>semimajor_axis</code> to make the Earth a sphere. Also, salem has many useful WRF-tools.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>  You can plot beautiful domain…</p>
+<h2 id="Install-in-the-server-without-Network-access"><a class="header-anchor" href="#Install-in-the-server-without-Network-access">¶</a>Install in the server without Network access</h2>
+<p>salem download something when first import, and my server can use pip but can’t access Network.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> , it would cause keep try download. So I need to use:<code>scp .salem_cache [server]</code>.</p>
+<blockquote>
+<p>You need to notice that At the first import, Salem will create a hidden directory called .salem_cache in your home folder. It will be used to download Salem’s demo files and standard shapefiles</p>
+</blockquote>
+<span id="more"></span>
+<h2 id="Quick-adjust-for-Chinese"><a class="header-anchor" href="#Quick-adjust-for-Chinese">¶</a>Quick adjust for Chinese</h2>
+<p>According to the law, Chinese people need to plot with correct Map of China. Key is <code>maps[0].set_shapefile(countries=false)</code>.<br>
+There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/domain1.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/wrong.png" width="50%" height="50%"></div></div></div>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> matplotlib <span class="keyword">as</span> mpl</span><br><span class="line"><span class="keyword">import</span> xarray <span class="keyword">as</span> xr</span><br><span class="line"><span class="keyword">from</span> salem.utils <span class="keyword">import</span> get_demo_file</span><br><span class="line"><span class="keyword">from</span> salem <span class="keyword">import</span> geogrid_simulator</span><br><span class="line"><span class="keyword">import</span> salem</span><br><span class="line">fpath = <span class="string">&quot;/public/lapc/tangx/fenglisha/wrf3.9/wps/namelist.wps&quot;</span></span><br><span class="line">shdf = salem.read_shapefile(</span><br><span class="line">    <span class="string">&quot;/users/sam/downloads/meteoinfo/map/世界 行政区划 world/country.shp&quot;</span>)</span><br><span class="line">fig, ax = plt.subplots(<span class="number">1</span>, <span class="number">1</span>, figsize=(<span class="number">10</span>, <span class="number">10</span>))</span><br><span class="line"></span><br><span class="line">g, maps = geogrid_simulator(fpath)</span><br><span class="line">maps[<span class="number">0</span>].set_shapefile(countries=false)</span><br><span class="line">maps[<span class="number">0</span>].set_shapefile(shape=shdf)</span><br><span class="line">maps[<span class="number">0</span>].set_rgb(natural_earth=<span class="string">&#x27;lr&#x27;</span>)  <span class="comment"># add a background image</span></span><br><span class="line">maps[<span class="number">0</span>].visualize(title=<span class="string">&#x27;our domains 1 to 2&#x27;</span>)</span><br><span class="line">plt.savefig(<span class="string">&#x27;/public/lapc/tangx/fenglisha/WRF3.9/WPS/pic.png&#x27;</span>, dpi=<span class="number">150</span>, bbox_inches=<span class="string">&#x27;tight&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="xarray"><a class="header-anchor" href="#xarray">¶</a>xarray</h1>
+<h2 id="load-data"><a class="header-anchor" href="#load-data">¶</a>load data</h2>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">source = xr.open_mfdataset(</span><br><span class="line">    <span class="string">&#x27;merge_emi_yyyy*nc&#x27;</span>, combine=<span class="string">&#x27;nested&#x27;</span>,</span><br><span class="line">    concat_dim=<span class="string">&#x27;tstep&#x27;</span>, parallel=true)</span><br></pre></td></tr></table></figure>
+<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="title">list</span><span class="params">(ds.keys()</span></span>)</span><br><span class="line"><span class="function"><span class="title">list</span><span class="params">(ds.coords)</span></span></span><br></pre></td></tr></table></figure>
+<h1 id="geopandas"><a class="header-anchor" href="#geopandas">¶</a>geopandas</h1>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line"><span class="comment">############</span></span><br><span class="line"><span class="comment">#  concat  #</span></span><br><span class="line"><span class="comment">############</span></span><br><span class="line"></span><br><span class="line">all_sta= gpd.GeoDataFrame(</span><br><span class="line">    pd.concat([fixed_sta,potential_loc]))</span><br><span class="line"><span class="comment">#################################</span></span><br><span class="line"><span class="comment">#  union shape and close_holes  #</span></span><br><span class="line"><span class="comment">#################################</span></span><br><span class="line"></span><br><span class="line">polygon = wuhan.geometry.unary_union</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">close_holes</span>(<span class="params">poly: Polygon</span>) -&gt; Polygon:</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    Close polygon holes by limitation to the exterior ring.</span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        poly: Input shapely Polygon</span></span><br><span class="line"><span class="string">    Example:</span></span><br><span class="line"><span class="string">        df.geometry.apply(lambda p: close_holes(p))</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    <span class="keyword">if</span> poly.interiors:</span><br><span class="line">        <span class="keyword">return</span> Polygon(<span class="built_in">list</span>(poly.exterior.coords))</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> poly</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">wuhan_cas = gpd.GeoDataFrame(geometry=[polygon], crs=wuhan.crs)</span><br><span class="line">wuhan_cas = wuhan_cas.geometry.apply(<span class="keyword">lambda</span> p: close_holes(p))</span><br><span class="line">wuhan_cas = gpd.GeoDataFrame(geometry=wuhan_cas.geometry, crs=wuhan.crs)</span><br><span class="line">wuhan_cas.to_file(</span><br><span class="line">    <span class="string">r&#x27;/Users/sam/Downloads/MeteoInfo/map/Wuhan_cas.shp&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">######################</span></span><br><span class="line"><span class="comment">#  cartopy gridline  #</span></span><br><span class="line"><span class="comment">######################</span></span><br><span class="line">gl = ax.gridlines(draw_labels=<span class="literal">True</span>,</span><br><span class="line">                  x_inline=<span class="literal">False</span>, y_inline=<span class="literal">False</span>,</span><br><span class="line">                  color=<span class="string">&#x27;k&#x27;</span>, linestyle=<span class="string">&#x27;dotted&#x27;</span>, zorder=<span class="number">4</span>)</span><br><span class="line">gl.top_labels = gl.right_labels = <span class="literal">False</span></span><br><span class="line">gl.rotate_labels = <span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://fabienmaussion.info/2018/01/06/wrf-projection/">Fabien Maussion</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://salem.readthedocs.io/en/latest/wrf.html">WRF-tools</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://salem.readthedocs.io/en/latest/faq.html#what-s-this-salem-cache-directory-in-my-home-folder">_cache file</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://mp.weixin.qq.com/s/ntn4faVFgIEVTcS-ijpakg">Wrong map example :气象汇</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>pandas</title>
@@ -540,38 +546,7 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
       </categories>
   </entry>
   <entry>
-    <title>Travel : shichahai</title>
-    <url>/posts/84feb42a.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>希望大家以后都可以很开心！</p>
-
-</blockquote>
-<p>去了什刹海冰场，和课题组的小伙伴一起， 好快乐。先放一下 <span style="color:#B95000">  降雨几率</span> 剪的视频，正文还有一些照片和记录。</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=210696909&bvid=BV1ua411B71v&cid=486456439&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-<span id="more"></span>
-<hr>
-<div class="tabs" id="什刹海冰场"><ul class="nav-tabs"><li class="tab active"><a href="#什刹海冰场-1">什刹海冰场 1</a></li><li class="tab"><a href="#什刹海冰场-2">什刹海冰场 2</a></li></ul><div class="tab-content"><div class="tab-pane active" id="什刹海冰场-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/0.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/1.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/2.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/3.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/4.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/5.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/6.jpeg" width="50%" height="50%"></div></div></div></div><div class="tab-pane" id="什刹海冰场-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/7.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/8.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/9.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/10.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/11.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/12.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/13.jpg" width="50%" height="50%"></div></div></div></div></div></div>
-<center>点开查看全图，缩略图显示不全</center>
-<hr>
-<p>学生时代和朋友一起出去玩是真的快乐，而且确实是人多一点有意思，也对组里的师姐还有小伙伴多了一些了解。觉得大家都还是很单纯的感觉，都很像学生。虽然来了所里半年，但是以前确实和大家的接触都不多。可能更多的是师姐们跟我安利周围的店， 我厚脸皮和师姐、师兄包括师弟问问题，课题组没什么一起出去的活动。虽然这次也不是所有人都有时间，但是是很好的开始！</p>
-<p><span style="color:#B95000"> 清不悦</span> 是全程摄影动作指导，和她学习了很多拍照技巧。其实有数百张照片，也都很好看，主要选了我自己的和一些不露脸的合照。有一张姿势被我们称为 <span style="color:#B95000"> 投降</span>，很百搭唉，然后我拍照就可以比起剪刀手多一个姿势了，每次拍照都会想起这次旅行的。她还有很多可可爱爱的动作，不过不适合男生我就没学了。</p>
-<p>因为师姐们都叫 <span style="color:#B95000">  Hyuk Doli</span>师妹，中途没反应过来，占了好几次便宜，叫了好几次师妹，后来<span style="color:#B95000">  Hyuk Doli</span>叫我师弟，我就不知道是没反应过来还是一定要把便宜占回来了。</p>
-<p><span style="color:#B95000">  周杰偷</span>师姐有点童心唉，挺可爱的hh，突然想到要蹲在地上拖着冰上滑行，然后我们就试了，她笑得好开心啊。接下来我们每个人试着被拖着走了，就是我有点重，拖行困难。而且她是你画我猜聪明人，很擅长这个游戏。</p>
-<p><span style="color:#B95000"> 降雨几率 </span> 骑冰上自行车的比赛赢了我两次，看来不仅仅是力气问题，我明明力气很猛，结果被甩到看不见尾灯。中途好多车拦路，一停下来再启动就看不见人了。</p>
-<blockquote class="blockquote-center">
-<p>所以学生的美好之处就是在这里嘛，希望大家以后也可以一直快乐！</p>
-
-</blockquote>
-]]></content>
-      <categories>
-        <category>中文</category>
-        <category>Travel</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Bad and interesting translations</title>
+    <title>Bad or interesting translations</title>
     <url>/posts/25cd51e8.html</url>
     <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p>
 <p>还有一些有趣的翻译也会放在这里</p>
@@ -604,6 +579,37 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 ]]></content>
       <categories>
         <category>中文</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Travel : shichahai</title>
+    <url>/posts/84feb42a.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>希望大家以后都可以很开心！</p>
+
+</blockquote>
+<p>去了什刹海冰场，和课题组的小伙伴一起， 好快乐。先放一下 <span style="color:#B95000">  降雨几率</span> 剪的视频，正文还有一些照片和记录。</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=210696909&bvid=BV1ua411B71v&cid=486456439&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<span id="more"></span>
+<hr>
+<div class="tabs" id="什刹海冰场"><ul class="nav-tabs"><li class="tab active"><a href="#什刹海冰场-1">什刹海冰场 1</a></li><li class="tab"><a href="#什刹海冰场-2">什刹海冰场 2</a></li></ul><div class="tab-content"><div class="tab-pane active" id="什刹海冰场-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/0.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/1.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/2.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/3.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/4.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/5.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/6.jpeg" width="50%" height="50%"></div></div></div></div><div class="tab-pane" id="什刹海冰场-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/7.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/8.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/9.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/10.jpeg" width="50%" height="50%"></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/11.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/12.jpeg" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/13.jpg" width="50%" height="50%"></div></div></div></div></div></div>
+<center>点开查看全图，缩略图显示不全</center>
+<hr>
+<p>学生时代和朋友一起出去玩是真的快乐，而且确实是人多一点有意思，也对组里的师姐还有小伙伴多了一些了解。觉得大家都还是很单纯的感觉，都很像学生。虽然来了所里半年，但是以前确实和大家的接触都不多。可能更多的是师姐们跟我安利周围的店， 我厚脸皮和师姐、师兄包括师弟问问题，课题组没什么一起出去的活动。虽然这次也不是所有人都有时间，但是是很好的开始！</p>
+<p><span style="color:#B95000"> 清不悦</span> 是全程摄影动作指导，和她学习了很多拍照技巧。其实有数百张照片，也都很好看，主要选了我自己的和一些不露脸的合照。有一张姿势被我们称为 <span style="color:#B95000"> 投降</span>，很百搭唉，然后我拍照就可以比起剪刀手多一个姿势了，每次拍照都会想起这次旅行的。她还有很多可可爱爱的动作，不过不适合男生我就没学了。</p>
+<p>因为师姐们都叫 <span style="color:#B95000">  Hyuk Doli</span>师妹，中途没反应过来，占了好几次便宜，叫了好几次师妹，后来<span style="color:#B95000">  Hyuk Doli</span>叫我师弟，我就不知道是没反应过来还是一定要把便宜占回来了。</p>
+<p><span style="color:#B95000">  周杰偷</span>师姐有点童心唉，挺可爱的hh，突然想到要蹲在地上拖着冰上滑行，然后我们就试了，她笑得好开心啊。接下来我们每个人试着被拖着走了，就是我有点重，拖行困难。而且她是你画我猜聪明人，很擅长这个游戏。</p>
+<p><span style="color:#B95000"> 降雨几率 </span> 骑冰上自行车的比赛赢了我两次，看来不仅仅是力气问题，我明明力气很猛，结果被甩到看不见尾灯。中途好多车拦路，一停下来再启动就看不见人了。</p>
+<blockquote class="blockquote-center">
+<p>所以学生的美好之处就是在这里嘛，希望大家以后也可以一直快乐！</p>
+
+</blockquote>
+]]></content>
+      <categories>
+        <category>中文</category>
+        <category>Travel</category>
       </categories>
   </entry>
   <entry>
