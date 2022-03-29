@@ -31,15 +31,27 @@
   <entry>
     <title>Github milestone</title>
     <url>/posts/feea6fda.html</url>
-    <content><![CDATA[<h1 id="🎉-My-first-pull-request"><a class="header-anchor" href="#🎉-My-first-pull-request">¶</a>🎉 My first pull request</h1>
+    <content><![CDATA[<h1 id="🎉-my-first-pull-request"><a class="header-anchor" href="#🎉-my-first-pull-request">¶</a>🎉 My first pull request</h1>
 <p><a href="https://github.com/miniufo/xgrads/pull/31">Here</a> is my first pull request in Github. A tool to read .ctl data: xgrads. The author replied quickly. THANKS FOR HIS WORK!</p>
-<h1 id="Some-issues"><a class="header-anchor" href="#Some-issues">¶</a>Some issues:</h1>
-<h2 id="提议添加遵从CF公约的投影信息"><a class="header-anchor" href="#提议添加遵从CF公约的投影信息">¶</a>提议添加遵从CF公约的投影信息</h2>
+<h1 id="some-issues"><a class="header-anchor" href="#some-issues">¶</a>Some issues:</h1>
+<h2 id="提议添加遵从cf公约的投影信息"><a class="header-anchor" href="#提议添加遵从cf公约的投影信息">¶</a>提议添加遵从CF公约的投影信息</h2>
 <p>科普一下CF公约， 这里定义了<code>.nc</code>的投影等元信息的储存方式。看这个公约是因为很奇怪<code>.nc</code>文件需要额外的说明来自行设定投影，逻辑上很不通顺。然后发现实际上有不少人已经意识到这一问题，开始作出约定了。</p>
 <p><code>CF Convention</code> style projection to <code>.nc</code> file</p>
 <p><a href="https://github.com/miniufo/xgrads/issues/36">https://github.com/miniufo/xgrads/issues/36</a></p>
 <span id="more"></span>
 ]]></content>
+  </entry>
+  <entry>
+    <title>Travel in Beijing</title>
+    <url>/posts/9dd9b02f.html</url>
+    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/yuyuan1.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan2.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan3.jpg" width="50%"  height="50%"></div></div></div>
+<center> 玉渊潭 </center>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Travel</category>
+      </categories>
   </entry>
   <entry>
     <title>habitica_log</title>
@@ -60,7 +72,7 @@
 <p>😭 got my shoulder injured</p>
 <span id="more"></span>
 <h1 id="2021-10-27"><a class="header-anchor" href="#2021-10-27">¶</a>2021-10-27</h1>
-<h2 id="I-changed-my-party"><a class="header-anchor" href="#I-changed-my-party">¶</a>I changed my party</h2>
+<h2 id="i-changed-my-party"><a class="header-anchor" href="#i-changed-my-party">¶</a>I changed my party</h2>
 <p>Something happened during this period in habitica and I changed my party. A guy call called me chad(<a href="https://en.wikipedia.org/wiki/chad">wiki</a> ) in my last team and it is actually a nice compliment that I should appreciate. But in my culture, sexually active may not be a good thing for some people like me. And I asked a Chinese-spoken guy in my team if it means <code>virgin vs. chad</code> here because I hadn’t got it as a good word and she sent ‘LOL’ which made me feel bad. I didn’t think it would be regarded as harassments here when I asked this lady the explanation of this relatively vulgar word ‘chad’. (She said it was offensive to ask an unfamiliar lady if it’s the antonym of ’virgin’)</p>
 <blockquote>
 <p>A chad, in Internet slang, is generally a sexually active ”alpha male”.[1] the term has become a slang term across the Internet and among adolescents in general to refer to particularly attractive or confident males.</p>
@@ -101,7 +113,7 @@
   <entry>
     <title>python debug with ipdb</title>
     <url>/posts/f4bfd05a.html</url>
-    <content><![CDATA[<h1 id="为什么使用ipdb而不是IDE"><a class="header-anchor" href="#为什么使用ipdb而不是IDE">¶</a>为什么使用ipdb而不是IDE?</h1>
+    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
 <p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
 在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
 <span id="more"></span>
@@ -139,18 +151,6 @@ ipdb&gt; q
       </tags>
   </entry>
   <entry>
-    <title>Travel in Beijing</title>
-    <url>/posts/9dd9b02f.html</url>
-    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/yuyuan1.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan2.jpg" width="50%"  height="50%"></div><div class="group-picture-column"><img data-src="/images/yuyuan3.jpg" width="50%"  height="50%"></div></div></div>
-<center> 玉渊潭 </center>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Travel</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Linux</title>
     <url>/posts/9211474f.html</url>
     <content><![CDATA[<p>List some linux command</p>
@@ -174,18 +174,49 @@ ipdb&gt; q
       </categories>
   </entry>
   <entry>
+    <title>pandas</title>
+    <url>/posts/3f7f6b33.html</url>
+    <content><![CDATA[<h1 id="load-and-pre-data"><a class="header-anchor" href="#load-and-pre-data">¶</a>load and pre data</h1>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Replace the column with the converted values</span></span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>] = pd.to_numeric(df[<span class="string">&#x27;mixed_types&#x27;</span>], errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>]=df[<span class="string">&#x27;mixed_types&#x27;</span>].apply(pd.to_numeric, errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Rename cols</span></span><br><span class="line">df.rename(columns=&#123;<span class="string">&#x27;最新站点名称&#x27;</span>:<span class="string">&#x27;站点&#x27;</span>&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Replace certain value</span></span><br><span class="line">df.replace(<span class="number">0</span>,np.nan)</span><br></pre></td></tr></table></figure>
+<h1 id="axis-of-pandas"><a class="header-anchor" href="#axis-of-pandas">¶</a>axis of pandas</h1>
+<p>The difference of <code>axis=0</code> and <code>axis=1</code><br>
+<img data-src="/images/axis.png" alt=""></p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">df = pd.DataFrame([[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]],</span><br><span class="line">                  columns=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line">df2 = pd.DataFrame([[<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>], [<span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>]],</span><br><span class="line">                   columns=[<span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df2)</span><br><span class="line">c = pd.concat([df, df2])</span><br><span class="line"><span class="built_in">print</span>(c)</span><br><span class="line"><span class="built_in">print</span>(df.drop(<span class="number">2</span>))</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br><span class="line"><span class="number">2</span>  <span class="number">7</span>  <span class="number">8</span>  <span class="number">9</span></span><br><span class="line">   b  c  d</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1</span></span><br><span class="line"><span class="number">1</span>  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2</span></span><br><span class="line"><span class="number">2</span>  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3</span></span><br><span class="line">     a  b  c    d</span><br><span class="line"><span class="number">0</span>  <span class="number">1.0</span>  <span class="number">2</span>  <span class="number">3</span>  NaN</span><br><span class="line"><span class="number">1</span>  <span class="number">4.0</span>  <span class="number">5</span>  <span class="number">6</span>  NaN</span><br><span class="line"><span class="number">2</span>  <span class="number">7.0</span>  <span class="number">8</span>  <span class="number">9</span>  NaN</span><br><span class="line"><span class="number">0</span>  NaN  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1.0</span></span><br><span class="line"><span class="number">1</span>  NaN  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2.0</span></span><br><span class="line"><span class="number">2</span>  NaN  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3.0</span></span><br><span class="line">   a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br></pre></td></tr></table></figure>
+<h1 id="some-methods"><a class="header-anchor" href="#some-methods">¶</a>Some methods</h1>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pandas.concat(objs, axis=<span class="number">0</span>, join=<span class="string">&#x27;outer&#x27;</span>, ignore_index=<span class="literal">False</span>, </span><br><span class="line">truekeys=<span class="literal">None</span>, levels=<span class="literal">None</span>, names=<span class="literal">None</span>,copy=<span class="literal">True</span>)</span><br><span class="line">pandas.merge(left, right, how=<span class="string">&#x27;inner&#x27;</span>, on=<span class="literal">None</span>, left_on=<span class="literal">None</span>, right_on=<span class="literal">None</span>,</span><br><span class="line">         left_index=<span class="literal">False</span>, right_index=<span class="literal">False</span>, sort=<span class="literal">True</span>,</span><br><span class="line">         suffixes=(<span class="string">&#x27;_x&#x27;</span>, <span class="string">&#x27;_y&#x27;</span>), copy=<span class="literal">True</span>, indicator=<span class="literal">False</span>,</span><br><span class="line">         validate=<span class="literal">None</span>)</span><br><span class="line"><span class="comment">#map with dict</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(&#123;<span class="string">&quot;男&quot;</span>:<span class="number">1</span>, <span class="string">&quot;女&quot;</span>:<span class="number">0</span>&#125;)</span><br><span class="line">​</span><br><span class="line"><span class="comment">#use func map</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gender_map</span>(<span class="params">x</span>):</span></span><br><span class="line">    gender = <span class="number">1</span> <span class="keyword">if</span> x == <span class="string">&quot;男&quot;</span> <span class="keyword">else</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> gender</span><br><span class="line"><span class="comment"># gender_map with out ()</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(gender_map)</span><br><span class="line"></span><br><span class="line"><span class="comment"># time zone</span></span><br><span class="line">date=pandas.date_range(start=<span class="literal">None</span>, end=<span class="literal">None</span>, periods=<span class="literal">None</span>, freq=<span class="string">&#x27;D&#x27;</span>, tz=<span class="literal">None</span>）</span><br><span class="line">date=date.tz_localize(<span class="string">&#x27;UTC&#x27;</span>)</span><br><span class="line">ts_eastern=dates.tz_convert(<span class="string">&#x27;Asia/Shanghai&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># method 1</span></span><br><span class="line">This approach, `df1 != df2`, works only <span class="keyword">for</span>  dataframes  <span class="keyword">with</span> identical rows <span class="keyword">and</span> columns. In fact, <span class="built_in">all</span> dataframes axes are compared <span class="keyword">with</span> `_indexed_same` method, <span class="keyword">and</span> exception <span class="keyword">is</span> raised <span class="keyword">if</span> differences found, even <span class="keyword">in</span> columns/indices order.</span><br><span class="line"></span><br><span class="line">If I got you right, you want <span class="keyword">not</span> to find changes, but symmetric difference. For that, one approach might be concatenate dataframes:</span><br><span class="line">```python</span><br><span class="line">df = pd.concat([df1, df2)</span><br><span class="line">df = df.reset_index(drop=<span class="literal">True</span>)</span><br><span class="line">df_gpby = df.groupby(<span class="built_in">list</span>(df.columns))</span><br><span class="line">idx = [x[<span class="number">0</span>] <span class="keyword">for</span> x <span class="keyword">in</span> df_gpby.groups.values() <span class="keyword">if</span> <span class="built_in">len</span>(x) == <span class="number">1</span>]</span><br></pre></td></tr></table></figure>
+<p>filter</p>
+<pre><code>&gt;&gt;&gt; df.reindex(idx)
+         Date   Fruit   Num   Color
+9  2013-11-25  Orange   8.6  Orange
+8  2013-11-25   Apple  22.1     Red
+</code></pre>
+<h1 id="method-2"><a class="header-anchor" href="#method-2">¶</a>method 2</h1>
+<pre><code>&gt;&gt;&gt; pd.concat([df1, df2]).drop_duplicates(keep=False)
+</code></pre>
+<pre><code></code></pre>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>metro_py</title>
     <url>/posts/e6a0cb8f.html</url>
     <content><![CDATA[<h1 id="salem"><a class="header-anchor" href="#salem">¶</a>salem</h1>
-<h2 id="Why-salem"><a class="header-anchor" href="#Why-salem">¶</a>Why salem?</h2>
+<h2 id="why-salem"><a class="header-anchor" href="#why-salem">¶</a>Why salem?</h2>
 <p>WRF out are in strange projection<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, so you need to reset cartopy <code>semimajor_axis</code> to make the Earth a sphere. Also, salem has many useful WRF-tools.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>  You can plot beautiful domain…</p>
-<h2 id="Install-in-the-server-without-Network-access"><a class="header-anchor" href="#Install-in-the-server-without-Network-access">¶</a>Install in the server without Network access</h2>
+<h2 id="install-in-the-server-without-network-access"><a class="header-anchor" href="#install-in-the-server-without-network-access">¶</a>Install in the server without Network access</h2>
 <p>salem download something when first import, and my server can use pip but can’t access Network.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> , it would cause keep try download. So I need to use:<code>scp .salem_cache [server]</code>.</p>
 <blockquote>
 <p>You need to notice that At the first import, Salem will create a hidden directory called .salem_cache in your home folder. It will be used to download Salem’s demo files and standard shapefiles</p>
 </blockquote>
 <span id="more"></span>
-<h2 id="Quick-adjust-for-Chinese"><a class="header-anchor" href="#Quick-adjust-for-Chinese">¶</a>Quick adjust for Chinese</h2>
+<h2 id="quick-adjust-for-chinese"><a class="header-anchor" href="#quick-adjust-for-chinese">¶</a>Quick adjust for Chinese</h2>
 <p>According to the law, Chinese people need to plot with correct Map of China. Key is <code>maps[0].set_shapefile(countries=false)</code>.<br>
 There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="/images/domain1.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="/images/wrong.png" width="50%" height="50%"></div></div></div>
@@ -219,37 +250,6 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       </tags>
   </entry>
   <entry>
-    <title>pandas</title>
-    <url>/posts/3f7f6b33.html</url>
-    <content><![CDATA[<h1 id="load-and-pre-data"><a class="header-anchor" href="#load-and-pre-data">¶</a>load and pre data</h1>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Replace the column with the converted values</span></span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>] = pd.to_numeric(df[<span class="string">&#x27;mixed_types&#x27;</span>], errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>]=df[<span class="string">&#x27;mixed_types&#x27;</span>].apply(pd.to_numeric, errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Rename cols</span></span><br><span class="line">df.rename(columns=&#123;<span class="string">&#x27;最新站点名称&#x27;</span>:<span class="string">&#x27;站点&#x27;</span>&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Replace certain value</span></span><br><span class="line">df.replace(<span class="number">0</span>,np.nan)</span><br></pre></td></tr></table></figure>
-<h1 id="axis-of-pandas"><a class="header-anchor" href="#axis-of-pandas">¶</a>axis of pandas</h1>
-<p>The difference of <code>axis=0</code> and <code>axis=1</code><br>
-<img data-src="/images/axis.png" alt=""></p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">df = pd.DataFrame([[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]],</span><br><span class="line">                  columns=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line">df2 = pd.DataFrame([[<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>], [<span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>]],</span><br><span class="line">                   columns=[<span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df2)</span><br><span class="line">c = pd.concat([df, df2])</span><br><span class="line"><span class="built_in">print</span>(c)</span><br><span class="line"><span class="built_in">print</span>(df.drop(<span class="number">2</span>))</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br><span class="line"><span class="number">2</span>  <span class="number">7</span>  <span class="number">8</span>  <span class="number">9</span></span><br><span class="line">   b  c  d</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1</span></span><br><span class="line"><span class="number">1</span>  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2</span></span><br><span class="line"><span class="number">2</span>  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3</span></span><br><span class="line">     a  b  c    d</span><br><span class="line"><span class="number">0</span>  <span class="number">1.0</span>  <span class="number">2</span>  <span class="number">3</span>  NaN</span><br><span class="line"><span class="number">1</span>  <span class="number">4.0</span>  <span class="number">5</span>  <span class="number">6</span>  NaN</span><br><span class="line"><span class="number">2</span>  <span class="number">7.0</span>  <span class="number">8</span>  <span class="number">9</span>  NaN</span><br><span class="line"><span class="number">0</span>  NaN  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1.0</span></span><br><span class="line"><span class="number">1</span>  NaN  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2.0</span></span><br><span class="line"><span class="number">2</span>  NaN  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3.0</span></span><br><span class="line">   a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br></pre></td></tr></table></figure>
-<h1 id="Some-methods"><a class="header-anchor" href="#Some-methods">¶</a>Some methods</h1>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pandas.concat(objs, axis=<span class="number">0</span>, join=<span class="string">&#x27;outer&#x27;</span>, ignore_index=<span class="literal">False</span>, </span><br><span class="line">truekeys=<span class="literal">None</span>, levels=<span class="literal">None</span>, names=<span class="literal">None</span>,copy=<span class="literal">True</span>)</span><br><span class="line">pandas.merge(left, right, how=<span class="string">&#x27;inner&#x27;</span>, on=<span class="literal">None</span>, left_on=<span class="literal">None</span>, right_on=<span class="literal">None</span>,</span><br><span class="line">         left_index=<span class="literal">False</span>, right_index=<span class="literal">False</span>, sort=<span class="literal">True</span>,</span><br><span class="line">         suffixes=(<span class="string">&#x27;_x&#x27;</span>, <span class="string">&#x27;_y&#x27;</span>), copy=<span class="literal">True</span>, indicator=<span class="literal">False</span>,</span><br><span class="line">         validate=<span class="literal">None</span>)</span><br><span class="line"><span class="comment">#map with dict</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(&#123;<span class="string">&quot;男&quot;</span>:<span class="number">1</span>, <span class="string">&quot;女&quot;</span>:<span class="number">0</span>&#125;)</span><br><span class="line">​</span><br><span class="line"><span class="comment">#use func map</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gender_map</span>(<span class="params">x</span>):</span></span><br><span class="line">    gender = <span class="number">1</span> <span class="keyword">if</span> x == <span class="string">&quot;男&quot;</span> <span class="keyword">else</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> gender</span><br><span class="line"><span class="comment"># gender_map with out ()</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(gender_map)</span><br><span class="line"></span><br><span class="line"><span class="comment"># time zone</span></span><br><span class="line">date=pandas.date_range(start=<span class="literal">None</span>, end=<span class="literal">None</span>, periods=<span class="literal">None</span>, freq=<span class="string">&#x27;D&#x27;</span>, tz=<span class="literal">None</span>）</span><br><span class="line">date=date.tz_localize(<span class="string">&#x27;UTC&#x27;</span>)</span><br><span class="line">ts_eastern=dates.tz_convert(<span class="string">&#x27;Asia/Shanghai&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># method 1</span></span><br><span class="line">This approach, `df1 != df2`, works only <span class="keyword">for</span>  dataframes  <span class="keyword">with</span> identical rows <span class="keyword">and</span> columns. In fact, <span class="built_in">all</span> dataframes axes are compared <span class="keyword">with</span> `_indexed_same` method, <span class="keyword">and</span> exception <span class="keyword">is</span> raised <span class="keyword">if</span> differences found, even <span class="keyword">in</span> columns/indices order.</span><br><span class="line"></span><br><span class="line">If I got you right, you want <span class="keyword">not</span> to find changes, but symmetric difference. For that, one approach might be concatenate dataframes:</span><br><span class="line">```python</span><br><span class="line">df = pd.concat([df1, df2)</span><br><span class="line">df = df.reset_index(drop=<span class="literal">True</span>)</span><br><span class="line">df_gpby = df.groupby(<span class="built_in">list</span>(df.columns))</span><br><span class="line">idx = [x[<span class="number">0</span>] <span class="keyword">for</span> x <span class="keyword">in</span> df_gpby.groups.values() <span class="keyword">if</span> <span class="built_in">len</span>(x) == <span class="number">1</span>]</span><br></pre></td></tr></table></figure>
-<p>filter</p>
-<pre><code>&gt;&gt;&gt; df.reindex(idx)
-         Date   Fruit   Num   Color
-9  2013-11-25  Orange   8.6  Orange
-8  2013-11-25   Apple  22.1     Red
-</code></pre>
-<h1 id="method-2"><a class="header-anchor" href="#method-2">¶</a>method 2</h1>
-<pre><code>&gt;&gt;&gt; pd.concat([df1, df2]).drop_duplicates(keep=False)
-</code></pre>
-<pre><code></code></pre>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>PERSONAL TRAINER MANUAL</title>
     <url>/posts/dd98bec.html</url>
     <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! :tad:</p>
@@ -273,7 +273,7 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
   <entry>
     <title>python-basic</title>
     <url>/posts/fdc23cba.html</url>
-    <content><![CDATA[<h1 id="Serialization"><a class="header-anchor" href="#Serialization">¶</a>Serialization</h1>
+    <content><![CDATA[<h1 id="serialization"><a class="header-anchor" href="#serialization">¶</a>Serialization</h1>
 <p>In computing, serialization (US spelling) or serialisation (UK spelling) is the process of translating a data structure or object state into a format that can be stored (for example, in a file or memory data buffer) or transmitted (for example, over a computer network) and reconstructed later (possibly in a different computer environment)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
 <p>Here is an example for serialization<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</p>
@@ -281,16 +281,16 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pickle</span><br><span class="line"></span><br><span class="line"><span class="comment"># obj0, obj1, obj2 are created here...</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Saving the objects:</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;objs.pkl&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:  <span class="comment"># Python 3: open(..., &#x27;wb&#x27;)</span></span><br><span class="line">    pickle.dump([obj0, obj1, obj2], f)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Getting back the objects:</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;objs.pkl&#x27;</span>) <span class="keyword">as</span> f:  <span class="comment"># Python 3: open(..., &#x27;rb&#x27;)</span></span><br><span class="line">    obj0, obj1, obj2 = pickle.load(f)</span><br></pre></td></tr></table></figure>
 <p>If you have a lot of data, you can reduce the file size by passing <code>protocol=-1</code> to <code>dump()</code>; <code>pickle</code> will then use the best available protocol instead of the default historical (and more backward-compatible) protocol.  In this case, the file must be opened in binary mode (<code>wb</code> and <code>rb</code>, respectively).</p>
 <p>The binary mode should also be used with Python 3, as its default protocol produces binary (i.e. non-text) data (writing mode <code>'wb'</code> and reading mode <code>'rb'</code>).</p>
-<h1 id="TypeError-check"><a class="header-anchor" href="#TypeError-check">¶</a>TypeError check</h1>
+<h1 id="typeerror-check"><a class="header-anchor" href="#typeerror-check">¶</a>TypeError check</h1>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_abs</span>(<span class="params">x</span>):</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">isinstance</span>(x, (<span class="built_in">int</span>, <span class="built_in">float</span>)):</span><br><span class="line">        <span class="keyword">raise</span> TypeError(<span class="string">&#x27;bad operand type&#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> x &gt;= <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> x</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> -x</span><br></pre></td></tr></table></figure>
-<h1 id="Single-and-double-underscore"><a class="header-anchor" href="#Single-and-double-underscore">¶</a>Single and double underscore</h1>
-<h2 id="Single-Underscore"><a class="header-anchor" href="#Single-Underscore">¶</a>Single Underscore</h2>
+<h1 id="single-and-double-underscore"><a class="header-anchor" href="#single-and-double-underscore">¶</a>Single and double underscore</h1>
+<h2 id="single-underscore"><a class="header-anchor" href="#single-underscore">¶</a>Single Underscore</h2>
 <p>Names, in a class, with a leading underscore are simply to indicate to other programmers that the attribute or method is intended to be private.  However, nothing special is done with the name itself.</p>
 <p>To quote [PEP-8][1]:</p>
 <blockquote>
 <p>_single_leading_underscore: weak “internal use” indicator. E.g. <code>from M import *</code> does not import objects whose name starts with an underscore.</p>
 </blockquote>
-<h2 id="Double-Underscore-Name-Mangling"><a class="header-anchor" href="#Double-Underscore-Name-Mangling">¶</a>Double Underscore (Name Mangling)</h2>
+<h2 id="double-underscore-name-mangling"><a class="header-anchor" href="#double-underscore-name-mangling">¶</a>Double Underscore (Name Mangling)</h2>
 <p>From <a href="https://docs.python.org/3/tutorial/classes.html#private-variables">the Python docs</a>:</p>
 <blockquote>
 <p>Any identifier of the form <code>__spam</code> (at least two leading underscores, at most one trailing underscore) is textually replaced with <code>_classname__spam</code>, where <code>classname</code> is the current class name with leading underscore(s) stripped. This mangling is done without regard to the syntactic position of the identifier, so it can be used to define class-private instance and class variables, methods, variables stored in globals, and even variables stored in instances. private to this class on instances of other classes.</p>
@@ -299,15 +299,15 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <blockquote>
 <p>Name mangling is intended to give classes an easy way to define “private” instance variables and methods, without having to worry about instance variables defined by derived classes, or mucking with instance variables by code outside the class. Note that the mangling rules are designed mostly to avoid accidents; it still is possible for a determined soul to access or modify a variable that is considered private.</p>
 </blockquote>
-<h2 id="Example"><a class="header-anchor" href="#Example">¶</a>Example</h2>
+<h2 id="example"><a class="header-anchor" href="#example">¶</a>Example</h2>
 <figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span>():</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">            self.__superprivate = <span class="string">&quot;Hello&quot;</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">            self._semiprivate = <span class="string">&quot;, world!&quot;</span></span></span><br><span class="line"><span class="meta">...</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">mc = MyClass()</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc.__superprivate</span></span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: myClass instance has no attribute &#x27;__superprivate&#x27;</span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc._semiprivate</span></span><br><span class="line">, world!</span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc.__dict__</span></span><br><span class="line">&#123;&#x27;_MyClass__superprivate&#x27;: &#x27;Hello&#x27;, &#x27;_semiprivate&#x27;: &#x27;, world!&#x27;&#125;</span><br></pre></td></tr></table></figure>
 <p><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
-<h1 id="Set-default-parameter-equal-to-another-parameter"><a class="header-anchor" href="#Set-default-parameter-equal-to-another-parameter">¶</a>Set default parameter equal to another parameter</h1>
+<h1 id="set-default-parameter-equal-to-another-parameter"><a class="header-anchor" href="#set-default-parameter-equal-to-another-parameter">¶</a>Set default parameter equal to another parameter</h1>
 <p><sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></p>
 <p>How about this?</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Test:</p>
-<h2 id="code￼4"><a class="header-anchor" href="#code￼4">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
+<h2 id="code-4"><a class="header-anchor" href="#code-4">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
 <p>Following @TanveerAlam 's comment, I don’t want to make assumptions about your arguments (what if <code>dst</code> can be <code>False</code>?), I did use shorter versions in my original post and I’ll leave them here for reference:</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Or even:</p>
@@ -320,7 +320,7 @@ Empty lists [], Empty tuples (), Empty dictionaries {}, Empty sets set(), Empty 
 Integer: 0, Float: 0.0, Complex: 0j<br>
 🍋 Constants: None, False</p>
 </div>
-<h1 id="Floating-Point-Arithmetic"><a class="header-anchor" href="#Floating-Point-Arithmetic">¶</a>Floating Point Arithmetic</h1>
+<h1 id="floating-point-arithmetic"><a class="header-anchor" href="#floating-point-arithmetic">¶</a>Floating Point Arithmetic</h1>
 <p>Cited from <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
 <p>In the same way, no matter how many base 2 digits you’re willing to use, the decimal value 0.1 cannot be represented exactly as a base 2 fraction. In base 2, 1/10 is the infinitely repeating fraction</p>
 <figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">0</span>.<span class="number">0001100110011001100110011001100110011001100110011</span>...</span><br></pre></td></tr></table></figure>
@@ -330,7 +330,7 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt; <span class="string">.1</span> + <span class="string">.1</span> + <span class="string">.1</span> == <span class="string">.3</span></span><br><span class="line">False</span><br></pre></td></tr></table></figure>
 <div class="note primary"><p>So, when caculating, we should know the Arithmetic in computer is not the same as human.</p>
 </div>
-<h1 id="Format-out"><a class="header-anchor" href="#Format-out">¶</a>Format out</h1>
+<h1 id="format-out"><a class="header-anchor" href="#format-out">¶</a>Format out</h1>
 <figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">np.<span class="built_in">array</span><span class="constructor">_str(<span class="params">data</span>, <span class="params">precision</span>=2)</span></span><br></pre></td></tr></table></figure>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -550,7 +550,7 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
     <url>/posts/25cd51e8.html</url>
     <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p>
 <p>还有一些有趣的翻译也会放在这里</p>
-<h1 id="Underdog"><a class="header-anchor" href="#Underdog">¶</a>Underdog</h1>
+<h1 id="underdog"><a class="header-anchor" href="#underdog">¶</a>Underdog</h1>
 <p><img data-src="/images/1641801021605.png" width="50%" height="50%"> <center>好汉两个半</center></p>
 <span id="more"></span>
 <p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p>
@@ -628,7 +628,7 @@ This particular diamond was extra special</p>
 </div>
 <hr>
 <p>I don’t remember if it’s last year or the year before this time, I looped this song hundreds of times. And when it comes close to the end of this Lunar year, I listened to it over and over again. The lyrics are so beautiful, just like a poem and I can easily feel what behind the language itself, which means if it’s translated into Chinese or any other language, it would be exactly the same touching.</p>
-<h1 id="The-translation"><a class="header-anchor" href="#The-translation">¶</a>The translation</h1>
+<h1 id="the-translation"><a class="header-anchor" href="#the-translation">¶</a>The translation</h1>
 <p>But many versions of translation are extremely bad. I don’t get why they try to interpret ‘This particular diamond’ as old memory or a particular women. It’s an <span style="color:#B95000"> IMPLIED METAPHORS </span> and when you translate it you should keep the original rhetorics. And people can understand this <span style="color:#B95000"> IMPLIED METAPHORS </span>, they are not stupid.</p>
 <p>Heres is an Japanese  anecdote:</p>
 <blockquote>
@@ -636,7 +636,7 @@ This particular diamond was extra special</p>
 今夜の月は綺麗ですね</p>
 </blockquote>
 <p>The anecdote may be made up, and it’s even not a Chinese story. But I think the Chinese is like the Japanese in some way so we should be indirect. If the original words are 'This woman was like a particular diamond that was extra special ’ it should be translated to an <span style="color:#B95000"> INDIRECT</span> way, not vise versa!</p>
-<h1 id="Relation-with-me"><a class="header-anchor" href="#Relation-with-me">¶</a>Relation with me</h1>
+<h1 id="relation-with-me"><a class="header-anchor" href="#relation-with-me">¶</a>Relation with me</h1>
 <p>You know, we may all have some friends or lovers end up being separated. I never have a lover but I do have some friends. Although we may never go back together, I still cherish the moments we have and hope they are all well. I’m sorry for my bad and or even nobody is bad but the relation just don’t work out in the end, I’m still very sorry. I do like the happy memories. They are like diamonds.</p>
 ]]></content>
   </entry>
@@ -644,6 +644,13 @@ This particular diamond was extra special</p>
     <title>Learning Swimming</title>
     <url>/posts/5a367fc4.html</url>
     <content><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation of leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p>
+<span id="more"></span>
+]]></content>
+  </entry>
+  <entry>
+    <title>Word Tips</title>
+    <url>/posts/173b35fb.html</url>
+    <content><![CDATA[<p>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></p>
 <span id="more"></span>
 ]]></content>
   </entry>
