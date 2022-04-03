@@ -673,8 +673,6 @@ latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>
 remove comments</p>
 <h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1>
 <p>由于我使用vim写python、markdown等，因此latex也使用vim<br>
-参考Gilles Castel[^2]的配置可以迅速上手，用起来很方便。<br>
-[^2]<a href="https://castel.dev/post/lecture-notes-1/">https://castel.dev/post/lecture-notes-1/</a><br>
 由于使用vim插件，自动编译latex内核需要定义</p>
 <figure class="highlight delphi"><table><tr><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
