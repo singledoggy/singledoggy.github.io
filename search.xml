@@ -663,4 +663,25 @@ This particular diamond was extra special</p>
 <img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/mmexport1648630679336.png ">
 ]]></content>
   </entry>
+  <entry>
+    <title>latex tips</title>
+    <url>/posts/f105dbfb.html</url>
+    <content><![CDATA[<p>Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看</p>
+<h1 id="latexpand"><a class="header-anchor" href="#latexpand">¶</a>latexpand<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1>
+<p>一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好<br>
+latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>
+remove comments</p>
+<h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1>
+<p>由于使用vim插件，自动编译latex内核需要定义</p>
+<figure class="highlight delphi"><table><tr><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+  </entry>
 </search>

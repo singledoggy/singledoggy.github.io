@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2022-03-29T10:39:07.000Z</updated>
+  <updated>2022-04-03T09:13:48.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>latex tips</title>
+    <link href="https://samhan.fun/posts/f105dbfb.html"/>
+    <id>https://samhan.fun/posts/f105dbfb.html</id>
+    <published>2022-04-03T09:13:48.000Z</published>
+    <updated>2022-04-03T09:13:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看</p><h1 id="latexpand"><a class="header-anchor" href="#latexpand">¶</a>latexpand<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1><p>一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好<br>latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>remove comments</p><h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1><p>由于使用vim插件，自动编译latex内核需要定义</p><figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure><span id="more"></span><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看&lt;/p&gt;
+&lt;h1 id=&quot;latexpand&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#latexpand&quot;&gt;¶&lt;/a&gt;latexpand&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/h1&gt;
+&lt;p&gt;一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好&lt;br&gt;
+latexpand - Flatten LaTeX file by expanding \include and \input, … and&lt;br&gt;
+remove comments&lt;/p&gt;
+&lt;h1 id=&quot;中文编译指定内核&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#中文编译指定内核&quot;&gt;¶&lt;/a&gt;中文编译指定内核&lt;/h1&gt;
+&lt;p&gt;由于使用vim插件，自动编译latex内核需要定义&lt;/p&gt;
+&lt;figure class=&quot;highlight delphi&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;%!TEX &lt;span class=&quot;keyword&quot;&gt;program&lt;/span&gt; = xelatex&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Word Tips</title>
@@ -445,29 +469,6 @@ This particular diamond was extra special&lt;/p&gt;
     
     
     <category term="python" scheme="https://samhan.fun/overview/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客搭建</title>
-    <link href="https://samhan.fun/posts/f3fb008f.html"/>
-    <id>https://samhan.fun/posts/f3fb008f.html</id>
-    <published>2021-09-02T04:51:00.000Z</published>
-    <updated>2022-01-22T05:11:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="2022-03-22"><a class="header-anchor" href="#2022-03-22">¶</a>2022-03-22</h1><ul><li>增加encrypt插件，对静态加密做了一定学习</li></ul><h1 id="2022-01-22"><a class="header-anchor" href="#2022-01-22">¶</a>2022-01-22</h1><ul><li>live2d 小埋增加音效, 其中有两段我的声音<a href="https://samhan.fun/live2dw/assets/assets/voice/05.mp3">1</a> 和<a href="https://samhan.fun/live2dw/assets/assets/voice/04.mp3">2</a></li><li>博客markdown引擎换成了支持emoji和脚注的</li></ul><h1 id="2021-11-10"><a class="header-anchor" href="#2021-11-10">¶</a>2021-11-10</h1><ul><li>添加moments说说界面，因为不喜欢动态博客功能，并未使用hexo-bb等外部插件，纯html、css实现，抄了<a href="https://cndrew.cn/2019/09/11/shuoshuo/">drew</a>的界面</li><li>相册功能没有必要自己编程或额外使用插件，用<a href="https://theme-next.js.org/docs/tag-plugins/group-pictures.html">grouppicture</a>内置加空白图片占位即可, 插入哪些图片无非是文本命令，可以外接代码生成文本</li></ul><h1 id="2021-11-05"><a class="header-anchor" href="#2021-11-05">¶</a>2021-11-05</h1><ul><li>受<a href="https://www.cygnoir.net/">cynoir</a>的启发，对版式进行微调。</li><li>单独将中文内容放置到一个界面内。</li><li>goodreads读书界面被墙，豆瓣国际化比较差,折腾半天决定放弃</li></ul><hr><h1 id="2021-09-11"><a class="header-anchor" href="#2021-09-11">¶</a>2021-09-11</h1><p>今天调了一个下午博客的版式，终于好看点了。然后因为我很蠢的忘了刷新缓存，明明没问题浏览器硬是显示不出来我网站的界面，卡了好久。</p><hr><h1 id="2021-09-02-12-51"><a class="header-anchor" href="#2021-09-02-12-51">¶</a>2021-09-02 12:51</h1><p>偶然想到要搭一个博客，我就马上开始行动了。虽然早有预料，但是还是惊讶如今搭建一个博客的门槛竟然如此之低。在我小时候，搭一个简单的博客，即使没有漂亮的页面也需要不低的门槛：</p><ul><li>服务器</li><li>域名</li><li>技术</li></ul><blockquote><p>这里关于域名，.我爱你域名好便宜，目前10年.我爱你才520，要是有对象我就买了</p></blockquote><p>即使已经生活在技术爆炸的年代，享受便利的同时也会不禁感慨前人的付出和技术进步的神奇，比如搭博客使用的Hexo和博客的主题next的工作量就给了我震撼的感觉，其中很多人付出的努力、投入的时间都能给我很大的触动。<strong>其中一定有不少超越了物质的东西</strong>。</p>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;2022-03-22&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2022-03-22&quot;&gt;¶&lt;/a&gt;2022-03-22&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;增加encrypt插件，对静态加密做了一定学习&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&quot;2022-01-22&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#2022-01-22&quot;&gt;¶&lt;/a&gt;2022-01-22&lt;/h1&gt;</summary>
-    
-    
-    
-    <category term="中文" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/"/>
-    
     
   </entry>
   
