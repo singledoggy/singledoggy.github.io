@@ -163,8 +163,12 @@ ipdb&gt; q
 <ol>
 <li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li>
 <li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li>
-<li>输出外部命令 <code>r !echo `seq -w 1 31`  </code></li>
+<li>输出外部命令</li>
+</ol>
+<figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">r</span> !echo `seq -w <span class="number">1</span> <span class="number">31</span>`  </span><br></pre></td></tr></table></figure>
+<ol start="4">
 <li><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置</li>
+<li>Select what you want (typically with v or Shift+v) then type 5&gt;.</li>
 </ol>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
