@@ -154,7 +154,6 @@ ipdb&gt; q
     <title>Linux</title>
     <url>/posts/9211474f.html</url>
     <content><![CDATA[<p>List some linux command</p>
-<span id="more"></span>
 <h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1>
 <p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>
 前缀+<kbd>c</kbd>(creat)<br>
@@ -170,12 +169,12 @@ ipdb&gt; q
 <li><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置</li>
 <li>Select what you want (typically with v or Shift+v) then type 5&gt;.</li>
 </ol>
-<div class="note info"><p>####正则表达式<br>
-lookaround 不如使用zero-width anchors来代替[^1], vim支持这点 eg:</p>
+<div class="note info"><h4 id="正则表达式"><a class="header-anchor" href="#正则表达式">¶</a>正则表达式</h4>
+<p>lookaround 不如使用zero-width anchors来代替[^1], vim支持这点 eg:</p>
 <figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:%s/myFunction</span>(\zs.*\ze)/foo/</span><br></pre></td></tr></table></figure>
 <p>vim 可以使用<code>\v</code>是的表达式进入magic模式</p>
 </div>
-<!-- more -->
+<span id="more"></span>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
 ]]></content>
