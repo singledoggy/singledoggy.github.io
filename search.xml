@@ -170,13 +170,21 @@ ipdb&gt; q
 <li>Select what you want (typically with v or Shift+v) then type 5&gt;.</li>
 </ol>
 <div class="note info"><h4 id="正则表达式"><a class="header-anchor" href="#正则表达式">¶</a>正则表达式</h4>
-<p>lookaround 不如使用zero-width anchors来代替[^1], vim支持这点 eg:</p>
+<p>lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
 <figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:%s/myFunction</span>(\zs.*\ze)/foo/</span><br></pre></td></tr></table></figure>
-<p>vim 可以使用<code>\v</code>是的表达式进入magic模式</p>
+<p>vim 可以使用<code>\v</code>使得表达式进入magic模式</p>
 </div>
+<p><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://vi.stackexchange.com/questions/3036/is-lookaround-possible-in-vims-regex-system">https://vi.stackexchange.com/questions/3036/is-lookaround-possible-in-vims-regex-system</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
       <categories>
         <category>Code</category>
