@@ -170,6 +170,12 @@ ipdb&gt; q
 <li><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置</li>
 <li>Select what you want (typically with v or Shift+v) then type 5&gt;.</li>
 </ol>
+<div class="note info"><p>####正则表达式<br>
+lookaround 不如使用zero-width anchors来代替[^1], vim支持这点 eg:</p>
+<figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:%s/myFunction</span>(\zs.*\ze)/foo/</span><br></pre></td></tr></table></figure>
+<p>vim 可以使用<code>\v</code>是的表达式进入magic模式</p>
+</div>
+<!-- more -->
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
 ]]></content>
@@ -277,7 +283,10 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
   <entry>
     <title>python-basic</title>
     <url>/posts/fdc23cba.html</url>
-    <content><![CDATA[<h1 id="serialization"><a class="header-anchor" href="#serialization">¶</a>Serialization</h1>
+    <content><![CDATA[<h1 id="io"><a class="header-anchor" href="#io">¶</a>IO</h1>
+<p>Use glob instead of os</p>
+<figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">glob</span></span><br><span class="line">paths = <span class="built_in">glob</span>.<span class="built_in">glob</span>(path + <span class="string">&#x27;/*.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
+<h1 id="serialization"><a class="header-anchor" href="#serialization">¶</a>Serialization</h1>
 <p>In computing, serialization (US spelling) or serialisation (UK spelling) is the process of translating a data structure or object state into a format that can be stored (for example, in a file or memory data buffer) or transmitted (for example, over a computer network) and reconstructed later (possibly in a different computer environment)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
 <p>Here is an example for serialization<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</p>
@@ -311,7 +320,7 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <p>How about this?</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Test:</p>
-<h2 id="code-4"><a class="header-anchor" href="#code-4">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
+<h2 id="code-5"><a class="header-anchor" href="#code-5">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
 <p>Following @TanveerAlam 's comment, I don’t want to make assumptions about your arguments (what if <code>dst</code> can be <code>False</code>?), I did use shorter versions in my original post and I’ll leave them here for reference:</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Or even:</p>
