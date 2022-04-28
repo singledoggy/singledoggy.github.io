@@ -589,6 +589,9 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 </blockquote>
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102158.png" width="50%" height="50%"></div><div class="group-picture-column"><img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/20220321102038.png" width="50%" height="50%"></div></div></div>
 <p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p>
+<h1 id="hobble"><a class="header-anchor" href="#hobble">¶</a>Hobble</h1>
+<p>阻碍，跛脚<br>
+<img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/Q8N3G7JWOOJJLT1OX_%609RCH(1).png "></p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -762,5 +765,37 @@ remove comments</p>
 </ol>
 </section>
 ]]></content>
+  </entry>
+  <entry>
+    <title>xarray</title>
+    <url>/posts/34865fab.html</url>
+    <content><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
+<p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p>
+<h2 id="stackoverflow"><a class="header-anchor" href="#stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2>
+<p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure>
+<p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure>
+<p>Finally, fill the <code>time</code> dimension with my dates:</p>
+<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure>
+<h2 id="github"><a class="header-anchor" href="#github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2>
+<p>I inspired also by an issue in Github and get the code below:</p>
+<span id="more"></span>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>code</category>
+      </categories>
   </entry>
 </search>
