@@ -592,6 +592,8 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <h1 id="hobble"><a class="header-anchor" href="#hobble">¶</a>Hobble</h1>
 <p>阻碍，跛脚<br>
 <img data-src="https://raw.githubusercontent.com/singledoggy/pic/main/Q8N3G7JWOOJJLT1OX_%609RCH(1).png "></p>
+<h1 id="86"><a class="header-anchor" href="#86">¶</a>86</h1>
+<p>86是离开，拒绝的意思，还挺有趣</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -782,6 +784,12 @@ remove comments</p>
 <p>I inspired also by an issue in Github and get the code below:</p>
 <span id="more"></span>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1>
+<p>Use rioxarray instead</p>
+<h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+<h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
@@ -797,5 +805,13 @@ remove comments</p>
       <categories>
         <category>code</category>
       </categories>
+  </entry>
+  <entry>
+    <title>xgrads：一个方便的解析ctl文件的库</title>
+    <url>/posts/e78205f3.html</url>
+    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
+<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
+<span id="more"></span>
+]]></content>
   </entry>
 </search>
