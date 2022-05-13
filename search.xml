@@ -166,8 +166,12 @@ ipdb&gt; q
 </ol>
 <figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">r</span> !echo `seq -w <span class="number">1</span> <span class="number">31</span>`  </span><br></pre></td></tr></table></figure>
 <ol start="4">
-<li><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置</li>
-<li>Select what you want (typically with v or Shift+v) then type 5&gt;.</li>
+<li>
+<p><kbd>Ctrl</kbd>+ <kbd>o/i</kbd> 光标切换上次位置<kbd>`</kbd> + <kbd>.</kbd>也行</p>
+</li>
+<li>
+<p>Select what you want (typically with v or Shift+v) then type 5&gt;.</p>
+</li>
 </ol>
 <div class="note info"><h4 id="正则表达式"><a class="header-anchor" href="#正则表达式">¶</a>正则表达式</h4>
 <p>lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
@@ -176,6 +180,8 @@ ipdb&gt; q
 </div>
 <p><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
+<p>调试错误信息</p>
+<figure class="highlight clojure"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:message</span> </span><br></pre></td></tr></table></figure>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
 <hr class="footnotes-sep">
@@ -568,11 +574,14 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
   <entry>
     <title>Bad or interesting translations</title>
     <url>/posts/25cd51e8.html</url>
-    <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮。这里记录今年起遇到的</p>
+    <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮件。这里记录今年起遇到的</p>
 <p>还有一些有趣的翻译也会放在这里</p>
+<h1 id="talk-shop"><a class="header-anchor" href="#talk-shop">¶</a>Talk shop</h1>
+<p>完全不是闲聊的意思，是谈工作的意思<br>
+<img data-src="https://cdn.jsdelivr.net/gh/singledoggy/pic/phone/20220513165506.jpg" width="50%" height="50%"> <center></center></p>
+<span id="more"></span>
 <h1 id="underdog"><a class="header-anchor" href="#underdog">¶</a>Underdog</h1>
 <p><img data-src="/images/1641801021605.png" width="50%" height="50%"> <center>好汉两个半</center></p>
-<span id="more"></span>
 <p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p>
 <blockquote>
 <p>So you like an underdog?Everyone likes an underdog.<br>
@@ -701,6 +710,13 @@ remove comments</p>
 由于使用vim插件，自动编译latex内核需要定义</p>
 <figure class="highlight delphi"><table><tr><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure>
 <span id="more"></span>
+<h1 id="minipage"><a class="header-anchor" href="#minipage">¶</a>minipage</h1>
+<figure class="highlight llvm"><table><tr><td class="code"><pre><span class="line">\<span class="keyword">begin</span>&#123;minipage&#125;[<span class="keyword">c</span>][<span class="number">10</span>cm][<span class="keyword">c</span>]&#123;\textwidth&#125;</span><br><span class="line"></span><br><span class="line">\<span class="keyword">end</span>&#123;minipage&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1>
+<p>cse<br>
+csc</p>
+<h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1>
+<p>detex</p>
 <hr class="footnotes-sep">
 <section class="footnotes">
 <ol class="footnotes-list">
