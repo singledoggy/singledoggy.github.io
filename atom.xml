@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2022-05-07T13:27:44.000Z</updated>
+  <updated>2022-05-26T17:03:31.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>端到端加密</title>
+    <link href="https://samhan.fun/posts/8c889ebe.html"/>
+    <id>https://samhan.fun/posts/8c889ebe.html</id>
+    <published>2022-05-26T17:03:31.000Z</published>
+    <updated>2022-05-26T17:03:31.000Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><p>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</p><p>指纹是:<br>03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>邮箱是:<br>Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>公钥地址是:<br><a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;p&gt;欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份&lt;/p&gt;
+&lt;p&gt;指纹是:&lt;br&gt;
+03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>xgrads：一个方便的解析ctl文件的库</title>
@@ -466,28 +489,6 @@ This particular diamond was extra special&lt;/p&gt;
     
     
     <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>论语</title>
-    <link href="https://samhan.fun/posts/d004492e.html"/>
-    <id>https://samhan.fun/posts/d004492e.html</id>
-    <published>2021-10-23T03:22:29.000Z</published>
-    <updated>2021-10-23T03:22:29.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>此前尚未好好读一遍《论语》,于是找来<a href="https://www.bilibili.com/video/BV1Xb411k71c?from=search&amp;seid=12654065171695482529&amp;spm_id_from=333.337.0.0">傅佩荣的讲座</a>听一听，记录一下自己喜欢的部分。前几篇已经听过便不再记录。</p><img data-src="/images/lunyu.png" width="25%" height="25%" /><span id="more"></span><blockquote><p>君子不器</p></blockquote><p>用人可器之，但人不是<code>训练有素的狗</code>，作为人还是需要拥有一些文化艺术上的修养，不仅仅是为了生存有一些技能，可以养活自己。</p><blockquote><p>子贡问君子。子曰：先行其言，而后从之。<br>君子耻其言而过其行</p></blockquote><p>言行关系是非常重要的，倒不是不可以立下远大理想，只是需要好好研究言行关系。如何说话实在是非常重要的事情。</p><blockquote><p>道不同，不相为谋<br>子曰：“攻乎异端，斯害也己。”<br>君子和而不同，周而不比，泰而不骄</p></blockquote><p>少去辩论对错，天下这么大，各走各的路就是了，少和人抬杠。人生是有不同的阶段的，可能不同的阶段想法不一样。</p><blockquote><p>行有不得，反求诸己</p></blockquote><p>不必批判别人，批判了别人也未必能改，不如专心修养自身的德行。</p><p>墨子说，天下学说莫归于杨朱、墨翟。</p><blockquote><p>孟曰:杨朱利己,是无君也;墨子兼爱,是无父也；无君无父，是禽兽也。</p></blockquote><p>爱是有差的，同时的爱很多人是没错的，但是平等的爱很多人是不可能的。不仅父母，交朋友其实也如此。当然，这不是说要党同伐异，搞小团体利益。所谓’君子周而不比，小人比而不周’</p><blockquote><p>子路曰：‘南山有竹，不輮自直，斩而用之，达于犀革。何学之为？’孔子曰：‘括而羽之，镞而砺之，其入不益深乎？’子路拜曰：‘敬受命。’”</p></blockquote><p>子路其实很帅气潇洒啊，自比南山之竹，不揉自直，真的洒脱自信啊。</p><blockquote><p>言寡尤，行寡悔</p></blockquote><p>每一天都不能够重来。</p><blockquote><p>子曰：“君子无所争。必也射乎！揖让而升，下而饮。其争也君子。”</p></blockquote><blockquote><p>子夏问曰：“‘巧笑倩兮，美目盼兮，素以为绚兮。’何为也？”子曰：“绘事后素。”子夏曰：“礼后乎？”子曰：“起予者商也！始可以言《诗》矣。”</p></blockquote><p>重要的不是礼，而是真诚的心、真诚的情感，重要的不是绮丽的妆容，而是真实的美。</p><blockquote><p>子曰：“《关睢》，乐而不淫，哀而不伤。”<br>喜怒哀乐之未发，发而皆中节</p></blockquote><p>情绪不要太极端，过犹不及，情深不寿。</p><blockquote><p>其犹正墙面而立也与</p></blockquote><blockquote><p>子谓《韶》：“尽美矣，又尽善也。”谓《武》，“尽美矣，未尽善也。”</p></blockquote><p>儒家反对为艺术而艺术，艺术确实有独立的部分，但所谓<code>尽美矣，未尽善也</code>，艺术还是需要以人为本。</p><blockquote><p>何昔日之芳草兮，今直为此萧艾也</p></blockquote><blockquote><p>吾未见好德如好色者也</p></blockquote><blockquote><p>司马牛问仁，子曰：“仁者，其言也讱。”曰：“其言也讱，斯谓之仁已乎？”子曰：“为之难，言之得无讱乎？”</p></blockquote><p>仁对于每个人都不一样</p><blockquote><p>正其义不谋其利，明其道不计其功</p></blockquote><p>有时候做事不要太计较结果</p><blockquote><p>子曰：“以约失之者，鲜矣！”</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;此前尚未好好读一遍《论语》,于是找来&lt;a href=&quot;https://www.bilibili.com/video/BV1Xb411k71c?from=search&amp;amp;seid=12654065171695482529&amp;amp;spm_id_from=333.337.0.0&quot;&gt;傅佩荣的讲座&lt;/a&gt;听一听，记录一下自己喜欢的部分。前几篇已经听过便不再记录。&lt;/p&gt;
-&lt;img data-src=&quot;/images/lunyu.png&quot; width=&quot;25%&quot; height=&quot;25%&quot; /&gt;</summary>
-    
-    
-    
-    <category term="中文" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/"/>
-    
-    <category term="Book" scheme="https://samhan.fun/overview/%E4%B8%AD%E6%96%87/Book/"/>
     
     
   </entry>

@@ -837,4 +837,17 @@ csc</p>
 <span id="more"></span>
 ]]></content>
   </entry>
+  <entry>
+    <title>端到端加密</title>
+    <url>/posts/8c889ebe.html</url>
+    <content><![CDATA[<span id="more"></span>
+<p>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</p>
+<p>指纹是:<br>
+03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
+邮箱是:<br>
+Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
+公钥地址是:<br>
+<a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
+]]></content>
+  </entry>
 </search>
