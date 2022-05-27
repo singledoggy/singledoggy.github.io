@@ -840,14 +840,21 @@ csc</p>
   <entry>
     <title>端到端加密</title>
     <url>/posts/8c889ebe.html</url>
-    <content><![CDATA[<span id="more"></span>
-<p>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</p>
+    <content><![CDATA[<h1 id="欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份"><a class="header-anchor" href="#欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份">¶</a>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</h1>
 <p>指纹是:<br>
 03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
 邮箱是:<br>
 Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
 公钥地址是:<br>
 <a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
+<h1 id="补充知识："><a class="header-anchor" href="#补充知识：">¶</a>补充知识：</h1>
+<h2 id="什么是rsa算法"><a class="header-anchor" href="#什么是rsa算法">¶</a>什么是RSA算法</h2>
+<span id="more"></span>
+<p><a href="https://www.zhihu.com/question/304030251/answer/543201982">https://www.zhihu.com/question/304030251/answer/543201982</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html</a></p>
+<h2 id="gpg简单教程"><a class="header-anchor" href="#gpg简单教程">¶</a>GPG简单教程</h2>
+<p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
 ]]></content>
   </entry>
 </search>
