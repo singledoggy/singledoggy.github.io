@@ -426,7 +426,9 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
   <entry>
     <title>博客搭建</title>
     <url>/posts/f3fb008f.html</url>
-    <content><![CDATA[<h1 id="2022-03-22"><a class="header-anchor" href="#2022-03-22">¶</a>2022-03-22</h1>
+    <content><![CDATA[<h1 id="2022-06-08"><a class="header-anchor" href="#2022-06-08">¶</a>2022-06-08</h1>
+<p>更新主题大版本，其中修复了jsdeliver被墙的问题，CDN加速改为国内360的，速度应该提升很多</p>
+<h1 id="2022-03-22"><a class="header-anchor" href="#2022-03-22">¶</a>2022-03-22</h1>
 <ul>
 <li>增加encrypt插件，对静态加密做了一定学习</li>
 </ul>
@@ -835,6 +837,7 @@ csc</p>
     <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
 <p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
 <span id="more"></span>
+<p>测试</p>
 ]]></content>
   </entry>
   <entry>
