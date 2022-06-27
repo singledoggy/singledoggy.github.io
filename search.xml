@@ -741,7 +741,10 @@ csc</p>
   <entry>
     <title>一些常见的短句</title>
     <url>/posts/f213319.html</url>
-    <content><![CDATA[<h1 id="法语"><a class="header-anchor" href="#法语">¶</a>法语</h1>
+    <content><![CDATA[<div class="note info"><p>新增<br>
+Veritas</p>
+</div>
+<h1 id="法语"><a class="header-anchor" href="#法语">¶</a>法语</h1>
 <blockquote>
 <p>c’est la vie<br>
 这就是人生。</p>
@@ -772,6 +775,10 @@ csc</p>
 人终有一死</p>
 </blockquote>
 <p>很多艺术品叫这个</p>
+<blockquote>
+<p>veritas</p>
+</blockquote>
+<p>看科普视频看到真理元素，哈佛大学校训似乎也是这个</p>
 ]]></content>
   </entry>
   <entry>
@@ -881,6 +888,7 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
 <iframe src="//player.bilibili.com/player.html?aid=292841556&bvid=BV1pf4y1J7bo&cid=404656376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
+<hr>
 <div class="note info"><h4 id="single-event-upsets"><a class="header-anchor" href="#single-event-upsets">¶</a>Single Event Upsets</h4>
 <p>A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.</p>
 </div>
