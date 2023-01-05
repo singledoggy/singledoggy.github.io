@@ -155,14 +155,35 @@ ipdb&gt; q
 <p>Select what you want (typically with v or Shift+v) then type 5&gt;.</p>
 </li>
 </ol>
-<div class="note info"><h4 id="正则表达式"><a class="header-anchor" href="#正则表达式">¶</a>正则表达式</h4>
-<p>lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
+<div class="note info"><p>##正则表达式<br>
+lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
 <figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:%s/myFunction</span>(\zs.*\ze)/foo/</span><br></pre></td></tr></table></figure>
 <p>vim 可以使用<code>\v</code>使得表达式进入magic模式</p>
 </div>
 <p><sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
-<p>调试错误信息</p>
+<p>:[range]s/from/to/[flags]</p>
+<p>range:搜索范围，如果没有指定范围，则作用于但前行。</p>
+<ul>
+<li>:1,10s/from/to/ 表示在第1到第10行（包含第1，第10行）之间搜索替换；</li>
+<li>:10s/from/to/ 表示只在第10行搜索替换；</li>
+<li>:%s/from/to/ 表示在所有行中搜索替换；</li>
+<li>1,$s/from/to/ 同上。</li>
+</ul>
+<p>flags 有如下四个选项：</p>
+<ul>
+<li>c confirm，每次替换前询问；</li>
+<li>e error， 不显示错误；</li>
+<li>g globle，不询问，整行替换。如果不加g选项，则只替换每行的第一个匹配到的字符串；</li>
+<li>i ignore，忽略大小写。</li>
+</ul>
+<p>这些选项可以合并使用，如cgi表示不区分大小写，整行替换，替换前询问</p>
+<p><strong>例子</strong><br>
+每行加空行用于markdwon和LaTex</p>
+<blockquote>
+<p>:%s/$/\r/g</p>
+</blockquote>
+<p>##调试错误信息</p>
 <figure class="highlight clojure"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:message</span> </span><br></pre></td></tr></table></figure>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
