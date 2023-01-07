@@ -10,8 +10,17 @@
     
     
     <url>
+        <loc>https://samhan.fun/photo/</loc>
+        <lastmod>2023-01-06T03:12:57.347Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    <url>
         <loc>https://samhan.fun/Favorite/</loc>
-        <lastmod>2023-01-05T15:22:13.887Z</lastmod>
+        <lastmod>2023-01-06T03:08:00.754Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -21,15 +30,6 @@
     <url>
         <loc>https://samhan.fun/about/</loc>
         <lastmod>2023-01-05T14:03:32.096Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    
-    
-    
-    <url>
-        <loc>https://samhan.fun/photo/</loc>
-        <lastmod>2022-08-15T06:44:19.773Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
