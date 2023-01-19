@@ -136,6 +136,9 @@ ipdb&gt; q
     <title>Linux</title>
     <url>/posts/9211474f.html</url>
     <content><![CDATA[<p>List some linux command</p>
+<h1 id="wget"><a class="header-anchor" href="#wget">¶</a>wget</h1>
+<figure class="highlight css"><table><tr><td class="code"><pre><span class="line">wget -<span class="selector-tag">i</span> list<span class="selector-class">.txt</span></span><br></pre></td></tr></table></figure>
+<p>picgo上传后下载1.19</p>
 <h1 id="tmux"><a class="header-anchor" href="#tmux">¶</a>tmux</h1>
 <p><kbd>ctr</kbd> + <kbd>b</kbd> 前缀<br>
 前缀+<kbd>c</kbd>(creat)<br>
@@ -1049,6 +1052,17 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 ]]></content>
       <categories>
         <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hang out with friends</title>
+    <url>/posts/e9a8c4db.html</url>
+    <content><![CDATA[<p>恍然间初中毕业已经10年了，尚且还有二三旧友能一起出门。下午无聊一起玩“你画我猜”，被我安利大成功。最后放一张我的傻笑。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/3HzitPEmOnNKYcB.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/2ItDCJYeSFTounm.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/Xjev8guTwmx7bM5.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/fWQCAayUdqLrupS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/bts97ozVRfid1ah.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/umItZVQHODAUi8x.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/mkbSlrGB8cP6nQ2.jpg" alt=""></div></div></div>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>中文</category>
       </categories>
   </entry>
 </search>
