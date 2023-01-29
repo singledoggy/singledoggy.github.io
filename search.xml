@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>NFC</title>
-    <url>/posts/ccb38171.html</url>
-    <content><![CDATA[<p>Got some NFC stickers today and wants to do something cool with it.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/EenqDJjXUxTdPfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/6AsjTgtpqBcGrnN.jpg" alt=""></div></div></div>
-<p>It’s cool that I can use NFC stickers to record my time usage automatically, its sooo geek!😏</p>
+    <title>Travel: Yuyuantan Park</title>
+    <url>/posts/9dd9b02f.html</url>
+    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qGHSx5XWpzYeQTF.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/b8N6apij7EhoGWU.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qIBiZXRfQKuGrHJ.jpg" alt=""></div></div></div>
+<center> 玉渊潭 </center>
 <span id="more"></span>
 ]]></content>
+      <tags>
+        <tag>Travel</tag>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>Github milestone</title>
@@ -27,15 +31,15 @@
 ]]></content>
   </entry>
   <entry>
-    <title>Travel: Yuyuantan Park</title>
-    <url>/posts/9dd9b02f.html</url>
-    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qGHSx5XWpzYeQTF.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/b8N6apij7EhoGWU.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qIBiZXRfQKuGrHJ.jpg" alt=""></div></div></div>
-<center> 玉渊潭 </center>
+    <title>NFC</title>
+    <url>/posts/ccb38171.html</url>
+    <content><![CDATA[<p>Got some NFC stickers today and wants to do something cool with it.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/EenqDJjXUxTdPfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/6AsjTgtpqBcGrnN.jpg" alt=""></div></div></div>
+<p>It’s cool that I can use NFC stickers to record my time usage automatically, its sooo geek!😏</p>
 <span id="more"></span>
 ]]></content>
       <tags>
-        <tag>Travel</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -248,7 +252,34 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       </tags>
   </entry>
   <entry>
-    <title>pandas</title>
+    <title>PERSONAL TRAINER MANUAL</title>
+    <url>/posts/dd98bec.html</url>
+    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! 🎉</p>
+<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
+<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
+<span id="more"></span>
+<blockquote>
+<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
+</blockquote>
+<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
+<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Book</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pandas库的使用</title>
     <url>/posts/3f7f6b33.html</url>
     <content><![CDATA[<h1 id="load-and-pre-data"><a class="header-anchor" href="#load-and-pre-data">¶</a>load and pre data</h1>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Replace the column with the converted values</span></span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>] = pd.to_numeric(df[<span class="string">&#x27;mixed_types&#x27;</span>], errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line">df[<span class="string">&#x27;mixed_types&#x27;</span>]=df[<span class="string">&#x27;mixed_types&#x27;</span>].apply(pd.to_numeric, errors=<span class="string">&#x27;coerce&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Rename cols</span></span><br><span class="line">df.rename(columns=&#123;<span class="string">&#x27;最新站点名称&#x27;</span>:<span class="string">&#x27;站点&#x27;</span>&#125;)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Replace certain value</span></span><br><span class="line">df.replace(<span class="number">0</span>,np.nan)</span><br></pre></td></tr></table></figure>
@@ -277,30 +308,6 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       <tags>
         <tag>python</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>PERSONAL TRAINER MANUAL</title>
-    <url>/posts/dd98bec.html</url>
-    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! :tad:</p>
-<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
-<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
-<span id="more"></span>
-<blockquote>
-<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
-</blockquote>
-<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
-<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Book</category>
-      </categories>
   </entry>
   <entry>
     <title>python-basic</title>
@@ -385,6 +392,9 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 </ol>
 </section>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
     <title>Why zotero?</title>
@@ -428,9 +438,9 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <p>建议使用lethub进行期刊搜索分区<br>
 <img data-src="https://s2.loli.net/2022/08/14/1Twu4H2qnOB3FYt.png" alt=""></p>
 ]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>博客搭建</title>
@@ -477,9 +487,6 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 </blockquote>
 <p>即使已经生活在技术爆炸的年代，享受便利的同时也会不禁感慨前人的付出和技术进步的神奇，比如搭博客使用的Hexo和博客的主题next的工作量就给了我震撼的感觉，其中很多人付出的努力、投入的时间都能给我很大的触动。<strong>其中一定有不少超越了物质的东西</strong>。</p>
 ]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
   </entry>
   <entry>
     <title>论语</title>
@@ -557,12 +564,14 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 </blockquote>
 ]]></content>
       <categories>
-        <category>中文</category>
-        <category>阅读</category>
+        <category>Book</category>
       </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
-    <title>话剧《雷雨》</title>
+    <title>《雷雨》</title>
     <url>/posts/e9c43562.html</url>
     <content><![CDATA[<p>几个月前有朋友问我要不要一起去看话剧，结果因为时间安排好像两人都没去，但是勾起了我看看话剧的兴趣。从小在小城市里生活，看剧似乎不是一个常见的娱乐选项，听上去也未免有些&quot;上流&quot;。研一的时候在雁栖湖选修了音乐鉴赏，好像没有疫情的年份是有一起去看剧的活动，因为疫情也没能成行。刚好有看到熟悉的《雷雨》，票也只剩一张，没多想还是决定一个人去看了。</p>
 <p><img data-src="https://s2.loli.net/2022/08/14/vfPWJbX34l8MI9y.jpg" alt=""> <center></center></p>
@@ -583,9 +592,11 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <p>剧本身有些黑色幽默，虽然很惨但是中途不少人笑出声，有种荒诞的感觉。总的来说很值就是了，遇见别的版本的也许也可再看一遍。</p>
 ]]></content>
       <categories>
-        <category>中文</category>
-        <category>阅读</category>
+        <category>Book</category>
       </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>Bad or interesting translations</title>
@@ -652,9 +663,9 @@ it应该是指险境本身</p>
 </ol>
 </section>
 ]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>Single-Event Upsets</title>
@@ -682,29 +693,8 @@ it应该是指险境本身</p>
 </ol>
 </section>
 ]]></content>
-  </entry>
-  <entry>
-    <title>Travel: HuaiRou</title>
-    <url>/posts/1c7bcf47.html</url>
-    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
-<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
-<span id="more"></span>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
       <tags>
-        <tag>Travel</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -733,11 +723,9 @@ it应该是指险境本身</p>
 
 </blockquote>
 ]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
       <tags>
         <tag>Travel</tag>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -766,7 +754,7 @@ remove comments</p>
 <h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1>
 <p>cse<br>
 csc</p>
-<h2 id="Set-up-Skim-Inverse-or-Backward-Search"><a class="header-anchor" href="#Set-up-Skim-Inverse-or-Backward-Search">¶</a>Set up Skim Inverse or Backward Search</h2>
+<h2 id="set-up-skim-inverse-or-backward-search"><a class="header-anchor" href="#set-up-skim-inverse-or-backward-search">¶</a>Set up Skim Inverse or Backward Search</h2>
 <figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">nvim</span><br><span class="line">--headless -c <span class="string">&quot;VimtexInverseSearch %line &#x27;%file&#x27;&quot;</span></span><br></pre></td></tr></table></figure>
 <p><a href="https://dr563105.github.io/blog/skim-vimtex-setup/">https://dr563105.github.io/blog/skim-vimtex-setup/</a></p>
 <h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1>
@@ -783,6 +771,31 @@ csc</p>
 </ol>
 </section>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Travel: HuaiRou</title>
+    <url>/posts/1c7bcf47.html</url>
+    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
+<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
+<span id="more"></span>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>Travel</tag>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>Learning Swimming</title>
@@ -790,19 +803,9 @@ csc</p>
     <content><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation of leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p>
 <span id="more"></span>
 ]]></content>
-  </entry>
-  <entry>
-    <title>pandas使用</title>
-    <url>/posts/80bbe987.html</url>
-    <content><![CDATA[<span id="more"></span>
-<h1 id="缺测"><a class="header-anchor" href="#缺测">¶</a>缺测</h1>
-<p><code>.stack()</code>和<code>.groupby()</code>默认会dropna, 会导致折线图不能忽略缺测</p>
-<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span> = obs_xr[var].to_pandas().stack(<span class="title">dropna</span>=<span class="type">False</span>).reset_index()</span></span><br><span class="line"><span class="title">dataTemp</span> = <span class="class"><span class="keyword">data</span>.groupby([&#x27;<span class="title">time&#x27;</span>, &#x27;站点类型&#x27;], <span class="title">dropna</span>=<span class="type">False</span>).mean().unstack()</span></span><br></pre></td></tr></table></figure>
-<h1 id="seaborn控制子图"><a class="header-anchor" href="#seaborn控制子图">¶</a>seaborn控制子图</h1>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Songti SC&#x27;</span>]</span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">g = sns.FacetGrid(</span><br><span class="line">    dataTemp,</span><br><span class="line">    <span class="attribute">col</span>=<span class="string">&#x27;站点类型&#x27;</span>, <span class="attribute">col_wrap</span>=3,</span><br><span class="line">    <span class="attribute">col_order</span>=list,</span><br><span class="line">    <span class="attribute">height</span>=2.5, <span class="attribute">aspect</span>=4</span><br><span class="line">)</span><br><span class="line">g.map(plt.plot,</span><br><span class="line">      <span class="string">&#x27;time&#x27;</span>, <span class="string">&#x27;浓度&#x27;</span></span><br><span class="line">      )</span><br><span class="line">g.set_xticklabels(<span class="attribute">rotation</span>=15)</span><br><span class="line">g.set_titles(<span class="string">&quot;&#123;col_name&#125;&quot;</span>)  # use this argument literally</span><br><span class="line"></span><br><span class="line">add_label(var, g)</span><br><span class="line">g.set_xlabels(<span class="string">&#x27;时间&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax.axvspan(</span><br><span class="line">        datetime.datetime(2020, 1, 19), datetime.datetime(2020, 1, 24),</span><br><span class="line">        <span class="attribute">color</span>=<span class="string">&#x27;red&#x27;</span>, <span class="attribute">alpha</span>=0.3)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="颜色控制"><a class="header-anchor" href="#颜色控制">¶</a>颜色控制</h1>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">colors</span> = sns.color_palette(<span class="string">&#x27;hls&#x27;</span>, len(modes))</span><br><span class="line"><span class="attr">palette</span> = &#123;mode: color for mode, color in zip(modes, colors)&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>pdf-copy-vim</title>
@@ -822,34 +825,28 @@ csc</p>
 <p>在<code>init.vim</code> 中map该任务为PDF，使用<code>:PDF</code>命令即可读取<code>+</code>寄存器作为python脚本的参数，并将结果输入buffer了</p>
 <figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">command! -nargs=<span class="number">0</span> PDF <span class="keyword">source</span> ~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
-    <title>Everglow</title>
-    <url>/posts/6282d7e8.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>They say people come<br>
-Say people go<br>
-This particular diamond was extra special</p>
-
-</blockquote>
-<p>I put an video here. Because I really like it and hope you can listen.</p>
-<span id="more"></span>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=37626252&bvid=BV1Ct411S7Ey&cid=66151798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-<hr>
-<p>I don’t remember if it’s last year or the year before this time, I looped this song hundreds of times. And when it comes close to the end of this Lunar year, I listened to it over and over again. The lyrics are so beautiful, just like a poem and I can easily feel what behind the language itself, which means if it’s translated into Chinese or any other language, it would be exactly the same touching.</p>
-<h1 id="the-translation"><a class="header-anchor" href="#the-translation">¶</a>The translation</h1>
-<p>But many versions of translation are extremely bad. I don’t get why they try to interpret ‘This particular diamond’ as old memory or a particular women. It’s an <span style="color:#B95000"> IMPLIED METAPHORS </span> and when you translate it you should keep the original rhetorics. And people can understand this <span style="color:#B95000"> IMPLIED METAPHORS </span>, they are not stupid.</p>
-<p>Heres is an Japanese  anecdote:</p>
-<blockquote>
-<p>The author Natsume Soseki, in his life as an English teacher, supposedly saw his students translate “I love you” word-for-word. Soseki told them that’s not Japanese (too direct) and that “the moon is beautiful” would be the appropriate translation (alone with a lady on a moonlit night, context says it all).<br>
-今夜の月は綺麗ですね</p>
-</blockquote>
-<p>The anecdote may be made up, and it’s even not a Chinese story. But I think the Chinese is like the Japanese in some way so we should be indirect. If the original words are 'This woman was like a particular diamond that was extra special ’ it should be translated to an <span style="color:#B95000"> INDIRECT</span> way, not vise versa!</p>
-<h1 id="relation-with-me"><a class="header-anchor" href="#relation-with-me">¶</a>Relation with me</h1>
-<p>You know, we may all have some friends or lovers end up being separated. I never have a lover but I do have some friends. Although we may never go back together, I still cherish the moments we have and hope they are all well. I’m sorry for my bad and or even nobody is bad but the relation just don’t work out in the end, I’m still very sorry. I do like the happy memories. They are like diamonds.</p>
+    <title>pandas库的使用(2)</title>
+    <url>/posts/80bbe987.html</url>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="缺测"><a class="header-anchor" href="#缺测">¶</a>缺测</h1>
+<p><code>.stack()</code>和<code>.groupby()</code>默认会dropna, 会导致折线图不能忽略缺测</p>
+<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span> = obs_xr[var].to_pandas().stack(<span class="title">dropna</span>=<span class="type">False</span>).reset_index()</span></span><br><span class="line"><span class="title">dataTemp</span> = <span class="class"><span class="keyword">data</span>.groupby([&#x27;<span class="title">time&#x27;</span>, &#x27;站点类型&#x27;], <span class="title">dropna</span>=<span class="type">False</span>).mean().unstack()</span></span><br></pre></td></tr></table></figure>
+<h1 id="seaborn控制子图"><a class="header-anchor" href="#seaborn控制子图">¶</a>seaborn控制子图</h1>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Songti SC&#x27;</span>]</span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">g = sns.FacetGrid(</span><br><span class="line">    dataTemp,</span><br><span class="line">    <span class="attribute">col</span>=<span class="string">&#x27;站点类型&#x27;</span>, <span class="attribute">col_wrap</span>=3,</span><br><span class="line">    <span class="attribute">col_order</span>=list,</span><br><span class="line">    <span class="attribute">height</span>=2.5, <span class="attribute">aspect</span>=4</span><br><span class="line">)</span><br><span class="line">g.map(plt.plot,</span><br><span class="line">      <span class="string">&#x27;time&#x27;</span>, <span class="string">&#x27;浓度&#x27;</span></span><br><span class="line">      )</span><br><span class="line">g.set_xticklabels(<span class="attribute">rotation</span>=15)</span><br><span class="line">g.set_titles(<span class="string">&quot;&#123;col_name&#125;&quot;</span>)  # use this argument literally</span><br><span class="line"></span><br><span class="line">add_label(var, g)</span><br><span class="line">g.set_xlabels(<span class="string">&#x27;时间&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax.axvspan(</span><br><span class="line">        datetime.datetime(2020, 1, 19), datetime.datetime(2020, 1, 24),</span><br><span class="line">        <span class="attribute">color</span>=<span class="string">&#x27;red&#x27;</span>, <span class="attribute">alpha</span>=0.3)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="颜色控制"><a class="header-anchor" href="#颜色控制">¶</a>颜色控制</h1>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">colors</span> = sns.color_palette(<span class="string">&#x27;hls&#x27;</span>, len(modes))</span><br><span class="line"><span class="attr">palette</span> = &#123;mode: color for mode, color in zip(modes, colors)&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>Word Tips</title>
@@ -884,6 +881,55 @@ This particular diamond was extra special</p>
 <img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
 </ol>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Everglow</title>
+    <url>/posts/6282d7e8.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>They say people come<br>
+Say people go<br>
+This particular diamond was extra special</p>
+
+</blockquote>
+<p>I put an video here. Because I really like it and hope you can listen.</p>
+<span id="more"></span>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=37626252&bvid=BV1Ct411S7Ey&cid=66151798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<hr>
+<p>I don’t remember if it’s last year or the year before this time, I looped this song hundreds of times. And when it comes close to the end of this Lunar year, I listened to it over and over again. The lyrics are so beautiful, just like a poem and I can easily feel what behind the language itself, which means if it’s translated into Chinese or any other language, it would be exactly the same touching.</p>
+<h1 id="the-translation"><a class="header-anchor" href="#the-translation">¶</a>The translation</h1>
+<p>But many versions of translation are extremely bad. I don’t get why they try to interpret ‘This particular diamond’ as old memory or a particular women. It’s an <span style="color:#B95000"> IMPLIED METAPHORS </span> and when you translate it you should keep the original rhetorics. And people can understand this <span style="color:#B95000"> IMPLIED METAPHORS </span>, they are not stupid.</p>
+<p>Heres is an Japanese  anecdote:</p>
+<blockquote>
+<p>The author Natsume Soseki, in his life as an English teacher, supposedly saw his students translate “I love you” word-for-word. Soseki told them that’s not Japanese (too direct) and that “the moon is beautiful” would be the appropriate translation (alone with a lady on a moonlit night, context says it all).<br>
+今夜の月は綺麗ですね</p>
+</blockquote>
+<p>The anecdote may be made up, and it’s even not a Chinese story. But I think the Chinese is like the Japanese in some way so we should be indirect. If the original words are 'This woman was like a particular diamond that was extra special ’ it should be translated to an <span style="color:#B95000"> INDIRECT</span> way, not vise versa!</p>
+<h1 id="relation-with-me"><a class="header-anchor" href="#relation-with-me">¶</a>Relation with me</h1>
+<p>You know, we may all have some friends or lovers end up being separated. I never have a lover but I do have some friends. Although we may never go back together, I still cherish the moments we have and hope they are all well. I’m sorry for my bad and or even nobody is bad but the relation just don’t work out in the end, I’m still very sorry. I do like the happy memories. They are like diamonds.</p>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>xgrads：一个方便的解析ctl文件的库</title>
+    <url>/posts/e78205f3.html</url>
+    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
+<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
+<span id="more"></span>
+<p>测试</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
     <title>xarray</title>
@@ -922,15 +968,6 @@ This particular diamond was extra special</p>
       <categories>
         <category>Code</category>
       </categories>
-  </entry>
-  <entry>
-    <title>xgrads：一个方便的解析ctl文件的库</title>
-    <url>/posts/e78205f3.html</url>
-    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
-<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
-<span id="more"></span>
-<p>测试</p>
-]]></content>
   </entry>
   <entry>
     <title>一些常见的短句</title>
@@ -974,17 +1011,32 @@ Veritas</p>
 </blockquote>
 <p>看科普视频看到真理元素，哈佛大学校训似乎也是这个</p>
 ]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>文言文</title>
     <url>/posts/a5cae94b.html</url>
     <content><![CDATA[<p>记录一些自己喜欢的文言文</p>
 <blockquote>
+<p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>
+——《庄子》</p>
+</blockquote>
+<p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p>
+<blockquote>
+<p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>
+——《文心雕龙》</p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
 <p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>
 ——《山月记》</p>
 </blockquote>
-<span id="more"></span>
 ]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>端到端加密</title>
@@ -1005,6 +1057,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <h2 id="gpg简单教程"><a class="header-anchor" href="#gpg简单教程">¶</a>GPG简单教程</h2>
 <p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
     <title>羡余否定</title>
@@ -1028,6 +1083,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 </ol>
 </section>
 ]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>视觉相似的字符</title>
@@ -1039,6 +1097,31 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p>下面是加了异体字监测部分的转换代码</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">dms2dd</span>(<span class="params">dms</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    convert degree minute second to degree decimal</span></span><br><span class="line"><span class="string">    :param dms:度分秒/度分 形式的经纬度</span></span><br><span class="line"><span class="string">    :return:</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    dms = dms.strip()</span><br><span class="line">    a = re.findall(<span class="string">&#x27;[^\\d°\&#x27;&quot;″NSEWΕ\\.]&#x27;</span>, dms)</span><br><span class="line">    <span class="keyword">if</span> a :</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;有异体字符&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(a)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;该异体字ASCII是&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>([<span class="built_in">ord</span>(x) <span class="keyword">for</span> x <span class="keyword">in</span> a])</span><br><span class="line">    parts = re.split(<span class="string">&#x27;[°\&#x27;&quot;″]+&#x27;</span>, dms)</span><br><span class="line">    degree, minute, second, direction = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(parts) == <span class="number">3</span>:</span><br><span class="line">        degree, minute, direction = parts</span><br><span class="line">    <span class="keyword">elif</span> <span class="built_in">len</span>(parts) == <span class="number">4</span>:</span><br><span class="line">        degree, minute, second, direction = parts</span><br><span class="line">    dd = <span class="built_in">float</span>(degree) + <span class="built_in">float</span>(minute) / <span class="number">60</span> + <span class="built_in">float</span>(second) / (<span class="number">60</span> * <span class="number">60</span>)</span><br><span class="line">    <span class="keyword">if</span> direction == <span class="string">&#x27;W&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">        dd *= -<span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> direction == <span class="string">&#x27;E&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;N&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ε&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ν&#x27;</span>:</span><br><span class="line">            dd *= +<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> dd</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hang out with friends</title>
+    <url>/posts/e9a8c4db.html</url>
+    <content><![CDATA[<p>恍然间初中毕业已经10年了，尚且还有二三旧友能一起出门。下午无聊一起玩“你画我猜”，被我安利大成功。最后放一张我的傻笑。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/3HzitPEmOnNKYcB.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/2ItDCJYeSFTounm.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/Xjev8guTwmx7bM5.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/fWQCAayUdqLrupS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/bts97ozVRfid1ah.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/umItZVQHODAUi8x.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/mkbSlrGB8cP6nQ2.jpg" alt=""></div></div></div>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hang out with friends(2)</title>
+    <url>/posts/6b6ac36a.html</url>
+    <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/KZeAcVwxXPFt6vH.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/S72oTOGHFBIi1t4.png" alt=""></div></div></div>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>crontab</title>
@@ -1055,14 +1138,41 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </categories>
   </entry>
   <entry>
-    <title>Hang out with friends</title>
-    <url>/posts/e9a8c4db.html</url>
-    <content><![CDATA[<p>恍然间初中毕业已经10年了，尚且还有二三旧友能一起出门。下午无聊一起玩“你画我猜”，被我安利大成功。最后放一张我的傻笑。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/3HzitPEmOnNKYcB.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/2ItDCJYeSFTounm.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/Xjev8guTwmx7bM5.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/fWQCAayUdqLrupS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/bts97ozVRfid1ah.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/umItZVQHODAUi8x.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/19/mkbSlrGB8cP6nQ2.jpg" alt=""></div></div></div>
-<span id="more"></span>
+    <title>满江红</title>
+    <url>/posts/47a394fe.html</url>
+    <content><![CDATA[<span id="more"></span>
+<div class="douban-card-block">
+    <a class="douban-card" href="https://movie.douban.com/subject/35766491">
+        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886441838.jpg');"></div>
+        <div class="douban-card-left">
+            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886441838.jpg');"></div>
+            <div class="douban-card-status">灯影绰约</div>
+        </div>
+        <div class="douban-card-right">
+            <div class="douban-card-item"><span>电影名: </span><strong>满江红(2023)</strong></div>
+            <div class="douban-card-item"><span>导演: </span><span>张艺谋</span></div>
+            <div class="douban-card-item"><span>主演: </span><span>沈腾/易烊千玺</span></div>
+            <div class="douban-card-item"><span>上映时间: </span><span>2023-01-22(中国大陆)</span></div>
+            <div class="douban-card-item"><span>评分: </span><span>7.5</span></div>
+        </div>
+    </a>
+</div>
+<p>因为看到张艺谋和沈腾，加上有朋友说不错就去看了，超乎想象的烂片。整体我打分只能给3/10，中途无数次想走人。</p>
+<p>列举一些缺点：</p>
+<ul>
+<li>太长， 159分钟，全程尿点无干货，剧本稀烂。如果想搞反转，起码要有些起转承合，让人有思考推理的地方，然而没有。突兀的反转，突兀的揭晓&quot;大秘密&quot;。</li>
+<li>找线索的配乐处没有字幕，虽然能听出来是戏剧，但是听不清唱什么。默认所有人都能听懂听清，我不理解。完全是自娱自乐，但凡找个人看一下立马会觉得这段没有字幕听不清唱什么。</li>
+<li>感情线太尴尬，煽情处尬煽情，感动不了人</li>
+<li>出戏感太强，与其说是故事不如说是小品，常常有剧情和表演在用力过猛的提醒你这不真实，是演的，表演痕迹太重了</li>
+<li>最后读课文尬到抠脚，歌伎、马夫、大头兵，前赴后继的死人，只是为了岳飞最后遗言传出，不想杀秦桧，真的是某些人对底层老百姓的想象，符合某些矫揉做作的文艺分子的想法。</li>
+</ul>
+<blockquote>
+<p>“对于工农兵群众，则缺乏接近，缺乏了解，缺乏研究，缺乏知心朋友，不善于描写他们；倘若描写，也是衣服是劳动人民，面孔却是小资产阶级知识分子。他们在某些方面也爱工农兵，也爱工农兵出身的干部，但有些时候不爱，有些地方不爱，不爱他们的感情，不爱他们的姿态，不爱他们的萌芽状态的文艺（墙报、壁画、民歌、民间故事等）。”</p>
+</blockquote>
+<!-- more -->
 ]]></content>
-      <categories>
-        <category>中文</category>
-      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
 </search>
