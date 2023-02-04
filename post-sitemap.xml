@@ -9,6 +9,14 @@
 
 
     <url>
+        <loc>https://samhan.fun/posts/47a394fe.html</loc>
+        <lastmod>2023-02-04T14:36:00.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://samhan.fun/posts/1d91adf8.html</loc>
         <lastmod>2023-01-30T09:13:58.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -19,14 +27,6 @@
     <url>
         <loc>https://samhan.fun/posts/a5cae94b.html</loc>
         <lastmod>2023-01-29T07:48:00.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://samhan.fun/posts/47a394fe.html</loc>
-        <lastmod>2023-01-27T08:30:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
