@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2023-02-14T07:04:57.000Z</updated>
+  <updated>2023-02-14T13:45:17.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My Friend&#39;s Wedding</title>
+    <link href="https://samhan.fun/posts/e8258317.html"/>
+    <id>https://samhan.fun/posts/e8258317.html</id>
+    <published>2023-02-14T13:45:17.000Z</published>
+    <updated>2023-02-14T13:45:17.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>桃之夭夭，灼灼其华。之子于归，宜其室家。<br>桃之夭夭，有蕡其实。之子于归，宜其家室。<br>桃之夭夭，其叶蓁蓁。之子于归，宜其家人。</p></blockquote><p>好友J是我周围第一个结婚的朋友，今天举办了婚礼。</p><p>愿他们夫妻二人新婚愉快，幸福美满。</p><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;
+&lt;p&gt;桃之夭夭，灼灼其华。之子于归，宜其室家。&lt;br&gt;
+桃之夭夭，有蕡其实。之子于归，宜其家室。&lt;br&gt;
+桃之夭夭，其叶蓁蓁。之子于归，宜其家人。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;好友J是我周围第一个结婚的朋友，今天举办了婚礼。&lt;/p&gt;
+&lt;p&gt;愿他们夫妻二人新婚愉快，幸福美满。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Travel: Suzhou</title>
@@ -538,25 +564,6 @@ Veritas&lt;/p&gt;
     
     
     <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>latex tips</title>
-    <link href="https://samhan.fun/posts/f105dbfb.html"/>
-    <id>https://samhan.fun/posts/f105dbfb.html</id>
-    <published>2022-04-03T09:13:48.000Z</published>
-    <updated>2022-04-03T09:13:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看</p><span id="more"></span><h1 id="单元格内换行"><a class="header-anchor" href="#单元格内换行">¶</a>单元格内换行</h1><figure class="highlight dust"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;M&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">m</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;P&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">p</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">\begin</span><span class="template-variable">&#123;tabular&#125;</span><span class="template-variable">&#123;@&#123;&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.3\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">@</span><span class="template-variable">&#123;&#125;</span><span class="xml">&#125;</span></span><br></pre></td></tr></table></figure><h1 id="过滤未使用的文献"><a class="header-anchor" href="#过滤未使用的文献">¶</a>过滤未使用的文献</h1><p>zotero-&gt;tools有aux过滤器，直接用就可以了，使用后将生成Tag，筛选后导出即可</p><h1 id="pandoc"><a class="header-anchor" href="#pandoc">¶</a>pandoc</h1><figure class="highlight haml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">pandoc Optimal_site.tex -o output.docx -M autoEqnLabels \</span><br><span class="line">       -<span class="ruby">-filter pandoc-crossref \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-bibliography=<span class="string">&quot;../ref.bib&quot;</span> \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-citeproc \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-csl=<span class="string">&quot;/Users/sam/Documents/tex/ieee.csl&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-reference-doc=<span class="string">&quot;/Users/sam/Documents/temp.docx&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-number-sections</span></span><br></pre></td></tr></table></figure><h1 id="latexpand"><a class="header-anchor" href="#latexpand">¶</a>latexpand<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1><p>一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好<br>latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>remove comments</p><p>移除未使用的文件</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image_file <span class="keyword">in</span> $(ls fig/)</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="keyword">if</span> grep <span class="variable">$image_file</span> *.<span class="built_in">log</span> -c &gt; 1</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is in use.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is not in use.&quot;</span></span><br><span class="line">        mv <span class="string">&quot;fig/<span class="variable">$image_file</span>&quot;</span> <span class="string">&quot;fig/moved.<span class="variable">$image_file</span>&quot;</span> <span class="comment"># or any other action</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure><h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1><p>由于我使用vim写python、markdown等，因此latex也使用vim<br>由于使用vim插件，自动编译latex内核需要定义</p><figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure><h1 id="minipage"><a class="header-anchor" href="#minipage">¶</a>minipage</h1><figure class="highlight llvm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">\<span class="keyword">begin</span>&#123;minipage&#125;[<span class="keyword">c</span>][<span class="number">10</span>cm][<span class="keyword">c</span>]&#123;\textwidth&#125;</span><br><span class="line"></span><br><span class="line">\<span class="keyword">end</span>&#123;minipage&#125;</span><br></pre></td></tr></table></figure><h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1><p>cse<br>csc</p><h2 id="set-up-skim-inverse-or-backward-search"><a class="header-anchor" href="#set-up-skim-inverse-or-backward-search">¶</a>Set up Skim Inverse or Backward Search</h2><figure class="highlight perl"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">nvim</span><br><span class="line">--headless -c <span class="string">&quot;VimtexInverseSearch %line &#x27;%file&#x27;&quot;</span></span><br></pre></td></tr></table></figure><p><a href="https://dr563105.github.io/blog/skim-vimtex-setup/">https://dr563105.github.io/blog/skim-vimtex-setup/</a></p><h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1><p>detex</p><h1 id="不接受子图如何单独组合"><a class="header-anchor" href="#不接受子图如何单独组合">¶</a>不接受子图如何单独组合</h1><p><a href="https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/">https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/</a></p><h1 id="教程"><a class="header-anchor" href="#教程">¶</a>教程</h1><p><a href="https://www.cnblogs.com/code-saturne/p/10565151.html">https://www.cnblogs.com/code-saturne/p/10565151.html</a></p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
-    
     
   </entry>
   
