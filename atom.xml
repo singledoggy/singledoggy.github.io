@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2023-02-14T13:45:17.000Z</updated>
+  <updated>2023-02-19T12:02:48.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Start with ChatGPT&#39;s Nonesense</title>
+    <link href="https://samhan.fun/posts/4ff3176e.html"/>
+    <id>https://samhan.fun/posts/4ff3176e.html</id>
+    <published>2023-02-19T12:02:48.000Z</published>
+    <updated>2023-02-19T12:02:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p><p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div><p>据我看来，最好是问有共识、公认的答案的，早于21年9月的信息。</p><div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4><p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p><p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p></div><div class="note info"><h4 id="折毛事件"><a class="header-anchor" href="#折毛事件">¶</a>折毛事件</h4><p>折毛自2019年6月在维基百科注册以来，在中文维基百科上创建了206个条目，进行了4,800次编辑，写下上百万字。中文维基百科社群把其中三篇主编条目评为“优良条目”，一篇（远东华人强制流配）评为“典范条目”。</p><p>2022年6月，中文维基百科编辑者“折毛”伪造200多篇古俄罗斯历史相关条目的行为被揭露，被视作是开源网络史上最大规模的恶作剧之一。</p><p>2022年6月中旬，中国大陆小说作者“伊凡”在社交网站知乎的贴文中揭露了这一骗局。</p></div>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。&lt;/p&gt;
+&lt;p&gt;这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。&lt;/p&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png&quot; alt&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png&quot; alt&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>My Friend&#39;s Wedding</title>
@@ -527,38 +548,6 @@ Hanyuyang &lt;a href=&quot;mailto:fadedflowers@foxmail.com&quot;&gt;fadedflowers
 &lt;p&gt;You don’t know nothing.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;但是还是有点不同。在知乎&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;上似乎也有一些讨论，对外国人可能比较头疼，完全不遵守逻辑。或许这就是语言。&lt;/p&gt;</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一些常见的短句</title>
-    <link href="https://samhan.fun/posts/f213319.html"/>
-    <id>https://samhan.fun/posts/f213319.html</id>
-    <published>2022-04-10T07:12:30.000Z</published>
-    <updated>2022-06-27T05:53:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<div class="note info"><p>新增<br>Veritas</p></div><h1 id="法语"><a class="header-anchor" href="#法语">¶</a>法语</h1><blockquote><p>c’est la vie<br>这就是人生。</p></blockquote><p>似乎很常见的句子，在很多电影里见过。最近突然发现<a href="https://c.y.qq.com/base/fcgi-bin/u?__=4gog0qb94PYN">自然卷的专辑</a>也叫这个，以前没注意，还蛮有趣。</p><blockquote><p>merci beaucoup<br>感谢 很多</p></blockquote><p>很感谢</p><span id="more"></span><h1 id="西语"><a class="header-anchor" href="#西语">¶</a>西语</h1><blockquote><p>adios amigo<br>再见朋友</p></blockquote><blockquote><p>senorita</p></blockquote><p><a href="https://c.y.qq.com/base/fcgi-bin/u?__=6ONQPd4">同名歌曲</a>很好听。</p><blockquote><p>piñatas<br>派对用的容器，很有节日氛围</p></blockquote><h1 id="拉丁"><a class="header-anchor" href="#拉丁">¶</a>拉丁</h1><blockquote><p>memento morí<br>人终有一死</p></blockquote><p>很多艺术品叫这个</p><blockquote><p>veritas</p></blockquote><p>看科普视频看到真理元素，哈佛大学校训似乎也是这个</p>]]></content>
-    
-    
-    <summary type="html">&lt;div class=&quot;note info&quot;&gt;&lt;p&gt;新增&lt;br&gt;
-Veritas&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id=&quot;法语&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#法语&quot;&gt;¶&lt;/a&gt;法语&lt;/h1&gt;
-&lt;blockquote&gt;
-&lt;p&gt;c’est la vie&lt;br&gt;
-这就是人生。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;似乎很常见的句子，在很多电影里见过。最近突然发现&lt;a href=&quot;https://c.y.qq.com/base/fcgi-bin/u?__=4gog0qb94PYN&quot;&gt;自然卷的专辑&lt;/a&gt;也叫这个，以前没注意，还蛮有趣。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;merci beaucoup&lt;br&gt;
-感谢 很多&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;很感谢&lt;/p&gt;</summary>
     
     
     
