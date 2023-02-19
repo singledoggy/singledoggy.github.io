@@ -148,6 +148,12 @@ ipdb&gt; q
 前缀+<kbd>c</kbd>(creat)<br>
 前缀+ <kbd>x</kbd>(关闭)</p>
 <h1 id="vim"><a class="header-anchor" href="#vim">¶</a>vim</h1>
+<h2 id="批量处理"><a class="header-anchor" href="#批量处理">¶</a>批量处理</h2>
+<p>:args *.php                         将当前文件夹下的 php 文件加入参数列表。加入文件操作也可使用 ** 选择文件夹和子文件夹，和上述2 多文件查找用法一样</p>
+<p>:argdo %s/old/new/gc | update       执行替换操作，除使用:argdo 和 | update 外，其它替换操作和 3 中单文件替换用法是一样的</p>
+<p>args 命令为选取文件到列表，argdo 命令为对列表中的文件执行批处理操作</p>
+<p>set nomore 避免频繁回车</p>
+<h2 id="技巧"><a class="header-anchor" href="#技巧">¶</a>技巧</h2>
 <ol>
 <li>生成增序序列 <kbd>g</kbd> <kbd>ctrl-A</kbd></li>
 <li>录制宏 <kbd>qaq</kbd> <kbd>@a</kbd> <kbd>@@</kbd></li>
@@ -162,8 +168,8 @@ ipdb&gt; q
 <p>Select what you want (typically with v or Shift+v) then type 5&gt;.</p>
 </li>
 </ol>
-<div class="note info"><p>##正则表达式<br>
-lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
+<h2 id="正则表达式"><a class="header-anchor" href="#正则表达式">¶</a>正则表达式</h2>
+<div class="note info"><p>lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
 <figure class="highlight elixir"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:%s/myFunction</span>(\zs.*\ze)/foo/</span><br></pre></td></tr></table></figure>
 <p>vim 可以使用<code>\v</code>使得表达式进入magic模式</p>
 </div>
@@ -190,7 +196,7 @@ lookaround 不如使用zero-width anchors来代替, vim支持这点 eg:</p>
 <blockquote>
 <p>:%s/$/\r/g</p>
 </blockquote>
-<p>##调试错误信息</p>
+<h2 id="调试错误信息"><a class="header-anchor" href="#调试错误信息">¶</a>调试错误信息</h2>
 <figure class="highlight clojure"><table><tr><td class="code"><pre><span class="line"><span class="symbol">:message</span> </span><br></pre></td></tr></table></figure>
 <h1 id="git"><a class="header-anchor" href="#git">¶</a>git</h1>
 <figure class="highlight pgsql"><table><tr><td class="code"><pre><span class="line">git <span class="keyword">reset</span> HEAD</span><br><span class="line">git checkout HEAD</span><br><span class="line">git rebase</span><br><span class="line">git <span class="keyword">reset</span> <span class="comment">--hard</span></span><br></pre></td></tr></table></figure>
