@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Travel: Yuyuantan Park</title>
-    <url>/posts/9dd9b02f.html</url>
-    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qGHSx5XWpzYeQTF.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/b8N6apij7EhoGWU.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qIBiZXRfQKuGrHJ.jpg" alt=""></div></div></div>
-<center> 玉渊潭 </center>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>Travel</tag>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Github milestone</title>
     <url>/posts/feea6fda.html</url>
     <content><![CDATA[<p>更新：Html标签正则替换为Markdwon</p>
@@ -40,6 +27,19 @@
 ]]></content>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Travel: Yuyuantan Park</title>
+    <url>/posts/9dd9b02f.html</url>
+    <content><![CDATA[<p>It has been one year and a half since I have been in Beijing. The first year I was in suburban district of Huairou, where the traffic is not convenient. And when it came to this year the work burden was so heavy, that I couldn’t find much time to hang-out.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qGHSx5XWpzYeQTF.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/b8N6apij7EhoGWU.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/qIBiZXRfQKuGrHJ.jpg" alt=""></div></div></div>
+<center> 玉渊潭 </center>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
       </tags>
   </entry>
   <entry>
@@ -258,33 +258,6 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       </tags>
   </entry>
   <entry>
-    <title>PERSONAL TRAINER MANUAL</title>
-    <url>/posts/dd98bec.html</url>
-    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! 🎉</p>
-<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
-<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
-<span id="more"></span>
-<blockquote>
-<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
-</blockquote>
-<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
-<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Book</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>pandas库的使用</title>
     <url>/posts/3f7f6b33.html</url>
     <content><![CDATA[<h1 id="load-and-pre-data"><a class="header-anchor" href="#load-and-pre-data">¶</a>load and pre data</h1>
@@ -313,6 +286,33 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       </categories>
       <tags>
         <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>PERSONAL TRAINER MANUAL</title>
+    <url>/posts/dd98bec.html</url>
+    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! 🎉</p>
+<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
+<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
+<span id="more"></span>
+<blockquote>
+<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
+</blockquote>
+<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
+<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Book</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
       </tags>
   </entry>
   <entry>
@@ -704,6 +704,28 @@ it应该是指险境本身</p>
       </tags>
   </entry>
   <entry>
+    <title>Travel: HuaiRou</title>
+    <url>/posts/1c7bcf47.html</url>
+    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
+<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
+<span id="more"></span>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Travel : Shichahai</title>
     <url>/posts/84feb42a.html</url>
     <content><![CDATA[<blockquote class="blockquote-center">
@@ -730,8 +752,8 @@ it应该是指险境本身</p>
 </blockquote>
 ]]></content>
       <tags>
-        <tag>Travel</tag>
         <tag>日常</tag>
+        <tag>Travel</tag>
       </tags>
   </entry>
   <entry>
@@ -782,28 +804,6 @@ csc</p>
       </categories>
   </entry>
   <entry>
-    <title>Travel: HuaiRou</title>
-    <url>/posts/1c7bcf47.html</url>
-    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
-<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
-<span id="more"></span>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>Travel</tag>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Learning Swimming</title>
     <url>/posts/5a367fc4.html</url>
     <content><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation of leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p>
@@ -812,28 +812,6 @@ csc</p>
       <tags>
         <tag>日常</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>pdf-copy-vim</title>
-    <url>/posts/49b709c3.html</url>
-    <content><![CDATA[<p>为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</p>
-<ul>
-<li>数字、字母等非中文字符变成全角字符</li>
-<li>产生多余的空格、换行</li>
-<li>中、英文标点（全、半角）混乱</li>
-<li>英文上下文中的标点后缺空格</li>
-</ul>
-<p>已有一些现有思路，例如利用quicker和打包成GUI界面的软件。由于我使用MacOS和Vim编辑器，为了方便起见，可以利用现有的python脚本在改为vim的插件。</p>
-<p>主要需要实现的点是python与vim的交互，可以使用<code>vim.eval('@+')</code>读取寄存器作为参数，输出结果到当前buffer即可。</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 &lt;&lt; EOF </span><br><span class="line"><span class="comment"># coding: utf-8</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</span></span><br><span class="line"><span class="string">- 数字、字母等非中文字符变成全角字符</span></span><br><span class="line"><span class="string">- 产生多余的空格、换行</span></span><br><span class="line"><span class="string">- 中、英文标点（全、半角）混乱</span></span><br><span class="line"><span class="string">- 英文上下文中的标点后缺空格</span></span><br><span class="line"><span class="string">未解决：</span></span><br><span class="line"><span class="string">- 括号等依赖上下文判断全、半角的标点未识别</span></span><br><span class="line"><span class="string">- 仅支持中英文文献</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@python version author: Mo Dabao</span></span><br><span class="line"><span class="string">@modified by Sam</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> vim</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在换行符前的字符</span></span><br><span class="line">ENDSIGN = <span class="built_in">set</span>(<span class="string">&quot;.:;!?。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 半角标点（除了.）</span></span><br><span class="line">HALFPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;,:;!?&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角空格前的字符</span></span><br><span class="line">SPACESIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                <span class="string">&quot;,.:;!?\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角标点前的字符</span></span><br><span class="line">HALFPUNCTUATIONSIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                          <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                          <span class="string">&quot;0123456789\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># unicode65281～65374中可能要保留的全角标点</span></span><br><span class="line">FULLPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;，。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 数字</span></span><br><span class="line">NUMBER = <span class="built_in">set</span>(<span class="string">&quot;0123456789&quot;</span>)</span><br><span class="line"></span><br><span class="line">text_old = vim.<span class="built_in">eval</span>(<span class="string">&#x27;@+&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">organize</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;整理从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    - 删除多余的空白符（换行、空格、制表等）</span></span><br><span class="line"><span class="string">    - 英文、数字、部分标点符号的全角字符换成半角字符</span></span><br><span class="line"><span class="string">    - 修正误判为中文标点（，；：！？）的英文标点字符</span></span><br><span class="line"><span class="string">    - 英文标点后确保一个空格</span></span><br><span class="line"><span class="string">    注意：所有括号都处理为半角</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        text_old: 从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        text_new: 整理之后的文本。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    text_new = []</span><br><span class="line">    <span class="keyword">for</span> char <span class="keyword">in</span> text_old:</span><br><span class="line">        char_unicode = <span class="built_in">ord</span>(char)</span><br><span class="line">        <span class="comment"># 处理换行符</span></span><br><span class="line">        <span class="keyword">if</span> char == <span class="string">&#x27;\n&#x27;</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在换行符前的字符则保留</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> ENDSIGN:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">elif</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理非换行符的空白字符</span></span><br><span class="line">        <span class="keyword">elif</span> char.isspace():</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理unicode65281～65374全角字符</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="number">65281</span> &lt;= char_unicode &lt;= <span class="number">65374</span>:</span><br><span class="line">            <span class="comment"># 确定要保留的全角字符串</span></span><br><span class="line">            <span class="keyword">if</span> char == <span class="string">&quot;～&quot;</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若为中文全角标点</span></span><br><span class="line">            <span class="keyword">elif</span> char <span class="keyword">in</span> FULLPUNCTUATION:</span><br><span class="line">                <span class="comment"># 若上一个字符为可能出现在半角标点前的字符则换成半角并加空格</span></span><br><span class="line">                <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                    text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">                    text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">                <span class="comment"># 否则保留</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    text_new.append(char)</span><br><span class="line">            <span class="comment"># 否则换成半角</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">        <span class="comment"># 正常英文字符</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">            text_new.append(char)</span><br><span class="line">        <span class="comment"># 半角标点</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">not</span> <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode + <span class="number">65248</span>))</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理剩余字符</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符是半角空格则删去空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] == <span class="string">&#x27; &#x27;</span>:</span><br><span class="line">                <span class="keyword">del</span> text_new[-<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 若上一个字符是半角标点则换成全角</span></span><br><span class="line">                <span class="keyword">if</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">                    text_new[-<span class="number">1</span>] = <span class="built_in">chr</span>(<span class="built_in">ord</span>(text_new[-<span class="number">1</span>]) + <span class="number">65248</span>)</span><br><span class="line">            text_new.append(char)</span><br><span class="line">    text_new = <span class="string">&#x27;&#x27;</span>.join(text_new) </span><br><span class="line">    vim.current.buffer.append(text_new)</span><br><span class="line">    <span class="keyword">return</span> text_new</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="built_in">exec</span>(<span class="string">&#x27;py3 organize()&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>在<code>init.vim</code> 中map该任务为PDF，使用<code>:PDF</code>命令即可读取<code>+</code>寄存器作为python脚本的参数，并将结果输入buffer了</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">command! -nargs=<span class="number">0</span> PDF <span class="keyword">source</span> ~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
   </entry>
   <entry>
     <title>pandas库的使用(2)</title>
@@ -855,37 +833,22 @@ csc</p>
       </tags>
   </entry>
   <entry>
-    <title>Word Tips</title>
-    <url>/posts/173b35fb.html</url>
-    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
-<hr>
-<h1 id="word-vba"><a class="header-anchor" href="#word-vba">¶</a>Word VBA</h1>
-<h2 id="vba脚本的使用方法"><a class="header-anchor" href="#vba脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
-<blockquote>
-<p>A picture is worth a thousand words<br>
-<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
-注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
-</blockquote>
-<h2 id="替换污染物下标的vba脚本"><a class="header-anchor" href="#替换污染物下标的vba脚本">¶</a>替换污染物下标的VBA脚本</h2>
-<p>以NH3为例简述思路：</p>
-<ol>
-<li>将NH3中替换为NH厷厸</li>
-<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
-<li>将厷厸替换为下标格式的数字3</li>
-</ol>
-<p>这样就可以实现保留原有格式，仅替换下标</p>
-<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
-<h1 id="word的通配符"><a class="header-anchor" href="#word的通配符">¶</a>Word的通配符</h1>
-<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
-</div>
-<ol>
-<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，此前手动替换有些愚蠢</li>
-<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
-<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
-</ol>
+    <title>pdf-copy-vim</title>
+    <url>/posts/49b709c3.html</url>
+    <content><![CDATA[<p>为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</p>
+<ul>
+<li>数字、字母等非中文字符变成全角字符</li>
+<li>产生多余的空格、换行</li>
+<li>中、英文标点（全、半角）混乱</li>
+<li>英文上下文中的标点后缺空格</li>
+</ul>
+<p>已有一些现有思路，例如利用quicker和打包成GUI界面的软件。由于我使用MacOS和Vim编辑器，为了方便起见，可以利用现有的python脚本在改为vim的插件。</p>
+<p>主要需要实现的点是python与vim的交互，可以使用<code>vim.eval('@+')</code>读取寄存器作为参数，输出结果到当前buffer即可。</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 &lt;&lt; EOF </span><br><span class="line"><span class="comment"># coding: utf-8</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</span></span><br><span class="line"><span class="string">- 数字、字母等非中文字符变成全角字符</span></span><br><span class="line"><span class="string">- 产生多余的空格、换行</span></span><br><span class="line"><span class="string">- 中、英文标点（全、半角）混乱</span></span><br><span class="line"><span class="string">- 英文上下文中的标点后缺空格</span></span><br><span class="line"><span class="string">未解决：</span></span><br><span class="line"><span class="string">- 括号等依赖上下文判断全、半角的标点未识别</span></span><br><span class="line"><span class="string">- 仅支持中英文文献</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@python version author: Mo Dabao</span></span><br><span class="line"><span class="string">@modified by Sam</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> vim</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在换行符前的字符</span></span><br><span class="line">ENDSIGN = <span class="built_in">set</span>(<span class="string">&quot;.:;!?。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 半角标点（除了.）</span></span><br><span class="line">HALFPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;,:;!?&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角空格前的字符</span></span><br><span class="line">SPACESIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                <span class="string">&quot;,.:;!?\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角标点前的字符</span></span><br><span class="line">HALFPUNCTUATIONSIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                          <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                          <span class="string">&quot;0123456789\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># unicode65281～65374中可能要保留的全角标点</span></span><br><span class="line">FULLPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;，。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 数字</span></span><br><span class="line">NUMBER = <span class="built_in">set</span>(<span class="string">&quot;0123456789&quot;</span>)</span><br><span class="line"></span><br><span class="line">text_old = vim.<span class="built_in">eval</span>(<span class="string">&#x27;@+&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">organize</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;整理从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    - 删除多余的空白符（换行、空格、制表等）</span></span><br><span class="line"><span class="string">    - 英文、数字、部分标点符号的全角字符换成半角字符</span></span><br><span class="line"><span class="string">    - 修正误判为中文标点（，；：！？）的英文标点字符</span></span><br><span class="line"><span class="string">    - 英文标点后确保一个空格</span></span><br><span class="line"><span class="string">    注意：所有括号都处理为半角</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        text_old: 从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        text_new: 整理之后的文本。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    text_new = []</span><br><span class="line">    <span class="keyword">for</span> char <span class="keyword">in</span> text_old:</span><br><span class="line">        char_unicode = <span class="built_in">ord</span>(char)</span><br><span class="line">        <span class="comment"># 处理换行符</span></span><br><span class="line">        <span class="keyword">if</span> char == <span class="string">&#x27;\n&#x27;</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在换行符前的字符则保留</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> ENDSIGN:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">elif</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理非换行符的空白字符</span></span><br><span class="line">        <span class="keyword">elif</span> char.isspace():</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理unicode65281～65374全角字符</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="number">65281</span> &lt;= char_unicode &lt;= <span class="number">65374</span>:</span><br><span class="line">            <span class="comment"># 确定要保留的全角字符串</span></span><br><span class="line">            <span class="keyword">if</span> char == <span class="string">&quot;～&quot;</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若为中文全角标点</span></span><br><span class="line">            <span class="keyword">elif</span> char <span class="keyword">in</span> FULLPUNCTUATION:</span><br><span class="line">                <span class="comment"># 若上一个字符为可能出现在半角标点前的字符则换成半角并加空格</span></span><br><span class="line">                <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                    text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">                    text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">                <span class="comment"># 否则保留</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    text_new.append(char)</span><br><span class="line">            <span class="comment"># 否则换成半角</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">        <span class="comment"># 正常英文字符</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">            text_new.append(char)</span><br><span class="line">        <span class="comment"># 半角标点</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">not</span> <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode + <span class="number">65248</span>))</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理剩余字符</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符是半角空格则删去空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] == <span class="string">&#x27; &#x27;</span>:</span><br><span class="line">                <span class="keyword">del</span> text_new[-<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 若上一个字符是半角标点则换成全角</span></span><br><span class="line">                <span class="keyword">if</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">                    text_new[-<span class="number">1</span>] = <span class="built_in">chr</span>(<span class="built_in">ord</span>(text_new[-<span class="number">1</span>]) + <span class="number">65248</span>)</span><br><span class="line">            text_new.append(char)</span><br><span class="line">    text_new = <span class="string">&#x27;&#x27;</span>.join(text_new) </span><br><span class="line">    vim.current.buffer.append(text_new)</span><br><span class="line">    <span class="keyword">return</span> text_new</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="built_in">exec</span>(<span class="string">&#x27;py3 organize()&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>在<code>init.vim</code> 中map该任务为PDF，使用<code>:PDF</code>命令即可读取<code>+</code>寄存器作为python脚本的参数，并将结果输入buffer了</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">command! -nargs=<span class="number">0</span> PDF <span class="keyword">source</span> ~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>Code</category>
@@ -926,12 +889,37 @@ This particular diamond was extra special</p>
       </tags>
   </entry>
   <entry>
-    <title>xgrads：一个方便的解析ctl文件的库</title>
-    <url>/posts/e78205f3.html</url>
-    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
-<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
-<span id="more"></span>
-<p>测试</p>
+    <title>Word Tips</title>
+    <url>/posts/173b35fb.html</url>
+    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
+<hr>
+<h1 id="word-vba"><a class="header-anchor" href="#word-vba">¶</a>Word VBA</h1>
+<h2 id="vba脚本的使用方法"><a class="header-anchor" href="#vba脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
+<blockquote>
+<p>A picture is worth a thousand words<br>
+<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
+注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
+</blockquote>
+<h2 id="替换污染物下标的vba脚本"><a class="header-anchor" href="#替换污染物下标的vba脚本">¶</a>替换污染物下标的VBA脚本</h2>
+<p>以NH3为例简述思路：</p>
+<ol>
+<li>将NH3中替换为NH厷厸</li>
+<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
+<li>将厷厸替换为下标格式的数字3</li>
+</ol>
+<p>这样就可以实现保留原有格式，仅替换下标</p>
+<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
+<h1 id="word的通配符"><a class="header-anchor" href="#word的通配符">¶</a>Word的通配符</h1>
+<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
+</div>
+<ol>
+<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，此前手动替换有些愚蠢</li>
+<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
+<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
+</ol>
 ]]></content>
       <categories>
         <category>Code</category>
@@ -970,6 +958,18 @@ This particular diamond was extra special</p>
 </li>
 </ol>
 </section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>xgrads：一个方便的解析ctl文件的库</title>
+    <url>/posts/e78205f3.html</url>
+    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
+<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
+<span id="more"></span>
+<p>测试</p>
 ]]></content>
       <categories>
         <category>Code</category>
@@ -1108,6 +1108,17 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </categories>
   </entry>
   <entry>
+    <title>Hang out with friends(2)</title>
+    <url>/posts/6b6ac36a.html</url>
+    <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/KZeAcVwxXPFt6vH.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/S72oTOGHFBIi1t4.png" alt=""></div></div></div>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hang out with friends</title>
     <url>/posts/e9a8c4db.html</url>
     <content><![CDATA[<p>恍然间初中毕业已经10年了，尚且还有二三旧友能一起出门。下午无聊一起玩“你画我猜”，被我安利大成功。最后放一张我的傻笑。</p>
@@ -1119,14 +1130,37 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </tags>
   </entry>
   <entry>
-    <title>Hang out with friends(2)</title>
-    <url>/posts/6b6ac36a.html</url>
-    <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/KZeAcVwxXPFt6vH.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/S72oTOGHFBIi1t4.png" alt=""></div></div></div>
+    <title>My Friend&#39;s Wedding</title>
+    <url>/posts/e8258317.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>桃之夭夭，灼灼其华。之子于归，宜其室家。<br>
+桃之夭夭，有蕡其实。之子于归，宜其家室。<br>
+桃之夭夭，其叶蓁蓁。之子于归，宜其家人。</p>
+
+</blockquote>
+<p>好友J是我周围第一个结婚的朋友，今天举办了婚礼。</p>
+<p>愿他们夫妻二人新婚愉快，幸福美满。</p>
 <span id="more"></span>
 ]]></content>
       <tags>
         <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Travel: Suzhou</title>
+    <url>/posts/fd99baa9.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>秋风清，秋月明，<br>
+落叶聚还散，寒鸦栖复惊。<br>
+相思相见知何日？此时此夜难为情！</p>
+
+</blockquote>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/kS7HgNyIucoQlZV.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/y6Ve8rEJDCZ7dYQ.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/JfwAp5S78bTv1cn.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/oGdU3Ok59TEi1cY.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/eRjyaXsx74A8tbn.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/nleW1BqcgiPrf5N.jpg" alt=""></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/Eh47Tk8gwC3BOfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/suPVovzXNpY4ECW.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/cwWuYs68rn1dzjG.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/4ReGxywjfPJr1MA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/5oBlF6vIVZCDwJ9.jpg" alt=""></div></div></div>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
       </tags>
   </entry>
   <entry>
@@ -1142,6 +1176,39 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <categories>
         <category>Code</category>
       </categories>
+  </entry>
+  <entry>
+    <title>流浪地球2</title>
+    <url>/posts/1d91adf8.html</url>
+    <content><![CDATA[<div class="douban-card-block">
+    <a class="douban-card" href="https://movie.douban.com/subject/35267208">
+        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
+        <div class="douban-card-left">
+            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
+            <div class="douban-card-status">灯影绰约</div>
+        </div>
+        <div class="douban-card-right">
+            <div class="douban-card-item"><span>电影名: </span><strong>流浪地球2(2023)</strong></div>
+            <div class="douban-card-item"><span>导演: </span><span>郭帆</span></div>
+            <div class="douban-card-item"><span>主演: </span><span>吴京/刘德华</span></div>
+            <div class="douban-card-item"><span>上映时间: </span><span>2023-01-22(中国大陆)</span></div>
+            <div class="douban-card-item"><span>评分: </span><span>8.2</span></div>
+        </div>
+    </a>
+</div>
+<p>被好几个好友推荐看《流浪地球2》，很多溢美之词，有种不真实的感觉，去之前很警惕是不是夸张了，毕竟《满江红》也有朋友说挺好的。</p>
+<p>一点也不夸张。</p>
+<p>简直不敢想象能拍出这种档次的片子，还是疫情期间影视各方面受影响的情况下，尤其还是国内这种环境，科幻刚起步一下子就直接打到天花板。人都傻了。</p>
+<p>打分9.5/10，感觉比《银翼杀手》都看好，国内没有能打的过的，感觉和《楚门的世界》、《黑客帝国》也能不分伯仲。</p>
+<p>真的就要拉踩，3小时左右的片子真的完全一晃就过去了，《满江红》2.5小时左右就是坐牢。我全程挑刺的眼光看也没几个硬伤，只有一些我自己个人口味不喜欢的地方，不喜欢的点真不是片子不行，是导演三观想法和我不一样而已。感情戏刚开始非常短的时间有一点不自然，但是状态进去之后一分钟之内让你泪目，不拖泥带水，几秒钟就够动人了，不像有些片子（e.g. 《满江红》），里面的人在号啕大哭但我只想笑。</p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Movie</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>满江红</title>
@@ -1186,73 +1253,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <categories>
         <category>Movie</category>
       </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>流浪地球2</title>
-    <url>/posts/1d91adf8.html</url>
-    <content><![CDATA[<div class="douban-card-block">
-    <a class="douban-card" href="https://movie.douban.com/subject/35267208">
-        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
-        <div class="douban-card-left">
-            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
-            <div class="douban-card-status">灯影绰约</div>
-        </div>
-        <div class="douban-card-right">
-            <div class="douban-card-item"><span>电影名: </span><strong>流浪地球2(2023)</strong></div>
-            <div class="douban-card-item"><span>导演: </span><span>郭帆</span></div>
-            <div class="douban-card-item"><span>主演: </span><span>吴京/刘德华</span></div>
-            <div class="douban-card-item"><span>上映时间: </span><span>2023-01-22(中国大陆)</span></div>
-            <div class="douban-card-item"><span>评分: </span><span>8.2</span></div>
-        </div>
-    </a>
-</div>
-<p>被好几个好友推荐看《流浪地球2》，很多溢美之词，有种不真实的感觉，去之前很警惕是不是夸张了，毕竟《满江红》也有朋友说挺好的。</p>
-<p>一点也不夸张。</p>
-<p>简直不敢想象能拍出这种档次的片子，还是疫情期间影视各方面受影响的情况下，尤其还是国内这种环境，科幻刚起步一下子就直接打到天花板。人都傻了。</p>
-<p>打分9.5/10，感觉比《银翼杀手》都看好，国内没有能打的过的，感觉和《楚门的世界》、《黑客帝国》也能不分伯仲。</p>
-<p>真的就要拉踩，3小时左右的片子真的完全一晃就过去了，《满江红》2.5小时左右就是坐牢。我全程挑刺的眼光看也没几个硬伤，只有一些我自己个人口味不喜欢的地方，不喜欢的点真不是片子不行，是导演三观想法和我不一样而已。感情戏刚开始非常短的时间有一点不自然，但是状态进去之后一分钟之内让你泪目，不拖泥带水，几秒钟就够动人了，不像有些片子（e.g. 《满江红》），里面的人在号啕大哭但我只想笑。</p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Movie</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Travel: Suzhou</title>
-    <url>/posts/fd99baa9.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>秋风清，秋月明，<br>
-落叶聚还散，寒鸦栖复惊。<br>
-相思相见知何日？此时此夜难为情！</p>
-
-</blockquote>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/kS7HgNyIucoQlZV.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/y6Ve8rEJDCZ7dYQ.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/JfwAp5S78bTv1cn.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/oGdU3Ok59TEi1cY.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/eRjyaXsx74A8tbn.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/nleW1BqcgiPrf5N.jpg" alt=""></div></div></div>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/Eh47Tk8gwC3BOfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/suPVovzXNpY4ECW.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/cwWuYs68rn1dzjG.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/4ReGxywjfPJr1MA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/5oBlF6vIVZCDwJ9.jpg" alt=""></div></div></div>
-]]></content>
-      <tags>
-        <tag>Travel</tag>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My Friend&#39;s Wedding</title>
-    <url>/posts/e8258317.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>桃之夭夭，灼灼其华。之子于归，宜其室家。<br>
-桃之夭夭，有蕡其实。之子于归，宜其家室。<br>
-桃之夭夭，其叶蓁蓁。之子于归，宜其家人。</p>
-
-</blockquote>
-<p>好友J是我周围第一个结婚的朋友，今天举办了婚礼。</p>
-<p>愿他们夫妻二人新婚愉快，幸福美满。</p>
-<span id="more"></span>
-]]></content>
       <tags>
         <tag>日常</tag>
       </tags>
