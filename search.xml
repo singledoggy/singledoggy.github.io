@@ -889,43 +889,6 @@ This particular diamond was extra special</p>
       </tags>
   </entry>
   <entry>
-    <title>Word Tips</title>
-    <url>/posts/173b35fb.html</url>
-    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
-<hr>
-<h1 id="word-vba"><a class="header-anchor" href="#word-vba">¶</a>Word VBA</h1>
-<h2 id="vba脚本的使用方法"><a class="header-anchor" href="#vba脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
-<blockquote>
-<p>A picture is worth a thousand words<br>
-<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
-注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
-</blockquote>
-<h2 id="替换污染物下标的vba脚本"><a class="header-anchor" href="#替换污染物下标的vba脚本">¶</a>替换污染物下标的VBA脚本</h2>
-<p>以NH3为例简述思路：</p>
-<ol>
-<li>将NH3中替换为NH厷厸</li>
-<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
-<li>将厷厸替换为下标格式的数字3</li>
-</ol>
-<p>这样就可以实现保留原有格式，仅替换下标</p>
-<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
-<h1 id="word的通配符"><a class="header-anchor" href="#word的通配符">¶</a>Word的通配符</h1>
-<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
-</div>
-<ol>
-<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，此前手动替换有些愚蠢</li>
-<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
-<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
     <title>xarray</title>
     <url>/posts/34865fab.html</url>
     <content><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
@@ -958,6 +921,43 @@ This particular diamond was extra special</p>
 </li>
 </ol>
 </section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Word Tips</title>
+    <url>/posts/173b35fb.html</url>
+    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
+<hr>
+<h1 id="word-vba"><a class="header-anchor" href="#word-vba">¶</a>Word VBA</h1>
+<h2 id="vba脚本的使用方法"><a class="header-anchor" href="#vba脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
+<blockquote>
+<p>A picture is worth a thousand words<br>
+<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
+注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
+</blockquote>
+<h2 id="替换污染物下标的vba脚本"><a class="header-anchor" href="#替换污染物下标的vba脚本">¶</a>替换污染物下标的VBA脚本</h2>
+<p>以NH3为例简述思路：</p>
+<ol>
+<li>将NH3中替换为NH厷厸</li>
+<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
+<li>将厷厸替换为下标格式的数字3</li>
+</ol>
+<p>这样就可以实现保留原有格式，仅替换下标</p>
+<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
+<h1 id="word的通配符"><a class="header-anchor" href="#word的通配符">¶</a>Word的通配符</h1>
+<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
+</div>
+<ol>
+<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，此前手动替换有些愚蠢</li>
+<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
+<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
+</ol>
 ]]></content>
       <categories>
         <category>Code</category>
@@ -1119,6 +1119,19 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </tags>
   </entry>
   <entry>
+    <title>Hang out with friends 2023-02-20</title>
+    <url>/posts/d48bb793.html</url>
+    <content><![CDATA[<p>Thanks for <span style="color:#B95000"> Y’s </span> pictures!</p>
+<p>Have fun with my friends and enjoyed several delicious meals.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/rot5i1dg6PehJlD.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/EBGrMXOmuK8UW6z.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/eaxUCov7VKdWSfg.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/OdD1vAHCeNXPxE6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/Q6hDUAF38BdkwvX.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/4AwgkuEITUxBNOR.jpg" alt=""></div></div></div>
+<span id="more"></span>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/81IjO2wWia5rsZC.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/9OCfc1rbWQYAS4v.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/lROYioTcHBCbq84.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/5REDJAvY7pqnhWj.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/QVuib6nD8NrKyYv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/m2UX1KNjMJqFBfi.jpg" alt=""></div></div></div>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hang out with friends</title>
     <url>/posts/e9a8c4db.html</url>
     <content><![CDATA[<p>恍然间初中毕业已经10年了，尚且还有二三旧友能一起出门。下午无聊一起玩“你画我猜”，被我安利大成功。最后放一张我的傻笑。</p>
@@ -1141,6 +1154,27 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p>好友J是我周围第一个结婚的朋友，今天举办了婚礼。</p>
 <p>愿他们夫妻二人新婚愉快，幸福美满。</p>
 <span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Start with ChatGPT&#39;s Nonesense</title>
+    <url>/posts/4ff3176e.html</url>
+    <content><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p>
+<p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div>
+<p>据我看来，最好是问有共识、公认的答案的，早于21年9月的信息。</p>
+<div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4>
+<p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p>
+<p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p>
+</div>
+<div class="note info"><h4 id="折毛事件"><a class="header-anchor" href="#折毛事件">¶</a>折毛事件</h4>
+<p>折毛自2019年6月在维基百科注册以来，在中文维基百科上创建了206个条目，进行了4,800次编辑，写下上百万字。中文维基百科社群把其中三篇主编条目评为“优良条目”，一篇（远东华人强制流配）评为“典范条目”。</p>
+<p>2022年6月，中文维基百科编辑者“折毛”伪造200多篇古俄罗斯历史相关条目的行为被揭露，被视作是开源网络史上最大规模的恶作剧之一。</p>
+<p>2022年6月中旬，中国大陆小说作者“伊凡”在社交网站知乎的贴文中揭露了这一骗局。</p>
+</div>
 ]]></content>
       <tags>
         <tag>日常</tag>
@@ -1182,9 +1216,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
     <url>/posts/1d91adf8.html</url>
     <content><![CDATA[<div class="douban-card-block">
     <a class="douban-card" href="https://movie.douban.com/subject/35267208">
-        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
+        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885955777.jpg');"></div>
         <div class="douban-card-left">
-            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885944827.jpg');"></div>
+            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2885955777.jpg');"></div>
             <div class="douban-card-status">灯影绰约</div>
         </div>
         <div class="douban-card-right">
@@ -1215,9 +1249,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
     <url>/posts/47a394fe.html</url>
     <content><![CDATA[<div class="douban-card-block">
     <a class="douban-card" href="https://movie.douban.com/subject/35766491">
-        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886441838.jpg');"></div>
+        <div bg-lazy class="douban-card-bgimg" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2887555071.jpg');"></div>
         <div class="douban-card-left">
-            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2886441838.jpg');"></div>
+            <div bg-lazy class="douban-card-img" style="background-image: url('https://collect34.longsunhd.com/source/plugin/yzs1013_pldr/getimg.php?url=https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2887555071.jpg');"></div>
             <div class="douban-card-status">灯影绰约</div>
         </div>
         <div class="douban-card-right">
@@ -1225,7 +1259,7 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
             <div class="douban-card-item"><span>导演: </span><span>张艺谋</span></div>
             <div class="douban-card-item"><span>主演: </span><span>沈腾/易烊千玺</span></div>
             <div class="douban-card-item"><span>上映时间: </span><span>2023-01-22(中国大陆)</span></div>
-            <div class="douban-card-item"><span>评分: </span><span>7.5</span></div>
+            <div class="douban-card-item"><span>评分: </span><span>7.2</span></div>
         </div>
     </a>
 </div>
@@ -1253,40 +1287,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <categories>
         <category>Movie</category>
       </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Start with ChatGPT&#39;s Nonesense</title>
-    <url>/posts/4ff3176e.html</url>
-    <content><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p>
-<p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div>
-<p>据我看来，最好是问有共识、公认的答案的，早于21年9月的信息。</p>
-<div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4>
-<p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p>
-<p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p>
-</div>
-<div class="note info"><h4 id="折毛事件"><a class="header-anchor" href="#折毛事件">¶</a>折毛事件</h4>
-<p>折毛自2019年6月在维基百科注册以来，在中文维基百科上创建了206个条目，进行了4,800次编辑，写下上百万字。中文维基百科社群把其中三篇主编条目评为“优良条目”，一篇（远东华人强制流配）评为“典范条目”。</p>
-<p>2022年6月，中文维基百科编辑者“折毛”伪造200多篇古俄罗斯历史相关条目的行为被揭露，被视作是开源网络史上最大规模的恶作剧之一。</p>
-<p>2022年6月中旬，中国大陆小说作者“伊凡”在社交网站知乎的贴文中揭露了这一骗局。</p>
-</div>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hang out with friends 2023-02-20</title>
-    <url>/posts/d48bb793.html</url>
-    <content><![CDATA[<p>Thanks for <span style="color:#B95000"> Y’s </span> pictures!</p>
-<p>Have fun with my friends and enjoyed several delicious meals.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/rot5i1dg6PehJlD.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/EBGrMXOmuK8UW6z.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/eaxUCov7VKdWSfg.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/OdD1vAHCeNXPxE6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/Q6hDUAF38BdkwvX.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/4AwgkuEITUxBNOR.jpg" alt=""></div></div></div>
-<span id="more"></span>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/81IjO2wWia5rsZC.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/9OCfc1rbWQYAS4v.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/lROYioTcHBCbq84.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/5REDJAvY7pqnhWj.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/QVuib6nD8NrKyYv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/m2UX1KNjMJqFBfi.jpg" alt=""></div></div></div>
-]]></content>
       <tags>
         <tag>日常</tag>
       </tags>
