@@ -97,46 +97,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title>python debug with ipdb</title>
-    <url>/posts/f4bfd05a.html</url>
-    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
-<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
-在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
-<span id="more"></span>
-<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
-<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
-<pre><code>IndexError('list index out of range')
-
-
-&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
-[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-[0m
-ipdb&gt; i
-4
-ipdb&gt; number
-*** NameError: name 'number' is not defined
-ipdb&gt; numbers
-[1, 3, 5]
-ipdb&gt; type(i)
-&lt;class 'int'&gt;
-ipdb&gt; q
-</code></pre>
-<hr>
-<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
-<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Linux</title>
     <url>/posts/9211474f.html</url>
     <content><![CDATA[<p>List some linux command</p>
@@ -211,6 +171,46 @@ ipdb&gt; q
       <categories>
         <category>Code</category>
       </categories>
+  </entry>
+  <entry>
+    <title>python debug with ipdb</title>
+    <url>/posts/f4bfd05a.html</url>
+    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
+<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
+在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
+<span id="more"></span>
+<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
+<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
+<pre><code>IndexError('list index out of range')
+
+
+&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
+[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m
+ipdb&gt; i
+4
+ipdb&gt; number
+*** NameError: name 'number' is not defined
+ipdb&gt; numbers
+[1, 3, 5]
+ipdb&gt; type(i)
+&lt;class 'int'&gt;
+ipdb&gt; q
+</code></pre>
+<hr>
+<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
+<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
   </entry>
   <entry>
     <title>metro_py</title>
@@ -1062,29 +1062,6 @@ Veritas</p>
       </tags>
   </entry>
   <entry>
-    <title>端到端加密</title>
-    <url>/posts/8c889ebe.html</url>
-    <content><![CDATA[<h1 id="欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份"><a class="header-anchor" href="#欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份">¶</a>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</h1>
-<p>指纹是:<br>
-03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
-邮箱是:<br>
-Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
-公钥地址是:<br>
-<a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
-<h1 id="补充知识："><a class="header-anchor" href="#补充知识：">¶</a>补充知识：</h1>
-<h2 id="什么是rsa算法"><a class="header-anchor" href="#什么是rsa算法">¶</a>什么是RSA算法</h2>
-<span id="more"></span>
-<p><a href="https://www.zhihu.com/question/304030251/answer/543201982">https://www.zhihu.com/question/304030251/answer/543201982</a></p>
-<p><a href="https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html</a></p>
-<p><a href="https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html</a></p>
-<h2 id="gpg简单教程"><a class="header-anchor" href="#gpg简单教程">¶</a>GPG简单教程</h2>
-<p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
     <title>羡余否定</title>
     <url>/posts/2c3e2a92.html</url>
     <content><![CDATA[<p>接触到汉语里面很有趣的现象，羡余否定。具体如下例 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
@@ -1109,6 +1086,29 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <tags>
         <tag>日常</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>端到端加密</title>
+    <url>/posts/8c889ebe.html</url>
+    <content><![CDATA[<h1 id="欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份"><a class="header-anchor" href="#欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份">¶</a>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</h1>
+<p>指纹是:<br>
+03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
+邮箱是:<br>
+Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
+公钥地址是:<br>
+<a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
+<h1 id="补充知识："><a class="header-anchor" href="#补充知识：">¶</a>补充知识：</h1>
+<h2 id="什么是rsa算法"><a class="header-anchor" href="#什么是rsa算法">¶</a>什么是RSA算法</h2>
+<span id="more"></span>
+<p><a href="https://www.zhihu.com/question/304030251/answer/543201982">https://www.zhihu.com/question/304030251/answer/543201982</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html</a></p>
+<h2 id="gpg简单教程"><a class="header-anchor" href="#gpg简单教程">¶</a>GPG简单教程</h2>
+<p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
     <title>视觉相似的字符</title>
