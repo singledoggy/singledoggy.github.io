@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2023-02-20T09:39:02.000Z</updated>
+  <updated>2023-02-25T02:41:30.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Livin&#39; on a prayer</title>
+    <link href="https://samhan.fun/posts/51f96e7b.html"/>
+    <id>https://samhan.fun/posts/51f96e7b.html</id>
+    <published>2023-02-25T02:41:30.000Z</published>
+    <updated>2023-02-25T02:41:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>It’s quite an old song, but still touches my heart. I’m tired of the love stories from today’s music, always confined to some romantic relationships, as if they have no pressure from life and work. And this song, besides love, has fate and survival, which addresses broader themes.</p><p>这是一首很老的歌，但是依然很动人。 我很烦现在的很多音乐总是局限在个人的情爱之中，好像他生命中只剩下爱情，完全没有生活和工作的压力。 这首歌，除了爱情，还有命运和生存，传达的东西要远比一段简单的恋爱要丰满。</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=498481599&bvid=BV1iK411p73C&cid=201370353&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;It’s quite an old song, but still touches my heart. I’m tired of the love stories from today’s music, always confined to some romantic relationships, as if they have no pressure from life and work. And this song, besides love, has fate and survival, which addresses broader themes.&lt;/p&gt;
+&lt;p&gt;这是一首很老的歌，但是依然很动人。 我很烦现在的很多音乐总是局限在个人的情爱之中，好像他生命中只剩下爱情，完全没有生活和工作的压力。 这首歌，除了爱情，还有命运和生存，传达的东西要远比一段简单的恋爱要丰满。&lt;/p&gt;
+&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=498481599&amp;bvid=BV1iK411p73C&amp;cid=201370353&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Hang out with friends 2023-02-20</title>
@@ -514,35 +537,6 @@ Hanyuyang &lt;a href=&quot;mailto:fadedflowers@foxmail.com&quot;&gt;fadedflowers
     
     <summary type="html">&lt;p&gt;最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+&quot;&gt;记录在此&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>xarray</title>
-    <link href="https://samhan.fun/posts/34865fab.html"/>
-    <id>https://samhan.fun/posts/34865fab.html</id>
-    <published>2022-04-28T11:49:01.000Z</published>
-    <updated>2022-04-28T11:49:01.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1><p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p><h2 id="stackoverflow"><a class="header-anchor" href="#stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2><p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure><p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure><p>Finally, fill the <code>time</code> dimension with my dates:</p><figure class="highlight haskell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure><h2 id="github"><a class="header-anchor" href="#github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2><p>I inspired also by an issue in Github and get the code below:</p><span id="more"></span><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure><h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1><p>Use rioxarray instead</p><h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2><figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure><h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li><li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p></li><li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;xarray-open-mfdataset-without-time-dim&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#xarray-open-mfdataset-without-time-dim&quot;&gt;¶&lt;/a&gt;Xarray open_mfdataset without time dim&lt;/h1&gt;
-&lt;p&gt;Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th &lt;code&gt;.nc&lt;/code&gt; coordinate. So we need a method. For example, the dataset of my lab CAQRA&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; do this.&lt;/p&gt;
-&lt;h2 id=&quot;stackoverflow&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#stackoverflow&quot;&gt;¶&lt;/a&gt;Stackoverflow &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn2&quot; id=&quot;fnref2&quot;&gt;[2]&lt;/a&gt;&lt;/sup&gt;:&lt;/h2&gt;
-&lt;p&gt;Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;add_time_dim&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;xda&lt;/span&gt;):&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    xda = xda.expand_dims(time = [datetime.now()])&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; xda&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Then, pass this function to the &lt;code&gt;preprocess&lt;/code&gt; argument when running the &lt;code&gt;open_mfdataset&lt;/code&gt; functions:&lt;/p&gt;
-&lt;figure class=&quot;highlight reasonml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;data = xr.&lt;span class=&quot;keyword&quot;&gt;open&lt;/span&gt;&lt;span class=&quot;constructor&quot;&gt;_mfdataset(&lt;span class=&quot;params&quot;&gt;files&lt;/span&gt;, &lt;span class=&quot;params&quot;&gt;preprocess&lt;/span&gt; = &lt;span class=&quot;params&quot;&gt;add_time_dim&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;Finally, fill the &lt;code&gt;time&lt;/code&gt; dimension with my dates:&lt;/p&gt;
-&lt;figure class=&quot;highlight haskell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;data&lt;/span&gt;[&amp;#x27;time&amp;#x27;] = dates&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;h2 id=&quot;github&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#github&quot;&gt;¶&lt;/a&gt;Github &lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn3&quot; id=&quot;fnref3&quot;&gt;[3]&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
-&lt;p&gt;I inspired also by an issue in Github and get the code below:&lt;/p&gt;</summary>
     
     
     
