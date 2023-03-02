@@ -5,14 +5,14 @@
     <url>/posts/feea6fda.html</url>
     <content><![CDATA[<p>更新：Html标签正则替换为Markdwon</p>
 <span id="more"></span>
-<h1 id="🎉-My-first-pull-request"><a class="header-anchor" href="#🎉-My-first-pull-request">¶</a>🎉 My first pull request</h1>
+<h1 id="🎉-my-first-pull-request"><a class="header-anchor" href="#🎉-my-first-pull-request">¶</a>🎉 My first pull request</h1>
 <p><a href="https://github.com/miniufo/xgrads/pull/31">Here</a> is my first pull request in Github. A tool to read .ctl data: xgrads. The author replied quickly. THANKS FOR HIS WORK!</p>
-<h1 id="Some-issues"><a class="header-anchor" href="#Some-issues">¶</a>Some issues:</h1>
-<h2 id="CF公约"><a class="header-anchor" href="#CF公约">¶</a>CF公约</h2>
+<h1 id="some-issues"><a class="header-anchor" href="#some-issues">¶</a>Some issues:</h1>
+<h2 id="cf公约"><a class="header-anchor" href="#cf公约">¶</a>CF公约</h2>
 <p>科普一下CF公约， 这里定义了<code>.nc</code>的投影等元信息的储存方式。看这个公约是因为很奇怪<code>.nc</code>文件需要额外的说明来自行设定投影，逻辑上很不通顺。然后发现实际上有不少人已经意识到这一问题，开始作出约定了。</p>
 <p><code>CF Convention</code> style projection to <code>.nc</code> file</p>
 <p><a href="https://github.com/miniufo/xgrads/issues/36">https://github.com/miniufo/xgrads/issues/36</a></p>
-<h2 id="Html标签正则替换为Markdwon"><a class="header-anchor" href="#Html标签正则替换为Markdwon">¶</a>Html标签正则替换为Markdwon</h2>
+<h2 id="html标签正则替换为markdwon"><a class="header-anchor" href="#html标签正则替换为markdwon">¶</a>Html标签正则替换为Markdwon</h2>
 <p>博客图床最近有点卡进行了全站替换，现有脚本不支持html标签，写了一个正则简单替换。<br>
 <a href="https://github.com/PicGo/picgo-plugin-pic-migrater/issues/45">https://github.com/PicGo/picgo-plugin-pic-migrater/issues/45</a></p>
 ]]></content>
@@ -43,63 +43,9 @@
       </tags>
   </entry>
   <entry>
-    <title>habitica_log</title>
-    <url>/posts/1e156da5.html</url>
-    <content><![CDATA[<h1 id="2021-11-03"><a class="header-anchor" href="#2021-11-03">¶</a>2021-11-03</h1>
-<h2 id="party-achievements"><a class="header-anchor" href="#party-achievements">¶</a>party &amp; achievements</h2>
-<ul>
-<li>Learned something interesting about emojis: 😬 and 😁 were the same for me before, and when I had to type the word <span style="color:#B95000"> grimacing </span>, I found I use those emojis wrong</li>
-<li>My party leader <span style="color:#B95000"> IAmProductive </span> is a nice guy and he would say thanks to everybody everyday. Also, he recorded our birthday &amp; habitica day. HE IS SOOO SWEET!</li>
-<li>Got some inspirations about my website from <a href="https://www.cygnoir.net/">cygnoir (she/her)</a>, who is also a member of our party.</li>
-</ul>
-<p>🏆 reached Level 100 of Warrior</p>
-<h2 id="gym-workout-language-learning"><a class="header-anchor" href="#gym-workout-language-learning">¶</a>gym workout &amp; language learning</h2>
-<ul>
-<li>The pandemic - Stopped gym these days and did pull-ups and other home exercise.</li>
-<li>Bad language learning - hard to manage my time and couldn’t find a good way to practice oral English.</li>
-</ul>
-<p>😭 got my shoulder injured</p>
-<span id="more"></span>
-<h1 id="2021-10-27"><a class="header-anchor" href="#2021-10-27">¶</a>2021-10-27</h1>
-<h2 id="I-changed-my-party"><a class="header-anchor" href="#I-changed-my-party">¶</a>I changed my party</h2>
-<p>Something happened during this period in habitica and I changed my party. A guy call called me chad(<a href="https://en.wikipedia.org/wiki/chad">wiki</a> ) in my last team and it is actually a nice compliment that I should appreciate. But in my culture, sexually active may not be a good thing for some people like me. And I asked a Chinese-spoken guy in my team if it means <code>virgin vs. chad</code> here because I hadn’t got it as a good word and she sent ‘LOL’ which made me feel bad. I didn’t think it would be regarded as harassments here when I asked this lady the explanation of this relatively vulgar word ‘chad’. (She said it was offensive to ask an unfamiliar lady if it’s the antonym of ’virgin’)</p>
-<blockquote>
-<p>A chad, in Internet slang, is generally a sexually active ”alpha male”.[1] the term has become a slang term across the Internet and among adolescents in general to refer to particularly attractive or confident males.</p>
-</blockquote>
-<h2 id="language-learning"><a class="header-anchor" href="#language-learning">¶</a>language learning</h2>
-<p>I tested my vocabulary and I need to stop remembering vocabulary, and start to do some oral and writing practice, so I’d get less points from <a href="https://ankiweb.net/shared/info/1758045507">anki habitica</a> add-on.</p>
-<p><img data-src="https://s2.loli.net/2022/08/14/jWHonfNtOsa9cG3.png" alt="vocabulary test record"></p>
-<p>Here are some Spanish words I encountered while watching American movies these days, and maybe I need to learn a little bit Spanish.</p>
-<blockquote>
-<p>senorita,pinatas,machismo,adios amigo</p>
-</blockquote>
-<h2 id="gym-workout"><a class="header-anchor" href="#gym-workout">¶</a>gym workout</h2>
-<ul>
-<li>
-<p>bench press comes to 77kg from 55kg</p>
-</li>
-<li>
-<p>squat gets lower from 140kg to 120kg (try to lose weight now).</p>
-</li>
-<li>
-<p>first time to swim 1km (learned swimming last summer)</p>
-</li>
-<li>
-<p>…</p>
-</li>
-</ul>
-<h1 id="2021-09-14"><a class="header-anchor" href="#2021-09-14">¶</a>2021-09-14</h1>
-<p>Last year I use <a href="https://apps.ankiweb.net/">anki</a> and its add-on for habitica to do some memorization. But record of it is shown below. But I don’t have as much time as last year so I choose to slow down my pace, from 40 new flashcards per day to approximately 20 per day.</p>
-<p>I strongly recommend this program for learning foreign language, and maybe it needs another chapter to do this so I won’t put it here.</p>
-<p><img data-src="https://s2.loli.net/2022/08/14/ktAGEwuRVb4rOxM.png" alt="anki_2020"></p>
-<hr>
-<p>But now on, I want to utilize habitica for more things other than language learning and function remembering. But I’ll post some plans here but it depends on my mood.</p>
-]]></content>
-  </entry>
-  <entry>
     <title>python debug with ipdb</title>
     <url>/posts/f4bfd05a.html</url>
-    <content><![CDATA[<h1 id="为什么使用ipdb而不是IDE"><a class="header-anchor" href="#为什么使用ipdb而不是IDE">¶</a>为什么使用ipdb而不是IDE?</h1>
+    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
 <p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
 在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
 <span id="more"></span>
@@ -135,6 +81,60 @@ ipdb&gt; q
       <tags>
         <tag>python</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>habitica_log</title>
+    <url>/posts/1e156da5.html</url>
+    <content><![CDATA[<h1 id="2021-11-03"><a class="header-anchor" href="#2021-11-03">¶</a>2021-11-03</h1>
+<h2 id="party-achievements"><a class="header-anchor" href="#party-achievements">¶</a>party &amp; achievements</h2>
+<ul>
+<li>Learned something interesting about emojis: 😬 and 😁 were the same for me before, and when I had to type the word <span style="color:#B95000"> grimacing </span>, I found I use those emojis wrong</li>
+<li>My party leader <span style="color:#B95000"> IAmProductive </span> is a nice guy and he would say thanks to everybody everyday. Also, he recorded our birthday &amp; habitica day. HE IS SOOO SWEET!</li>
+<li>Got some inspirations about my website from <a href="https://www.cygnoir.net/">cygnoir (she/her)</a>, who is also a member of our party.</li>
+</ul>
+<p>🏆 reached Level 100 of Warrior</p>
+<h2 id="gym-workout-language-learning"><a class="header-anchor" href="#gym-workout-language-learning">¶</a>gym workout &amp; language learning</h2>
+<ul>
+<li>The pandemic - Stopped gym these days and did pull-ups and other home exercise.</li>
+<li>Bad language learning - hard to manage my time and couldn’t find a good way to practice oral English.</li>
+</ul>
+<p>😭 got my shoulder injured</p>
+<span id="more"></span>
+<h1 id="2021-10-27"><a class="header-anchor" href="#2021-10-27">¶</a>2021-10-27</h1>
+<h2 id="i-changed-my-party"><a class="header-anchor" href="#i-changed-my-party">¶</a>I changed my party</h2>
+<p>Something happened during this period in habitica and I changed my party. A guy call called me chad(<a href="https://en.wikipedia.org/wiki/chad">wiki</a> ) in my last team and it is actually a nice compliment that I should appreciate. But in my culture, sexually active may not be a good thing for some people like me. And I asked a Chinese-spoken guy in my team if it means <code>virgin vs. chad</code> here because I hadn’t got it as a good word and she sent ‘LOL’ which made me feel bad. I didn’t think it would be regarded as harassments here when I asked this lady the explanation of this relatively vulgar word ‘chad’. (She said it was offensive to ask an unfamiliar lady if it’s the antonym of ’virgin’)</p>
+<blockquote>
+<p>A chad, in Internet slang, is generally a sexually active ”alpha male”.[1] the term has become a slang term across the Internet and among adolescents in general to refer to particularly attractive or confident males.</p>
+</blockquote>
+<h2 id="language-learning"><a class="header-anchor" href="#language-learning">¶</a>language learning</h2>
+<p>I tested my vocabulary and I need to stop remembering vocabulary, and start to do some oral and writing practice, so I’d get less points from <a href="https://ankiweb.net/shared/info/1758045507">anki habitica</a> add-on.</p>
+<p><img data-src="https://s2.loli.net/2022/08/14/jWHonfNtOsa9cG3.png" alt="vocabulary test record"></p>
+<p>Here are some Spanish words I encountered while watching American movies these days, and maybe I need to learn a little bit Spanish.</p>
+<blockquote>
+<p>senorita,pinatas,machismo,adios amigo</p>
+</blockquote>
+<h2 id="gym-workout"><a class="header-anchor" href="#gym-workout">¶</a>gym workout</h2>
+<ul>
+<li>
+<p>bench press comes to 77kg from 55kg</p>
+</li>
+<li>
+<p>squat gets lower from 140kg to 120kg (try to lose weight now).</p>
+</li>
+<li>
+<p>first time to swim 1km (learned swimming last summer)</p>
+</li>
+<li>
+<p>…</p>
+</li>
+</ul>
+<h1 id="2021-09-14"><a class="header-anchor" href="#2021-09-14">¶</a>2021-09-14</h1>
+<p>Last year I use <a href="https://apps.ankiweb.net/">anki</a> and its add-on for habitica to do some memorization. But record of it is shown below. But I don’t have as much time as last year so I choose to slow down my pace, from 40 new flashcards per day to approximately 20 per day.</p>
+<p>I strongly recommend this program for learning foreign language, and maybe it needs another chapter to do this so I won’t put it here.</p>
+<p><img data-src="https://s2.loli.net/2022/08/14/ktAGEwuRVb4rOxM.png" alt="anki_2020"></p>
+<hr>
+<p>But now on, I want to utilize habitica for more things other than language learning and function remembering. But I’ll post some plans here but it depends on my mood.</p>
+]]></content>
   </entry>
   <entry>
     <title>Linux</title>
@@ -216,15 +216,15 @@ ipdb&gt; q
     <title>metro_py</title>
     <url>/posts/e6a0cb8f.html</url>
     <content><![CDATA[<h1 id="salem"><a class="header-anchor" href="#salem">¶</a>salem</h1>
-<h2 id="Why-salem"><a class="header-anchor" href="#Why-salem">¶</a>Why salem?</h2>
+<h2 id="why-salem"><a class="header-anchor" href="#why-salem">¶</a>Why salem?</h2>
 <p>WRF out are in strange projection<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>, so you need to reset cartopy <code>semimajor_axis</code> to make the Earth a sphere. Also, salem has many useful WRF-tools.<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>  You can plot beautiful domain…</p>
-<h2 id="Install-in-the-server-without-Network-access"><a class="header-anchor" href="#Install-in-the-server-without-Network-access">¶</a>Install in the server without Network access</h2>
+<h2 id="install-in-the-server-without-network-access"><a class="header-anchor" href="#install-in-the-server-without-network-access">¶</a>Install in the server without Network access</h2>
 <p>salem download something when first import, and my server can use pip but can’t access Network.<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup> , it would cause keep try download. So I need to use:<code>scp .salem_cache [server]</code>.</p>
 <blockquote>
 <p>You need to notice that At the first import, Salem will create a hidden directory called .salem_cache in your home folder. It will be used to download Salem’s demo files and standard shapefiles</p>
 </blockquote>
 <span id="more"></span>
-<h2 id="Quick-adjust-for-Chinese"><a class="header-anchor" href="#Quick-adjust-for-Chinese">¶</a>Quick adjust for Chinese</h2>
+<h2 id="quick-adjust-for-chinese"><a class="header-anchor" href="#quick-adjust-for-chinese">¶</a>Quick adjust for Chinese</h2>
 <p>According to the law, Chinese people need to plot with correct Map of China. Key is <code>maps[0].set_shapefile(countries=false)</code>.<br>
 There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FPr81opMJX5vcia.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/8HCw1FvJKjRAgTy.png" alt=""></div></div></div>
@@ -267,7 +267,7 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <img data-src="https://s2.loli.net/2022/08/14/T9anlmwxiuKD8ZS.png" alt=""></p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pandas <span class="keyword">as</span> pd</span><br><span class="line">df = pd.DataFrame([[<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>], [<span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>], [<span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>]],</span><br><span class="line">                  columns=[<span class="string">&#x27;a&#x27;</span>, <span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df)</span><br><span class="line">df2 = pd.DataFrame([[<span class="number">1</span>, <span class="number">1</span>, <span class="number">1</span>], [<span class="number">2</span>, <span class="number">2</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">3</span>, <span class="number">3</span>]],</span><br><span class="line">                   columns=[<span class="string">&#x27;b&#x27;</span>, <span class="string">&#x27;c&#x27;</span>, <span class="string">&#x27;d&#x27;</span>])</span><br><span class="line"><span class="built_in">print</span>(df2)</span><br><span class="line">c = pd.concat([df, df2])</span><br><span class="line"><span class="built_in">print</span>(c)</span><br><span class="line"><span class="built_in">print</span>(df.drop(<span class="number">2</span>))</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">  a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br><span class="line"><span class="number">2</span>  <span class="number">7</span>  <span class="number">8</span>  <span class="number">9</span></span><br><span class="line">   b  c  d</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1</span></span><br><span class="line"><span class="number">1</span>  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2</span></span><br><span class="line"><span class="number">2</span>  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3</span></span><br><span class="line">     a  b  c    d</span><br><span class="line"><span class="number">0</span>  <span class="number">1.0</span>  <span class="number">2</span>  <span class="number">3</span>  NaN</span><br><span class="line"><span class="number">1</span>  <span class="number">4.0</span>  <span class="number">5</span>  <span class="number">6</span>  NaN</span><br><span class="line"><span class="number">2</span>  <span class="number">7.0</span>  <span class="number">8</span>  <span class="number">9</span>  NaN</span><br><span class="line"><span class="number">0</span>  NaN  <span class="number">1</span>  <span class="number">1</span>  <span class="number">1.0</span></span><br><span class="line"><span class="number">1</span>  NaN  <span class="number">2</span>  <span class="number">2</span>  <span class="number">2.0</span></span><br><span class="line"><span class="number">2</span>  NaN  <span class="number">3</span>  <span class="number">3</span>  <span class="number">3.0</span></span><br><span class="line">   a  b  c</span><br><span class="line"><span class="number">0</span>  <span class="number">1</span>  <span class="number">2</span>  <span class="number">3</span></span><br><span class="line"><span class="number">1</span>  <span class="number">4</span>  <span class="number">5</span>  <span class="number">6</span></span><br></pre></td></tr></table></figure>
-<h1 id="Some-methods"><a class="header-anchor" href="#Some-methods">¶</a>Some methods</h1>
+<h1 id="some-methods"><a class="header-anchor" href="#some-methods">¶</a>Some methods</h1>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line">pandas.concat(objs, axis=<span class="number">0</span>, join=<span class="string">&#x27;outer&#x27;</span>, ignore_index=<span class="literal">False</span>, </span><br><span class="line">truekeys=<span class="literal">None</span>, levels=<span class="literal">None</span>, names=<span class="literal">None</span>,copy=<span class="literal">True</span>)</span><br><span class="line">pandas.merge(left, right, how=<span class="string">&#x27;inner&#x27;</span>, on=<span class="literal">None</span>, left_on=<span class="literal">None</span>, right_on=<span class="literal">None</span>,</span><br><span class="line">         left_index=<span class="literal">False</span>, right_index=<span class="literal">False</span>, sort=<span class="literal">True</span>,</span><br><span class="line">         suffixes=(<span class="string">&#x27;_x&#x27;</span>, <span class="string">&#x27;_y&#x27;</span>), copy=<span class="literal">True</span>, indicator=<span class="literal">False</span>,</span><br><span class="line">         validate=<span class="literal">None</span>)</span><br><span class="line"><span class="comment">#map with dict</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(&#123;<span class="string">&quot;男&quot;</span>:<span class="number">1</span>, <span class="string">&quot;女&quot;</span>:<span class="number">0</span>&#125;)</span><br><span class="line">​</span><br><span class="line"><span class="comment">#use func map</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">gender_map</span>(<span class="params">x</span>):</span></span><br><span class="line">    gender = <span class="number">1</span> <span class="keyword">if</span> x == <span class="string">&quot;男&quot;</span> <span class="keyword">else</span> <span class="number">0</span></span><br><span class="line">    <span class="keyword">return</span> gender</span><br><span class="line"><span class="comment"># gender_map with out ()</span></span><br><span class="line">data[<span class="string">&quot;gender&quot;</span>] = data[<span class="string">&quot;gender&quot;</span>].<span class="built_in">map</span>(gender_map)</span><br><span class="line"></span><br><span class="line"><span class="comment"># time zone</span></span><br><span class="line">date=pandas.date_range(start=<span class="literal">None</span>, end=<span class="literal">None</span>, periods=<span class="literal">None</span>, freq=<span class="string">&#x27;D&#x27;</span>, tz=<span class="literal">None</span>）</span><br><span class="line">date=date.tz_localize(<span class="string">&#x27;UTC&#x27;</span>)</span><br><span class="line">ts_eastern=dates.tz_convert(<span class="string">&#x27;Asia/Shanghai&#x27;</span>)</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># method 1</span></span><br><span class="line">This approach, `df1 != df2`, works only <span class="keyword">for</span>  dataframes  <span class="keyword">with</span> identical rows <span class="keyword">and</span> columns. In fact, <span class="built_in">all</span> dataframes axes are compared <span class="keyword">with</span> `_indexed_same` method, <span class="keyword">and</span> exception <span class="keyword">is</span> raised <span class="keyword">if</span> differences found, even <span class="keyword">in</span> columns/indices order.</span><br><span class="line"></span><br><span class="line">If I got you right, you want <span class="keyword">not</span> to find changes, but symmetric difference. For that, one approach might be concatenate dataframes:</span><br><span class="line">```python</span><br><span class="line">df = pd.concat([df1, df2)</span><br><span class="line">df = df.reset_index(drop=<span class="literal">True</span>)</span><br><span class="line">df_gpby = df.groupby(<span class="built_in">list</span>(df.columns))</span><br><span class="line">idx = [x[<span class="number">0</span>] <span class="keyword">for</span> x <span class="keyword">in</span> df_gpby.groups.values() <span class="keyword">if</span> <span class="built_in">len</span>(x) == <span class="number">1</span>]</span><br></pre></td></tr></table></figure>
 <p>filter</p>
@@ -318,10 +318,10 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
   <entry>
     <title>python-basic</title>
     <url>/posts/fdc23cba.html</url>
-    <content><![CDATA[<h1 id="IO"><a class="header-anchor" href="#IO">¶</a>IO</h1>
+    <content><![CDATA[<h1 id="io"><a class="header-anchor" href="#io">¶</a>IO</h1>
 <p>Use glob instead of os</p>
 <figure class="highlight vim"><table><tr><td class="code"><pre><span class="line">import <span class="built_in">glob</span></span><br><span class="line">paths = <span class="built_in">glob</span>.<span class="built_in">glob</span>(path + <span class="string">&#x27;/*.xls&#x27;</span>)</span><br></pre></td></tr></table></figure>
-<h1 id="Serialization"><a class="header-anchor" href="#Serialization">¶</a>Serialization</h1>
+<h1 id="serialization"><a class="header-anchor" href="#serialization">¶</a>Serialization</h1>
 <p>In computing, serialization (US spelling) or serialisation (UK spelling) is the process of translating a data structure or object state into a format that can be stored (for example, in a file or memory data buffer) or transmitted (for example, over a computer network) and reconstructed later (possibly in a different computer environment)<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
 <span id="more"></span>
 <p>Here is an example for serialization<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</p>
@@ -329,16 +329,16 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> pickle</span><br><span class="line"></span><br><span class="line"><span class="comment"># obj0, obj1, obj2 are created here...</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Saving the objects:</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;objs.pkl&#x27;</span>, <span class="string">&#x27;w&#x27;</span>) <span class="keyword">as</span> f:  <span class="comment"># Python 3: open(..., &#x27;wb&#x27;)</span></span><br><span class="line">    pickle.dump([obj0, obj1, obj2], f)</span><br><span class="line"></span><br><span class="line"><span class="comment"># Getting back the objects:</span></span><br><span class="line"><span class="keyword">with</span> <span class="built_in">open</span>(<span class="string">&#x27;objs.pkl&#x27;</span>) <span class="keyword">as</span> f:  <span class="comment"># Python 3: open(..., &#x27;rb&#x27;)</span></span><br><span class="line">    obj0, obj1, obj2 = pickle.load(f)</span><br></pre></td></tr></table></figure>
 <p>If you have a lot of data, you can reduce the file size by passing <code>protocol=-1</code> to <code>dump()</code>; <code>pickle</code> will then use the best available protocol instead of the default historical (and more backward-compatible) protocol.  In this case, the file must be opened in binary mode (<code>wb</code> and <code>rb</code>, respectively).</p>
 <p>The binary mode should also be used with Python 3, as its default protocol produces binary (i.e. non-text) data (writing mode <code>'wb'</code> and reading mode <code>'rb'</code>).</p>
-<h1 id="TypeError-check"><a class="header-anchor" href="#TypeError-check">¶</a>TypeError check</h1>
+<h1 id="typeerror-check"><a class="header-anchor" href="#typeerror-check">¶</a>TypeError check</h1>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">my_abs</span>(<span class="params">x</span>):</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> <span class="built_in">isinstance</span>(x, (<span class="built_in">int</span>, <span class="built_in">float</span>)):</span><br><span class="line">        <span class="keyword">raise</span> TypeError(<span class="string">&#x27;bad operand type&#x27;</span>)</span><br><span class="line">    <span class="keyword">if</span> x &gt;= <span class="number">0</span>:</span><br><span class="line">        <span class="keyword">return</span> x</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">return</span> -x</span><br></pre></td></tr></table></figure>
-<h1 id="Single-and-double-underscore"><a class="header-anchor" href="#Single-and-double-underscore">¶</a>Single and double underscore</h1>
-<h2 id="Single-Underscore"><a class="header-anchor" href="#Single-Underscore">¶</a>Single Underscore</h2>
+<h1 id="single-and-double-underscore"><a class="header-anchor" href="#single-and-double-underscore">¶</a>Single and double underscore</h1>
+<h2 id="single-underscore"><a class="header-anchor" href="#single-underscore">¶</a>Single Underscore</h2>
 <p>Names, in a class, with a leading underscore are simply to indicate to other programmers that the attribute or method is intended to be private.  However, nothing special is done with the name itself.</p>
 <p>To quote [PEP-8][1]:</p>
 <blockquote>
 <p>_single_leading_underscore: weak “internal use” indicator. E.g. <code>from M import *</code> does not import objects whose name starts with an underscore.</p>
 </blockquote>
-<h2 id="Double-Underscore-Name-Mangling"><a class="header-anchor" href="#Double-Underscore-Name-Mangling">¶</a>Double Underscore (Name Mangling)</h2>
+<h2 id="double-underscore-name-mangling"><a class="header-anchor" href="#double-underscore-name-mangling">¶</a>Double Underscore (Name Mangling)</h2>
 <p>From <a href="https://docs.python.org/3/tutorial/classes.html#private-variables">the Python docs</a>:</p>
 <blockquote>
 <p>Any identifier of the form <code>__spam</code> (at least two leading underscores, at most one trailing underscore) is textually replaced with <code>_classname__spam</code>, where <code>classname</code> is the current class name with leading underscore(s) stripped. This mangling is done without regard to the syntactic position of the identifier, so it can be used to define class-private instance and class variables, methods, variables stored in globals, and even variables stored in instances. private to this class on instances of other classes.</p>
@@ -347,15 +347,15 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
 <blockquote>
 <p>Name mangling is intended to give classes an easy way to define “private” instance variables and methods, without having to worry about instance variables defined by derived classes, or mucking with instance variables by code outside the class. Note that the mangling rules are designed mostly to avoid accidents; it still is possible for a determined soul to access or modify a variable that is considered private.</p>
 </blockquote>
-<h2 id="Example"><a class="header-anchor" href="#Example">¶</a>Example</h2>
+<h2 id="example"><a class="header-anchor" href="#example">¶</a>Example</h2>
 <figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="class"><span class="keyword">class</span> <span class="title">MyClass</span>():</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="function"><span class="keyword">def</span> <span class="title">__init__</span>(<span class="params">self</span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">            self.__superprivate = <span class="string">&quot;Hello&quot;</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">            self._semiprivate = <span class="string">&quot;, world!&quot;</span></span></span><br><span class="line"><span class="meta">...</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">mc = MyClass()</span></span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc.__superprivate</span></span><br><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;&lt;stdin&gt;&quot;, line 1, in &lt;module&gt;</span><br><span class="line">AttributeError: myClass instance has no attribute &#x27;__superprivate&#x27;</span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc._semiprivate</span></span><br><span class="line">, world!</span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="built_in">print</span> mc.__dict__</span></span><br><span class="line">&#123;&#x27;_MyClass__superprivate&#x27;: &#x27;Hello&#x27;, &#x27;_semiprivate&#x27;: &#x27;, world!&#x27;&#125;</span><br></pre></td></tr></table></figure>
 <p><sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
-<h1 id="Set-default-parameter-equal-to-another-parameter"><a class="header-anchor" href="#Set-default-parameter-equal-to-another-parameter">¶</a>Set default parameter equal to another parameter</h1>
+<h1 id="set-default-parameter-equal-to-another-parameter"><a class="header-anchor" href="#set-default-parameter-equal-to-another-parameter">¶</a>Set default parameter equal to another parameter</h1>
 <p><sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></p>
 <p>How about this?</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Test:</p>
-<h2 id="code￼5"><a class="header-anchor" href="#code￼5">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
+<h2 id="code-5"><a class="header-anchor" href="#code-5">¶</a><figure class="highlight python-repl"><table><tr><td class="code"><pre><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span></span><br><span class="line"><span class="meta">...</span> <span class="python">    dst = dst <span class="keyword">if</span> dst <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">None</span> <span class="keyword">else</span> src</span></span><br><span class="line"><span class="meta">...</span> <span class="python">    <span class="built_in">print</span> dst</span></span><br><span class="line"><span class="meta">...</span> </span><br><span class="line"><span class="meta">&gt;&gt;&gt;</span> <span class="python">foo(<span class="number">0</span>, <span class="number">0</span>, <span class="string">&quot;test&quot;</span>)</span></span><br><span class="line">test</span><br></pre></td></tr></table></figure></h2>
 <p>Following @TanveerAlam 's comment, I don’t want to make assumptions about your arguments (what if <code>dst</code> can be <code>False</code>?), I did use shorter versions in my original post and I’ll leave them here for reference:</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">foo</span>(<span class="params">arg1, arg2, src, dst=<span class="literal">None</span></span>):</span></span><br><span class="line">    dst = dst <span class="keyword">if</span> dst <span class="keyword">else</span> src</span><br></pre></td></tr></table></figure>
 <p>Or even:</p>
@@ -368,7 +368,7 @@ Empty lists [], Empty tuples (), Empty dictionaries {}, Empty sets set(), Empty 
 Integer: 0, Float: 0.0, Complex: 0j<br>
 🍋 Constants: None, False</p>
 </div>
-<h1 id="Floating-Point-Arithmetic"><a class="header-anchor" href="#Floating-Point-Arithmetic">¶</a>Floating Point Arithmetic</h1>
+<h1 id="floating-point-arithmetic"><a class="header-anchor" href="#floating-point-arithmetic">¶</a>Floating Point Arithmetic</h1>
 <p>Cited from <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
 <p>In the same way, no matter how many base 2 digits you’re willing to use, the decimal value 0.1 cannot be represented exactly as a base 2 fraction. In base 2, 1/10 is the infinitely repeating fraction</p>
 <figure class="highlight apache"><table><tr><td class="code"><pre><span class="line"><span class="attribute">0</span>.<span class="number">0001100110011001100110011001100110011001100110011</span>...</span><br></pre></td></tr></table></figure>
@@ -378,7 +378,7 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <figure class="highlight jboss-cli"><table><tr><td class="code"><pre><span class="line">&gt;&gt;&gt;</span><br><span class="line">&gt;&gt;&gt; <span class="string">.1</span> + <span class="string">.1</span> + <span class="string">.1</span> == <span class="string">.3</span></span><br><span class="line">False</span><br></pre></td></tr></table></figure>
 <div class="note primary"><p>So, when caculating, we should know the Arithmetic in computer is not the same as human.</p>
 </div>
-<h1 id="Format-out"><a class="header-anchor" href="#Format-out">¶</a>Format out</h1>
+<h1 id="format-out"><a class="header-anchor" href="#format-out">¶</a>Format out</h1>
 <figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">np.<span class="built_in">array</span><span class="constructor">_str(<span class="params">data</span>, <span class="params">precision</span>=2)</span></span><br><span class="line">np.set<span class="constructor">_printoptions(<span class="params">formatter</span>=&#123;&#x27;<span class="params">float</span>&#x27;: &#x27;&#123;: 0.2f&#125;&#x27;.<span class="params">format</span>&#125;)</span></span><br><span class="line"></span><br><span class="line">np.savetxt(<span class="string">&quot;foo.csv&quot;</span>, a, delimiter=<span class="string">&quot;,&quot;</span>,fmt=&#x27;%.<span class="number">2</span>f&#x27;)</span><br><span class="line"></span><br><span class="line">df.style.format(<span class="string">&quot;&#123;:.2&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line">df.<span class="keyword">to</span><span class="constructor">_csv(&#x27;<span class="params">estc</span>.<span class="params">csv</span>&#x27;,<span class="params">sep</span>=&#x27;,&#x27;, <span class="params">float_format</span>=&#x27;%.15f&#x27;)</span> # write <span class="keyword">with</span> precision .<span class="number">15</span></span><br></pre></td></tr></table></figure>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -605,6 +605,526 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
       </tags>
   </entry>
   <entry>
+    <title>Bad or interesting translations</title>
+    <url>/posts/25cd51e8.html</url>
+    <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮件。这里记录今年起遇到的</p>
+<p>还有一些有趣的翻译也会放在这里</p>
+<h1 id="guinea-pig"><a class="header-anchor" href="#guinea-pig">¶</a>Guinea pig</h1>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/JkXaixYdgtOqNGe.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/wnbicCBe1FzvMyj.png" alt=""></div></div></div>
+<p>非常有意思的事情是用“guinea pig”也就是豚鼠来代指实验的对象，实际上和中文语境下用“小白鼠”（实验用小鼠 <a href="https://en.wikipedia.org/wiki/Laboratory_rat">lab rat</a> ）并不指代同一个物种，因此在翻译这个词的时候很难在“信”和“达”之间抉择。</p>
+<p>若译为豚鼠则失于达，以为小白鼠则失于信，很难抉择。</p>
+<p>事实上当前做实验往往很少使用豚鼠，英文语境下之所以还在用guinea pig 可能是由于历史原因，曾经可能豚鼠用得更多，可以参见<a href="https://english.stackexchange.com/questions/4806/why-is-guinea-pig-used-as-the-colloquial-term-for-test-subjects">这里</a>，以下也摘录大意。</p>
+<p>Guinea pigs might not be the most common experimental subjects today, but we have to look at how common they were when the term was first coined, which was many decades ago, as Etymonline points out:</p>
+<blockquote>
+<p>In the extended sense of “one subjected to an experiment” it is first recorded 1920, because they were commonly used in vivisection experiments.</p>
+</blockquote>
+<p>Wikipedia seems to be backing that up:</p>
+<blockquote>
+<p>Biological experimentation on guinea pigs has been carried out since the 17th century. The animals were frequently used as a model organism in the 19th and 20th centuries, resulting in the epithet “guinea pig” for a test subject, but have since been largely replaced by other rodents such as mice and rats.</p>
+</blockquote>
+<span id="more"></span>
+<h1 id="nice-touch"><a class="header-anchor" href="#nice-touch">¶</a>Nice touch</h1>
+<p>这里touch 作细节讲，可以直译无需意译，按照阴阳怪气的语气可以翻译成，“小细节不错”，当然如果不是Sheldon讲，完全可以是正面的意思。</p>
+<blockquote>
+<p>Penny: What’s with the fancy spread?<br>
+Sheldon: My new roommate is bending over backwards to ingratiate himself to me. Uh, nice touch, by the way.</p>
+</blockquote>
+<p><img data-src="https://s2.loli.net/2022/08/14/ToBdNsJtuKAVaLf.png" alt=""></p>
+<h1 id="janitor"><a class="header-anchor" href="#janitor">¶</a>Janitor</h1>
+<p>很奇怪为什么有些字典把janitor翻译成看门人，Janitor往往是指清洁工的意思，去图片搜索出来的结果都是类似下图的清洁工形象，Wikipedia<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>里也强调了清洁的含义。而看门人，正常会认为是Guard，或者是旅店前台的concierge吧？我不太懂是不是我的中文出了问题，看门人包含保洁的意思吗？一会去采访几个朋友。</p>
+<blockquote>
+<p>A janitor (American English, Scottish English), also known as a custodian, porter, cleanser, cleaner or caretaker is a person who cleans and maintains buildings. Janitors typically earn an average wage of $15 per hour in the United States.[1] That translates to an annual salary of around $35,000 for states that pay janitors the most, such as New York, Massachusetts, and Connecticut. In some cases, they will also carry out maintenance and security duties. <span style="color:#B95000">  A similar position, but usually with more managerial duties and not including cleaning, is occupied by building superintendents in the United States and Canada and by site managers in schools in the United Kingdom. Cleaning is one of the most commonly outsourced services.</span></p>
+</blockquote>
+<p><img data-src="https://s2.loli.net/2022/08/14/DQpgCl3fuh4xq5d.png" alt=""></p>
+<h1 id="acrylic"><a class="header-anchor" href="#acrylic">¶</a>Acrylic</h1>
+<p>亚克力经常说，丙烯酸倒是很少提到，然而亚克力就是丙烯酸的英文发音</p>
+<h1 id="rtfm-and-stfw"><a class="header-anchor" href="#rtfm-and-stfw">¶</a>RTFM and STFW</h1>
+<p>Read the fuck manual &amp; search the fuck web</p>
+<p>自己读手册&amp;上网查一下</p>
+<h1 id="ride-it-out"><a class="header-anchor" href="#ride-it-out">¶</a>Ride it out</h1>
+<p><img data-src="https://s2.loli.net/2022/08/14/e7RQUqA3XVhxJvg.jpg" alt=""><br>
+不是乘船离开而是安全离开的意思<br>
+it应该是指险境本身</p>
+<blockquote>
+<p>: to succeed in surviving or getting through (something dangerous or harmful that cannot be stopped or avoided) The ship/crew rode out the storm. We managed to ride out the stock market downturn.</p>
+</blockquote>
+<h1 id="talk-shop"><a class="header-anchor" href="#talk-shop">¶</a>Talk shop</h1>
+<p>完全不是闲聊的意思，是谈工作的意思<br>
+<img data-src="https://s2.loli.net/2022/08/14/Jqbxu5pd7jgQcLT.png" alt=""></p>
+<h1 id="underdog"><a class="header-anchor" href="#underdog">¶</a>Underdog</h1>
+<p><img data-src="https://s2.loli.net/2022/08/14/ROcXDGugA35fsBq.png" alt=""></p>
+<p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p>
+<blockquote>
+<p>So you like an underdog?Everyone likes an underdog.<br>
+所以你喜欢被压迫者?人人都喜欢受压迫的人</p>
+</blockquote>
+<p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p>
+<h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1>
+<p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p>
+<p>那戴望舒的《雨巷》<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1:1]</a></sup>指的是哪一种丁香呢？这个问题那就留给读者们自己去考据吧！还是很简单的.</p>
+<blockquote>
+<p>我希望逢着<br>
+一个丁香一样地<br>
+结着愁怨的姑娘</p>
+</blockquote>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/M5Np43fXsUGrg7I.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/v4YI5cBTatKpljn.png" alt=""></div></div></div>
+<p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p>
+<h1 id="hobble"><a class="header-anchor" href="#hobble">¶</a>Hobble</h1>
+<p>阻碍，跛脚</p>
+<p><img data-src="https://s2.loli.net/2022/08/14/oGdS1cFB32PkOen.png" alt=""></p>
+<h1 id="86"><a class="header-anchor" href="#86">¶</a>86</h1>
+<p>86是离开，拒绝的意思，还挺有趣</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E9%9B%A8%E5%B7%B7/1499166?fr=aladdin">https://baike.baidu.com/item/雨巷/1499166?fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Single-Event Upsets</title>
+    <url>/posts/df853c19.html</url>
+    <content><![CDATA[<p>首先安利一下真理元素的这个视频</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=292841556&bvid=BV1pf4y1J7bo&cid=404656376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<hr>
+<div class="note info"><h4 id="single-event-upsets"><a class="header-anchor" href="#single-event-upsets">¶</a>Single Event Upsets</h4>
+<p>A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.</p>
+</div>
+<span id="more"></span>
+<div class="note info"><h4 id="单粒子翻转"><a class="header-anchor" href="#单粒子翻转">¶</a>单粒子翻转</h4>
+<p>单粒子翻转是航天电子学术语，原因是在空间环境下存在着大量高能带电粒子，计算机中的CMOS电子元器件受到地球磁场、宇宙射线等照射，引起电位状态的跳变，“0”变成“1”，或者“1”变成“0”，但一般不会造成器件的物理性损伤。</p>
+</div>
+<p>看航天相关的科普得知了这一个名词<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。这一现象导致了很多航天事故，例如，我国于1995年2月8日发射升空的实践四号卫星上搭载的两台用于单粒子事件测量的监测装置，在入轨后的19天内共发生了65次翻转，而风云一号气象卫星也因多次单粒子翻转导致姿态控制系统失控而过早的失效。</p>
+<p>事实上，虽然在航天中发生较多，地球上也不是没有发生单粒子翻转的概率。例如，在比利时斯哈尔贝克的一次选举中，单粒子翻转效应被认为是一次电子投票错误的罪魁祸首。电子投票机的一个数位翻转，使一名候选人的选票增加了4096张。又例如，马里奥游戏速通的一次直播中，曾有过单粒子翻转导致马里奥跳到天花板上。</p>
+<p>似乎被我们视为极为稳健的计算机计算结果，其实也并不完全可靠。如果有外星人存在，是不是只需要在人类计算某个关键参数的时候，用高能粒子发生器，就能击中人类的计算机，让人类永远无法计算出这个参数? 也许我们哪个计算机模拟实验里无法复现的错误也只是高能粒子开的一个玩笑。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=AaZ_RSt0KP8">https://www.youtube.com/watch?v=AaZ_RSt0KP8</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Travel: HuaiRou</title>
+    <url>/posts/1c7bcf47.html</url>
+    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
+<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
+<span id="more"></span>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Travel : Shichahai</title>
+    <url>/posts/84feb42a.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>希望大家以后都可以很开心！</p>
+
+</blockquote>
+<p>去了什刹海冰场，和课题组的小伙伴一起， 好快乐。先放一下 <span style="color:#B95000">  降雨几率</span> 剪的视频，正文还有一些照片和记录。</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=210696909&bvid=BV1ua411B71v&cid=486456439&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<span id="more"></span>
+<hr>
+<div class="tabs" id="什刹海冰场"><ul class="nav-tabs"><li class="tab active"><a href="#什刹海冰场-1">什刹海冰场 1</a></li><li class="tab"><a href="#什刹海冰场-2">什刹海冰场 2</a></li></ul><div class="tab-content"><div class="tab-pane active" id="什刹海冰场-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/nWMBGpIJEd2DPfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/3Tn2idG6vlMLVjB.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/McuCiJKPhz6GBL5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/d8XSyIY3mgkaFGA.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/9UnTjxZFhw8giYl.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/abQMKGUExAS6z9I.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/t3vQZUqEws1m65p.jpg" alt=""></div></div></div></div><div class="tab-pane" id="什刹海冰场-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/OSlLnT3tyGuaKQN.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/9lmcvK2Y7fnSgqa.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/KfZzqOwLgYjy4BS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/4vdO6gPLaueZJoY.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/BGldkYbg6pvO8iS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/g9tseYEkXq6vWj5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/e1iZCTxGptoSUgJ.jpg" alt=""></div></div></div></div></div></div>
+<center>点开查看全图，缩略图显示不全</center>
+<hr>
+<p>学生时代和朋友一起出去玩是真的快乐，而且确实是人多一点有意思，也对组里的师姐还有小伙伴多了一些了解。觉得大家都还是很单纯的感觉，都很像学生。虽然来了所里半年，但是以前确实和大家的接触都不多。可能更多的是师姐们跟我安利周围的店， 我厚脸皮和师姐、师兄包括师弟问问题，课题组没什么一起出去的活动。虽然这次也不是所有人都有时间，但是是很好的开始！</p>
+<p><span style="color:#B95000"> 清不悦</span> 是全程摄影动作指导，和她学习了很多拍照技巧。其实有数百张照片，也都很好看，主要选了我自己的和一些不露脸的合照。有一张姿势被我们称为 <span style="color:#B95000"> 投降</span>，很百搭唉，然后我拍照就可以比起剪刀手多一个姿势了，每次拍照都会想起这次旅行的。她还有很多可可爱爱的动作，不过不适合男生我就没学了。</p>
+<p>因为师姐们都叫 <span style="color:#B95000">  Hyuk Doli</span>师妹，中途没反应过来，占了好几次便宜，叫了好几次师妹，后来<span style="color:#B95000">  Hyuk Doli</span>叫我师弟，我就不知道是没反应过来还是一定要把便宜占回来了。</p>
+<p><span style="color:#B95000">  周杰偷</span>师姐有点童心唉，挺可爱的hh，突然想到要蹲在地上拖着冰上滑行，然后我们就试了，她笑得好开心啊。接下来我们每个人试着被拖着走了，就是我有点重，拖行困难。而且她是你画我猜聪明人，很擅长这个游戏。</p>
+<p><span style="color:#B95000"> 降雨几率 </span> 骑冰上自行车的比赛赢了我两次，看来不仅仅是力气问题，我明明力气很猛，结果被甩到看不见尾灯。中途好多车拦路，一停下来再启动就看不见人了。</p>
+<blockquote class="blockquote-center">
+<p>所以学生的美好之处就是在这里嘛，希望大家以后也可以一直快乐！</p>
+
+</blockquote>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>latex tips</title>
+    <url>/posts/f105dbfb.html</url>
+    <content><![CDATA[<p>Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看</p>
+<span id="more"></span>
+<h1 id="自动剪切pdf"><a class="header-anchor" href="#自动剪切pdf">¶</a>自动剪切pdf</h1>
+<p>–margins “10 20 10 25”<br>
+左邊 上方 右邊 下方</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 自動切除所有 PDF 檔頁面的白邊</span></span><br><span class="line"><span class="keyword">for</span> FILE <span class="keyword">in</span> ./*.pdf; <span class="keyword">do</span></span><br><span class="line">  pdfcrop <span class="string">&quot;<span class="variable">$&#123;FILE&#125;</span>&quot;</span> <span class="string">&quot;<span class="variable">$&#123;FILE&#125;</span>&quot;</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<h1 id="单元格内换行"><a class="header-anchor" href="#单元格内换行">¶</a>单元格内换行</h1>
+<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;M&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">m</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;P&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">p</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">\begin</span><span class="template-variable">&#123;tabular&#125;</span><span class="template-variable">&#123;@&#123;&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.3\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">@</span><span class="template-variable">&#123;&#125;</span><span class="xml">&#125;</span></span><br></pre></td></tr></table></figure>
+<h1 id="过滤未使用的文献"><a class="header-anchor" href="#过滤未使用的文献">¶</a>过滤未使用的文献</h1>
+<p>zotero-&gt;tools有aux过滤器，直接用就可以了，使用后将生成Tag，筛选后导出即可</p>
+<h1 id="pandoc"><a class="header-anchor" href="#pandoc">¶</a>pandoc</h1>
+<figure class="highlight haml"><table><tr><td class="code"><pre><span class="line">pandoc Optimal_site.tex -o output.docx -M autoEqnLabels \</span><br><span class="line">       -<span class="ruby">-filter pandoc-crossref \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-bibliography=<span class="string">&quot;../ref.bib&quot;</span> \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-citeproc \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-csl=<span class="string">&quot;/Users/sam/Documents/tex/ieee.csl&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-reference-doc=<span class="string">&quot;/Users/sam/Documents/temp.docx&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-number-sections</span></span><br></pre></td></tr></table></figure>
+<h1 id="latexpand"><a class="header-anchor" href="#latexpand">¶</a>latexpand<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1>
+<p>一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好<br>
+latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>
+remove comments</p>
+<p>移除未使用的文件</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image_file <span class="keyword">in</span> $(ls fig/)</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="keyword">if</span> grep <span class="variable">$image_file</span> *.<span class="built_in">log</span> -c &gt; 1</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is in use.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is not in use.&quot;</span></span><br><span class="line">        mv <span class="string">&quot;fig/<span class="variable">$image_file</span>&quot;</span> <span class="string">&quot;fig/moved.<span class="variable">$image_file</span>&quot;</span> <span class="comment"># or any other action</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
+<h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1>
+<p>由于我使用vim写python、markdown等，因此latex也使用vim<br>
+由于使用vim插件，自动编译latex内核需要定义</p>
+<figure class="highlight delphi"><table><tr><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure>
+<h1 id="minipage"><a class="header-anchor" href="#minipage">¶</a>minipage</h1>
+<figure class="highlight llvm"><table><tr><td class="code"><pre><span class="line">\<span class="keyword">begin</span>&#123;minipage&#125;[<span class="keyword">c</span>][<span class="number">10</span>cm][<span class="keyword">c</span>]&#123;\textwidth&#125;</span><br><span class="line"></span><br><span class="line">\<span class="keyword">end</span>&#123;minipage&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1>
+<p>cse<br>
+csc</p>
+<h2 id="set-up-skim-inverse-or-backward-search"><a class="header-anchor" href="#set-up-skim-inverse-or-backward-search">¶</a>Set up Skim Inverse or Backward Search</h2>
+<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">nvim</span><br><span class="line">--headless -c <span class="string">&quot;VimtexInverseSearch %line &#x27;%file&#x27;&quot;</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://dr563105.github.io/blog/skim-vimtex-setup/">https://dr563105.github.io/blog/skim-vimtex-setup/</a></p>
+<h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1>
+<p>detex</p>
+<h1 id="不接受子图如何单独组合"><a class="header-anchor" href="#不接受子图如何单独组合">¶</a>不接受子图如何单独组合</h1>
+<p><a href="https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/">https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/</a></p>
+<h1 id="教程"><a class="header-anchor" href="#教程">¶</a>教程</h1>
+<p><a href="https://www.cnblogs.com/code-saturne/p/10565151.html">https://www.cnblogs.com/code-saturne/p/10565151.html</a></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Learning Swimming</title>
+    <url>/posts/5a367fc4.html</url>
+    <content><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation of leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pandas库的使用(2)</title>
+    <url>/posts/80bbe987.html</url>
+    <content><![CDATA[<span id="more"></span>
+<h1 id="缺测"><a class="header-anchor" href="#缺测">¶</a>缺测</h1>
+<p><code>.stack()</code>和<code>.groupby()</code>默认会dropna, 会导致折线图不能忽略缺测</p>
+<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span> = obs_xr[var].to_pandas().stack(<span class="title">dropna</span>=<span class="type">False</span>).reset_index()</span></span><br><span class="line"><span class="title">dataTemp</span> = <span class="class"><span class="keyword">data</span>.groupby([&#x27;<span class="title">time&#x27;</span>, &#x27;站点类型&#x27;], <span class="title">dropna</span>=<span class="type">False</span>).mean().unstack()</span></span><br></pre></td></tr></table></figure>
+<h1 id="seaborn控制子图"><a class="header-anchor" href="#seaborn控制子图">¶</a>seaborn控制子图</h1>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Songti SC&#x27;</span>]</span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">g = sns.FacetGrid(</span><br><span class="line">    dataTemp,</span><br><span class="line">    <span class="attribute">col</span>=<span class="string">&#x27;站点类型&#x27;</span>, <span class="attribute">col_wrap</span>=3,</span><br><span class="line">    <span class="attribute">col_order</span>=list,</span><br><span class="line">    <span class="attribute">height</span>=2.5, <span class="attribute">aspect</span>=4</span><br><span class="line">)</span><br><span class="line">g.map(plt.plot,</span><br><span class="line">      <span class="string">&#x27;time&#x27;</span>, <span class="string">&#x27;浓度&#x27;</span></span><br><span class="line">      )</span><br><span class="line">g.set_xticklabels(<span class="attribute">rotation</span>=15)</span><br><span class="line">g.set_titles(<span class="string">&quot;&#123;col_name&#125;&quot;</span>)  # use this argument literally</span><br><span class="line"></span><br><span class="line">add_label(var, g)</span><br><span class="line">g.set_xlabels(<span class="string">&#x27;时间&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax.axvspan(</span><br><span class="line">        datetime.datetime(2020, 1, 19), datetime.datetime(2020, 1, 24),</span><br><span class="line">        <span class="attribute">color</span>=<span class="string">&#x27;red&#x27;</span>, <span class="attribute">alpha</span>=0.3)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h1 id="颜色控制"><a class="header-anchor" href="#颜色控制">¶</a>颜色控制</h1>
+<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">colors</span> = sns.color_palette(<span class="string">&#x27;hls&#x27;</span>, len(modes))</span><br><span class="line"><span class="attr">palette</span> = &#123;mode: color for mode, color in zip(modes, colors)&#125;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>pdf-copy-vim</title>
+    <url>/posts/49b709c3.html</url>
+    <content><![CDATA[<p>为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</p>
+<ul>
+<li>数字、字母等非中文字符变成全角字符</li>
+<li>产生多余的空格、换行</li>
+<li>中、英文标点（全、半角）混乱</li>
+<li>英文上下文中的标点后缺空格</li>
+</ul>
+<p>已有一些现有思路，例如利用quicker和打包成GUI界面的软件。由于我使用MacOS和Vim编辑器，为了方便起见，可以利用现有的python脚本在改为vim的插件。</p>
+<p>主要需要实现的点是python与vim的交互，可以使用<code>vim.eval('@+')</code>读取寄存器作为参数，输出结果到当前buffer即可。</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
+<span id="more"></span>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 &lt;&lt; EOF </span><br><span class="line"><span class="comment"># coding: utf-8</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</span></span><br><span class="line"><span class="string">- 数字、字母等非中文字符变成全角字符</span></span><br><span class="line"><span class="string">- 产生多余的空格、换行</span></span><br><span class="line"><span class="string">- 中、英文标点（全、半角）混乱</span></span><br><span class="line"><span class="string">- 英文上下文中的标点后缺空格</span></span><br><span class="line"><span class="string">未解决：</span></span><br><span class="line"><span class="string">- 括号等依赖上下文判断全、半角的标点未识别</span></span><br><span class="line"><span class="string">- 仅支持中英文文献</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@python version author: Mo Dabao</span></span><br><span class="line"><span class="string">@modified by Sam</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> vim</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在换行符前的字符</span></span><br><span class="line">ENDSIGN = <span class="built_in">set</span>(<span class="string">&quot;.:;!?。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 半角标点（除了.）</span></span><br><span class="line">HALFPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;,:;!?&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角空格前的字符</span></span><br><span class="line">SPACESIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                <span class="string">&quot;,.:;!?\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角标点前的字符</span></span><br><span class="line">HALFPUNCTUATIONSIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                          <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                          <span class="string">&quot;0123456789\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># unicode65281～65374中可能要保留的全角标点</span></span><br><span class="line">FULLPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;，。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 数字</span></span><br><span class="line">NUMBER = <span class="built_in">set</span>(<span class="string">&quot;0123456789&quot;</span>)</span><br><span class="line"></span><br><span class="line">text_old = vim.<span class="built_in">eval</span>(<span class="string">&#x27;@+&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">organize</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;整理从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    - 删除多余的空白符（换行、空格、制表等）</span></span><br><span class="line"><span class="string">    - 英文、数字、部分标点符号的全角字符换成半角字符</span></span><br><span class="line"><span class="string">    - 修正误判为中文标点（，；：！？）的英文标点字符</span></span><br><span class="line"><span class="string">    - 英文标点后确保一个空格</span></span><br><span class="line"><span class="string">    注意：所有括号都处理为半角</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        text_old: 从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        text_new: 整理之后的文本。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    text_new = []</span><br><span class="line">    <span class="keyword">for</span> char <span class="keyword">in</span> text_old:</span><br><span class="line">        char_unicode = <span class="built_in">ord</span>(char)</span><br><span class="line">        <span class="comment"># 处理换行符</span></span><br><span class="line">        <span class="keyword">if</span> char == <span class="string">&#x27;\n&#x27;</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在换行符前的字符则保留</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> ENDSIGN:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">elif</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理非换行符的空白字符</span></span><br><span class="line">        <span class="keyword">elif</span> char.isspace():</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理unicode65281～65374全角字符</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="number">65281</span> &lt;= char_unicode &lt;= <span class="number">65374</span>:</span><br><span class="line">            <span class="comment"># 确定要保留的全角字符串</span></span><br><span class="line">            <span class="keyword">if</span> char == <span class="string">&quot;～&quot;</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若为中文全角标点</span></span><br><span class="line">            <span class="keyword">elif</span> char <span class="keyword">in</span> FULLPUNCTUATION:</span><br><span class="line">                <span class="comment"># 若上一个字符为可能出现在半角标点前的字符则换成半角并加空格</span></span><br><span class="line">                <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                    text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">                    text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">                <span class="comment"># 否则保留</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    text_new.append(char)</span><br><span class="line">            <span class="comment"># 否则换成半角</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">        <span class="comment"># 正常英文字符</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">            text_new.append(char)</span><br><span class="line">        <span class="comment"># 半角标点</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">not</span> <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode + <span class="number">65248</span>))</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理剩余字符</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符是半角空格则删去空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] == <span class="string">&#x27; &#x27;</span>:</span><br><span class="line">                <span class="keyword">del</span> text_new[-<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 若上一个字符是半角标点则换成全角</span></span><br><span class="line">                <span class="keyword">if</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">                    text_new[-<span class="number">1</span>] = <span class="built_in">chr</span>(<span class="built_in">ord</span>(text_new[-<span class="number">1</span>]) + <span class="number">65248</span>)</span><br><span class="line">            text_new.append(char)</span><br><span class="line">    text_new = <span class="string">&#x27;&#x27;</span>.join(text_new) </span><br><span class="line">    vim.current.buffer.append(text_new)</span><br><span class="line">    <span class="keyword">return</span> text_new</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="built_in">exec</span>(<span class="string">&#x27;py3 organize()&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>在<code>init.vim</code> 中map该任务为PDF，使用<code>:PDF</code>命令即可读取<code>+</code>寄存器作为python脚本的参数，并将结果输入buffer了</p>
+<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">command! -nargs=<span class="number">0</span> PDF <span class="keyword">source</span> ~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Everglow</title>
+    <url>/posts/6282d7e8.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>They say people come<br>
+Say people go<br>
+This particular diamond was extra special</p>
+
+</blockquote>
+<p>I put an video here. Because I really like it and hope you can listen.</p>
+<span id="more"></span>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=37626252&bvid=BV1Ct411S7Ey&cid=66151798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+</div>
+<hr>
+<p>I don’t remember if it’s last year or the year before this time, I looped this song hundreds of times. And when it comes close to the end of this Lunar year, I listened to it over and over again. The lyrics are so beautiful, just like a poem and I can easily feel what behind the language itself, which means if it’s translated into Chinese or any other language, it would be exactly the same touching.</p>
+<h1 id="the-translation"><a class="header-anchor" href="#the-translation">¶</a>The translation</h1>
+<p>But many versions of translation are extremely bad. I don’t get why they try to interpret ‘This particular diamond’ as old memory or a particular women. It’s an <span style="color:#B95000"> IMPLIED METAPHORS </span> and when you translate it you should keep the original rhetorics. And people can understand this <span style="color:#B95000"> IMPLIED METAPHORS </span>, they are not stupid.</p>
+<p>Heres is an Japanese  anecdote:</p>
+<blockquote>
+<p>The author Natsume Soseki, in his life as an English teacher, supposedly saw his students translate “I love you” word-for-word. Soseki told them that’s not Japanese (too direct) and that “the moon is beautiful” would be the appropriate translation (alone with a lady on a moonlit night, context says it all).<br>
+今夜の月は綺麗ですね</p>
+</blockquote>
+<p>The anecdote may be made up, and it’s even not a Chinese story. But I think the Chinese is like the Japanese in some way so we should be indirect. If the original words are 'This woman was like a particular diamond that was extra special ’ it should be translated to an <span style="color:#B95000"> INDIRECT</span> way, not vise versa!</p>
+<h1 id="relation-with-me"><a class="header-anchor" href="#relation-with-me">¶</a>Relation with me</h1>
+<p>You know, we may all have some friends or lovers end up being separated. I never have a lover but I do have some friends. Although we may never go back together, I still cherish the moments we have and hope they are all well. I’m sorry for my bad and or even nobody is bad but the relation just don’t work out in the end, I’m still very sorry. I do like the happy memories. They are like diamonds.</p>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Word Tips</title>
+    <url>/posts/173b35fb.html</url>
+    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
+<hr>
+<h1 id="word-vba"><a class="header-anchor" href="#word-vba">¶</a>Word VBA</h1>
+<h2 id="vba脚本的使用方法"><a class="header-anchor" href="#vba脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
+<blockquote>
+<p>A picture is worth a thousand words<br>
+<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
+注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
+</blockquote>
+<h2 id="替换污染物下标的vba脚本"><a class="header-anchor" href="#替换污染物下标的vba脚本">¶</a>替换污染物下标的VBA脚本</h2>
+<p>以NH3为例简述思路：</p>
+<ol>
+<li>将NH3中替换为NH厷厸</li>
+<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
+<li>将厷厸替换为下标格式的数字3</li>
+</ol>
+<p>这样就可以实现保留原有格式，仅替换下标</p>
+<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
+<h1 id="word的通配符"><a class="header-anchor" href="#word的通配符">¶</a>Word的通配符</h1>
+<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
+</div>
+<ol>
+<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mi>M</mi><mn>2.5</mn></mrow><annotation encoding="application/x-tex">PM2.5</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="mord">2</span><span class="mord">.</span><span class="mord">5</span></span></span></span>替换成 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><msub><mi>M</mi><mn>2.5</mn></msub></mrow><annotation encoding="application/x-tex">PM_{2.5}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.10903em;">M</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:-0.10903em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">2</span><span class="mord mtight">.</span><span class="mord mtight">5</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>，此前手动替换有些愚蠢</li>
+<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
+<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
+</ol>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>xarray</title>
+    <url>/posts/34865fab.html</url>
+    <content><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
+<p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p>
+<h2 id="stackoverflow"><a class="header-anchor" href="#stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2>
+<p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure>
+<p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure>
+<p>Finally, fill the <code>time</code> dimension with my dates:</p>
+<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure>
+<h2 id="github"><a class="header-anchor" href="#github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2>
+<p>I inspired also by an issue in Github and get the code below:</p>
+<span id="more"></span>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1>
+<p>Use rioxarray instead</p>
+<h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+<h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>xgrads：一个方便的解析ctl文件的库</title>
+    <url>/posts/e78205f3.html</url>
+    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
+<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
+<span id="more"></span>
+<p>测试</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一些常见的短句</title>
+    <url>/posts/f213319.html</url>
+    <content><![CDATA[<div class="note info"><p>新增<br>
+Veritas</p>
+</div>
+<h1 id="法语"><a class="header-anchor" href="#法语">¶</a>法语</h1>
+<blockquote>
+<p>c’est la vie<br>
+这就是人生。</p>
+</blockquote>
+<p>似乎很常见的句子，在很多电影里见过。最近突然发现<a href="https://c.y.qq.com/base/fcgi-bin/u?__=4gog0qb94PYN">自然卷的专辑</a>也叫这个，以前没注意，还蛮有趣。</p>
+<blockquote>
+<p>merci beaucoup<br>
+感谢 很多</p>
+</blockquote>
+<p>很感谢</p>
+<span id="more"></span>
+<h1 id="西语"><a class="header-anchor" href="#西语">¶</a>西语</h1>
+<blockquote>
+<p>adios amigo<br>
+再见朋友</p>
+</blockquote>
+<blockquote>
+<p>senorita</p>
+</blockquote>
+<p><a href="https://c.y.qq.com/base/fcgi-bin/u?__=6ONQPd4">同名歌曲</a>很好听。</p>
+<blockquote>
+<p>piñatas<br>
+派对用的容器，很有节日氛围</p>
+</blockquote>
+<h1 id="拉丁"><a class="header-anchor" href="#拉丁">¶</a>拉丁</h1>
+<blockquote>
+<p>memento morí<br>
+人终有一死</p>
+</blockquote>
+<p>很多艺术品叫这个</p>
+<blockquote>
+<p>veritas</p>
+</blockquote>
+<p>看科普视频看到真理元素，哈佛大学校训似乎也是这个</p>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>文言文</title>
+    <url>/posts/a5cae94b.html</url>
+    <content><![CDATA[<p>记录一些自己喜欢的文言文</p>
+<blockquote>
+<p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>
+——《庄子》</p>
+</blockquote>
+<p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p>
+<blockquote>
+<p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>
+——《文心雕龙》</p>
+</blockquote>
+<span id="more"></span>
+<blockquote>
+<p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>
+——《山月记》</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>端到端加密</title>
+    <url>/posts/8c889ebe.html</url>
+    <content><![CDATA[<h1 id="欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份"><a class="header-anchor" href="#欢迎使用端到端加密和我通信-可以用我的gpg公钥给我发加密邮件-以后重要邮件可以让我用私钥签名验证身份">¶</a>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</h1>
+<p>指纹是:<br>
+03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
+邮箱是:<br>
+Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
+公钥地址是:<br>
+<a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
+<h1 id="补充知识："><a class="header-anchor" href="#补充知识：">¶</a>补充知识：</h1>
+<h2 id="什么是rsa算法"><a class="header-anchor" href="#什么是rsa算法">¶</a>什么是RSA算法</h2>
+<span id="more"></span>
+<p><a href="https://www.zhihu.com/question/304030251/answer/543201982">https://www.zhihu.com/question/304030251/answer/543201982</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html</a></p>
+<p><a href="https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html</a></p>
+<h2 id="gpg简单教程"><a class="header-anchor" href="#gpg简单教程">¶</a>GPG简单教程</h2>
+<p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>羡余否定</title>
+    <url>/posts/2c3e2a92.html</url>
+    <content><![CDATA[<p>接触到汉语里面很有趣的现象，羡余否定。具体如下例 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<hr>
+<p><img data-src="https://s2.loli.net/2022/08/14/oNy2TYmxtsWzukc.png" alt=""></p>
+<p>还是相当有意思的现象，有点类似</p>
+<blockquote>
+<p>You don’t know nothing.</p>
+</blockquote>
+<p>但是还是有点不同。在知乎<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>上似乎也有一些讨论，对外国人可能比较头疼，完全不遵守逻辑。或许这就是语言。</p>
+<span id="more"></span>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>朱德熙. 现代汉语语法研究[M]. 商務印书館, 1980. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://www.zhihu.com/search?type=content&amp;q=%E7%BE%A1%E4%BD%99%E5%90%A6%E5%AE%9A">https://www.zhihu.com/search?type=content&amp;q=羡余否定</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>视觉相似的字符</title>
+    <url>/posts/60f6fdd2.html</url>
+    <content><![CDATA[<p>视觉相似的字符可以从一个社会新闻谈起，<a href="https://www.zhihu.com/question/543944966/answer/2582511402%5D">某明星用不同的入炸话题</a>, 事实上为了防止代码出错我特意选用了不会混淆1和I的字体, 然而还是在帮朋友写一个转换经纬度的代码里出错了。</p>
+<p>朋友的经纬度Degrees Minutes Seconds 我需要转换为 Decimal Degrees，一开始默认代码是E或者N，W，S，由于他的经纬度是手动从文章复制的，所以出现了一些奇怪的问题，我if只判断了是否要加上负号，没有对非WS的情况检验，默认不是WS就是EN了，事实上他的WS后面常常有空格，用<code>Strip()</code>方法可解，但一开始的忽略会导致有些负号没有加上，另外，异体字希腊字母也是我没有考虑到的，感兴趣的可以测试下面的代码，事实上查看ASCII码可以发现看似是E和N的其实不是。</p>
+<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;E&#x27;</span>== <span class="string">&#x27;Ε&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;N&#x27;</span> == <span class="string">&#x27;Ν&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure>
+<p>下面是加了异体字监测部分的转换代码</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">dms2dd</span>(<span class="params">dms</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    convert degree minute second to degree decimal</span></span><br><span class="line"><span class="string">    :param dms:度分秒/度分 形式的经纬度</span></span><br><span class="line"><span class="string">    :return:</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    dms = dms.strip()</span><br><span class="line">    a = re.findall(<span class="string">&#x27;[^\\d°\&#x27;&quot;″NSEWΕ\\.]&#x27;</span>, dms)</span><br><span class="line">    <span class="keyword">if</span> a :</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;有异体字符&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(a)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;该异体字ASCII是&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>([<span class="built_in">ord</span>(x) <span class="keyword">for</span> x <span class="keyword">in</span> a])</span><br><span class="line">    parts = re.split(<span class="string">&#x27;[°\&#x27;&quot;″]+&#x27;</span>, dms)</span><br><span class="line">    degree, minute, second, direction = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(parts) == <span class="number">3</span>:</span><br><span class="line">        degree, minute, direction = parts</span><br><span class="line">    <span class="keyword">elif</span> <span class="built_in">len</span>(parts) == <span class="number">4</span>:</span><br><span class="line">        degree, minute, second, direction = parts</span><br><span class="line">    dd = <span class="built_in">float</span>(degree) + <span class="built_in">float</span>(minute) / <span class="number">60</span> + <span class="built_in">float</span>(second) / (<span class="number">60</span> * <span class="number">60</span>)</span><br><span class="line">    <span class="keyword">if</span> direction == <span class="string">&#x27;W&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">        dd *= -<span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> direction == <span class="string">&#x27;E&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;N&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ε&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ν&#x27;</span>:</span><br><span class="line">            dd *= +<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> dd</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Hang out with friends(2)</title>
     <url>/posts/6b6ac36a.html</url>
     <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
@@ -663,7 +1183,7 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
 <p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。</p>
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div>
 <p>据我看来，最好是问有共识、公认的答案的，早于21年9月的信息。</p>
-<div class="note info"><h4 id="“常凯申”误译事件"><a class="header-anchor" href="#“常凯申”误译事件">¶</a>“常凯申”误译事件</h4>
+<div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4>
 <p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p>
 <p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p>
 </div>
@@ -800,525 +1320,5 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
       <tags>
         <tag>日常</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Bad or interesting translations</title>
-    <url>/posts/25cd51e8.html</url>
-    <content><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮件。这里记录今年起遇到的</p>
-<p>还有一些有趣的翻译也会放在这里</p>
-<h1 id="Guinea-pig"><a class="header-anchor" href="#Guinea-pig">¶</a>Guinea pig</h1>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/JkXaixYdgtOqNGe.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/wnbicCBe1FzvMyj.png" alt=""></div></div></div>
-<p>非常有意思的事情是用“guinea pig”也就是豚鼠来代指实验的对象，实际上和中文语境下用“小白鼠”（实验用小鼠 <a href="https://en.wikipedia.org/wiki/Laboratory_rat">lab rat</a> ）并不指代同一个物种，因此在翻译这个词的时候很难在“信”和“达”之间抉择。</p>
-<p>若译为豚鼠则失于达，以为小白鼠则失于信，很难抉择。</p>
-<p>事实上当前做实验往往很少使用豚鼠，英文语境下之所以还在用guinea pig 可能是由于历史原因，曾经可能豚鼠用得更多，可以参见<a href="https://english.stackexchange.com/questions/4806/why-is-guinea-pig-used-as-the-colloquial-term-for-test-subjects">这里</a>，以下也摘录大意。</p>
-<p>Guinea pigs might not be the most common experimental subjects today, but we have to look at how common they were when the term was first coined, which was many decades ago, as Etymonline points out:</p>
-<blockquote>
-<p>In the extended sense of “one subjected to an experiment” it is first recorded 1920, because they were commonly used in vivisection experiments.</p>
-</blockquote>
-<p>Wikipedia seems to be backing that up:</p>
-<blockquote>
-<p>Biological experimentation on guinea pigs has been carried out since the 17th century. The animals were frequently used as a model organism in the 19th and 20th centuries, resulting in the epithet “guinea pig” for a test subject, but have since been largely replaced by other rodents such as mice and rats.</p>
-</blockquote>
-<span id="more"></span>
-<h1 id="Nice-touch"><a class="header-anchor" href="#Nice-touch">¶</a>Nice touch</h1>
-<p>这里touch 作细节讲，可以直译无需意译，按照阴阳怪气的语气可以翻译成，“小细节不错”，当然如果不是Sheldon讲，完全可以是正面的意思。</p>
-<blockquote>
-<p>Penny: What’s with the fancy spread?<br>
-Sheldon: My new roommate is bending over backwards to ingratiate himself to me. Uh, nice touch, by the way.</p>
-</blockquote>
-<p><img data-src="https://s2.loli.net/2022/08/14/ToBdNsJtuKAVaLf.png" alt=""></p>
-<h1 id="Janitor"><a class="header-anchor" href="#Janitor">¶</a>Janitor</h1>
-<p>很奇怪为什么有些字典把janitor翻译成看门人，Janitor往往是指清洁工的意思，去图片搜索出来的结果都是类似下图的清洁工形象，Wikipedia<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>里也强调了清洁的含义。而看门人，正常会认为是Guard，或者是旅店前台的concierge吧？我不太懂是不是我的中文出了问题，看门人包含保洁的意思吗？一会去采访几个朋友。</p>
-<blockquote>
-<p>A janitor (American English, Scottish English), also known as a custodian, porter, cleanser, cleaner or caretaker is a person who cleans and maintains buildings. Janitors typically earn an average wage of $15 per hour in the United States.[1] That translates to an annual salary of around $35,000 for states that pay janitors the most, such as New York, Massachusetts, and Connecticut. In some cases, they will also carry out maintenance and security duties. <span style="color:#B95000">  A similar position, but usually with more managerial duties and not including cleaning, is occupied by building superintendents in the United States and Canada and by site managers in schools in the United Kingdom. Cleaning is one of the most commonly outsourced services.</span></p>
-</blockquote>
-<p><img data-src="https://s2.loli.net/2022/08/14/DQpgCl3fuh4xq5d.png" alt=""></p>
-<h1 id="Acrylic"><a class="header-anchor" href="#Acrylic">¶</a>Acrylic</h1>
-<p>亚克力经常说，丙烯酸倒是很少提到，然而亚克力就是丙烯酸的英文发音</p>
-<h1 id="RTFM-and-STFW"><a class="header-anchor" href="#RTFM-and-STFW">¶</a>RTFM and STFW</h1>
-<p>Read the fuck manual &amp; search the fuck web</p>
-<p>自己读手册&amp;上网查一下</p>
-<h1 id="Ride-it-out"><a class="header-anchor" href="#Ride-it-out">¶</a>Ride it out</h1>
-<p><img data-src="https://s2.loli.net/2022/08/14/e7RQUqA3XVhxJvg.jpg" alt=""><br>
-不是乘船离开而是安全离开的意思<br>
-it应该是指险境本身</p>
-<blockquote>
-<p>: to succeed in surviving or getting through (something dangerous or harmful that cannot be stopped or avoided) The ship/crew rode out the storm. We managed to ride out the stock market downturn.</p>
-</blockquote>
-<h1 id="Talk-shop"><a class="header-anchor" href="#Talk-shop">¶</a>Talk shop</h1>
-<p>完全不是闲聊的意思，是谈工作的意思<br>
-<img data-src="https://s2.loli.net/2022/08/14/Jqbxu5pd7jgQcLT.png" alt=""></p>
-<h1 id="Underdog"><a class="header-anchor" href="#Underdog">¶</a>Underdog</h1>
-<p><img data-src="https://s2.loli.net/2022/08/14/ROcXDGugA35fsBq.png" alt=""></p>
-<p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p>
-<blockquote>
-<p>So you like an underdog?Everyone likes an underdog.<br>
-所以你喜欢被压迫者?人人都喜欢受压迫的人</p>
-</blockquote>
-<p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p>
-<h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1>
-<p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p>
-<p>那戴望舒的《雨巷》<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1:1]</a></sup>指的是哪一种丁香呢？这个问题那就留给读者们自己去考据吧！还是很简单的.</p>
-<blockquote>
-<p>我希望逢着<br>
-一个丁香一样地<br>
-结着愁怨的姑娘</p>
-</blockquote>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/M5Np43fXsUGrg7I.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/v4YI5cBTatKpljn.png" alt=""></div></div></div>
-<p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p>
-<h1 id="Hobble"><a class="header-anchor" href="#Hobble">¶</a>Hobble</h1>
-<p>阻碍，跛脚</p>
-<p><img data-src="https://s2.loli.net/2022/08/14/oGdS1cFB32PkOen.png" alt=""></p>
-<h1 id="86"><a class="header-anchor" href="#86">¶</a>86</h1>
-<p>86是离开，拒绝的意思，还挺有趣</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E9%9B%A8%E5%B7%B7/1499166?fr=aladdin">https://baike.baidu.com/item/雨巷/1499166?fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Single-Event Upsets</title>
-    <url>/posts/df853c19.html</url>
-    <content><![CDATA[<p>首先安利一下真理元素的这个视频</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=292841556&bvid=BV1pf4y1J7bo&cid=404656376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-<hr>
-<div class="note info"><h4 id="Single-Event-Upsets"><a class="header-anchor" href="#Single-Event-Upsets">¶</a>Single Event Upsets</h4>
-<p>A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.</p>
-</div>
-<span id="more"></span>
-<div class="note info"><h4 id="单粒子翻转"><a class="header-anchor" href="#单粒子翻转">¶</a>单粒子翻转</h4>
-<p>单粒子翻转是航天电子学术语，原因是在空间环境下存在着大量高能带电粒子，计算机中的CMOS电子元器件受到地球磁场、宇宙射线等照射，引起电位状态的跳变，“0”变成“1”，或者“1”变成“0”，但一般不会造成器件的物理性损伤。</p>
-</div>
-<p>看航天相关的科普得知了这一个名词<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。这一现象导致了很多航天事故，例如，我国于1995年2月8日发射升空的实践四号卫星上搭载的两台用于单粒子事件测量的监测装置，在入轨后的19天内共发生了65次翻转，而风云一号气象卫星也因多次单粒子翻转导致姿态控制系统失控而过早的失效。</p>
-<p>事实上，虽然在航天中发生较多，地球上也不是没有发生单粒子翻转的概率。例如，在比利时斯哈尔贝克的一次选举中，单粒子翻转效应被认为是一次电子投票错误的罪魁祸首。电子投票机的一个数位翻转，使一名候选人的选票增加了4096张。又例如，马里奥游戏速通的一次直播中，曾有过单粒子翻转导致马里奥跳到天花板上。</p>
-<p>似乎被我们视为极为稳健的计算机计算结果，其实也并不完全可靠。如果有外星人存在，是不是只需要在人类计算某个关键参数的时候，用高能粒子发生器，就能击中人类的计算机，让人类永远无法计算出这个参数? 也许我们哪个计算机模拟实验里无法复现的错误也只是高能粒子开的一个玩笑。</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=AaZ_RSt0KP8">https://www.youtube.com/watch?v=AaZ_RSt0KP8</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Travel: HuaiRou</title>
-    <url>/posts/1c7bcf47.html</url>
-    <content><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p>
-<p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div>
-<span id="more"></span>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-        <tag>Travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Travel : Shichahai</title>
-    <url>/posts/84feb42a.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>希望大家以后都可以很开心！</p>
-
-</blockquote>
-<p>去了什刹海冰场，和课题组的小伙伴一起， 好快乐。先放一下 <span style="color:#B95000">  降雨几率</span> 剪的视频，正文还有一些照片和记录。</p>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=210696909&bvid=BV1ua411B71v&cid=486456439&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-<span id="more"></span>
-<hr>
-<div class="tabs" id="什刹海冰场"><ul class="nav-tabs"><li class="tab active"><a href="#什刹海冰场-1">什刹海冰场 1</a></li><li class="tab"><a href="#什刹海冰场-2">什刹海冰场 2</a></li></ul><div class="tab-content"><div class="tab-pane active" id="什刹海冰场-1"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/nWMBGpIJEd2DPfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/3Tn2idG6vlMLVjB.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/McuCiJKPhz6GBL5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/d8XSyIY3mgkaFGA.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/9UnTjxZFhw8giYl.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/abQMKGUExAS6z9I.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/t3vQZUqEws1m65p.jpg" alt=""></div></div></div></div><div class="tab-pane" id="什刹海冰场-2"><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/OSlLnT3tyGuaKQN.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/9lmcvK2Y7fnSgqa.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/KfZzqOwLgYjy4BS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/4vdO6gPLaueZJoY.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/BGldkYbg6pvO8iS.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/g9tseYEkXq6vWj5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/e1iZCTxGptoSUgJ.jpg" alt=""></div></div></div></div></div></div>
-<center>点开查看全图，缩略图显示不全</center>
-<hr>
-<p>学生时代和朋友一起出去玩是真的快乐，而且确实是人多一点有意思，也对组里的师姐还有小伙伴多了一些了解。觉得大家都还是很单纯的感觉，都很像学生。虽然来了所里半年，但是以前确实和大家的接触都不多。可能更多的是师姐们跟我安利周围的店， 我厚脸皮和师姐、师兄包括师弟问问题，课题组没什么一起出去的活动。虽然这次也不是所有人都有时间，但是是很好的开始！</p>
-<p><span style="color:#B95000"> 清不悦</span> 是全程摄影动作指导，和她学习了很多拍照技巧。其实有数百张照片，也都很好看，主要选了我自己的和一些不露脸的合照。有一张姿势被我们称为 <span style="color:#B95000"> 投降</span>，很百搭唉，然后我拍照就可以比起剪刀手多一个姿势了，每次拍照都会想起这次旅行的。她还有很多可可爱爱的动作，不过不适合男生我就没学了。</p>
-<p>因为师姐们都叫 <span style="color:#B95000">  Hyuk Doli</span>师妹，中途没反应过来，占了好几次便宜，叫了好几次师妹，后来<span style="color:#B95000">  Hyuk Doli</span>叫我师弟，我就不知道是没反应过来还是一定要把便宜占回来了。</p>
-<p><span style="color:#B95000">  周杰偷</span>师姐有点童心唉，挺可爱的hh，突然想到要蹲在地上拖着冰上滑行，然后我们就试了，她笑得好开心啊。接下来我们每个人试着被拖着走了，就是我有点重，拖行困难。而且她是你画我猜聪明人，很擅长这个游戏。</p>
-<p><span style="color:#B95000"> 降雨几率 </span> 骑冰上自行车的比赛赢了我两次，看来不仅仅是力气问题，我明明力气很猛，结果被甩到看不见尾灯。中途好多车拦路，一停下来再启动就看不见人了。</p>
-<blockquote class="blockquote-center">
-<p>所以学生的美好之处就是在这里嘛，希望大家以后也可以一直快乐！</p>
-
-</blockquote>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-        <tag>Travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>latex tips</title>
-    <url>/posts/f105dbfb.html</url>
-    <content><![CDATA[<p>Latex我已经比较娴熟了，但是尚有一些命令记不清，记录以便查看</p>
-<span id="more"></span>
-<h1 id="自动剪切pdf"><a class="header-anchor" href="#自动剪切pdf">¶</a>自动剪切pdf</h1>
-<p>–margins “10 20 10 25”<br>
-左邊 上方 右邊 下方</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"><span class="comment"># 自動切除所有 PDF 檔頁面的白邊</span></span><br><span class="line"><span class="keyword">for</span> FILE <span class="keyword">in</span> ./*.pdf; <span class="keyword">do</span></span><br><span class="line">  pdfcrop <span class="string">&quot;<span class="variable">$&#123;FILE&#125;</span>&quot;</span> <span class="string">&quot;<span class="variable">$&#123;FILE&#125;</span>&quot;</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-<h1 id="单元格内换行"><a class="header-anchor" href="#单元格内换行">¶</a>单元格内换行</h1>
-<figure class="highlight dust"><table><tr><td class="code"><pre><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;M&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">m</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml">\newcolumntype</span><span class="template-variable">&#123;P&#125;</span><span class="xml">[1]</span><span class="template-variable">&#123;&gt;&#123;\centering\arraybackslash&#125;</span><span class="xml">p</span><span class="template-tag">&#123;#1&#125;</span><span class="xml">&#125;</span></span><br><span class="line"><span class="xml"></span></span><br><span class="line"><span class="xml">\begin</span><span class="template-variable">&#123;tabular&#125;</span><span class="template-variable">&#123;@&#123;&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.3\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">M</span><span class="template-variable">&#123;0.4\linewidth&#125;</span><span class="xml">@</span><span class="template-variable">&#123;&#125;</span><span class="xml">&#125;</span></span><br></pre></td></tr></table></figure>
-<h1 id="过滤未使用的文献"><a class="header-anchor" href="#过滤未使用的文献">¶</a>过滤未使用的文献</h1>
-<p>zotero-&gt;tools有aux过滤器，直接用就可以了，使用后将生成Tag，筛选后导出即可</p>
-<h1 id="pandoc"><a class="header-anchor" href="#pandoc">¶</a>pandoc</h1>
-<figure class="highlight haml"><table><tr><td class="code"><pre><span class="line">pandoc Optimal_site.tex -o output.docx -M autoEqnLabels \</span><br><span class="line">       -<span class="ruby">-filter pandoc-crossref \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-bibliography=<span class="string">&quot;../ref.bib&quot;</span> \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-citeproc \</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-csl=<span class="string">&quot;/Users/sam/Documents/tex/ieee.csl&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-reference-doc=<span class="string">&quot;/Users/sam/Documents/temp.docx&quot;</span>\</span></span><br><span class="line"><span class="ruby"></span>       -<span class="ruby">-number-sections</span></span><br></pre></td></tr></table></figure>
-<h1 id="latexpand"><a class="header-anchor" href="#latexpand">¶</a>latexpand<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1>
-<p>一些期刊不接受不扁平化的结构，pandoc对复杂结构的处理也不是很好<br>
-latexpand - Flatten LaTeX file by expanding \include and \input, … and<br>
-remove comments</p>
-<p>移除未使用的文件</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="meta">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> image_file <span class="keyword">in</span> $(ls fig/)</span><br><span class="line"><span class="keyword">do</span></span><br><span class="line"><span class="keyword">if</span> grep <span class="variable">$image_file</span> *.<span class="built_in">log</span> -c &gt; 1</span><br><span class="line"><span class="keyword">then</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is in use.&quot;</span></span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">        <span class="built_in">echo</span> <span class="string">&quot;File <span class="variable">$image_file</span> is not in use.&quot;</span></span><br><span class="line">        mv <span class="string">&quot;fig/<span class="variable">$image_file</span>&quot;</span> <span class="string">&quot;fig/moved.<span class="variable">$image_file</span>&quot;</span> <span class="comment"># or any other action</span></span><br><span class="line"><span class="keyword">fi</span></span><br><span class="line"><span class="keyword">done</span></span><br></pre></td></tr></table></figure>
-<h1 id="中文编译指定内核"><a class="header-anchor" href="#中文编译指定内核">¶</a>中文编译指定内核</h1>
-<p>由于我使用vim写python、markdown等，因此latex也使用vim<br>
-由于使用vim插件，自动编译latex内核需要定义</p>
-<figure class="highlight delphi"><table><tr><td class="code"><pre><span class="line">%!TEX <span class="keyword">program</span> = xelatex</span><br></pre></td></tr></table></figure>
-<h1 id="minipage"><a class="header-anchor" href="#minipage">¶</a>minipage</h1>
-<figure class="highlight llvm"><table><tr><td class="code"><pre><span class="line">\<span class="keyword">begin</span>&#123;minipage&#125;[<span class="keyword">c</span>][<span class="number">10</span>cm][<span class="keyword">c</span>]&#123;\textwidth&#125;</span><br><span class="line"></span><br><span class="line">\<span class="keyword">end</span>&#123;minipage&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1>
-<p>cse<br>
-csc</p>
-<h2 id="Set-up-Skim-Inverse-or-Backward-Search"><a class="header-anchor" href="#Set-up-Skim-Inverse-or-Backward-Search">¶</a>Set up Skim Inverse or Backward Search</h2>
-<figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">nvim</span><br><span class="line">--headless -c <span class="string">&quot;VimtexInverseSearch %line &#x27;%file&#x27;&quot;</span></span><br></pre></td></tr></table></figure>
-<p><a href="https://dr563105.github.io/blog/skim-vimtex-setup/">https://dr563105.github.io/blog/skim-vimtex-setup/</a></p>
-<h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1>
-<p>detex</p>
-<h1 id="不接受子图如何单独组合"><a class="header-anchor" href="#不接受子图如何单独组合">¶</a>不接受子图如何单独组合</h1>
-<p><a href="https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/">https://texblog.org/2015/10/07/combining-sub-figures-to-a-single-figure-for-submission-to-journal/</a></p>
-<h1 id="教程"><a class="header-anchor" href="#教程">¶</a>教程</h1>
-<p><a href="https://www.cnblogs.com/code-saturne/p/10565151.html">https://www.cnblogs.com/code-saturne/p/10565151.html</a></p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://www.ctan.org/pkg/latexpand">https://www.ctan.org/pkg/latexpand</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Learning Swimming</title>
-    <url>/posts/5a367fc4.html</url>
-    <content><![CDATA[<p>Recently I took some swimming lessons in the gym I used to go. I’ve learned breaststroke before but I can’t swim fast with it. My flexibility is bad so I can’t do the right gesture and the rotation of leg may increase my risks of injury. I know if I get some advice from a professional coach and to some training my helps but the easiest way is to change my stoke. So I try to learn crawl swimming these days. And it’s much more tired than breaststroke especially when I wore the flippers. I got my calf cramped and still under recovery.</p>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pandas库的使用(2)</title>
-    <url>/posts/80bbe987.html</url>
-    <content><![CDATA[<span id="more"></span>
-<h1 id="缺测"><a class="header-anchor" href="#缺测">¶</a>缺测</h1>
-<p><code>.stack()</code>和<code>.groupby()</code>默认会dropna, 会导致折线图不能忽略缺测</p>
-<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span> = obs_xr[var].to_pandas().stack(<span class="title">dropna</span>=<span class="type">False</span>).reset_index()</span></span><br><span class="line"><span class="title">dataTemp</span> = <span class="class"><span class="keyword">data</span>.groupby([&#x27;<span class="title">time&#x27;</span>, &#x27;站点类型&#x27;], <span class="title">dropna</span>=<span class="type">False</span>).mean().unstack()</span></span><br></pre></td></tr></table></figure>
-<h1 id="seaborn控制子图"><a class="header-anchor" href="#seaborn控制子图">¶</a>seaborn控制子图</h1>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Songti SC&#x27;</span>]</span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line"></span><br><span class="line">g = sns.FacetGrid(</span><br><span class="line">    dataTemp,</span><br><span class="line">    <span class="attribute">col</span>=<span class="string">&#x27;站点类型&#x27;</span>, <span class="attribute">col_wrap</span>=3,</span><br><span class="line">    <span class="attribute">col_order</span>=list,</span><br><span class="line">    <span class="attribute">height</span>=2.5, <span class="attribute">aspect</span>=4</span><br><span class="line">)</span><br><span class="line">g.map(plt.plot,</span><br><span class="line">      <span class="string">&#x27;time&#x27;</span>, <span class="string">&#x27;浓度&#x27;</span></span><br><span class="line">      )</span><br><span class="line">g.set_xticklabels(<span class="attribute">rotation</span>=15)</span><br><span class="line">g.set_titles(<span class="string">&quot;&#123;col_name&#125;&quot;</span>)  # use this argument literally</span><br><span class="line"></span><br><span class="line">add_label(var, g)</span><br><span class="line">g.set_xlabels(<span class="string">&#x27;时间&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax.axvspan(</span><br><span class="line">        datetime.datetime(2020, 1, 19), datetime.datetime(2020, 1, 24),</span><br><span class="line">        <span class="attribute">color</span>=<span class="string">&#x27;red&#x27;</span>, <span class="attribute">alpha</span>=0.3)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h1 id="颜色控制"><a class="header-anchor" href="#颜色控制">¶</a>颜色控制</h1>
-<figure class="highlight ini"><table><tr><td class="code"><pre><span class="line"><span class="attr">colors</span> = sns.color_palette(<span class="string">&#x27;hls&#x27;</span>, len(modes))</span><br><span class="line"><span class="attr">palette</span> = &#123;mode: color for mode, color in zip(modes, colors)&#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>pdf-copy-vim</title>
-    <url>/posts/49b709c3.html</url>
-    <content><![CDATA[<p>为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</p>
-<ul>
-<li>数字、字母等非中文字符变成全角字符</li>
-<li>产生多余的空格、换行</li>
-<li>中、英文标点（全、半角）混乱</li>
-<li>英文上下文中的标点后缺空格</li>
-</ul>
-<p>已有一些现有思路，例如利用quicker和打包成GUI界面的软件。由于我使用MacOS和Vim编辑器，为了方便起见，可以利用现有的python脚本在改为vim的插件。</p>
-<p>主要需要实现的点是python与vim的交互，可以使用<code>vim.eval('@+')</code>读取寄存器作为参数，输出结果到当前buffer即可。</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
-<span id="more"></span>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">python3 &lt;&lt; EOF </span><br><span class="line"><span class="comment"># coding: utf-8</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">为了解决从pdf等格式的中文文献中复制粘贴常会出现的一些问题：</span></span><br><span class="line"><span class="string">- 数字、字母等非中文字符变成全角字符</span></span><br><span class="line"><span class="string">- 产生多余的空格、换行</span></span><br><span class="line"><span class="string">- 中、英文标点（全、半角）混乱</span></span><br><span class="line"><span class="string">- 英文上下文中的标点后缺空格</span></span><br><span class="line"><span class="string">未解决：</span></span><br><span class="line"><span class="string">- 括号等依赖上下文判断全、半角的标点未识别</span></span><br><span class="line"><span class="string">- 仅支持中英文文献</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">@python version author: Mo Dabao</span></span><br><span class="line"><span class="string">@modified by Sam</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> vim</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在换行符前的字符</span></span><br><span class="line">ENDSIGN = <span class="built_in">set</span>(<span class="string">&quot;.:;!?。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 半角标点（除了.）</span></span><br><span class="line">HALFPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;,:;!?&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角空格前的字符</span></span><br><span class="line">SPACESIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                <span class="string">&quot;,.:;!?\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 可能出现在半角标点前的字符</span></span><br><span class="line">HALFPUNCTUATIONSIGN = <span class="built_in">set</span>(<span class="string">&quot;abcdefghijklmnopqrstuvwxyz&quot;</span></span><br><span class="line">                          <span class="string">&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;</span></span><br><span class="line">                          <span class="string">&quot;0123456789\&quot;&#x27;)]&#125;&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># unicode65281～65374中可能要保留的全角标点</span></span><br><span class="line">FULLPUNCTUATION = <span class="built_in">set</span>(<span class="string">&quot;，。：；！？&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 数字</span></span><br><span class="line">NUMBER = <span class="built_in">set</span>(<span class="string">&quot;0123456789&quot;</span>)</span><br><span class="line"></span><br><span class="line">text_old = vim.<span class="built_in">eval</span>(<span class="string">&#x27;@+&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">organize</span>():</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;整理从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    - 删除多余的空白符（换行、空格、制表等）</span></span><br><span class="line"><span class="string">    - 英文、数字、部分标点符号的全角字符换成半角字符</span></span><br><span class="line"><span class="string">    - 修正误判为中文标点（，；：！？）的英文标点字符</span></span><br><span class="line"><span class="string">    - 英文标点后确保一个空格</span></span><br><span class="line"><span class="string">    注意：所有括号都处理为半角</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Args:</span></span><br><span class="line"><span class="string">        text_old: 从文献中复制出来的文本。</span></span><br><span class="line"><span class="string"></span></span><br><span class="line"><span class="string">    Returns:</span></span><br><span class="line"><span class="string">        text_new: 整理之后的文本。</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    text_new = []</span><br><span class="line">    <span class="keyword">for</span> char <span class="keyword">in</span> text_old:</span><br><span class="line">        char_unicode = <span class="built_in">ord</span>(char)</span><br><span class="line">        <span class="comment"># 处理换行符</span></span><br><span class="line">        <span class="keyword">if</span> char == <span class="string">&#x27;\n&#x27;</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在换行符前的字符则保留</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> ENDSIGN:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">elif</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理非换行符的空白字符</span></span><br><span class="line">        <span class="keyword">elif</span> char.isspace():</span><br><span class="line">            <span class="comment"># 若上一个字符为可能出现在半角空格前的字符则换成半角空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> SPACESIGN:</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理unicode65281～65374全角字符</span></span><br><span class="line">        <span class="keyword">elif</span> <span class="number">65281</span> &lt;= char_unicode &lt;= <span class="number">65374</span>:</span><br><span class="line">            <span class="comment"># 确定要保留的全角字符串</span></span><br><span class="line">            <span class="keyword">if</span> char == <span class="string">&quot;～&quot;</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">            <span class="comment"># 若为中文全角标点</span></span><br><span class="line">            <span class="keyword">elif</span> char <span class="keyword">in</span> FULLPUNCTUATION:</span><br><span class="line">                <span class="comment"># 若上一个字符为可能出现在半角标点前的字符则换成半角并加空格</span></span><br><span class="line">                <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                    text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">                    text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">                <span class="comment"># 否则保留</span></span><br><span class="line">                <span class="keyword">else</span>:</span><br><span class="line">                    text_new.append(char)</span><br><span class="line">            <span class="comment"># 否则换成半角</span></span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode - <span class="number">65248</span>))</span><br><span class="line">        <span class="comment"># 正常英文字符</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">            text_new.append(char)</span><br><span class="line">        <span class="comment"># 半角标点</span></span><br><span class="line">        <span class="keyword">elif</span> char <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] <span class="keyword">not</span> <span class="keyword">in</span> HALFPUNCTUATIONSIGN:</span><br><span class="line">                text_new.append(<span class="built_in">chr</span>(char_unicode + <span class="number">65248</span>))</span><br><span class="line">            <span class="keyword">else</span>:</span><br><span class="line">                text_new.append(char)</span><br><span class="line">                text_new.append(<span class="string">&#x27; &#x27;</span>)</span><br><span class="line">        <span class="comment"># 处理剩余字符</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="comment"># 若上一个字符是半角空格则删去空格</span></span><br><span class="line">            <span class="keyword">if</span> text_new <span class="keyword">and</span> text_new[-<span class="number">1</span>] == <span class="string">&#x27; &#x27;</span>:</span><br><span class="line">                <span class="keyword">del</span> text_new[-<span class="number">1</span>]</span><br><span class="line">                <span class="comment"># 若上一个字符是半角标点则换成全角</span></span><br><span class="line">                <span class="keyword">if</span> text_new[-<span class="number">1</span>] <span class="keyword">in</span> HALFPUNCTUATION:</span><br><span class="line">                    text_new[-<span class="number">1</span>] = <span class="built_in">chr</span>(<span class="built_in">ord</span>(text_new[-<span class="number">1</span>]) + <span class="number">65248</span>)</span><br><span class="line">            text_new.append(char)</span><br><span class="line">    text_new = <span class="string">&#x27;&#x27;</span>.join(text_new) </span><br><span class="line">    vim.current.buffer.append(text_new)</span><br><span class="line">    <span class="keyword">return</span> text_new</span><br><span class="line">EOF</span><br><span class="line"></span><br><span class="line"><span class="built_in">exec</span>(<span class="string">&#x27;py3 organize()&#x27;</span>)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>在<code>init.vim</code> 中map该任务为PDF，使用<code>:PDF</code>命令即可读取<code>+</code>寄存器作为python脚本的参数，并将结果输入buffer了</p>
-<figure class="highlight gradle"><table><tr><td class="code"><pre><span class="line">command! -nargs=<span class="number">0</span> PDF <span class="keyword">source</span> ~<span class="regexp">/.vim/</span>pack/pdf.vim</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Everglow</title>
-    <url>/posts/6282d7e8.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>They say people come<br>
-Say people go<br>
-This particular diamond was extra special</p>
-
-</blockquote>
-<p>I put an video here. Because I really like it and hope you can listen.</p>
-<span id="more"></span>
-<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=37626252&bvid=BV1Ct411S7Ey&cid=66151798&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-<hr>
-<p>I don’t remember if it’s last year or the year before this time, I looped this song hundreds of times. And when it comes close to the end of this Lunar year, I listened to it over and over again. The lyrics are so beautiful, just like a poem and I can easily feel what behind the language itself, which means if it’s translated into Chinese or any other language, it would be exactly the same touching.</p>
-<h1 id="The-translation"><a class="header-anchor" href="#The-translation">¶</a>The translation</h1>
-<p>But many versions of translation are extremely bad. I don’t get why they try to interpret ‘This particular diamond’ as old memory or a particular women. It’s an <span style="color:#B95000"> IMPLIED METAPHORS </span> and when you translate it you should keep the original rhetorics. And people can understand this <span style="color:#B95000"> IMPLIED METAPHORS </span>, they are not stupid.</p>
-<p>Heres is an Japanese  anecdote:</p>
-<blockquote>
-<p>The author Natsume Soseki, in his life as an English teacher, supposedly saw his students translate “I love you” word-for-word. Soseki told them that’s not Japanese (too direct) and that “the moon is beautiful” would be the appropriate translation (alone with a lady on a moonlit night, context says it all).<br>
-今夜の月は綺麗ですね</p>
-</blockquote>
-<p>The anecdote may be made up, and it’s even not a Chinese story. But I think the Chinese is like the Japanese in some way so we should be indirect. If the original words are 'This woman was like a particular diamond that was extra special ’ it should be translated to an <span style="color:#B95000"> INDIRECT</span> way, not vise versa!</p>
-<h1 id="Relation-with-me"><a class="header-anchor" href="#Relation-with-me">¶</a>Relation with me</h1>
-<p>You know, we may all have some friends or lovers end up being separated. I never have a lover but I do have some friends. Although we may never go back together, I still cherish the moments we have and hope they are all well. I’m sorry for my bad and or even nobody is bad but the relation just don’t work out in the end, I’m still very sorry. I do like the happy memories. They are like diamonds.</p>
-]]></content>
-      <categories>
-        <category>Music</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Word Tips</title>
-    <url>/posts/173b35fb.html</url>
-    <content><![CDATA[<p>虽然我自己是用latex/markdown写作较多，连ppt都是beamer顺手，但是其他人可能不用，为了团队协作还是必须要知道一些word技巧，于此记录</p>
-<hr>
-<h1 id="Word-VBA"><a class="header-anchor" href="#Word-VBA">¶</a>Word VBA</h1>
-<h2 id="VBA脚本的使用方法"><a class="header-anchor" href="#VBA脚本的使用方法">¶</a>VBA脚本的使用方法</h2>
-<blockquote>
-<p>A picture is worth a thousand words<br>
-<img data-src="https://s2.loli.net/2022/08/25/JT8AcDGQ1MFNH5r.png" alt=""><br>
-注意：保存后脚本可以下次直接点击使用，如还有疑问自行百度/谷歌。</p>
-</blockquote>
-<h2 id="替换污染物下标的VBA脚本"><a class="header-anchor" href="#替换污染物下标的VBA脚本">¶</a>替换污染物下标的VBA脚本</h2>
-<p>以NH3为例简述思路：</p>
-<ol>
-<li>将NH3中替换为NH厷厸</li>
-<li>由于厷厸为生僻字，所有很难出现第二个这样的组合，可以特征的表示NH3中的3</li>
-<li>将厷厸替换为下标格式的数字3</li>
-</ol>
-<p>这样就可以实现保留原有格式，仅替换下标</p>
-<p>替换PM2.5 SO2 NO2 O3 NH3 PM10 这些变量的脚本如下，根据简述的思路可自行添加其他</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">Sub replace()</span><br><span class="line"></span><br><span class="line">&#x27;replace NH3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NH3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NH厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM10...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM10&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;10&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace PM2.5...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;PM2.5&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;PM厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2.5&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace SO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;SO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;SO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line">&#x27;replace NO2...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;NO2&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;NO厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;2&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#x27;replace O3...</span><br><span class="line"></span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;O3&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;O厷厸&quot;</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">With Selection.Find</span><br><span class="line"> .ClearFormatting</span><br><span class="line"> .Text = &quot;厷厸&quot;</span><br><span class="line"> .Replacement.ClearFormatting</span><br><span class="line"> .Replacement.Text = &quot;3&quot;</span><br><span class="line"> .Replacement.Font.Subscript = True</span><br><span class="line"> .Execute replace:=wdReplaceAll, Forward:=True, _</span><br><span class="line"> Wrap:=wdFindContinue</span><br><span class="line">End With</span><br><span class="line">End Sub</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="选中文中所有表格脚本"><a class="header-anchor" href="#选中文中所有表格脚本">¶</a>选中文中所有表格脚本</h2>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#x27;**************************************</span><br><span class="line">&#x27; 函数名: SelectAllTables</span><br><span class="line">&#x27; 功   能:主要是把WORD文档中的所有表格选取上，以便单独对文档中的所有表格进行整体编辑。</span><br><span class="line"></span><br><span class="line">&#x27;**************************************</span><br><span class="line"></span><br><span class="line">Sub SelectAllTables()</span><br><span class="line"></span><br><span class="line">    Dim tempTable As Table</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = False</span><br><span class="line"></span><br><span class="line">    &#x27;判断文档是否被保护</span><br><span class="line"></span><br><span class="line">    If ActiveDocument.ProtectionType = wdAllowOnlyFormFields Then</span><br><span class="line"></span><br><span class="line">        MsgBox &quot;文档已保护，此时不能选中多个表格！&quot;</span><br><span class="line"></span><br><span class="line">        Exit Sub</span><br><span class="line"></span><br><span class="line">    End If</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;添加可编辑区域</span><br><span class="line"></span><br><span class="line">    For Each tempTable In ActiveDocument.Tables</span><br><span class="line"></span><br><span class="line">        tempTable.Range.Editors.Add wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Next</span><br><span class="line"></span><br><span class="line">    &#x27;选中所有可编辑区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.SelectAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    &#x27;删除所有可编辑的区域</span><br><span class="line"></span><br><span class="line">    ActiveDocument.DeleteAllEditableRanges wdEditorEveryone</span><br><span class="line"></span><br><span class="line">    Application.ScreenUpdating = True   </span><br><span class="line"></span><br><span class="line">End Sub</span><br></pre></td></tr></table></figure>
-<h1 id="Word的通配符"><a class="header-anchor" href="#Word的通配符">¶</a>Word的通配符</h1>
-<div class="note info"><p>通配符自成体系，和正则的思路不太相同</p>
-</div>
-<ol>
-<li>替换时输入 <kbd>^c</kbd>可以使用剪切板内容替换，可以保留格式。可以用来将$PM2.5$替换成 $PM_{2.5}$，此前手动替换有些愚蠢</li>
-<li>匹配上下标 用于不使用任何参考文献管理软件导入的文献角标 <span style="color:#B95000">不理解手标的行为 </span><br>
-<img data-src="https://s2.loli.net/2022/08/14/c8GgQElrJIT4F5i.png" alt=""></li>
-</ol>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>xgrads：一个方便的解析ctl文件的库</title>
-    <url>/posts/e78205f3.html</url>
-    <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
-<p><a href="https://github.com/miniufo/xgrads/issues?q=+author%3Asingledoggy+">记录在此</a></p>
-<span id="more"></span>
-<p>测试</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>一些常见的短句</title>
-    <url>/posts/f213319.html</url>
-    <content><![CDATA[<div class="note info"><p>新增<br>
-Veritas</p>
-</div>
-<h1 id="法语"><a class="header-anchor" href="#法语">¶</a>法语</h1>
-<blockquote>
-<p>c’est la vie<br>
-这就是人生。</p>
-</blockquote>
-<p>似乎很常见的句子，在很多电影里见过。最近突然发现<a href="https://c.y.qq.com/base/fcgi-bin/u?__=4gog0qb94PYN">自然卷的专辑</a>也叫这个，以前没注意，还蛮有趣。</p>
-<blockquote>
-<p>merci beaucoup<br>
-感谢 很多</p>
-</blockquote>
-<p>很感谢</p>
-<span id="more"></span>
-<h1 id="西语"><a class="header-anchor" href="#西语">¶</a>西语</h1>
-<blockquote>
-<p>adios amigo<br>
-再见朋友</p>
-</blockquote>
-<blockquote>
-<p>senorita</p>
-</blockquote>
-<p><a href="https://c.y.qq.com/base/fcgi-bin/u?__=6ONQPd4">同名歌曲</a>很好听。</p>
-<blockquote>
-<p>piñatas<br>
-派对用的容器，很有节日氛围</p>
-</blockquote>
-<h1 id="拉丁"><a class="header-anchor" href="#拉丁">¶</a>拉丁</h1>
-<blockquote>
-<p>memento morí<br>
-人终有一死</p>
-</blockquote>
-<p>很多艺术品叫这个</p>
-<blockquote>
-<p>veritas</p>
-</blockquote>
-<p>看科普视频看到真理元素，哈佛大学校训似乎也是这个</p>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>xarray</title>
-    <url>/posts/34865fab.html</url>
-    <content><![CDATA[<h1 id="Xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#Xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
-<p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p>
-<h2 id="Stackoverflow"><a class="header-anchor" href="#Stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2>
-<p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure>
-<p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure>
-<p>Finally, fill the <code>time</code> dimension with my dates:</p>
-<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure>
-<h2 id="Github"><a class="header-anchor" href="#Github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2>
-<p>I inspired also by an issue in Github and get the code below:</p>
-<span id="more"></span>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1>
-<p>Use rioxarray instead</p>
-<h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure>
-<h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>文言文</title>
-    <url>/posts/a5cae94b.html</url>
-    <content><![CDATA[<p>记录一些自己喜欢的文言文</p>
-<blockquote>
-<p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>
-——《庄子》</p>
-</blockquote>
-<p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p>
-<blockquote>
-<p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>
-——《文心雕龙》</p>
-</blockquote>
-<span id="more"></span>
-<blockquote>
-<p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>
-——《山月记》</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>端到端加密</title>
-    <url>/posts/8c889ebe.html</url>
-    <content><![CDATA[<h1 id="欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份"><a class="header-anchor" href="#欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份">¶</a>欢迎使用端到端加密和我通信，可以用我的gpg公钥给我发加密邮件，以后重要邮件可以让我用私钥签名验证身份</h1>
-<p>指纹是:<br>
-03FA 5459 8AEE 8813 A6D7  B8E1 CDC4 D344 2284 0972<br>
-邮箱是:<br>
-Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a><br>
-公钥地址是:<br>
-<a href="https://github.com/singledoggy.gpg">https://github.com/singledoggy.gpg</a></p>
-<h1 id="补充知识："><a class="header-anchor" href="#补充知识：">¶</a>补充知识：</h1>
-<h2 id="什么是RSA算法"><a class="header-anchor" href="#什么是RSA算法">¶</a>什么是RSA算法</h2>
-<span id="more"></span>
-<p><a href="https://www.zhihu.com/question/304030251/answer/543201982">https://www.zhihu.com/question/304030251/answer/543201982</a></p>
-<p><a href="https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html">https://www.ruanyifeng.com/blog/2013/06/rsa_algorithm_part_one.html</a></p>
-<p><a href="https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html">https://www.ruanyifeng.com/blog/2013/07/rsa_algorithm_part_two.html</a></p>
-<h2 id="GPG简单教程"><a class="header-anchor" href="#GPG简单教程">¶</a>GPG简单教程</h2>
-<p><a href="http://www.ruanyifeng.com/blog/2013/07/gpg.html">http://www.ruanyifeng.com/blog/2013/07/gpg.html</a></p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>羡余否定</title>
-    <url>/posts/2c3e2a92.html</url>
-    <content><![CDATA[<p>接触到汉语里面很有趣的现象，羡余否定。具体如下例 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
-<hr>
-<p><img data-src="https://s2.loli.net/2022/08/14/oNy2TYmxtsWzukc.png" alt=""></p>
-<p>还是相当有意思的现象，有点类似</p>
-<blockquote>
-<p>You don’t know nothing.</p>
-</blockquote>
-<p>但是还是有点不同。在知乎<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>上似乎也有一些讨论，对外国人可能比较头疼，完全不遵守逻辑。或许这就是语言。</p>
-<span id="more"></span>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>朱德熙. 现代汉语语法研究[M]. 商務印书館, 1980. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://www.zhihu.com/search?type=content&amp;q=%E7%BE%A1%E4%BD%99%E5%90%A6%E5%AE%9A">https://www.zhihu.com/search?type=content&amp;q=羡余否定</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>视觉相似的字符</title>
-    <url>/posts/60f6fdd2.html</url>
-    <content><![CDATA[<p>视觉相似的字符可以从一个社会新闻谈起，<a href="https://www.zhihu.com/question/543944966/answer/2582511402%5D">某明星用不同的入炸话题</a>, 事实上为了防止代码出错我特意选用了不会混淆1和I的字体, 然而还是在帮朋友写一个转换经纬度的代码里出错了。</p>
-<p>朋友的经纬度Degrees Minutes Seconds 我需要转换为 Decimal Degrees，一开始默认代码是E或者N，W，S，由于他的经纬度是手动从文章复制的，所以出现了一些奇怪的问题，我if只判断了是否要加上负号，没有对非WS的情况检验，默认不是WS就是EN了，事实上他的WS后面常常有空格，用<code>Strip()</code>方法可解，但一开始的忽略会导致有些负号没有加上，另外，异体字希腊字母也是我没有考虑到的，感兴趣的可以测试下面的代码，事实上查看ASCII码可以发现看似是E和N的其实不是。</p>
-<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;E&#x27;</span>== <span class="string">&#x27;Ε&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight ada"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;N&#x27;</span> == <span class="string">&#x27;Ν&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure>
-<p>下面是加了异体字监测部分的转换代码</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">dms2dd</span>(<span class="params">dms</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    convert degree minute second to degree decimal</span></span><br><span class="line"><span class="string">    :param dms:度分秒/度分 形式的经纬度</span></span><br><span class="line"><span class="string">    :return:</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    dms = dms.strip()</span><br><span class="line">    a = re.findall(<span class="string">&#x27;[^\\d°\&#x27;&quot;″NSEWΕ\\.]&#x27;</span>, dms)</span><br><span class="line">    <span class="keyword">if</span> a :</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;有异体字符&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(a)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;该异体字ASCII是&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>([<span class="built_in">ord</span>(x) <span class="keyword">for</span> x <span class="keyword">in</span> a])</span><br><span class="line">    parts = re.split(<span class="string">&#x27;[°\&#x27;&quot;″]+&#x27;</span>, dms)</span><br><span class="line">    degree, minute, second, direction = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(parts) == <span class="number">3</span>:</span><br><span class="line">        degree, minute, direction = parts</span><br><span class="line">    <span class="keyword">elif</span> <span class="built_in">len</span>(parts) == <span class="number">4</span>:</span><br><span class="line">        degree, minute, second, direction = parts</span><br><span class="line">    dd = <span class="built_in">float</span>(degree) + <span class="built_in">float</span>(minute) / <span class="number">60</span> + <span class="built_in">float</span>(second) / (<span class="number">60</span> * <span class="number">60</span>)</span><br><span class="line">    <span class="keyword">if</span> direction == <span class="string">&#x27;W&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">        dd *= -<span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> direction == <span class="string">&#x27;E&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;N&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ε&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ν&#x27;</span>:</span><br><span class="line">            dd *= +<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> dd</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
   </entry>
 </search>
