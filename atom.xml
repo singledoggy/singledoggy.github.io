@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2023-03-03T13:38:10.000Z</updated>
+  <updated>2023-03-07T04:59:06.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Secretary Problem--秘书问题的最佳停止时间</title>
+    <link href="https://samhan.fun/posts/5a58eabc.html"/>
+    <id>https://samhan.fun/posts/5a58eabc.html</id>
+    <published>2023-03-07T04:59:06.000Z</published>
+    <updated>2023-03-07T04:59:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>转自：<a href="https://www.ruanyifeng.com/blog/2023/01/weekly-issue-238.html">阮一峰</a></p><blockquote class="blockquote-center"><p>评价：这个问题可以应用到方方面面，确实可以指导我们的生活。</p><p>数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做&quot;1/e 法则&quot;。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称&quot;37%法则&quot;。</p><p>&quot;37%法则&quot;的意思是，100个应聘者，先面试前37个，且这37无论多优秀都不取，此后的面试只要遇到一个更优秀的，就立刻录取，停止面试，最后找到最佳候选人的的成功率也为37%。</p></blockquote><p>最近，我读了一本算法书，作者是美国科普作家布赖恩·克里斯蒂安（Brian Christian）。</p><p>英文书名叫做《Algorithms to Live By》（生活中的算法）。</p><p>我读的是中译本，书名译成《算法之美》（中信出版社，2018）。</p><p>说实话，这个书名有点误导。我以为讲的是编程算法，其实是生活中的数学知识。</p><p>这本书的优点是，面向普通读者，偏重于文字解释和举例，比较通俗。缺点恰恰也是这个，因为没有任何公式和代码，不可能对算法有透彻的理解。好多地方我都被卡住了，想不明白怎么推理（可能是翻译的问题）。</p><p>但是，它确实讲了很多有趣的数学知识。今天我想分享它的第一章 《最佳停止时间》：什么时候可以停止寻找？</p><p>日常生活有很多&quot;寻找-决策过程&quot;，如果考察所有选项，要花费很长时间，可能还会错失机会，后面遇到的未必有前面的好。能否确定一个时间点，到了某个阶段就停下来，不再寻找了，这时找到合适候选人的概率最大？</p><p>这在数学上称为&quot;秘书问题&quot;。</p><p>某公司招聘一名秘书，有100名候选人，依次面试。每面试完一个人，就必须立刻决定是否录取。也就是说，不能面试完所有人，再回过头决定录取哪一个，一旦放弃当前候选人，就只有从后面的面试者中选择。</p><p>这个设定是合理的，象征我们在生活中遇到的各种机会。机会来临时，转瞬即逝，必须立刻决定是否抓住它，错过就是错过了。你在三个月前放弃了一个机会，不可能三个月后再捡起来。</p><p>大家可以想一想，这时应该面试多少人？</p><p>如果录用得太早，可能错过后面更好的候选人；如果录用得太晚，可能错误放走前面的合格人选。</p><blockquote><p>数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做&quot;1/e 法则&quot;。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称&quot;37%法则&quot;。</p></blockquote><blockquote><p>&quot;37%法则&quot;的意思就是，寻找阶段进行到37%就要停止。 100个应聘者，先面试前37个，此后的面试只要遇到一个更优秀的，就立刻录取，不再继续面试了。换句话说，前37个面试者无论多么优秀，都不会录取，他们只是用来确定录取的标准。</p></blockquote><p>如果最合适的候选者偏偏在前面37%里面，那就只能错过了，作为&quot;寻找阶段&quot;不得不付出的成本。最终录取的将是不如前面候选人的次优选择。</p><p>这个法则很实用，日常生活中，只要符合&quot;寻找-决策过程&quot;的场景，都可以适用37%法则。</p><p>（1）相亲时，假定有10个相亲对象，那么前3～4个可以作为寻找阶段，后面只要遇到一个比前面更好的人，就可以同意了。</p><p>（2）租房时，假定有一个月的找房子时间，那么30天的37﹪也就是11天。在找了11天之后，你就要出手了。只要发现比先前更令人心动的房子，就不要犹豫，马上租下来。</p><p>（3）读书时，假定这本书有100页，如果读了37页，还没有发现感兴趣的内容，那就可以放弃了。</p><p>（4）一个10集的电视剧，第4集是最佳弃剧时间。</p><p>（5）一个10分钟的视频，看了3分42秒，如果还是觉得不好看，就可以关掉了。</p><p>（6）一个年轻人想在18岁到24岁，一共7年时间里找到人生方向，确定未来想做什么。那么，他有2.59年（7 * 0.37）的时间自由尝试。也就是说，到了大三下学期就应该初步定下自己的方向，后面除非遇到更有吸引力的事情，否则就不应该转换事业方向。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;转自：&lt;a href=&quot;https://www.ruanyifeng.com/blog/2023/01/weekly-issue-238.html&quot;&gt;阮一峰&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote class=&quot;blockquote-center&quot;&gt;
+&lt;p&gt;评价：这个问题可以应用到方方面面，确实可以指导我们的生活。&lt;/p&gt;
+&lt;p&gt;数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做&amp;quot;1/e 法则&amp;quot;。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称&amp;quot;37%法则&amp;quot;。&lt;/p&gt;
+&lt;p&gt;&amp;quot;37%法则&amp;quot;的意思是，100个应聘者，先面试前37个，且这37无论多优秀都不取，此后的面试只要遇到一个更优秀的，就立刻录取，停止面试，最后找到最佳候选人的的成功率也为37%。&lt;/p&gt;
+
+&lt;/blockquote&gt;
+&lt;p&gt;最近，我读了一本算法书，作者是美国科普作家布赖恩·克里斯蒂安（Brian Christian）。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Typing speed</title>
@@ -505,34 +531,6 @@
 &lt;div class=&quot;note info&quot;&gt;&lt;h4 id=&quot;single-event-upsets&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#single-event-upsets&quot;&gt;¶&lt;/a&gt;Single Event Upsets&lt;/h4&gt;
 &lt;p&gt;A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.&lt;/p&gt;
 &lt;/div&gt;</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文言文</title>
-    <link href="https://samhan.fun/posts/a5cae94b.html"/>
-    <id>https://samhan.fun/posts/a5cae94b.html</id>
-    <published>2022-06-07T11:44:29.000Z</published>
-    <updated>2023-01-29T07:48:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>记录一些自己喜欢的文言文</p><blockquote><p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>——《庄子》</p></blockquote><p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p><blockquote><p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>——《文心雕龙》</p></blockquote><span id="more"></span><blockquote><p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>——《山月记》</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;记录一些自己喜欢的文言文&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。&lt;br&gt;
-——《庄子》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&amp;quot;相呴以湿&amp;quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！&lt;br&gt;
-——《文心雕龙》&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
     
     
     
