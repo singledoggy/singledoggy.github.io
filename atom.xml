@@ -23,17 +23,15 @@
     <published>2023-04-08T06:39:30.000Z</published>
     <updated>2023-04-08T06:39:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>项目来自 <a href="https://github.com/Chanzhaoyu/chatgpt-web">Chanzhaoyu</a></p><h1 id="prompt-提示词"><a class="header-anchor" href="#prompt-提示词">¶</a>Prompt 提示词</h1><p>提问的艺术可以参见 <em>Art of Asking ChatGPT for High-Quality Answ Engineering Techniques, The - Ibrahim John</em>。下面是一份机翻中文版。</p><p><a href="https://github.com/singledoggy/Documents/blob/main/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF%E2%80%94%E2%80%94%E8%AE%A9%20ChatGPT%20%E5%AF%BC%E5%87%BA%E9%AB%98%E8%B4%A8%E9%87%8F%E7%AD%94%E6%A1%88.pdf">https://github.com/singledoggy/Documents/blob/main/提问的艺术——让 ChatGPT 导出高质量答案.pdf</a></p><p>将提示词输入&quot;角色&quot;中，可以引导回答的模式，下面是一些示例：</p><blockquote><p>Please translate following sentence to English with academic writing, and provide some related authoritative examples:</p></blockquote><blockquote><p>Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When neccessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table.</p></blockquote><h1 id="余额"><a class="header-anchor" href="#余额">¶</a>余额</h1><p>能使用本服务的都是我的朋友，因为没有对外服务打算，所以偷懒不想接入数据库和用户登录界面，也请大家不要外传密码。</p><p>项目调用GPT-3.5-turbo-0301 API，因此比官网略显笨蛋，但是会有回答速度的优势和国内能直连访问的特点。</p><p>每月准备了10$ 供大家使用，如果超出将暂停服务。如果觉得自己用量大也欢迎donate，捐赠名单将在此处感谢。6月前openai有18$的免费额度暂且尚未用完。</p><p>在这里提供一个估算自己tokens使用量的方式：</p><p>3.5的计价单位为:</p><ul><li><p>每1000个tokens 0.002美元</p></li><li><p>中文约每字2.03 tokens</p></li><li><p>英文约为每字1.25 tokens</p></li></ul><p>生成的回复、输入的问题，和记忆前文均需要消耗tokens。因此，在不需要时关闭对前文的记忆可以节约tokens。</p><p>目前使用的3.5 api输出上限为2049 tokens，约1000字中文，1720字英文。</p><p>Gpt4.0的 api价格约为 0.06$/1k tokens，刚出来就申请了，但暂时还没有申请到试用名额。后续会考虑支持。</p>]]></content>
+    <content type="html"><![CDATA[<p>项目来自 <a href="https://github.com/Chanzhaoyu/chatgpt-web">Chanzhaoyu</a></p><h1 id="Prompt-提示词"><a class="header-anchor" href="#Prompt-提示词">¶</a>Prompt 提示词</h1><p>提问的艺术可以参见 <em>Art of Asking ChatGPT for High-Quality Answ Engineering Techniques, The - Ibrahim John</em>。下面是一份机翻中文版。</p><p><a href="https://github.com/singledoggy/Documents/blob/main/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF%E2%80%94%E2%80%94%E8%AE%A9%20ChatGPT%20%E5%AF%BC%E5%87%BA%E9%AB%98%E8%B4%A8%E9%87%8F%E7%AD%94%E6%A1%88.pdf">https://github.com/singledoggy/Documents/blob/main/提问的艺术——让 ChatGPT 导出高质量答案.pdf</a></p><p>将提示词输入&quot;角色&quot;中，可以引导回答的模式，下面是一些示例：</p><blockquote><p>Please translate following sentence to English with academic writing, and provide some related authoritative examples:</p></blockquote><blockquote><p>Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When neccessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table.</p></blockquote><p>角色有全局和对话单独设置之分</p><h1 id="模型参数微调"><a class="header-anchor" href="#模型参数微调">¶</a>模型参数微调</h1><p>“temperature” ： <span style="color:#B95000"> &quot;temperature&quot;选项是一个控制语言模型输出的随机性或创造性的参数 </span>。当使用语言模型生成文本时，它通常会输出根据输入和先前训练数据确定为最可能的单词或词序列。然而，增加输出的随机性可以帮助模型创建更具创意和有趣的输出。&quot;temperature&quot;选项实际上控制着随机性的程度。将温度设置为较低的值将导致输出更可预测和重复，而较高的温度会导致更多种类和不可预测的输出。<span style="color:#B95000"> 例如，将温度设置为0.5将导致较保守的输出，而温度为1将创建更富创意和自发的输出。 </span>需要注意的是，理想的温度值将取决于具体的任务和上下文，因此可能需要一些实验来找到适合您需要的正确值。</p><p>“top_p”：0.0 to 1.0 (默认 1.0) 使用温度的另一种选择，也叫核采样（nucleus sampling），<span style="color:#B95000"> 建议不要同时使用temperature和top_p。 </span>&quot;top_p&quot;与另一个称为“top_k”的参数有关，它将模型限制为仅考虑最可能的前k个标记。这些选项一起提供了更多对生成文本多样性和质量的控制。</p><h1 id="余额"><a class="header-anchor" href="#余额">¶</a>余额</h1><p>能使用本服务的都是我的朋友，因为没有对外服务打算，所以偷懒不想接入数据库和用户登录界面，也请大家不要外传密码。</p><p>项目调用GPT-3.5-turbo-0301 API，因此比官网略显笨蛋，但是会有回答速度的优势和国内能直连访问的特点。</p><p>每月准备了10$ 供大家使用，如果超出将暂停服务。如果觉得自己用量大也欢迎donate，捐赠名单将在此处感谢。6月前openai有18$的免费额度暂且尚未用完。</p><p>在这里提供一个估算自己tokens使用量的方式：</p><p>3.5的计价单位为:</p><ul><li><p>每1000个tokens 0.002美元</p></li><li><p>中文约每字2.03 tokens</p></li><li><p>英文约为每字1.25 tokens</p></li></ul><p>生成的回复、输入的问题，和记忆前文均需要消耗tokens。因此，在不需要时关闭对前文的记忆可以节约tokens。</p><p>目前使用的3.5 api输出上限为2049 tokens，约1000字中文，1720字英文。</p><p>Gpt4.0的 api价格约为 0.06$/1k tokens，刚出来就申请了，但暂时还没有申请到试用名额。后续会考虑支持。</p>]]></content>
     
     
     <summary type="html">&lt;p&gt;项目来自 &lt;a href=&quot;https://github.com/Chanzhaoyu/chatgpt-web&quot;&gt;Chanzhaoyu&lt;/a&gt;&lt;/p&gt;
-&lt;h1 id=&quot;prompt-提示词&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#prompt-提示词&quot;&gt;¶&lt;/a&gt;Prompt 提示词&lt;/h1&gt;
+&lt;h1 id=&quot;Prompt-提示词&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#Prompt-提示词&quot;&gt;¶&lt;/a&gt;Prompt 提示词&lt;/h1&gt;
 &lt;p&gt;提问的艺术可以参见 &lt;em&gt;Art of Asking ChatGPT for High-Quality Answ Engineering Techniques, The - Ibrahim John&lt;/em&gt;。下面是一份机翻中文版。&lt;/p&gt;</summary>
     
     
     
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
@@ -56,8 +54,6 @@
     
     
     
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
