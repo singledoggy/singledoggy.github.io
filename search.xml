@@ -666,9 +666,8 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
     <title>Start with ChatGPT&#39;s Nonesense</title>
     <url>/posts/4ff3176e.html</url>
     <content><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p>
-<p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞，可以立刻停止使用。</p>
+<p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞。</p>
 <div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div>
-<p>据我看来，最好是问有共识、公认的答案的，早于21年9月的信息。</p>
 <div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4>
 <p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p>
 <p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p>
@@ -1422,7 +1421,20 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
   <entry>
     <title>ChatGPT</title>
     <url>/posts/ef4f0767.html</url>
-    <content><![CDATA[<p>项目来自 <a href="https://github.com/Chanzhaoyu/chatgpt-web">Chanzhaoyu</a></p>
+    <content><![CDATA[<h1 id="更新说明"><a class="header-anchor" href="#更新说明">¶</a>更新说明</h1>
+<h2 id="从原来的项目改用chatgpt-next"><a class="header-anchor" href="#从原来的项目改用chatgpt-next">¶</a>从原来的项目改用<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next</a></h2>
+<h3 id="更换项目的原因"><a class="header-anchor" href="#更换项目的原因">¶</a>更换项目的原因</h3>
+<ul>
+<li>我更喜欢现在的UI界面, 比原先的更漂亮</li>
+<li>大体功能类似，用法类似</li>
+<li>现在的项目有更好的记忆功能，一定间隔内会对历史会话总结</li>
+<li>这个项目的活力更好，原项目作者疏于维护，生态变差</li>
+</ul>
+<h3 id="如果我分享了第二个地址"><a class="header-anchor" href="#如果我分享了第二个地址">¶</a>如果我分享了第二个地址</h3>
+<p>第一个地址仅支持GPT3，第二个地址在GPT4可用的时候支持GPT4，GPT4价格是GPT3的16(官方)-40倍（代理api，约等于黄牛）。</p>
+<p>由于没申请到官方的资格，黄牛也不是一直有货，不一定能稳定提供。</p>
+<p>隐私方面两者一致，都有可能使用黄牛<br>
+<img data-src="https://s2.loli.net/2023/04/24/kHbMZtCl7fGWU8y.png" alt=""></p>
 <h1 id="faq"><a class="header-anchor" href="#faq">¶</a>FAQ</h1>
 <h2 id="为什么输入prompt要在-角色-处"><a class="header-anchor" href="#为什么输入prompt要在-角色-处">¶</a>为什么输入Prompt要在“角色”处</h2>
 <p>参见“余额”处，ChatGPT记忆力有限，在对话中提要求超过最大字数他会忘记</p>
@@ -1460,6 +1472,12 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p><span style="color:#B95000"> 生成的回复、输入的问题，和记忆前文  </span>均需要消耗tokens。因此，在不需要时关闭对前文的记忆可以节约tokens。</p>
 <p>目前使用的3.5 api 输出 <span style="color:#B95000"> 上限为2049 tokens，约1000字中文，1720字英文。 </span> 超过后将会“失忆”。</p>
 <p>Gpt4.0的 api价格约为 0.06$/1k tokens，刚出来就申请了，但暂时还没有申请到试用名额。后续会考虑支持。</p>
+<h1 id="隐私说明"><a class="header-anchor" href="#隐私说明">¶</a>隐私说明</h1>
+<p>可能引入第三方的api（约等于黄牛），Openai又是外国公司，因此注意</p>
+<ul>
+<li>不要询问隐私问题</li>
+<li>不要询问保密数据</li>
+</ul>
 ]]></content>
   </entry>
   <entry>
