@@ -1436,14 +1436,14 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p>隐私方面两者一致，都有可能使用黄牛<br>
 <img data-src="https://s2.loli.net/2023/04/24/kHbMZtCl7fGWU8y.png" alt=""></p>
 <h1 id="faq"><a class="header-anchor" href="#faq">¶</a>FAQ</h1>
-<h2 id="为什么输入prompt要在-角色-处"><a class="header-anchor" href="#为什么输入prompt要在-角色-处">¶</a>为什么输入Prompt要在“角色”处</h2>
+<h2 id="为什么输入prompt要在-前置上下文和历史记忆-处"><a class="header-anchor" href="#为什么输入prompt要在-前置上下文和历史记忆-处">¶</a>为什么输入Prompt要在“前置上下文和历史记忆”处</h2>
 <p>参见“余额”处，ChatGPT记忆力有限，在对话中提要求超过最大字数他会忘记</p>
 <h1 id="prompt-提示词"><a class="header-anchor" href="#prompt-提示词">¶</a>Prompt 提示词</h1>
 <p>提问的艺术可以参见 <em>Art of Asking ChatGPT for High-Quality Answ Engineering Techniques, The - Ibrahim John</em>。下面是一份机翻中文版。</p>
 <p><a href="https://github.com/singledoggy/Documents/blob/main/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF%E2%80%94%E2%80%94%E8%AE%A9%20ChatGPT%20%E5%AF%BC%E5%87%BA%E9%AB%98%E8%B4%A8%E9%87%8F%E7%AD%94%E6%A1%88.pdf">https://github.com/singledoggy/Documents/blob/main/提问的艺术——让 ChatGPT 导出高质量答案.pdf</a></p>
-<p>将提示词输入&quot;角色&quot;中，可以引导回答的模式，下面是一些示例：</p>
+<p>将提示词输入&quot;前置上下文和历史记忆&quot;中，可以引导回答的模式，下面是一些示例：</p>
 <blockquote>
-<p>Please translate following sentence to English with academic writing, and provide some related authoritative examples:</p>
+<p>Please translate following sentence to English with academic writing:</p>
 </blockquote>
 <blockquote>
 <p>Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When neccessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table.</p>
@@ -1451,7 +1451,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p>角色有全局和对话单独设置之分</p>
 <h1 id="模型参数微调"><a class="header-anchor" href="#模型参数微调">¶</a>模型参数微调</h1>
 <p>“temperature” ： <span style="color:#B95000"> &quot;temperature&quot;选项是一个控制语言模型输出的随机性或创造性的参数 </span>。当使用语言模型生成文本时，它通常会输出根据输入和先前训练数据确定为最可能的单词或词序列。然而，增加输出的随机性可以帮助模型创建更具创意和有趣的输出。&quot;temperature&quot;选项实际上控制着随机性的程度。将温度设置为较低的值将导致输出更可预测和重复，而较高的温度会导致更多种类和不可预测的输出。<span style="color:#B95000"> 例如，将温度设置为0.5将导致较保守的输出，而温度为1将创建更富创意和自发的输出。 </span>需要注意的是，理想的温度值将取决于具体的任务和上下文，因此可能需要一些实验来找到适合您需要的正确值。</p>
-<p>“top_p”：0.0 to 1.0 (默认 1.0) 使用温度的另一种选择，也叫核采样（nucleus sampling），<span style="color:#B95000"> 建议不要同时使用temperature和top_p。 </span>&quot;top_p&quot;与另一个称为“top_k”的参数有关，它将模型限制为仅考虑最可能的前k个标记。这些选项一起提供了更多对生成文本多样性和质量的控制。</p>
 <h1 id="余额"><a class="header-anchor" href="#余额">¶</a>余额</h1>
 <p>能使用本服务的都是我的朋友，因为没有对外服务打算，所以偷懒不想接入数据库和用户登录界面，也请大家不要外传密码。</p>
 <p>项目调用GPT-3.5-turbo-0301 API，因此比官网略显笨蛋，但是会有回答速度的优势和国内能直连访问的特点。</p>
@@ -1471,7 +1470,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 </ul>
 <p><span style="color:#B95000"> 生成的回复、输入的问题，和记忆前文  </span>均需要消耗tokens。因此，在不需要时关闭对前文的记忆可以节约tokens。</p>
 <p>目前使用的3.5 api 输出 <span style="color:#B95000"> 上限为2049 tokens，约1000字中文，1720字英文。 </span> 超过后将会“失忆”。</p>
-<p>Gpt4.0的 api价格约为 0.06$/1k tokens，刚出来就申请了，但暂时还没有申请到试用名额。后续会考虑支持。</p>
 <h1 id="隐私说明"><a class="header-anchor" href="#隐私说明">¶</a>隐私说明</h1>
 <p>可能引入第三方的api（约等于黄牛），Openai又是外国公司，因此注意</p>
 <ul>
