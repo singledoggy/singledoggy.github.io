@@ -1423,6 +1423,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
     <url>/posts/ef4f0767.html</url>
     <content><![CDATA[<h1 id="更新说明"><a class="header-anchor" href="#更新说明">¶</a>更新说明</h1>
 <h2 id="从原来的项目改用chatgpt-next"><a class="header-anchor" href="#从原来的项目改用chatgpt-next">¶</a>从原来的项目改用<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next</a></h2>
+<p>密码输入在设置-访问密码，还是以前的密码：<br>
+<img data-src="https://s2.loli.net/2023/04/24/XM1t7EqxlKn82Vu.png" alt=""></p>
+<p>OPENAI API Key 不要输，我关闭了这个功能，防止Ddos攻击</p>
 <h3 id="更换项目的原因"><a class="header-anchor" href="#更换项目的原因">¶</a>更换项目的原因</h3>
 <ul>
 <li>我更喜欢现在的UI界面, 比原先的更漂亮</li>
