@@ -1422,7 +1422,7 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
     <title>ChatGPT</title>
     <url>/posts/ef4f0767.html</url>
     <content><![CDATA[<h1 id="更新说明"><a class="header-anchor" href="#更新说明">¶</a>更新说明</h1>
-<h2 id="从原来的项目改用chatgpt-next"><a class="header-anchor" href="#从原来的项目改用chatgpt-next">¶</a>从原来的项目改用<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next</a></h2>
+<h2 id="从原来的项目改用ChatGPT-Next"><a class="header-anchor" href="#从原来的项目改用ChatGPT-Next">¶</a>从原来的项目改用<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next</a></h2>
 <p>密码输入在设置-访问密码，还是以前的密码：<br>
 <img data-src="https://s2.loli.net/2023/04/24/XM1t7EqxlKn82Vu.png" alt=""></p>
 <p>OPENAI API Key 不要输，我关闭了这个功能，防止Ddos攻击</p>
@@ -1438,15 +1438,14 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <p>由于没申请到官方的资格，黄牛也不是一直有货，不一定能稳定提供。</p>
 <p>隐私方面两者一致，都有可能使用黄牛<br>
 <img data-src="https://s2.loli.net/2023/04/24/kHbMZtCl7fGWU8y.png" alt=""></p>
-<h1 id="faq"><a class="header-anchor" href="#faq">¶</a>FAQ</h1>
-<h2 id="为什么输入prompt要在-前置上下文和历史记忆-处"><a class="header-anchor" href="#为什么输入prompt要在-前置上下文和历史记忆-处">¶</a>为什么输入Prompt要在“前置上下文和历史记忆”处</h2>
+<h1 id="FAQ"><a class="header-anchor" href="#FAQ">¶</a>FAQ</h1>
+<h2 id="为什么输入Prompt要在“前置上下文和历史记忆”处"><a class="header-anchor" href="#为什么输入Prompt要在“前置上下文和历史记忆”处">¶</a>为什么输入Prompt要在“前置上下文和历史记忆”处</h2>
 <p>参见“余额”处，ChatGPT记忆力有限，在对话中提要求超过最大字数他会忘记</p>
-<h2 id="如何分享我的prompt作为默认配置"><a class="header-anchor" href="#如何分享我的prompt作为默认配置">¶</a>如何分享我的Prompt作为默认配置</h2>
+<h2 id="如何分享我的Prompt作为默认配置"><a class="header-anchor" href="#如何分享我的Prompt作为默认配置">¶</a>如何分享我的Prompt作为默认配置</h2>
 <p>可以在下面的项目中发起issue或者pull request，我会视情况接受</p>
 <p><a href="https://github.com/singledoggy/GPT-prompts">https://github.com/singledoggy/GPT-prompts</a></p>
-<h1 id="prompt-提示词"><a class="header-anchor" href="#prompt-提示词">¶</a>Prompt 提示词</h1>
-<p>提问的艺术可以参见 <em>Art of Asking ChatGPT for High-Quality Answ Engineering Techniques, The - Ibrahim John</em>。下面是一份机翻中文版。</p>
-<p><a href="https://github.com/singledoggy/Documents/blob/main/%E6%8F%90%E9%97%AE%E7%9A%84%E8%89%BA%E6%9C%AF%E2%80%94%E2%80%94%E8%AE%A9%20ChatGPT%20%E5%AF%BC%E5%87%BA%E9%AB%98%E8%B4%A8%E9%87%8F%E7%AD%94%E6%A1%88.pdf">https://github.com/singledoggy/Documents/blob/main/提问的艺术——让 ChatGPT 导出高质量答案.pdf</a></p>
+<h1 id="Prompt-提示词"><a class="header-anchor" href="#Prompt-提示词">¶</a>Prompt 提示词</h1>
+<h2 id="示例"><a class="header-anchor" href="#示例">¶</a>示例</h2>
 <p>将提示词输入&quot;前置上下文和历史记忆&quot;中，可以引导回答的模式，下面是一些示例：</p>
 <blockquote>
 <p>Please translate following sentence to English with academic writing:</p>
@@ -1454,7 +1453,10 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <blockquote>
 <p>Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When neccessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table.</p>
 </blockquote>
-<p>角色有全局和对话单独设置之分</p>
+<h2 id="Zero-One-and-Few-Shot-Prompting"><a class="header-anchor" href="#Zero-One-and-Few-Shot-Prompting">¶</a>Zero, One and Few Shot Prompting</h2>
+<p><a href="https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138">https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138</a></p>
+<h2 id="如何提升可靠性"><a class="header-anchor" href="#如何提升可靠性">¶</a>如何提升可靠性</h2>
+<p><a href="https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md">https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md</a></p>
 <h1 id="模型参数微调"><a class="header-anchor" href="#模型参数微调">¶</a>模型参数微调</h1>
 <p>“temperature” ： <span style="color:#B95000"> &quot;temperature&quot;选项是一个控制语言模型输出的随机性或创造性的参数 </span>。当使用语言模型生成文本时，它通常会输出根据输入和先前训练数据确定为最可能的单词或词序列。然而，增加输出的随机性可以帮助模型创建更具创意和有趣的输出。&quot;temperature&quot;选项实际上控制着随机性的程度。将温度设置为较低的值将导致输出更可预测和重复，而较高的温度会导致更多种类和不可预测的输出。<span style="color:#B95000"> 例如，将温度设置为0.5将导致较保守的输出，而温度为1将创建更富创意和自发的输出。 </span>需要注意的是，理想的温度值将取决于具体的任务和上下文，因此可能需要一些实验来找到适合您需要的正确值。</p>
 <h1 id="余额"><a class="header-anchor" href="#余额">¶</a>余额</h1>
