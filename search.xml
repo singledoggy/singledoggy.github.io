@@ -1413,6 +1413,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <iframe src="//player.bilibili.com/player.html?aid=498481599&bvid=BV1iK411p73C&cid=201370353&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 ]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
       <tags>
         <tag>日常</tag>
       </tags>
@@ -1423,9 +1426,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
     <content><![CDATA[<span id="more"></span>
 <figure class="highlight roboconf"><table><tr><td class="code"><pre><span class="line">yum install -y neovim python3-neovim</span><br><span class="line">sh -c &#x27;curl -fLo &quot;$&#123;<span class="attribute">XDG_DATA_HOME</span>:-$HOME/<span class="variable">.local</span>/share&#125;&quot;/nvim/site/autoload/plug<span class="variable">.vim</span> --create-dirs \</span><br><span class="line">       https://raw<span class="variable">.githubusercontent</span><span class="variable">.com</span>/junegunn/vim-plug/master/plug<span class="variable">.vim</span>&#x27;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">yum install -y zsh</span><br><span class="line">yum install -y https://dl<span class="variable">.fedoraproject</span><span class="variable">.org</span>/pub/epel/epel-release-latest-8<span class="variable">.noarch</span><span class="variable">.rpm</span></span><br><span class="line"></span><br><span class="line">sudo usermod -s /bin/zsh root</span><br><span class="line"></span><br><span class="line">sh -c &quot;$(curl -fsSL https://raw<span class="variable">.github</span><span class="variable">.com</span>/ohmyzsh/ohmyzsh/master/tools/install<span class="variable">.sh</span>)&quot;</span><br><span class="line"></span><br><span class="line">yum install python3</span><br><span class="line">pip3 install neovim</span><br><span class="line"></span><br><span class="line">yum install ripgrep</span><br><span class="line"></span><br><span class="line">之后再调整zshrc</span><br><span class="line"></span><br><span class="line">yum install curl -y</span><br><span class="line">bash &lt;(curl -s -L https://git<span class="variable">.io</span>/v2ray<span class="variable">.sh</span>)</span><br><span class="line"></span><br><span class="line">git clone --depth 1 https://github<span class="variable">.com</span>/junegunn/fzf<span class="variable">.git</span> ~/<span class="variable">.fzf</span></span><br><span class="line">~/<span class="variable">.fzf</span>/install</span><br><span class="line">source ~/<span class="variable">.zshrc</span></span><br><span class="line"></span><br><span class="line">bash &lt;(curl -sL https://raw<span class="variable">.githubusercontent</span><span class="variable">.com</span>/Miuzarte/hijk<span class="variable">.sh</span>/main/Original/ss<span class="variable">.sh</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable">.zsshrc</span></span><br><span class="line"><span class="variable">.gitconfig</span></span><br></pre></td></tr></table></figure>
 ]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
+      <categories>
+        <category>Code</category>
+      </categories>
   </entry>
   <entry>
     <title>流浪地球2</title>

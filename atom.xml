@@ -97,8 +97,8 @@
     
     
     
+    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
     
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
@@ -185,6 +185,8 @@
       
     
     
+    
+    <category term="Music" scheme="https://samhan.fun/overview/Music/"/>
     
     
     <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
