@@ -43,6 +43,52 @@
       </tags>
   </entry>
   <entry>
+    <title>python debug with ipdb</title>
+    <url>/posts/f4bfd05a.html</url>
+    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
+<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
+在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
+<span id="more"></span>
+<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
+<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
+<pre><code>IndexError('list index out of range')
+
+
+&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
+[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
+[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
+[0m
+ipdb&gt; i
+4
+ipdb&gt; number
+*** NameError: name 'number' is not defined
+ipdb&gt; numbers
+[1, 3, 5]
+ipdb&gt; type(i)
+&lt;class 'int'&gt;
+ipdb&gt; q
+</code></pre>
+<hr>
+<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
+<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
+<p>w where 查看调用栈</p>
+<p>l 和l.当前 ll函数</p>
+<p>u / d 改变当前帧</p>
+<p>n/s</p>
+<p>until 10</p>
+<p>r 运行到返回值</p>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>habitica_log</title>
     <url>/posts/1e156da5.html</url>
     <content><![CDATA[<h1 id="2021-11-03"><a class="header-anchor" href="#2021-11-03">¶</a>2021-11-03</h1>
@@ -95,52 +141,6 @@
 <hr>
 <p>But now on, I want to utilize habitica for more things other than language learning and function remembering. But I’ll post some plans here but it depends on my mood.</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>python debug with ipdb</title>
-    <url>/posts/f4bfd05a.html</url>
-    <content><![CDATA[<h1 id="为什么使用ipdb而不是ide"><a class="header-anchor" href="#为什么使用ipdb而不是ide">¶</a>为什么使用ipdb而不是IDE?</h1>
-<p>IDE在做轻量级应用的时候远远不如ipdb轻巧，加载速度要慢上很多，安装可以方便的使用<code>pip instatll ipdb</code>, 并且如果把断点镶嵌在代码中与使用IDE不冲突, 在jupyter notebook界面也能随时使用。无需使用盗版软件或者支付昂贵的费用。<br>
-在使用服务器的时候，命令行模式就可以直接调试代码，避免了切出终端的麻烦。大小很小，有一种很简洁的美。</p>
-<span id="more"></span>
-<h1 id="ipdb使用实例"><a class="header-anchor" href="#ipdb使用实例">¶</a>ipdb使用实例</h1>
-<p>举例一个轻量级的循环报错，在jupyter nootbook 中使用的例子，在命令行使用方式类似</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> ipdb <span class="keyword">import</span> launch_ipdb_on_exception</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">filter_even</span>(<span class="params">numbers</span>):</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="built_in">len</span>(numbers)):</span><br><span class="line">        <span class="keyword">if</span> numbers[i] % <span class="number">2</span> == <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">del</span> numbers[i]</span><br><span class="line">    <span class="keyword">return</span> numbers</span><br><span class="line"><span class="keyword">with</span> launch_ipdb_on_exception():</span><br><span class="line">    <span class="built_in">print</span>(filter_even([<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>]))</span><br></pre></td></tr></table></figure>
-<pre><code>IndexError('list index out of range')
-
-
-&gt; [0;32m&lt;ipython-input-1-8ea7160640a2&gt;[0m(4)[0;36mfilter_even[0;34m()[0m
-[0;32m      3 [0;31m    [0;32mfor[0m [0mi[0m [0;32min[0m [0mrange[0m[0;34m([0m[0;36m0[0m[0;34m,[0m [0mlen[0m[0;34m([0m[0mnumbers[0m[0;34m)[0m[0;34m)[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m----&gt; 4 [0;31m        [0;32mif[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m [0;34m%[0m [0;36m2[0m [0;34m==[0m [0;36m0[0m[0;34m:[0m[0;34m[0m[0;34m[0m[0m
-[0m[0;32m      5 [0;31m            [0;32mdel[0m [0mnumbers[0m[0;34m[[0m[0mi[0m[0;34m][0m[0;34m[0m[0;34m[0m[0m
-[0m
-ipdb&gt; i
-4
-ipdb&gt; number
-*** NameError: name 'number' is not defined
-ipdb&gt; numbers
-[1, 3, 5]
-ipdb&gt; type(i)
-&lt;class 'int'&gt;
-ipdb&gt; q
-</code></pre>
-<hr>
-<p>可以在抛出异常处进入ipdb，在其中可以查看自己想知道的信息，这是比较节省时间的做法。如果需要逐行可以使用</p>
-<figure class="highlight abnf"><table><tr><td class="code"><pre><span class="line">import ipdb<span class="comment">; ipdb.set_trace()</span></span><br></pre></td></tr></table></figure>
-<p>来打断点，这样调试比手动注释、内部写print()有更多的功能，逻辑更清晰，比较容易排查错误。</p>
-<p>w where 查看调用栈</p>
-<p>l 和l.当前 ll函数</p>
-<p>u / d 改变当前帧</p>
-<p>n/s</p>
-<p>until 10</p>
-<p>r 运行到返回值</p>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-      <tags>
-        <tag>python</tag>
-      </tags>
   </entry>
   <entry>
     <title>Linux</title>
@@ -295,33 +295,6 @@ There are lots of tutors in China use wrong China Map. <sup class="footnote-ref"
       </tags>
   </entry>
   <entry>
-    <title>PERSONAL TRAINER MANUAL</title>
-    <url>/posts/dd98bec.html</url>
-    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! 🎉</p>
-<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
-<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
-<span id="more"></span>
-<blockquote>
-<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
-</blockquote>
-<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
-<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Book</category>
-      </categories>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>python-basic</title>
     <url>/posts/fdc23cba.html</url>
     <content><![CDATA[<h1 id="io"><a class="header-anchor" href="#io">¶</a>IO</h1>
@@ -407,6 +380,33 @@ Integer: 0, Float: 0.0, Complex: 0j<br>
       <categories>
         <category>Code</category>
       </categories>
+  </entry>
+  <entry>
+    <title>PERSONAL TRAINER MANUAL</title>
+    <url>/posts/dd98bec.html</url>
+    <content><![CDATA[<p>It has been a while since I began gym workout. At first, I can only push 0.6 of my body weight in bench press, but now my 1RM<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> comes to 77Kg, that exceeded my body weight! 🎉</p>
+<p>However, my knowledge of workout is still poor. I know I can try to find some professional guys to teach me, but it would be expensive and many personal trainers don’t have enough knowledge, they are more of a seller than a trainer. I’ve seen many trainers have bad strength or abuse drugs like steroids, and I’m in for the natural bodybuilding. Briefly, I need to read some books, and <em>PERSONAL TRAINER MANUAL</em> is a great choice.<br>
+<img data-src="https://s2.loli.net/2022/08/14/F4q1cCaygWmh7Bz.jpg" alt=""> <center></center></p>
+<span id="more"></span>
+<blockquote>
+<p>Another major theme in today’s health and fitness industry is a transition away from a prescriptive approach to exercise programming to a coaching-based approach that emphasizes behavioral change and long-term adherence. What the industry has collectively learned over the years is that, while knowledge of exercise science is vitally important, an ability to inspire prospective and current clients to undergo true lifestyle change is absolutely essential.</p>
+</blockquote>
+<p>It’s a good point here although I wants to learn some prescriptive approaches at first.</p>
+<p>I add the book to my reading routine now, 10 pages per day. There are many medical terms here and the vocabulary is pretty hard, I even don’t know many terms in my mother tongue.</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>One-repetition maximum. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Book</category>
+      </categories>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>Why zotero?</title>
@@ -810,7 +810,7 @@ remove comments</p>
 <h1 id="vimtex"><a class="header-anchor" href="#vimtex">¶</a>vimtex</h1>
 <p>cse<br>
 csc</p>
-<h2 id="Set-up-Skim-Inverse-or-Backward-Search"><a class="header-anchor" href="#Set-up-Skim-Inverse-or-Backward-Search">¶</a>Set up Skim Inverse or Backward Search</h2>
+<h2 id="set-up-skim-inverse-or-backward-search"><a class="header-anchor" href="#set-up-skim-inverse-or-backward-search">¶</a>Set up Skim Inverse or Backward Search</h2>
 <figure class="highlight perl"><table><tr><td class="code"><pre><span class="line">nvim</span><br><span class="line">--headless -c <span class="string">&quot;VimtexInverseSearch %line &#x27;%file&#x27;&quot;</span></span><br></pre></td></tr></table></figure>
 <p><a href="https://dr563105.github.io/blog/skim-vimtex-setup/">https://dr563105.github.io/blog/skim-vimtex-setup/</a></p>
 <h1 id="输出到txt"><a class="header-anchor" href="#输出到txt">¶</a>输出到txt</h1>
@@ -954,44 +954,6 @@ This particular diamond was extra special</p>
       </categories>
   </entry>
   <entry>
-    <title>xarray</title>
-    <url>/posts/34865fab.html</url>
-    <content><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
-<p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p>
-<h2 id="stackoverflow"><a class="header-anchor" href="#stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2>
-<p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure>
-<p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure>
-<p>Finally, fill the <code>time</code> dimension with my dates:</p>
-<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure>
-<h2 id="github"><a class="header-anchor" href="#github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2>
-<p>I inspired also by an issue in Github and get the code below:</p>
-<span id="more"></span>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
-<h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1>
-<p>Use rioxarray instead</p>
-<h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure>
-<h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2>
-<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
-  </entry>
-  <entry>
     <title>xgrads：一个方便的解析ctl文件的库</title>
     <url>/posts/e78205f3.html</url>
     <content><![CDATA[<p>最近对xgrads这个库的一些功能进行了简单的修复，使其能够配适模式输出结果。由于开题在即，容后再写详细的教程。</p>
@@ -1050,6 +1012,44 @@ Veritas</p>
       </tags>
   </entry>
   <entry>
+    <title>xarray</title>
+    <url>/posts/34865fab.html</url>
+    <content><![CDATA[<h1 id="xarray-open-mfdataset-without-time-dim"><a class="header-anchor" href="#xarray-open-mfdataset-without-time-dim">¶</a>Xarray open_mfdataset without time dim</h1>
+<p>Xarray have a convenient method to open multi-dataset parallelly. However, sometimes time are encoded in the filename and are not in th <code>.nc</code> coordinate. So we need a method. For example, the dataset of my lab CAQRA<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> do this.</p>
+<h2 id="stackoverflow"><a class="header-anchor" href="#stackoverflow">¶</a>Stackoverflow <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>:</h2>
+<p>Create a function which adds a time dimension to a DataArray, and fill it with a arbitrary date:</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add_time_dim</span>(<span class="params">xda</span>):</span></span><br><span class="line">    xda = xda.expand_dims(time = [datetime.now()])</span><br><span class="line">    <span class="keyword">return</span> xda</span><br></pre></td></tr></table></figure>
+<p>Then, pass this function to the <code>preprocess</code> argument when running the <code>open_mfdataset</code> functions:</p>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">data = xr.<span class="keyword">open</span><span class="constructor">_mfdataset(<span class="params">files</span>, <span class="params">preprocess</span> = <span class="params">add_time_dim</span>)</span></span><br></pre></td></tr></table></figure>
+<p>Finally, fill the <code>time</code> dimension with my dates:</p>
+<figure class="highlight haskell"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">data</span>[&#x27;time&#x27;] = dates</span></span><br></pre></td></tr></table></figure>
+<h2 id="github"><a class="header-anchor" href="#github">¶</a>Github <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup></h2>
+<p>I inspired also by an issue in Github and get the code below:</p>
+<span id="more"></span>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">func</span>(<span class="params">ds</span>):</span></span><br><span class="line">    ds = ds.expand_dims(path=[ds.encoding[<span class="string">&#x27;source&#x27;</span>]])</span><br><span class="line">    <span class="keyword">return</span> ds</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">data = xr.open_mfdataset(</span><br><span class="line"></span><br><span class="line">    <span class="comment">#    &#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200[1-3]*.nc&#x27;,</span></span><br><span class="line">    <span class="string">&#x27;/Users/sam/Documents/data/Reanalysisv4/CN-Reanalysis20200101*.nc&#x27;</span>,</span><br><span class="line">    preprocess=func</span><br><span class="line">)</span><br></pre></td></tr></table></figure>
+<h1 id="xarray-add-crs-data"><a class="header-anchor" href="#xarray-add-crs-data">¶</a>xarray add crs data</h1>
+<p>Use rioxarray instead</p>
+<h2 id="load"><a class="header-anchor" href="#load">¶</a>load</h2>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><span class="line">rds = xarray.<span class="keyword">open</span><span class="constructor">_dataset(<span class="string">&quot;../../test/test_data/input/PLANET_SCOPE_3D.nc&quot;</span>, <span class="params">decode_coords</span>=<span class="string">&quot;all&quot;</span>)</span></span><br></pre></td></tr></table></figure>
+<h2 id="write"><a class="header-anchor" href="#write">¶</a>write</h2>
+<figure class="highlight routeros"><table><tr><td class="code"><pre><span class="line">xda.rio.write_crs(4326, <span class="attribute">inplace</span>=<span class="literal">True</span>)</span><br></pre></td></tr></table></figure>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.scidb.cn/en/detail?dataSetId=696756084735475712">https://www.scidb.cn/en/detail?dataSetId=696756084735475712</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included">https://stackoverflow.com/questions/65376109/use-xarray-open-mfdataset-on-files-with-no-time-dimension-included</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://github.com/pydata/xarray/issues/2550">https://github.com/pydata/xarray/issues/2550</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
     <title>文言文</title>
     <url>/posts/a5cae94b.html</url>
     <content><![CDATA[<p>记录一些自己喜欢的文言文</p>
@@ -1067,6 +1067,32 @@ Veritas</p>
 <p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>
 ——《山月记》</p>
 </blockquote>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>羡余否定</title>
+    <url>/posts/2c3e2a92.html</url>
+    <content><![CDATA[<p>接触到汉语里面很有趣的现象，羡余否定。具体如下例 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<hr>
+<p><img data-src="https://s2.loli.net/2022/08/14/oNy2TYmxtsWzukc.png" alt=""></p>
+<p>还是相当有意思的现象，有点类似</p>
+<blockquote>
+<p>You don’t know nothing.</p>
+</blockquote>
+<p>但是还是有点不同。在知乎<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>上似乎也有一些讨论，对外国人可能比较头疼，完全不遵守逻辑。或许这就是语言。</p>
+<span id="more"></span>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>朱德熙. 现代汉语语法研究[M]. 商務印书館, 1980. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://www.zhihu.com/search?type=content&amp;q=%E7%BE%A1%E4%BD%99%E5%90%A6%E5%AE%9A">https://www.zhihu.com/search?type=content&amp;q=羡余否定</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
       <tags>
         <tag>日常</tag>
@@ -1096,32 +1122,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </categories>
   </entry>
   <entry>
-    <title>羡余否定</title>
-    <url>/posts/2c3e2a92.html</url>
-    <content><![CDATA[<p>接触到汉语里面很有趣的现象，羡余否定。具体如下例 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
-<hr>
-<p><img data-src="https://s2.loli.net/2022/08/14/oNy2TYmxtsWzukc.png" alt=""></p>
-<p>还是相当有意思的现象，有点类似</p>
-<blockquote>
-<p>You don’t know nothing.</p>
-</blockquote>
-<p>但是还是有点不同。在知乎<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>上似乎也有一些讨论，对外国人可能比较头疼，完全不遵守逻辑。或许这就是语言。</p>
-<span id="more"></span>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>朱德熙. 现代汉语语法研究[M]. 商務印书館, 1980. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn2" class="footnote-item"><p><a href="https://www.zhihu.com/search?type=content&amp;q=%E7%BE%A1%E4%BD%99%E5%90%A6%E5%AE%9A">https://www.zhihu.com/search?type=content&amp;q=羡余否定</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>视觉相似的字符</title>
     <url>/posts/60f6fdd2.html</url>
     <content><![CDATA[<p>视觉相似的字符可以从一个社会新闻谈起，<a href="https://www.zhihu.com/question/543944966/answer/2582511402%5D">某明星用不同的入炸话题</a>, 事实上为了防止代码出错我特意选用了不会混淆1和I的字体, 然而还是在帮朋友写一个转换经纬度的代码里出错了。</p>
@@ -1134,6 +1134,89 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <categories>
         <category>Code</category>
       </categories>
+  </entry>
+  <entry>
+    <title>The curse of knowledge</title>
+    <url>/posts/4fa4519d.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>多理解听众才能形成好的表达</p>
+
+</blockquote>
+<h1 id="什么是知识诅咒"><a class="header-anchor" href="#什么是知识诅咒">¶</a>什么是知识诅咒 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1>
+<p>知识诅咒，指的就是一旦我们自己知道某样东西，我们就会发现很难想象不知道它的时候会是什么样子。我们的知识“诅咒”了我们。对于我们自己来说，同别人分享我们的知识变得很困难，因为我们不易重造我们听众的心境。</p>
+<p>这里有几个非常重要的场景：</p>
+<p>1、别人学习我们已经掌握的东西时。</p>
+<p>2、别人从事我们所熟悉的工作时。</p>
+<p>3、我们教授别人时。</p>
+<span id="more"></span>
+<h1 id="知识诅咒的来源"><a class="header-anchor" href="#知识诅咒的来源">¶</a>知识诅咒的来源</h1>
+<p>1990年伊丽莎白·牛顿（Elizabeth Newton）在斯坦福大学所做的关于一个简单游戏的研究。在这个游戏中，她把参与者分为两种角色：“敲击者”和“听众”。每个敲击者会拿到一张有25首名曲（针对美国人民）的清单，例如《祝你生日快乐》和美国国歌《星条旗永不落》，每位敲击者要做的事情就是从中挑选一首并通过敲桌子把这个节奏敲给听众听，然后让听众根据敲击的节奏猜出歌曲。</p>
+<p>这个游戏听起来很简单，但是实际情况却是很艰巨。在伊丽莎白的实验过程中，敲击者敲出了120首曲子的节奏，而听众仅猜出了其中的2.5%，也即120首里的3首。更有趣的是，在听众猜歌曲名前，伊丽莎白让敲击者预测听众猜对的概率，他们预测概率为50%。</p>
+<p>敲击者传递的信息40次中才有1次被理解，但是他们认为2次就有1次，为什么呢？</p>
+<p>当一个敲击者敲打的时候，他听到的是他脑子里的歌曲。因为他知道那首歌的歌名，比如说“祝你生日快乐”，于是他的脑海里一直在循环着这首歌——不可能避免在脑中听到曲调。但是对听众来说，他的脑袋里没有“歌名”这个信息，他不知道这首歌具体是什么，也就听不到这个曲调——他们所能听到的仅是：嗒，嗒嗒，嗒嗒嗒。</p>
+<p>做一个敲击者很难。问题在于敲击者已拥有的知识（歌曲题目）让他们想象不到缺乏这种知识会是什么情形。当他们敲击的时候，他们不能想象听众听到的是那些度里的敲击声而不是一首曲子。这就是“知识的诅咒”。</p>
+<h1 id="对我的启示"><a class="header-anchor" href="#对我的启示">¶</a>对我的启示</h1>
+<p>在做PPT报告展示、撰写文章时，非常需要避免这一现象。多让他人提意见、多理解听众是提升自己的表达的关键。</p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://wiki.mbalib.com/wiki/%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92">https://wiki.mbalib.com/wiki/知识诅咒</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ChatGPT问答</title>
+    <url>/posts/c8651107.html</url>
+    <content><![CDATA[<span id="more"></span>
+<p>如果三个颜色条挤在一起，可以使用 <code>fig.subplots_adjust()</code> 方法调整子图之间的间距。以下是一个示例代码：</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> geopandas <span class="keyword">as</span> gpd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 读取地图数据</span></span><br><span class="line">world = gpd.read_file(gpd.datasets.get_path(<span class="string">&#x27;naturalearth_lowres&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建三个子图</span></span><br><span class="line">fig, axs = plt.subplots(ncols=<span class="number">3</span>, figsize=(<span class="number">15</span>, <span class="number">5</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i, ax <span class="keyword">in</span> <span class="built_in">enumerate</span>(axs):</span><br><span class="line">    <span class="comment"># 绘制地图</span></span><br><span class="line">    world.plot(column=<span class="string">&#x27;gdp_md_est&#x27;</span>, cmap=<span class="string">&#x27;OrRd&#x27;</span>, legend=<span class="literal">True</span>, ax=ax)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 创建颜色条</span></span><br><span class="line">    cax = fig.add_axes([<span class="number">0.9</span>, <span class="number">0.25</span>+<span class="number">0.5</span>*i, <span class="number">0.02</span>, <span class="number">0.25</span>])</span><br><span class="line">    sm = plt.cm.ScalarMappable(cmap=<span class="string">&#x27;OrRd&#x27;</span>)</span><br><span class="line">    fig.colorbar(sm, cax=cax)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调整子图之间的间距</span></span><br><span class="line">fig.subplots_adjust(wspace=<span class="number">0.2</span>)</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<p>在上述代码中，我们在 <code>fig.subplots_adjust()</code> 方法中设置了 <code>wspace</code> 参数，以增加子图之间的水平间距。你可以根据需要调整此参数的值。</p>
+<p>希望这可以帮助你解决问题。</p>
+<p><code>fig.add_axes()</code> 方法用于在图形对象中添加一个新的坐标轴。它需要一个四元组参数 <code>[left, bottom, width, height]</code> 来指定新增坐标轴的位置和大小，其中：</p>
+<ul>
+<li><code>left</code>：坐标轴左侧边缘相对于图形左侧边缘的偏移量（取值范围为 0 到 1）；</li>
+<li><code>bottom</code>：坐标轴底部边缘相对于图形底部边缘的偏移量（取值范围为 0 到 1）；</li>
+<li><code>width</code>：坐标轴的宽度（取值范围为 0 到 1）；</li>
+<li><code>height</code>：坐标轴的高度（取值范围为 0 到 1）。</li>
+</ul>
+<p>在这里，我们使用了一个列表 <code>[0.9, 0.25+0.5*i, 0.02, 0.25]</code> 来指定三个颜色条的位置和大小。其中：</p>
+<ul>
+<li><code>0.9</code> 表示颜色条左侧边缘相对于整个图形左侧边缘的偏移量为 0.9，即颜色条位于整个图形的右侧；</li>
+<li><code>0.25+0.5*i</code> 表示颜色条底部边缘相对于整个图形底部边缘的偏移量，其中 <code>i</code> 是循环变量，用于确定第几个子图；</li>
+<li><code>0.02</code> 表示颜色条的宽度；</li>
+<li><code>0.25</code> 表示颜色条的高度。</li>
+</ul>
+<p>希望这可以帮助你理解代码。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hang out with friends 2023-02-20</title>
+    <url>/posts/d48bb793.html</url>
+    <content><![CDATA[<p>Thanks for <span style="color:#B95000"> Y’s </span> pictures!</p>
+<p>Have fun with my friends and enjoyed several delicious meals.</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/rot5i1dg6PehJlD.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/EBGrMXOmuK8UW6z.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/eaxUCov7VKdWSfg.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/OdD1vAHCeNXPxE6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/Q6hDUAF38BdkwvX.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/4AwgkuEITUxBNOR.jpg" alt=""></div></div></div>
+<span id="more"></span>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/81IjO2wWia5rsZC.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/9OCfc1rbWQYAS4v.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/lROYioTcHBCbq84.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/5REDJAvY7pqnhWj.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/QVuib6nD8NrKyYv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/m2UX1KNjMJqFBfi.jpg" alt=""></div></div></div>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hang out with friends(2)</title>
+    <url>/posts/6b6ac36a.html</url>
+    <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/KZeAcVwxXPFt6vH.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/S72oTOGHFBIi1t4.png" alt=""></div></div></div>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
   </entry>
   <entry>
     <title>ChatGPT</title>
@@ -1202,89 +1285,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <li>不要询问保密数据</li>
 </ul>
 ]]></content>
-  </entry>
-  <entry>
-    <title>ChatGPT问答</title>
-    <url>/posts/c8651107.html</url>
-    <content><![CDATA[<span id="more"></span>
-<p>如果三个颜色条挤在一起，可以使用 <code>fig.subplots_adjust()</code> 方法调整子图之间的间距。以下是一个示例代码：</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> geopandas <span class="keyword">as</span> gpd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 读取地图数据</span></span><br><span class="line">world = gpd.read_file(gpd.datasets.get_path(<span class="string">&#x27;naturalearth_lowres&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建三个子图</span></span><br><span class="line">fig, axs = plt.subplots(ncols=<span class="number">3</span>, figsize=(<span class="number">15</span>, <span class="number">5</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i, ax <span class="keyword">in</span> <span class="built_in">enumerate</span>(axs):</span><br><span class="line">    <span class="comment"># 绘制地图</span></span><br><span class="line">    world.plot(column=<span class="string">&#x27;gdp_md_est&#x27;</span>, cmap=<span class="string">&#x27;OrRd&#x27;</span>, legend=<span class="literal">True</span>, ax=ax)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 创建颜色条</span></span><br><span class="line">    cax = fig.add_axes([<span class="number">0.9</span>, <span class="number">0.25</span>+<span class="number">0.5</span>*i, <span class="number">0.02</span>, <span class="number">0.25</span>])</span><br><span class="line">    sm = plt.cm.ScalarMappable(cmap=<span class="string">&#x27;OrRd&#x27;</span>)</span><br><span class="line">    fig.colorbar(sm, cax=cax)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调整子图之间的间距</span></span><br><span class="line">fig.subplots_adjust(wspace=<span class="number">0.2</span>)</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<p>在上述代码中，我们在 <code>fig.subplots_adjust()</code> 方法中设置了 <code>wspace</code> 参数，以增加子图之间的水平间距。你可以根据需要调整此参数的值。</p>
-<p>希望这可以帮助你解决问题。</p>
-<p><code>fig.add_axes()</code> 方法用于在图形对象中添加一个新的坐标轴。它需要一个四元组参数 <code>[left, bottom, width, height]</code> 来指定新增坐标轴的位置和大小，其中：</p>
-<ul>
-<li><code>left</code>：坐标轴左侧边缘相对于图形左侧边缘的偏移量（取值范围为 0 到 1）；</li>
-<li><code>bottom</code>：坐标轴底部边缘相对于图形底部边缘的偏移量（取值范围为 0 到 1）；</li>
-<li><code>width</code>：坐标轴的宽度（取值范围为 0 到 1）；</li>
-<li><code>height</code>：坐标轴的高度（取值范围为 0 到 1）。</li>
-</ul>
-<p>在这里，我们使用了一个列表 <code>[0.9, 0.25+0.5*i, 0.02, 0.25]</code> 来指定三个颜色条的位置和大小。其中：</p>
-<ul>
-<li><code>0.9</code> 表示颜色条左侧边缘相对于整个图形左侧边缘的偏移量为 0.9，即颜色条位于整个图形的右侧；</li>
-<li><code>0.25+0.5*i</code> 表示颜色条底部边缘相对于整个图形底部边缘的偏移量，其中 <code>i</code> 是循环变量，用于确定第几个子图；</li>
-<li><code>0.02</code> 表示颜色条的宽度；</li>
-<li><code>0.25</code> 表示颜色条的高度。</li>
-</ul>
-<p>希望这可以帮助你理解代码。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>The curse of knowledge</title>
-    <url>/posts/4fa4519d.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>多理解听众才能形成好的表达</p>
-
-</blockquote>
-<h1 id="什么是知识诅咒"><a class="header-anchor" href="#什么是知识诅咒">¶</a>什么是知识诅咒 <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></h1>
-<p>知识诅咒，指的就是一旦我们自己知道某样东西，我们就会发现很难想象不知道它的时候会是什么样子。我们的知识“诅咒”了我们。对于我们自己来说，同别人分享我们的知识变得很困难，因为我们不易重造我们听众的心境。</p>
-<p>这里有几个非常重要的场景：</p>
-<p>1、别人学习我们已经掌握的东西时。</p>
-<p>2、别人从事我们所熟悉的工作时。</p>
-<p>3、我们教授别人时。</p>
-<span id="more"></span>
-<h1 id="知识诅咒的来源"><a class="header-anchor" href="#知识诅咒的来源">¶</a>知识诅咒的来源</h1>
-<p>1990年伊丽莎白·牛顿（Elizabeth Newton）在斯坦福大学所做的关于一个简单游戏的研究。在这个游戏中，她把参与者分为两种角色：“敲击者”和“听众”。每个敲击者会拿到一张有25首名曲（针对美国人民）的清单，例如《祝你生日快乐》和美国国歌《星条旗永不落》，每位敲击者要做的事情就是从中挑选一首并通过敲桌子把这个节奏敲给听众听，然后让听众根据敲击的节奏猜出歌曲。</p>
-<p>这个游戏听起来很简单，但是实际情况却是很艰巨。在伊丽莎白的实验过程中，敲击者敲出了120首曲子的节奏，而听众仅猜出了其中的2.5%，也即120首里的3首。更有趣的是，在听众猜歌曲名前，伊丽莎白让敲击者预测听众猜对的概率，他们预测概率为50%。</p>
-<p>敲击者传递的信息40次中才有1次被理解，但是他们认为2次就有1次，为什么呢？</p>
-<p>当一个敲击者敲打的时候，他听到的是他脑子里的歌曲。因为他知道那首歌的歌名，比如说“祝你生日快乐”，于是他的脑海里一直在循环着这首歌——不可能避免在脑中听到曲调。但是对听众来说，他的脑袋里没有“歌名”这个信息，他不知道这首歌具体是什么，也就听不到这个曲调——他们所能听到的仅是：嗒，嗒嗒，嗒嗒嗒。</p>
-<p>做一个敲击者很难。问题在于敲击者已拥有的知识（歌曲题目）让他们想象不到缺乏这种知识会是什么情形。当他们敲击的时候，他们不能想象听众听到的是那些度里的敲击声而不是一首曲子。这就是“知识的诅咒”。</p>
-<h1 id="对我的启示"><a class="header-anchor" href="#对我的启示">¶</a>对我的启示</h1>
-<p>在做PPT报告展示、撰写文章时，非常需要避免这一现象。多让他人提意见、多理解听众是提升自己的表达的关键。</p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p><a href="https://wiki.mbalib.com/wiki/%E7%9F%A5%E8%AF%86%E8%AF%85%E5%92%92">https://wiki.mbalib.com/wiki/知识诅咒</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hang out with friends(2)</title>
-    <url>/posts/6b6ac36a.html</url>
-    <content><![CDATA[<p>又继续和不同的朋友见了几面，也认识了一些新朋友，确实有些一见如故的感觉，“相逢曾相何必曾相识”。</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/KZeAcVwxXPFt6vH.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/01/25/S72oTOGHFBIi1t4.png" alt=""></div></div></div>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hang out with friends 2023-02-20</title>
-    <url>/posts/d48bb793.html</url>
-    <content><![CDATA[<p>Thanks for <span style="color:#B95000"> Y’s </span> pictures!</p>
-<p>Have fun with my friends and enjoyed several delicious meals.</p>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/rot5i1dg6PehJlD.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/EBGrMXOmuK8UW6z.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/eaxUCov7VKdWSfg.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/OdD1vAHCeNXPxE6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/Q6hDUAF38BdkwvX.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/4AwgkuEITUxBNOR.jpg" alt=""></div></div></div>
-<span id="more"></span>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/81IjO2wWia5rsZC.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/9OCfc1rbWQYAS4v.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/lROYioTcHBCbq84.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/5REDJAvY7pqnhWj.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/QVuib6nD8NrKyYv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/20/m2UX1KNjMJqFBfi.jpg" alt=""></div></div></div>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hang out with friends 2023-03-3</title>
@@ -1382,6 +1382,51 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </tags>
   </entry>
   <entry>
+    <title>Travel: Suzhou</title>
+    <url>/posts/fd99baa9.html</url>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>秋风清，秋月明，<br>
+落叶聚还散，寒鸦栖复惊。<br>
+相思相见知何日？此时此夜难为情！</p>
+
+</blockquote>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/kS7HgNyIucoQlZV.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/y6Ve8rEJDCZ7dYQ.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/JfwAp5S78bTv1cn.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/oGdU3Ok59TEi1cY.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/eRjyaXsx74A8tbn.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/nleW1BqcgiPrf5N.jpg" alt=""></div></div></div>
+<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/Eh47Tk8gwC3BOfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/suPVovzXNpY4ECW.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/cwWuYs68rn1dzjG.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/4ReGxywjfPJr1MA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/5oBlF6vIVZCDwJ9.jpg" alt=""></div></div></div>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+        <tag>Travel</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>crontab</title>
+    <url>/posts/2de1df7e.html</url>
+    <content><![CDATA[<p>crontab是定时计划任务，每次运行后默认会向系统发送邮件,邮件地址为：</p>
+<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line"><span class="regexp">/var/m</span>ail/sam</span><br><span class="line"><span class="regexp">/Users/</span>sam/mbox</span><br></pre></td></tr></table></figure>
+<p>为了遏止邮件可以加上</p>
+<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">MAILTO=<span class="string">&quot;&quot;</span></span><br><span class="line">&gt;<span class="regexp">/dev/</span><span class="literal">null</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br></pre></td></tr></table></figure>
+<p><a href="https://crontab.guru/">https://crontab.guru/</a></p>
+<span id="more"></span>
+]]></content>
+      <categories>
+        <category>Code</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Typing speed</title>
+    <url>/posts/8296b532.html</url>
+    <content><![CDATA[<p>读了林伟大佬的<a href="https://www.skywind.me/blog/archives/1458">博文</a> 觉得很有道理，用他做的DOSBOX版本的TT练了一阵子打字的速度，确实花很少的时间就能有巨大的提升，尤其是在还没有全键盘盲打的时候。我一开始以为自己疯狂和别人打字聊天，也不是二指禅，怎么也不会太慢的，但是TT测速只有20WPM。经过一周的练习迅速涨到了30WPM，效率提升50%。</p>
+<p>我以前总是对练字嗤之以鼻，可能也就在文科考试里吃过点亏？但是都是小亏，完全过去了。长远的看练字的效益确实不大。然而赛博时代的书法–打字速度，在可以遇见的将来，还是有很大的用处的。</p>
+<p>真硬核赛博朋克还是得练打字。</p>
+<p>最高目标大概最高60WPM，但是我觉得40WPM已经能达成效能提升100%了，效益应该是短期最高的。下次提升再来记录感触。</p>
+<p><img data-src="https://s2.loli.net/2023/03/03/OJY8yUHISd5ftpT.png" alt=""></p>
+<span id="more"></span>
+]]></content>
+      <tags>
+        <tag>日常</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Start with ChatGPT&#39;s Nonesense</title>
     <url>/posts/4ff3176e.html</url>
     <content><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p>
@@ -1400,51 +1445,6 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       <tags>
         <tag>日常</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Travel: Suzhou</title>
-    <url>/posts/fd99baa9.html</url>
-    <content><![CDATA[<blockquote class="blockquote-center">
-<p>秋风清，秋月明，<br>
-落叶聚还散，寒鸦栖复惊。<br>
-相思相见知何日？此时此夜难为情！</p>
-
-</blockquote>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/kS7HgNyIucoQlZV.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/y6Ve8rEJDCZ7dYQ.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/JfwAp5S78bTv1cn.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/oGdU3Ok59TEi1cY.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/eRjyaXsx74A8tbn.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/nleW1BqcgiPrf5N.jpg" alt=""></div></div></div>
-<div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/Eh47Tk8gwC3BOfA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/suPVovzXNpY4ECW.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/cwWuYs68rn1dzjG.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/4ReGxywjfPJr1MA.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/14/5oBlF6vIVZCDwJ9.jpg" alt=""></div></div></div>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-        <tag>Travel</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Typing speed</title>
-    <url>/posts/8296b532.html</url>
-    <content><![CDATA[<p>读了林伟大佬的<a href="https://www.skywind.me/blog/archives/1458">博文</a> 觉得很有道理，用他做的DOSBOX版本的TT练了一阵子打字的速度，确实花很少的时间就能有巨大的提升，尤其是在还没有全键盘盲打的时候。我一开始以为自己疯狂和别人打字聊天，也不是二指禅，怎么也不会太慢的，但是TT测速只有20WPM。经过一周的练习迅速涨到了30WPM，效率提升50%。</p>
-<p>我以前总是对练字嗤之以鼻，可能也就在文科考试里吃过点亏？但是都是小亏，完全过去了。长远的看练字的效益确实不大。然而赛博时代的书法–打字速度，在可以遇见的将来，还是有很大的用处的。</p>
-<p>真硬核赛博朋克还是得练打字。</p>
-<p>最高目标大概最高60WPM，但是我觉得40WPM已经能达成效能提升100%了，效益应该是短期最高的。下次提升再来记录感触。</p>
-<p><img data-src="https://s2.loli.net/2023/03/03/OJY8yUHISd5ftpT.png" alt=""></p>
-<span id="more"></span>
-]]></content>
-      <tags>
-        <tag>日常</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>crontab</title>
-    <url>/posts/2de1df7e.html</url>
-    <content><![CDATA[<p>crontab是定时计划任务，每次运行后默认会向系统发送邮件,邮件地址为：</p>
-<figure class="highlight awk"><table><tr><td class="code"><pre><span class="line"><span class="regexp">/var/m</span>ail/sam</span><br><span class="line"><span class="regexp">/Users/</span>sam/mbox</span><br></pre></td></tr></table></figure>
-<p>为了遏止邮件可以加上</p>
-<figure class="highlight arcade"><table><tr><td class="code"><pre><span class="line">MAILTO=<span class="string">&quot;&quot;</span></span><br><span class="line">&gt;<span class="regexp">/dev/</span><span class="literal">null</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p><a href="https://crontab.guru/">https://crontab.guru/</a></p>
-<span id="more"></span>
-]]></content>
-      <categories>
-        <category>Code</category>
-      </categories>
   </entry>
   <entry>
     <title>Livin&#39; on a prayer</title>
