@@ -1359,7 +1359,7 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 <img data-src="https://s2.loli.net/2023/12/19/6lEHrDcB7qjyFZU.png" alt=""><br>
 <img data-src="https://s2.loli.net/2023/12/19/8pc349SxqOiTKdG.png" alt=""></p>
 <h1 id="最大化找到前三优的策略"><a class="header-anchor" href="#最大化找到前三优的策略">¶</a>最大化找到前三优的策略</h1>
-<p>我有赌的成分，所以我还会关注如何寻找前三优的决策。考虑前三优，应该分别在c1 = 33.67%，c2 = 58.68% 和 c3 = 77.46% 接受比样本第1、2、3优的候选人更好的面试者。具体推导可以看 Quine, M. P. and Law的文章。我从Simon Demers<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>的综述抄了一段结论。</p>
+<p>我有赌的成分，所以我还会关注如何寻找前三优的决策。考虑前三优，应该分别在c1 = 33.67%，c2 = 58.68% 和 c3 = 77.46% 接受比样本第1、2、3优的候选人更好的面试者。具体推导可以看 Quine, M. P. and Law的文章<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>。我从Simon Demers<sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup>的综述抄了一段结论。</p>
 <p><img data-src="https://s2.loli.net/2023/12/19/yJ8ixO9cIMaDd6B.png" alt=""></p>
 <hr class="footnotes-sep">
 <section class="footnotes">
@@ -1370,7 +1370,9 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 </li>
 <li id="fn3" class="footnote-item"><p><a href="https://stanford.edu/~rezab/amdm/notes/lecture8.pdf">https://stanford.edu/~rezab/amdm/notes/lecture8.pdf</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn4" class="footnote-item"><p><a href="https://arxiv.org/abs/1810.11557">https://arxiv.org/abs/1810.11557</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+<li id="fn4" class="footnote-item"><p>Quine, M. P. and Law, J. S. (1996). Exact Results for a Secretary Problem. Journal of Applied Probability, 33(3):630–639. DOI: 10.2307/3215345. <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://arxiv.org/abs/1810.11557">https://arxiv.org/abs/1810.11557</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>
