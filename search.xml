@@ -1345,7 +1345,7 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
 
 </blockquote>
 <h1 id="缘起"><a class="header-anchor" href="#缘起">¶</a>缘起</h1>
-<p>我是在读阮一峰的博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>的时候看到的这一问题，但据说毕导<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>的视频也涉及过这一问题。于是在重写前刷了一下大概视频，发现确实也不够深入，因此我有必要写一版更详细的。主要列结果我关心的形式，包括最大化期望和最大化前三优的策略。</p>
+<p>我是在读阮一峰的博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>的时候看到的这一问题，但据说毕导<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>的视频也涉及过这一问题，于是在重写前刷了一下大概视频。这两者均不够深入，主要涉及经典形式的秘书问题，毕导加了一些数值模拟，考虑了拒绝率等等，但是还是差了点意思。我主要扩展几个我认为会有启发的形式，包括最大化期望和最大化前三优，这相较于经典形式和真正的决策场景更贴合。</p>
 <h1 id="最大化找到最优候选人的概率-秘书问题的经典版本"><a class="header-anchor" href="#最大化找到最优候选人的概率-秘书问题的经典版本">¶</a>最大化找到最优候选人的概率(秘书问题的经典版本)</h1>
 <p>这个问题有一些假设：</p>
 <ul>
