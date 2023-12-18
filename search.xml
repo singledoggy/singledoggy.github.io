@@ -1337,42 +1337,43 @@ Hanyuyang <a href="mailto:fadedflowers@foxmail.com">fadedflowers@foxmail.com</a>
       </tags>
   </entry>
   <entry>
-    <title>Secretary Problem--秘书问题的最佳停止时间</title>
+    <title>Secretary Problem -- 最佳停止时间</title>
     <url>/posts/5a58eabc.html</url>
-    <content><![CDATA[<p>转自：<a href="https://www.ruanyifeng.com/blog/2023/01/weekly-issue-238.html">阮一峰</a></p>
-<blockquote class="blockquote-center">
-<p>评价：这个问题可以应用到方方面面，确实可以指导我们的生活。</p>
-<p>数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做&quot;1/e 法则&quot;。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称&quot;37%法则&quot;。</p>
-<p>&quot;37%法则&quot;的意思是，100个应聘者，先面试前37个，且这37无论多优秀都不取，此后的面试只要遇到一个更优秀的，就立刻录取，停止面试，最后找到最佳候选人的的成功率也为37%。</p>
+    <content><![CDATA[<blockquote class="blockquote-center">
+<p>进行和X君吃饭时他举了苏格拉底稻田里捡麦穗的问题，和我聊到爱情就像捡麦穗，准备给我灌鸡汤。我就想到了此前写过的博文，近期刚好更新一下版本。</p>
+<p>&quot;37%法则&quot;的意思是，100个应聘者，先面试前37个，且这37无论多优秀都不取，此后的面试只要遇到一个更优秀的，就立刻录取，停止面试，最后找到最佳候选人的的成功率也为37%。这也可以用作相亲，恋爱等领域…这刚好对应了苏格拉底的麦穗问题，是找到最优解的策略。</p>
 
 </blockquote>
-<p><img data-src="https://s2.loli.net/2023/03/07/5r6hztFC8wUcIJM.png" alt=""></p>
-<p>最近，我读了一本算法书，作者是美国科普作家布赖恩·克里斯蒂安（Brian Christian）。</p>
-<p>英文书名叫做《Algorithms to Live By》（生活中的算法）。</p>
-<p>我读的是中译本，书名译成《算法之美》（中信出版社，2018）。</p>
-<p>说实话，这个书名有点误导。我以为讲的是编程算法，其实是生活中的数学知识。</p>
-<p>这本书的优点是，面向普通读者，偏重于文字解释和举例，比较通俗。缺点恰恰也是这个，因为没有任何公式和代码，不可能对算法有透彻的理解。好多地方我都被卡住了，想不明白怎么推理（可能是翻译的问题）。</p>
-<p>但是，它确实讲了很多有趣的数学知识。今天我想分享它的第一章 《最佳停止时间》：什么时候可以停止寻找？</p>
-<p>日常生活有很多&quot;寻找-决策过程&quot;，如果考察所有选项，要花费很长时间，可能还会错失机会，后面遇到的未必有前面的好。能否确定一个时间点，到了某个阶段就停下来，不再寻找了，这时找到合适候选人的概率最大？</p>
-<p>这在数学上称为&quot;秘书问题&quot;。</p>
-<p>某公司招聘一名秘书，有100名候选人，依次面试。每面试完一个人，就必须立刻决定是否录取。也就是说，不能面试完所有人，再回过头决定录取哪一个，一旦放弃当前候选人，就只有从后面的面试者中选择。</p>
-<p>这个设定是合理的，象征我们在生活中遇到的各种机会。机会来临时，转瞬即逝，必须立刻决定是否抓住它，错过就是错过了。你在三个月前放弃了一个机会，不可能三个月后再捡起来。</p>
-<p>大家可以想一想，这时应该面试多少人？</p>
-<p>如果录用得太早，可能错过后面更好的候选人；如果录用得太晚，可能错误放走前面的合格人选。</p>
-<blockquote>
-<p>数学家对这个问题，已经有了充分的讨论。经过计算，成功概率最大的方法，叫做&quot;1/e 法则&quot;。e 是自然对数的底数，约等于2.718，那么 1/e 就约等于37%，所以它又称&quot;37%法则&quot;。</p>
-</blockquote>
-<blockquote>
-<p>&quot;37%法则&quot;的意思就是，寻找阶段进行到37%就要停止。 100个应聘者，先面试前37个，此后的面试只要遇到一个更优秀的，就立刻录取，不再继续面试了。换句话说，前37个面试者无论多么优秀，都不会录取，他们只是用来确定录取的标准。</p>
-</blockquote>
-<p>如果最合适的候选者偏偏在前面37%里面，那就只能错过了，作为&quot;寻找阶段&quot;不得不付出的成本。最终录取的将是不如前面候选人的次优选择。</p>
-<p>这个法则很实用，日常生活中，只要符合&quot;寻找-决策过程&quot;的场景，都可以适用37%法则。</p>
-<p>（1）相亲时，假定有10个相亲对象，那么前3～4个可以作为寻找阶段，后面只要遇到一个比前面更好的人，就可以同意了。</p>
-<p>（2）租房时，假定有一个月的找房子时间，那么30天的37﹪也就是11天。在找了11天之后，你就要出手了。只要发现比先前更令人心动的房子，就不要犹豫，马上租下来。</p>
-<p>（3）读书时，假定这本书有100页，如果读了37页，还没有发现感兴趣的内容，那就可以放弃了。</p>
-<p>（4）一个10集的电视剧，第4集是最佳弃剧时间。</p>
-<p>（5）一个10分钟的视频，看了3分42秒，如果还是觉得不好看，就可以关掉了。</p>
-<p>（6）一个年轻人想在18岁到24岁，一共7年时间里找到人生方向，确定未来想做什么。那么，他有2.59年（7 * 0.37）的时间自由尝试。也就是说，到了大三下学期就应该初步定下自己的方向，后面除非遇到更有吸引力的事情，否则就不应该转换事业方向。</p>
+<h1 id="缘起"><a class="header-anchor" href="#缘起">¶</a>缘起</h1>
+<p>我是在读阮一峰的博客<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>的时候看到的这一问题，但据说毕导<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>的视频也涉及过这一问题。于是在重写前刷了一下大概视频，发现确实也不够深入，因此我有必要写一版更详细的。主要列结果我关心的形式，包括最大化期望和最大化前三优的策略。</p>
+<h1 id="最大化找到最优候选人的概率-秘书问题的经典版本"><a class="header-anchor" href="#最大化找到最优候选人的概率-秘书问题的经典版本">¶</a>最大化找到最优候选人的概率(秘书问题的经典版本)</h1>
+<p>这个问题有一些假设：</p>
+<ul>
+<li>不能吃回头草，错过了就不重新回去找</li>
+<li>面试对象完全随机，且邀约不会被拒绝</li>
+</ul>
+<p>这里放一个Raghav Ramesh<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>的推导，我就不自己打了。这个版本的答案是面试前1/e，也就是约37%，此后一旦更好就接受。<br>
+<img data-src="https://s2.loli.net/2023/12/18/BPrNiWxMgF2U9Dy.png" alt=""></p>
+<h1 id="最大化候选人的期望"><a class="header-anchor" href="#最大化候选人的期望">¶</a>最大化候选人的期望</h1>
+<p>我们其实不那么极端，并不是要一定最好。因为按照寻找最优的策略，第二和最后一名是等权重的，我们很可能为了37%的最优血本无归，找到最坏的结果。一个简单的想法是找到期望最大的策略。这个推导我还是沿用Raghav Ramesh的课件。最佳策略是Sqrt(n)-1，在面试总人数大约大于8.39时，行动应该早于37%。<br>
+<img data-src="https://s2.loli.net/2023/12/19/6lEHrDcB7qjyFZU.png" alt=""><br>
+<img data-src="https://s2.loli.net/2023/12/19/8pc349SxqOiTKdG.png" alt=""></p>
+<h1 id="最大化找到前三优的策略"><a class="header-anchor" href="#最大化找到前三优的策略">¶</a>最大化找到前三优的策略</h1>
+<p>我有赌的成分，所以我还会关注如何寻找前三优的决策。考虑前三优，应该分别在c1 = 33.67%，c2 = 58.68% 和 c3 = 77.46% 接受比样本第1、2、3优的候选人更好的面试者。具体推导可以看 Quine, M. P. and Law的文章。我从Simon Demers<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>的综述抄了一段结论。</p>
+<p><img data-src="https://s2.loli.net/2023/12/19/yJ8ixO9cIMaDd6B.png" alt=""></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>(<a href="https://www.ruanyifeng.com/blog/2023/01/weekly-issue-23">https://www.ruanyifeng.com/blog/2023/01/weekly-issue-23</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>【单身狗速进！如何科学有效地脱单？-哔哩哔哩】 <a href="https://b23.tv/j5JGw68">https://b23.tv/j5JGw68</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://stanford.edu/~rezab/amdm/notes/lecture8.pdf">https://stanford.edu/~rezab/amdm/notes/lecture8.pdf</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://arxiv.org/abs/1810.11557">https://arxiv.org/abs/1810.11557</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 ]]></content>
       <tags>
         <tag>日常</tag>
