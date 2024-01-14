@@ -65,71 +65,6 @@
   </entry>
   
   <entry>
-    <title>ChatGPT</title>
-    <link href="https://samhan.fun/posts/ef4f0767.html"/>
-    <id>https://samhan.fun/posts/ef4f0767.html</id>
-    <published>2023-04-08T06:39:30.000Z</published>
-    <updated>2023-04-08T06:39:30.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="更新说明"><a class="header-anchor" href="#更新说明">¶</a>更新说明</h1><h2 id="从原来的项目改用chatgpt-next"><a class="header-anchor" href="#从原来的项目改用chatgpt-next">¶</a>从原来的项目改用<a href="https://github.com/Yidadaa/ChatGPT-Next-Web">ChatGPT Next</a></h2><p>密码输入在设置-访问密码，还是以前的密码：<br><img data-src="https://s2.loli.net/2023/04/24/XM1t7EqxlKn82Vu.png" alt=""></p><p>OPENAI API Key 不要输，我关闭了这个功能，防止Ddos攻击</p><h3 id="更换项目的原因"><a class="header-anchor" href="#更换项目的原因">¶</a>更换项目的原因</h3><ul><li>我更喜欢现在的UI界面, 比原先的更漂亮</li><li>大体功能类似，用法类似</li><li>现在的项目有更好的记忆功能，一定间隔内会对历史会话总结</li><li>这个项目的活力更好，原项目作者疏于维护，生态变差</li></ul><h3 id="如果我分享了第二个地址"><a class="header-anchor" href="#如果我分享了第二个地址">¶</a>如果我分享了第二个地址</h3><p>第一个地址仅支持GPT3，第二个地址在GPT4可用的时候支持GPT4，GPT4价格是GPT3的16(官方)-40倍（代理api，约等于黄牛）。</p><p>由于没申请到官方的资格，黄牛也不是一直有货，不一定能稳定提供。</p><p>隐私方面两者一致，都有可能使用黄牛<br><img data-src="https://s2.loli.net/2023/04/24/kHbMZtCl7fGWU8y.png" alt=""></p><h1 id="faq"><a class="header-anchor" href="#faq">¶</a>FAQ</h1><h2 id="为什么输入prompt要在-前置上下文和历史记忆-处"><a class="header-anchor" href="#为什么输入prompt要在-前置上下文和历史记忆-处">¶</a>为什么输入Prompt要在“前置上下文和历史记忆”处</h2><p>参见“余额”处，ChatGPT记忆力有限，在对话中提要求超过最大字数他会忘记</p><h2 id="如何分享我的prompt作为默认配置"><a class="header-anchor" href="#如何分享我的prompt作为默认配置">¶</a>如何分享我的Prompt作为默认配置</h2><p>可以在下面的项目中发起issue或者pull request，我会视情况接受</p><p><a href="https://github.com/singledoggy/GPT-prompts">https://github.com/singledoggy/GPT-prompts</a></p><h1 id="prompt-提示词"><a class="header-anchor" href="#prompt-提示词">¶</a>Prompt 提示词</h1><h2 id="示例"><a class="header-anchor" href="#示例">¶</a>示例</h2><p>将提示词输入&quot;前置上下文和历史记忆&quot;中，可以引导回答的模式，下面是一些示例：</p><blockquote><p>Please translate following sentence to English with academic writing:</p></blockquote><blockquote><p>Below is a paragraph from an academic paper. Polish the writing to meet the academic style, improve the spelling, grammar, clarity, concision and overall readability. When neccessary, rewrite the whole sentence. Furthermore, list all modification and explain the reasons to do so in markdown table.</p></blockquote><h2 id="zero-one-and-few-shot-prompting"><a class="header-anchor" href="#zero-one-and-few-shot-prompting">¶</a>Zero, One and Few Shot Prompting</h2><p><a href="https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138">https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138</a></p><h2 id="如何提升可靠性"><a class="header-anchor" href="#如何提升可靠性">¶</a>如何提升可靠性</h2><p><a href="https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md">https://github.com/openai/openai-cookbook/blob/main/techniques_to_improve_reliability.md</a></p><h1 id="模型参数微调"><a class="header-anchor" href="#模型参数微调">¶</a>模型参数微调</h1><p>“temperature” ： <span style="color:#B95000"> &quot;temperature&quot;选项是一个控制语言模型输出的随机性或创造性的参数 </span>。当使用语言模型生成文本时，它通常会输出根据输入和先前训练数据确定为最可能的单词或词序列。然而，增加输出的随机性可以帮助模型创建更具创意和有趣的输出。&quot;temperature&quot;选项实际上控制着随机性的程度。将温度设置为较低的值将导致输出更可预测和重复，而较高的温度会导致更多种类和不可预测的输出。<span style="color:#B95000"> 例如，将温度设置为0.5将导致较保守的输出，而温度为1将创建更富创意和自发的输出。 </span>需要注意的是，理想的温度值将取决于具体的任务和上下文，因此可能需要一些实验来找到适合您需要的正确值。</p><h1 id="余额"><a class="header-anchor" href="#余额">¶</a>余额</h1><p>能使用本服务的都是我的朋友，因为没有对外服务打算，所以偷懒不想接入数据库和用户登录界面，也请大家不要外传密码。</p><p>项目调用GPT-3.5-turbo-0301 API，因此比官网略显笨蛋，但是会有回答速度的优势和国内能直连访问的特点。</p><p>每月准备了10$ 供大家使用，如果超出将暂停服务。如果觉得自己用量大也欢迎donate，捐赠名单将在此处感谢。6月前openai有18$的免费额度暂且尚未用完。</p><p>在这里提供一个估算自己tokens使用量的方式：</p><p>3.5的计价单位为:</p><ul><li><p>每1000个tokens 0.002美元</p></li><li><p>中文约每字2.03 tokens</p></li><li><p>英文约为每字1.25 tokens</p></li></ul><p><span style="color:#B95000"> 生成的回复、输入的问题，和记忆前文  </span>均需要消耗tokens。因此，在不需要时关闭对前文的记忆可以节约tokens。</p><p>目前使用的3.5 api 输出 <span style="color:#B95000"> 上限为2049 tokens，约1000字中文，1720字英文。 </span> 超过后将会“失忆”。</p><h1 id="隐私说明"><a class="header-anchor" href="#隐私说明">¶</a>隐私说明</h1><p>可能引入第三方的api（约等于黄牛），Openai又是外国公司，因此注意</p><ul><li>不要询问隐私问题</li><li>不要询问保密数据</li></ul>]]></content>
-    
-    
-    <summary type="html">&lt;h1 id=&quot;更新说明&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#更新说明&quot;&gt;¶&lt;/a&gt;更新说明&lt;/h1&gt;
-&lt;h2 id=&quot;从原来的项目改用chatgpt-next&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#从原来的项目改用chatgpt-next&quot;&gt;¶&lt;/a&gt;从原来的项目改用&lt;a href=&quot;https://github.com/Yidadaa/ChatGPT-Next-Web&quot;&gt;ChatGPT Next&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;密码输入在设置-访问密码，还是以前的密码：&lt;br&gt;
-&lt;img data-src=&quot;https://s2.loli.net/2023/04/24/XM1t7EqxlKn82Vu.png&quot; alt&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ChatGPT问答</title>
-    <link href="https://samhan.fun/posts/c8651107.html"/>
-    <id>https://samhan.fun/posts/c8651107.html</id>
-    <published>2023-03-18T13:08:52.000Z</published>
-    <updated>2023-03-18T13:08:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><p>如果三个颜色条挤在一起，可以使用 <code>fig.subplots_adjust()</code> 方法调整子图之间的间距。以下是一个示例代码：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> geopandas <span class="keyword">as</span> gpd</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"></span><br><span class="line"><span class="comment"># 读取地图数据</span></span><br><span class="line">world = gpd.read_file(gpd.datasets.get_path(<span class="string">&#x27;naturalearth_lowres&#x27;</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建三个子图</span></span><br><span class="line">fig, axs = plt.subplots(ncols=<span class="number">3</span>, figsize=(<span class="number">15</span>, <span class="number">5</span>))</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i, ax <span class="keyword">in</span> <span class="built_in">enumerate</span>(axs):</span><br><span class="line">    <span class="comment"># 绘制地图</span></span><br><span class="line">    world.plot(column=<span class="string">&#x27;gdp_md_est&#x27;</span>, cmap=<span class="string">&#x27;OrRd&#x27;</span>, legend=<span class="literal">True</span>, ax=ax)</span><br><span class="line"></span><br><span class="line">    <span class="comment"># 创建颜色条</span></span><br><span class="line">    cax = fig.add_axes([<span class="number">0.9</span>, <span class="number">0.25</span>+<span class="number">0.5</span>*i, <span class="number">0.02</span>, <span class="number">0.25</span>])</span><br><span class="line">    sm = plt.cm.ScalarMappable(cmap=<span class="string">&#x27;OrRd&#x27;</span>)</span><br><span class="line">    fig.colorbar(sm, cax=cax)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 调整子图之间的间距</span></span><br><span class="line">fig.subplots_adjust(wspace=<span class="number">0.2</span>)</span><br><span class="line"></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure><p>在上述代码中，我们在 <code>fig.subplots_adjust()</code> 方法中设置了 <code>wspace</code> 参数，以增加子图之间的水平间距。你可以根据需要调整此参数的值。</p><p>希望这可以帮助你解决问题。</p><p><code>fig.add_axes()</code> 方法用于在图形对象中添加一个新的坐标轴。它需要一个四元组参数 <code>[left, bottom, width, height]</code> 来指定新增坐标轴的位置和大小，其中：</p><ul><li><code>left</code>：坐标轴左侧边缘相对于图形左侧边缘的偏移量（取值范围为 0 到 1）；</li><li><code>bottom</code>：坐标轴底部边缘相对于图形底部边缘的偏移量（取值范围为 0 到 1）；</li><li><code>width</code>：坐标轴的宽度（取值范围为 0 到 1）；</li><li><code>height</code>：坐标轴的高度（取值范围为 0 到 1）。</li></ul><p>在这里，我们使用了一个列表 <code>[0.9, 0.25+0.5*i, 0.02, 0.25]</code> 来指定三个颜色条的位置和大小。其中：</p><ul><li><code>0.9</code> 表示颜色条左侧边缘相对于整个图形左侧边缘的偏移量为 0.9，即颜色条位于整个图形的右侧；</li><li><code>0.25+0.5*i</code> 表示颜色条底部边缘相对于整个图形底部边缘的偏移量，其中 <code>i</code> 是循环变量，用于确定第几个子图；</li><li><code>0.02</code> 表示颜色条的宽度；</li><li><code>0.25</code> 表示颜色条的高度。</li></ul><p>希望这可以帮助你理解代码。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;p&gt;如果三个颜色条挤在一起，可以使用 &lt;code&gt;fig.subplots_adjust()&lt;/code&gt; 方法调整子图之间的间距。以下是一个示例代码：&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>server</title>
-    <link href="https://samhan.fun/posts/5a6dd5f6.html"/>
-    <id>https://samhan.fun/posts/5a6dd5f6.html</id>
-    <published>2023-03-18T03:37:04.000Z</published>
-    <updated>2023-03-18T03:37:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<span id="more"></span><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">yum install -y https:<span class="regexp">//</span>dl.fedoraproject.org<span class="regexp">/pub/</span>epel/epel-release-latest-<span class="number">8</span>.noarch.rpm</span><br><span class="line">yum install -y neovim python3-neovim</span><br><span class="line">sh -c <span class="string">&#x27;curl -fLo &quot;$&#123;XDG_DATA_HOME:-$HOME/.local/share&#125;&quot;/nvim/site/autoload/plug.vim --create-dirs \</span></span><br><span class="line"><span class="string">       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim&#x27;</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">yum install -y zsh</span><br><span class="line">yum install -y https:<span class="regexp">//</span>dl.fedoraproject.org<span class="regexp">/pub/</span>epel/epel-release-latest-<span class="number">8</span>.noarch.rpm</span><br><span class="line"></span><br><span class="line">sudo usermod -s <span class="regexp">/bin/</span>zsh root</span><br><span class="line"></span><br><span class="line">sh -c <span class="string">&quot;$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)&quot;</span></span><br><span class="line"></span><br><span class="line">yum install python3</span><br><span class="line">pip3 install neovim</span><br><span class="line"></span><br><span class="line">yum install ripgrep</span><br><span class="line"></span><br><span class="line">之后再调整zshrc</span><br><span class="line"></span><br><span class="line">yum install curl -y</span><br><span class="line">bash &lt;(curl -s -L https:<span class="regexp">//gi</span>t.io/v2ray.sh)</span><br><span class="line"></span><br><span class="line">git clone --depth <span class="number">1</span> https:<span class="regexp">//gi</span>thub.com<span class="regexp">/junegunn/</span>fzf.git ~/.fzf</span><br><span class="line">~<span class="regexp">/.fzf/i</span>nstall</span><br><span class="line">source ~/.zshrc</span><br><span class="line"></span><br><span class="line">bash &lt;(curl -sL https:<span class="regexp">//</span>raw.githubusercontent.com<span class="regexp">/Miuzarte/</span>hijk.sh<span class="regexp">/main/</span>Original/ss.sh)</span><br><span class="line"></span><br><span class="line">.zsshrc</span><br><span class="line">.gitconfig</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
-&lt;figure class=&quot;highlight awk&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2</summary>
-      
-    
-    
-    
-    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Secretary Problem -- 最佳停止时间</title>
     <link href="https://samhan.fun/posts/5a58eabc.html"/>
     <id>https://samhan.fun/posts/5a58eabc.html</id>
@@ -235,27 +170,6 @@
     <summary type="html">&lt;p&gt;Thanks for &lt;span style=&quot;color:#B95000&quot;&gt; Y’s &lt;/span&gt; pictures!&lt;/p&gt;
 &lt;p&gt;Have fun with my friends and enjoyed several delicious meals.&lt;/p&gt;
 &lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/rot5i1dg6PehJlD.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/EBGrMXOmuK8UW6z.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/eaxUCov7VKdWSfg.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/OdD1vAHCeNXPxE6.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/Q6hDUAF38BdkwvX.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/20/4AwgkuEITUxBNOR.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Start with ChatGPT&#39;s Nonesense</title>
-    <link href="https://samhan.fun/posts/4ff3176e.html"/>
-    <id>https://samhan.fun/posts/4ff3176e.html</id>
-    <published>2023-02-19T12:02:48.000Z</published>
-    <updated>2023-02-19T12:02:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。</p><p>这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞。</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png" alt=""></div></div></div><div class="note info"><h4 id="常凯申-误译事件"><a class="header-anchor" href="#常凯申-误译事件">¶</a>“常凯申”误译事件</h4><p>“常凯申”误译事件出现在清华大学历史系副主任王奇所著的《中俄国界东段学术史研究：中国、俄国、西方学者视野中的中俄国界东段问题》中。《中俄国界东段学术史研究》原来只有两章，分别关于中国大陆、香港与台湾学者和俄罗斯及苏联学者的研究，后来王奇加入关于西方学者的第三章时，谬误百出[1]。</p><p>该书由中央编译出版社于2008年10月出版，2009年6月被发现书中第三章多处错译人名、期刊、书名、出版地和出版社，其中包括把英文资料中的Chiang Kai-shek（蒋介石，Chiang为威妥玛拼音，Kai-shek为“介石”之粤语罗马化）误译成常凯申（第82页）。其中一些中国人名字出现“错译”，是因为他们的英文名以当时流行的威妥玛拼音拼写，与现时在中国大陆通行的汉语拼音不同[2]。 2009年6月19日，中央编译出版社表示已停止这本书的发行，并就审校工作中的失误向读者表示歉意。</p></div><div class="note info"><h4 id="折毛事件"><a class="header-anchor" href="#折毛事件">¶</a>折毛事件</h4><p>折毛自2019年6月在维基百科注册以来，在中文维基百科上创建了206个条目，进行了4,800次编辑，写下上百万字。中文维基百科社群把其中三篇主编条目评为“优良条目”，一篇（远东华人强制流配）评为“典范条目”。</p><p>2022年6月，中文维基百科编辑者“折毛”伪造200多篇古俄罗斯历史相关条目的行为被揭露，被视作是开源网络史上最大规模的恶作剧之一。</p><p>2022年6月中旬，中国大陆小说作者“伊凡”在社交网站知乎的贴文中揭露了这一骗局。</p></div>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;最近，ChatGPT已经火热了好几个月了，被师兄推荐尝试了一番，有了不少体验。非常有意思的点就是ChatGPT会胡编乱造。&lt;/p&gt;
-&lt;p&gt;这就让我想到了其他一些有意思的点，例如经典的“常凯申”误译事件和折毛事件，这两个事件则是此前的被认为高可信度的专家书籍以及权威网络词条出现的经典错误。我想，既然我们不因为一些个例对书籍和词条丧失信息，那么我们就也不该因噎废食的认为ChatGPT的错误是什么巨大的漏洞。&lt;/p&gt;
-&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/19/dngZU3i6lDEAWvX.png&quot; alt&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/19/VM92raIxH1SP57T.png&quot; alt&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary>
     
     
     
@@ -474,29 +388,6 @@
   </entry>
   
   <entry>
-    <title>crontab</title>
-    <link href="https://samhan.fun/posts/2de1df7e.html"/>
-    <id>https://samhan.fun/posts/2de1df7e.html</id>
-    <published>2023-01-09T03:08:52.000Z</published>
-    <updated>2023-01-09T03:08:52.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>crontab是定时计划任务，每次运行后默认会向系统发送邮件,邮件地址为：</p><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="regexp">/var/m</span>ail/sam</span><br><span class="line"><span class="regexp">/Users/</span>sam/mbox</span><br></pre></td></tr></table></figure><p>为了遏止邮件可以加上</p><figure class="highlight arcade"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">MAILTO=<span class="string">&quot;&quot;</span></span><br><span class="line">&gt;<span class="regexp">/dev/</span><span class="literal">null</span> <span class="number">2</span>&gt;&amp;<span class="number">1</span></span><br></pre></td></tr></table></figure><p><a href="https://crontab.guru/">https://crontab.guru/</a></p><span id="more"></span>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;crontab是定时计划任务，每次运行后默认会向系统发送邮件,邮件地址为：&lt;/p&gt;
-&lt;figure class=&quot;highlight awk&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;regexp&quot;&gt;/var/m&lt;/span&gt;ail/sam&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;regexp&quot;&gt;/Users/&lt;/span&gt;sam/mbox&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;为了遏止邮件可以加上&lt;/p&gt;
-&lt;figure class=&quot;highlight arcade&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;MAILTO=&lt;span class=&quot;string&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;gt;&lt;span class=&quot;regexp&quot;&gt;/dev/&lt;/span&gt;&lt;span class=&quot;literal&quot;&gt;null&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;2&lt;/span&gt;&amp;gt;&amp;amp;&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;&lt;a href=&quot;https://crontab.guru/&quot;&gt;https://crontab.guru/&lt;/a&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>pdf-copy-vim</title>
     <link href="https://samhan.fun/posts/49b709c3.html"/>
     <id>https://samhan.fun/posts/49b709c3.html</id>
@@ -521,6 +412,140 @@
     
     <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>视觉相似的字符</title>
+    <link href="https://samhan.fun/posts/60f6fdd2.html"/>
+    <id>https://samhan.fun/posts/60f6fdd2.html</id>
+    <published>2022-09-21T15:29:36.000Z</published>
+    <updated>2024-01-13T04:40:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="更新"><a class="header-anchor" href="#更新">¶</a>更新</h1><p>黑客通类似的原理攻击了加密货币（crypto）Sats，一个Unicode Character “ʦ” (U+02A6)在数据库索引时编码和ts也很接近，因此搜索Sats时会搜到Saʦ，看上去就像是UI的简单问题。因此黑客挂单假的Sats货币，赚取了很多钱。</p><p>如果当时能深入思考，我也能捞一大笔也说不定。错失数亿。</p><h1 id="起源"><a class="header-anchor" href="#起源">¶</a>起源</h1><p>视觉相似的字符可以从一个社会新闻谈起，<a href="https://www.zhihu.com/question/543944966/answer/2582511402%5D">某明星用不同的入炸话题</a>, 另一个例子防止代码出错我需要选用不会混淆1和I的字体。在帮朋友写一个转换经纬度单位的程序的时候就遇到了相似字体的问题。</p><h1 id="案例"><a class="header-anchor" href="#案例">¶</a>案例</h1><p>经纬度Degrees Minutes Seconds 我需要转换为 Decimal Degrees，一开始默认代码是E或者N，W，S，由于他的经纬度是手动从文章复制的，所以出现了一些奇怪的问题。</p><ol><li>我只判断了是否要加上负号，没有对非WS的情况检验，默认不是WS就是EN了，事实上他的WS后面常常有空格，用<code>Strip()</code>方法可解，但一开始的忽略会导致有些负号没有加上。</li><li>异体字希腊字母也是我没有考虑到的，事实上查看ASCII码可以发现看似是E和N的其实不是，例如 <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>N</mi></mrow><annotation encoding="application/x-tex">N</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.10903em;">N</span></span></span></span> 、<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>E</mi></mrow><annotation encoding="application/x-tex">E</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">E</span></span></span></span> 可以是希腊字母。</li></ol><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;E&#x27;</span>== <span class="string">&#x27;Ε&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure><figure class="highlight ada"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> <span class="string">&#x27;N&#x27;</span> == <span class="string">&#x27;Ν&#x27;</span></span><br><span class="line"># <span class="keyword">return</span> <span class="literal">False</span></span><br></pre></td></tr></table></figure><p>下面是加了异体字监测部分的转换代码</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">dms2dd</span>(<span class="params">dms</span>):</span></span><br><span class="line">    <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">    convert degree minute second to degree decimal</span></span><br><span class="line"><span class="string">    :param dms:度分秒/度分 形式的经纬度</span></span><br><span class="line"><span class="string">    :return:</span></span><br><span class="line"><span class="string">    &quot;&quot;&quot;</span></span><br><span class="line">    dms = dms.strip()</span><br><span class="line">    a = re.findall(<span class="string">&#x27;[^\\d°\&#x27;&quot;″NSEWΕ\\.]&#x27;</span>, dms)</span><br><span class="line">    <span class="keyword">if</span> a :</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;有异体字符&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>(a)</span><br><span class="line">        <span class="built_in">print</span>(<span class="string">&#x27;该异体字ASCII是&#x27;</span>)</span><br><span class="line">        <span class="built_in">print</span>([<span class="built_in">ord</span>(x) <span class="keyword">for</span> x <span class="keyword">in</span> a])</span><br><span class="line">    parts = re.split(<span class="string">&#x27;[°\&#x27;&quot;″]+&#x27;</span>, dms)</span><br><span class="line">    degree, minute, second, direction = <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span></span><br><span class="line">    <span class="keyword">if</span> <span class="built_in">len</span>(parts) == <span class="number">3</span>:</span><br><span class="line">        degree, minute, direction = parts</span><br><span class="line">    <span class="keyword">elif</span> <span class="built_in">len</span>(parts) == <span class="number">4</span>:</span><br><span class="line">        degree, minute, second, direction = parts</span><br><span class="line">    dd = <span class="built_in">float</span>(degree) + <span class="built_in">float</span>(minute) / <span class="number">60</span> + <span class="built_in">float</span>(second) / (<span class="number">60</span> * <span class="number">60</span>)</span><br><span class="line">    <span class="keyword">if</span> direction == <span class="string">&#x27;W&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;S&#x27;</span>:</span><br><span class="line">        dd *= -<span class="number">1</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> direction == <span class="string">&#x27;E&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;N&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ε&#x27;</span> <span class="keyword">or</span> direction == <span class="string">&#x27;Ν&#x27;</span>:</span><br><span class="line">            dd *= +<span class="number">1</span></span><br><span class="line">    <span class="keyword">return</span> dd</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;更新&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#更新&quot;&gt;¶&lt;/a&gt;更新&lt;/h1&gt;
+&lt;p&gt;黑客通类似的原理攻击了加密货币（crypto）Sats，一个Unicode Character “ʦ” (U+02A6)在数据库索引时编码和ts也很接近，因此搜索Sats时会搜到Saʦ，看上去就像是UI的简单问题。因此黑客挂单假的Sats货币，赚取了很多钱。&lt;/p&gt;
+&lt;p&gt;如果当时能深入思考，我也能捞一大笔也说不定。错失数亿。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Code" scheme="https://samhan.fun/overview/Code/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Travel: HuaiRou</title>
+    <link href="https://samhan.fun/posts/1c7bcf47.html"/>
+    <id>https://samhan.fun/posts/1c7bcf47.html</id>
+    <published>2022-08-14T03:09:23.000Z</published>
+    <updated>2022-08-14T03:09:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>，因此路上有些拥堵。</p><p>虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg" alt=""></div></div></div><span id="more"></span><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/rS5vFngXhOdpyb6.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/B35oYtfHO7KhV12.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/LHUg2yGt7NwMbCv.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/A5BDLxN2mdV6v73.jpg" alt=""></div></div></div><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESbLJUpQFd1cjkf.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/U7wKDQhJGHdtvcb.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Fc2E3RnMwjtZGWy.jpg" alt=""></div></div><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/wFUpsVScBHXyD5o.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/ESNCtqpswjiuzea.jpg" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/WOM9xdgwjqfhnFs.jpg" alt=""></div></div></div><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E7%AC%AC12%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82/59545872?fromtitle=%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%8C%97%E4%BA%AC%E5%9B%BD%E9%99%85%E7%94%B5%E5%BD%B1%E8%8A%82&amp;fromid=60719597&amp;fr=aladdin">https://baike.baidu.com/item/第12届北京国际电影节/59545872?fromtitle=第十二届北京国际电影节&amp;fromid=60719597&amp;fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;在雁栖湖上课的时候并没有在周边玩好好逛过，本来想去滑雪场的但因为疫情也作罢了。朋友Y有空开车去郊区玩就叫上了我，恰好遇上某电影节&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt;，因此路上有些拥堵。&lt;/p&gt;
+&lt;p&gt;虽然天气并没有很好，但是景色还是不错，能从室内出门散心还是很快乐的。此处放上一些本次的照片(均来自Y和他的另一位朋友Q)。&lt;/p&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2022/08/14/FrkG38DUjPitaEd.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2022/08/14/ZGUR3pzOLYBtFuf.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2022/08/14/Lsoh12PVOZ7Wlv5.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2022/08/14/ZD6z7plBu81kY5s.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2022/08/14/dVouWCQLz1AI2gc.jpg&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+    <category term="Travel" scheme="https://samhan.fun/overview/tags/Travel/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Bad or interesting translations</title>
+    <link href="https://samhan.fun/posts/25cd51e8.html"/>
+    <id>https://samhan.fun/posts/25cd51e8.html</id>
+    <published>2022-08-10T13:55:00.000Z</published>
+    <updated>2023-11-21T07:23:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮件。这里记录今年(2022年)起遇到的</p><p>还有一些有趣的翻译也会放在这里</p><h1 id="sling"><a class="header-anchor" href="#sling">¶</a>Sling</h1><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/11/21/72UyNPsTJC3Obxp.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/11/21/VDshIBLi37JPcMl.png" alt=""></div></div></div><p>sling做俗语的时候是售卖的意思(通常用在违法物品上)，左图既然是《绝命毒师》的内容，可以看到shard是代指的他们制作的片状drug，应该是一种crystal meth。所以这里的翻译也是错的。右图是《铁杉树丛》中的片段作为佐证。</p><h1 id="guinea-pig"><a class="header-anchor" href="#guinea-pig">¶</a>Guinea pig</h1><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/JkXaixYdgtOqNGe.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/02/24/wnbicCBe1FzvMyj.png" alt=""></div></div></div><p>非常有意思的事情是用“guinea pig”也就是豚鼠来代指实验的对象，实际上和中文语境下用“小白鼠”（实验用小鼠 <a href="https://en.wikipedia.org/wiki/Laboratory_rat">lab rat</a> ）并不指代同一个物种，因此在翻译这个词的时候很难在“信”和“达”之间抉择。</p><p>若译为豚鼠则失于达，以为小白鼠则失于信，很难抉择。</p><p>事实上当前做实验往往很少使用豚鼠，英文语境下之所以还在用guinea pig 可能是由于历史原因，曾经可能豚鼠用得更多，可以参见<a href="https://english.stackexchange.com/questions/4806/why-is-guinea-pig-used-as-the-colloquial-term-for-test-subjects">这里</a>，以下也摘录大意。</p><p>Guinea pigs might not be the most common experimental subjects today, but we have to look at how common they were when the term was first coined, which was many decades ago, as Etymonline points out:</p><blockquote><p>In the extended sense of “one subjected to an experiment” it is first recorded 1920, because they were commonly used in vivisection experiments.</p></blockquote><p>Wikipedia seems to be backing that up:</p><blockquote><p>Biological experimentation on guinea pigs has been carried out since the 17th century. The animals were frequently used as a model organism in the 19th and 20th centuries, resulting in the epithet “guinea pig” for a test subject, but have since been largely replaced by other rodents such as mice and rats.</p></blockquote><span id="more"></span><h1 id="nice-touch"><a class="header-anchor" href="#nice-touch">¶</a>Nice touch</h1><p>这里touch 作细节讲，可以直译无需意译，按照阴阳怪气的语气可以翻译成，“小细节不错”，当然如果不是Sheldon讲，完全可以是正面的意思。</p><blockquote><p>Penny: What’s with the fancy spread?<br>Sheldon: My new roommate is bending over backwards to ingratiate himself to me. Uh, nice touch, by the way.</p></blockquote><p><img data-src="https://s2.loli.net/2022/08/14/ToBdNsJtuKAVaLf.png" alt=""></p><h1 id="janitor"><a class="header-anchor" href="#janitor">¶</a>Janitor</h1><p>很奇怪为什么有些字典把janitor翻译成看门人，Janitor往往是指清洁工的意思，去图片搜索出来的结果都是类似下图的清洁工形象，Wikipedia<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>里也强调了清洁的含义。而看门人，正常会认为是Guard，或者是旅店前台的concierge吧？我不太懂是不是我的中文出了问题，看门人包含保洁的意思吗？一会去采访几个朋友。</p><blockquote><p>A janitor (American English, Scottish English), also known as a custodian, porter, cleanser, cleaner or caretaker is a person who cleans and maintains buildings. Janitors typically earn an average wage of $15 per hour in the United States.[1] That translates to an annual salary of around $35,000 for states that pay janitors the most, such as New York, Massachusetts, and Connecticut. In some cases, they will also carry out maintenance and security duties. <span style="color:#B95000">  A similar position, but usually with more managerial duties and not including cleaning, is occupied by building superintendents in the United States and Canada and by site managers in schools in the United Kingdom. Cleaning is one of the most commonly outsourced services.</span></p></blockquote><p><img data-src="https://s2.loli.net/2022/08/14/DQpgCl3fuh4xq5d.png" alt=""></p><h1 id="acrylic"><a class="header-anchor" href="#acrylic">¶</a>Acrylic</h1><p>亚克力经常说，丙烯酸倒是很少提到，然而亚克力就是丙烯酸的英文发音</p><h1 id="rtfm-and-stfw"><a class="header-anchor" href="#rtfm-and-stfw">¶</a>RTFM and STFW</h1><p>Read the fuck manual &amp; search the fuck web</p><p>自己读手册&amp;上网查一下</p><h1 id="ride-it-out"><a class="header-anchor" href="#ride-it-out">¶</a>Ride it out</h1><p><img data-src="https://s2.loli.net/2022/08/14/e7RQUqA3XVhxJvg.jpg" alt=""><br>不是乘船离开而是安全离开的意思<br>it应该是指险境本身</p><blockquote><p>: to succeed in surviving or getting through (something dangerous or harmful that cannot be stopped or avoided) The ship/crew rode out the storm. We managed to ride out the stock market downturn.</p></blockquote><h1 id="talk-shop"><a class="header-anchor" href="#talk-shop">¶</a>Talk shop</h1><p>完全不是闲聊的意思，是谈工作的意思，虽然是在非正式场合闲聊工作，但是翻成聊工作更合适。</p><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/Jqbxu5pd7jgQcLT.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2023/11/21/OfmXqvdARIeawoB.png" alt=""></div></div></div><h1 id="underdog"><a class="header-anchor" href="#underdog">¶</a>Underdog</h1><p><img data-src="https://s2.loli.net/2022/08/14/ROcXDGugA35fsBq.png" alt=""></p><p>在《饥饿游戏》里也有这句，也翻的很奇怪，</p><blockquote><p>So you like an underdog?Everyone likes an underdog.<br>所以你喜欢被压迫者?人人都喜欢受压迫的人</p></blockquote><p>实际上是说人人喜欢弱者,和被压迫、物美价廉没有关系。</p><h1 id="丁香和酸橙"><a class="header-anchor" href="#丁香和酸橙">¶</a>丁香和酸橙</h1><p>clove 和lilac 中文都是丁香, 但是两者的英文不同, 实际上拉丁文看这是两种完全不同的植物, 很奇怪中文丁香为什么指两种植物. 谷歌翻译如果输入丁香会翻译成clove, 输入丁香花会翻译成lilac. 还挺有趣.</p><p>那戴望舒的《雨巷》<sup class="footnote-ref"><a href="#fn1" id="fnref1:1">[1:1]</a></sup>指的是哪一种丁香呢？这个问题那就留给读者们自己去考据吧！还是很简单的.</p><blockquote><p>我希望逢着<br>一个丁香一样地<br>结着愁怨的姑娘</p></blockquote><div class="group-picture"><div class="group-picture-row"><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/M5Np43fXsUGrg7I.png" alt=""></div><div class="group-picture-column"><img data-src="https://s2.loli.net/2022/08/14/v4YI5cBTatKpljn.png" alt=""></div></div></div><p>lime指的是青柠, 知道这个词是从Android有一版准备叫key lime pie来着, 后来发现酒吧里面的酒也经常用, mojito之类的都会放lime, 但是其实key lime 和lime也不是一种植物, 和lemon就相差更远了, 但是有些人谈到鸡尾酒直接说这个酒是柠檬味, 可能是因为读书少吧, 所以对自己专业的事情也用不清楚名词.</p><h1 id="hobble"><a class="header-anchor" href="#hobble">¶</a>Hobble</h1><p>阻碍，跛脚</p><p><img data-src="https://s2.loli.net/2022/08/14/oGdS1cFB32PkOen.png" alt=""></p><h1 id="86"><a class="header-anchor" href="#86">¶</a>86</h1><p>86是离开，拒绝的意思，还挺有趣</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://baike.baidu.com/item/%E9%9B%A8%E5%B7%B7/1499166?fr=aladdin">https://baike.baidu.com/item/雨巷/1499166?fr=aladdin</a> <a href="#fnref1" class="footnote-backref">↩︎</a> <a href="#fnref1:1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很多电影或者电视剧的翻译在我看来有错，可能有一些我不知道的法则，如果我错了请给我发邮件。这里记录今年(2022年)起遇到的&lt;/p&gt;
+&lt;p&gt;还有一些有趣的翻译也会放在这里&lt;/p&gt;
+&lt;h1 id=&quot;sling&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#sling&quot;&gt;¶&lt;/a&gt;Sling&lt;/h1&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/11/21/72UyNPsTJC3Obxp.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/11/21/VDshIBLi37JPcMl.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;sling做俗语的时候是售卖的意思(通常用在违法物品上)，左图既然是《绝命毒师》的内容，可以看到shard是代指的他们制作的片状drug，应该是一种crystal meth。所以这里的翻译也是错的。右图是《铁杉树丛》中的片段作为佐证。&lt;/p&gt;
+&lt;h1 id=&quot;guinea-pig&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#guinea-pig&quot;&gt;¶&lt;/a&gt;Guinea pig&lt;/h1&gt;
+&lt;div class=&quot;group-picture&quot;&gt;&lt;div class=&quot;group-picture-row&quot;&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/24/JkXaixYdgtOqNGe.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;div class=&quot;group-picture-column&quot;&gt;&lt;img data-src=&quot;https://s2.loli.net/2023/02/24/wnbicCBe1FzvMyj.png&quot; alt=&quot;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;非常有意思的事情是用“guinea pig”也就是豚鼠来代指实验的对象，实际上和中文语境下用“小白鼠”（实验用小鼠 &lt;a href=&quot;https://en.wikipedia.org/wiki/Laboratory_rat&quot;&gt;lab rat&lt;/a&gt; ）并不指代同一个物种，因此在翻译这个词的时候很难在“信”和“达”之间抉择。&lt;/p&gt;
+&lt;p&gt;若译为豚鼠则失于达，以为小白鼠则失于信，很难抉择。&lt;/p&gt;
+&lt;p&gt;事实上当前做实验往往很少使用豚鼠，英文语境下之所以还在用guinea pig 可能是由于历史原因，曾经可能豚鼠用得更多，可以参见&lt;a href=&quot;https://english.stackexchange.com/questions/4806/why-is-guinea-pig-used-as-the-colloquial-term-for-test-subjects&quot;&gt;这里&lt;/a&gt;，以下也摘录大意。&lt;/p&gt;
+&lt;p&gt;Guinea pigs might not be the most common experimental subjects today, but we have to look at how common they were when the term was first coined, which was many decades ago, as Etymonline points out:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the extended sense of “one subjected to an experiment” it is first recorded 1920, because they were commonly used in vivisection experiments.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Wikipedia seems to be backing that up:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Biological experimentation on guinea pigs has been carried out since the 17th century. The animals were frequently used as a model organism in the 19th and 20th centuries, resulting in the epithet “guinea pig” for a test subject, but have since been largely replaced by other rodents such as mice and rats.&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Single-Event Upsets</title>
+    <link href="https://samhan.fun/posts/df853c19.html"/>
+    <id>https://samhan.fun/posts/df853c19.html</id>
+    <published>2022-06-27T05:16:24.000Z</published>
+    <updated>2022-06-27T05:16:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先安利一下真理元素的这个视频</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=292841556&bvid=BV1pf4y1J7bo&cid=404656376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><hr><div class="note info"><h4 id="single-event-upsets"><a class="header-anchor" href="#single-event-upsets">¶</a>Single Event Upsets</h4><p>A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.</p></div><span id="more"></span><div class="note info"><h4 id="单粒子翻转"><a class="header-anchor" href="#单粒子翻转">¶</a>单粒子翻转</h4><p>单粒子翻转是航天电子学术语，原因是在空间环境下存在着大量高能带电粒子，计算机中的CMOS电子元器件受到地球磁场、宇宙射线等照射，引起电位状态的跳变，“0”变成“1”，或者“1”变成“0”，但一般不会造成器件的物理性损伤。</p></div><p>看航天相关的科普得知了这一个名词<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。这一现象导致了很多航天事故，例如，我国于1995年2月8日发射升空的实践四号卫星上搭载的两台用于单粒子事件测量的监测装置，在入轨后的19天内共发生了65次翻转，而风云一号气象卫星也因多次单粒子翻转导致姿态控制系统失控而过早的失效。</p><p>事实上，虽然在航天中发生较多，地球上也不是没有发生单粒子翻转的概率。例如，在比利时斯哈尔贝克的一次选举中，单粒子翻转效应被认为是一次电子投票错误的罪魁祸首。电子投票机的一个数位翻转，使一名候选人的选票增加了4096张。又例如，马里奥游戏速通的一次直播中，曾有过单粒子翻转导致马里奥跳到天花板上。</p><p>似乎被我们视为极为稳健的计算机计算结果，其实也并不完全可靠。如果有外星人存在，是不是只需要在人类计算某个关键参数的时候，用高能粒子发生器，就能击中人类的计算机，让人类永远无法计算出这个参数? 也许我们哪个计算机模拟实验里无法复现的错误也只是高能粒子开的一个玩笑。</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=AaZ_RSt0KP8">https://www.youtube.com/watch?v=AaZ_RSt0KP8</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;首先安利一下真理元素的这个视频&lt;/p&gt;
+&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=292841556&amp;bvid=BV1pf4y1J7bo&amp;cid=404656376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;note info&quot;&gt;&lt;h4 id=&quot;single-event-upsets&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#single-event-upsets&quot;&gt;¶&lt;/a&gt;Single Event Upsets&lt;/h4&gt;
+&lt;p&gt;A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.&lt;/p&gt;
+&lt;/div&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文言文</title>
+    <link href="https://samhan.fun/posts/a5cae94b.html"/>
+    <id>https://samhan.fun/posts/a5cae94b.html</id>
+    <published>2022-06-07T11:44:29.000Z</published>
+    <updated>2023-01-29T07:48:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>记录一些自己喜欢的文言文</p><blockquote><p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>——《庄子》</p></blockquote><p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p><blockquote><p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>——《文心雕龙》</p></blockquote><span id="more"></span><blockquote><p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>——《山月记》</p></blockquote>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;记录一些自己喜欢的文言文&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。&lt;br&gt;
+——《庄子》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&amp;quot;相呴以湿&amp;quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！&lt;br&gt;
+——《文心雕龙》&lt;/p&gt;
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
     
   </entry>
   
