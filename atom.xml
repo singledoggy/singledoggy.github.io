@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2023-06-16T08:52:07.000Z</updated>
+  <updated>2024-03-27T08:01:03.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Feynman&#39;s comment on English</title>
+    <link href="https://samhan.fun/posts/f196a46f.html"/>
+    <id>https://samhan.fun/posts/f196a46f.html</id>
+    <published>2024-03-27T08:01:03.000Z</published>
+    <updated>2024-03-27T08:01:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>I was terrible in English. I couldn’t stand the subject. It seemed to me ridiculous to worry about whether you spelled something wrong or not, because English spelling is just a human convention–it has nothing to do with anything real, anything from nature. Any word can be spelled just as well a different way.</p></blockquote><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;blockquote class=&quot;blockquote-center&quot;&gt;
+&lt;p&gt;I was terrible in English. I couldn’t stand the subject. It seemed to me ridiculous to worry about whether you spelled something wrong or not, because English spelling is just a human convention–it has nothing to do with anything real, anything from nature. Any word can be spelled just as well a different way.&lt;/p&gt;
+
+&lt;/blockquote&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>The curse of knowledge</title>
@@ -513,34 +535,6 @@
 &lt;div class=&quot;note info&quot;&gt;&lt;h4 id=&quot;single-event-upsets&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#single-event-upsets&quot;&gt;¶&lt;/a&gt;Single Event Upsets&lt;/h4&gt;
 &lt;p&gt;A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.&lt;/p&gt;
 &lt;/div&gt;</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>文言文</title>
-    <link href="https://samhan.fun/posts/a5cae94b.html"/>
-    <id>https://samhan.fun/posts/a5cae94b.html</id>
-    <published>2022-06-07T11:44:29.000Z</published>
-    <updated>2023-01-29T07:48:00.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>记录一些自己喜欢的文言文</p><blockquote><p>泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。<br>——《庄子》</p></blockquote><p>少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&quot;相呴以湿&quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。</p><blockquote><p>岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！<br>——《文心雕龙》</p></blockquote><span id="more"></span><blockquote><p>深怕自己本非美玉，故而不敢加以刻苦琢磨，却又半信自己是块美玉，故又不肯庸庸碌碌，与瓦砾为伍。于是我渐渐地脱离凡尘，疏远世人，结果便是一任愤懑与羞恨日益助长内心那怯弱的自尊心。其实，任何人都是驯兽师，而那野兽，无非就是各人的性情而已。于我而言，这种妄自尊大的羞耻心就是野兽，就是猛虎。它毁了我自己，害苦了我的妻儿，伤害了我的友人，最后，又如此这般，将我的外形也变成了与内心相一致的模样。如今想来，我自己仅有的那么一点才华也都付之东流了。我常卖弄什么‘无所作为，则人生太长；欲有所为，则人生太短’的格言，其实我哪有什么远大的志向，无非是害怕暴露自己才华不足之卑劣的恐惧和不肯刻苦用功的无耻之怠惰而已。<br>——《山月记》</p></blockquote>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;记录一些自己喜欢的文言文&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;泉涸，鱼相与处于陆，相呴以湿，相濡以沫，不如相忘于江湖。&lt;br&gt;
-——《庄子》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;少年读《庄子》而不解其意，随着经历越多才渐渐明白，一些&amp;quot;相呴以湿&amp;quot;往往到头来不让人快乐。在阴暗处抱团取暖不如各自分开，在阳光下各自舒适。希望大家能彼此相忘，江湖自在。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;岁有其物，物有其容；情以物迁，辞以情发。一叶且或迎意，虫声有足引心。况清风与明月同夜，白日与春林共朝哉！&lt;br&gt;
-——《文心雕龙》&lt;/p&gt;
-&lt;/blockquote&gt;</summary>
     
     
     
