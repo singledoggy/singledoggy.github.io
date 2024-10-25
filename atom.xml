@@ -6,7 +6,7 @@
   <link href="https://samhan.fun/atom.xml" rel="self"/>
   
   <link href="https://samhan.fun/"/>
-  <updated>2024-03-27T08:01:03.000Z</updated>
+  <updated>2024-10-25T09:09:19.000Z</updated>
   <id>https://samhan.fun/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Arrow&#39;s impossibility theorem</title>
+    <link href="https://samhan.fun/posts/7ab192c6.html"/>
+    <id>https://samhan.fun/posts/7ab192c6.html</id>
+    <published>2024-10-25T09:09:19.000Z</published>
+    <updated>2024-10-25T09:09:19.000Z</updated>
+    
+    <content type="html"><![CDATA[<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113225052001411&bvid=BV1igxxepEpF&cid=26074025120&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe><span id="more"></span>]]></content>
+    
+    
+    <summary type="html">&lt;iframe src=&quot;//player.bilibili.com/player.html?isOutside=true&amp;aid=113225052001411&amp;bvid=BV1igxxepEpF&amp;cid=26074025120&amp;p=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;</summary>
+    
+    
+    
+    
+    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
+    
+  </entry>
   
   <entry>
     <title>Feynman&#39;s comment on English</title>
@@ -513,32 +532,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;Biological experimentation on guinea pigs has been carried out since the 17th century. The animals were frequently used as a model organism in the 19th and 20th centuries, resulting in the epithet “guinea pig” for a test subject, but have since been largely replaced by other rodents such as mice and rats.&lt;/p&gt;
 &lt;/blockquote&gt;</summary>
-    
-    
-    
-    
-    <category term="日常" scheme="https://samhan.fun/overview/tags/%E6%97%A5%E5%B8%B8/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Single-Event Upsets</title>
-    <link href="https://samhan.fun/posts/df853c19.html"/>
-    <id>https://samhan.fun/posts/df853c19.html</id>
-    <published>2022-06-27T05:16:24.000Z</published>
-    <updated>2022-06-27T05:16:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先安利一下真理元素的这个视频</p><div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><iframe src="//player.bilibili.com/player.html?aid=292841556&bvid=BV1pf4y1J7bo&cid=404656376&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe></div><hr><div class="note info"><h4 id="single-event-upsets"><a class="header-anchor" href="#single-event-upsets">¶</a>Single Event Upsets</h4><p>A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.</p></div><span id="more"></span><div class="note info"><h4 id="单粒子翻转"><a class="header-anchor" href="#单粒子翻转">¶</a>单粒子翻转</h4><p>单粒子翻转是航天电子学术语，原因是在空间环境下存在着大量高能带电粒子，计算机中的CMOS电子元器件受到地球磁场、宇宙射线等照射，引起电位状态的跳变，“0”变成“1”，或者“1”变成“0”，但一般不会造成器件的物理性损伤。</p></div><p>看航天相关的科普得知了这一个名词<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>。这一现象导致了很多航天事故，例如，我国于1995年2月8日发射升空的实践四号卫星上搭载的两台用于单粒子事件测量的监测装置，在入轨后的19天内共发生了65次翻转，而风云一号气象卫星也因多次单粒子翻转导致姿态控制系统失控而过早的失效。</p><p>事实上，虽然在航天中发生较多，地球上也不是没有发生单粒子翻转的概率。例如，在比利时斯哈尔贝克的一次选举中，单粒子翻转效应被认为是一次电子投票错误的罪魁祸首。电子投票机的一个数位翻转，使一名候选人的选票增加了4096张。又例如，马里奥游戏速通的一次直播中，曾有过单粒子翻转导致马里奥跳到天花板上。</p><p>似乎被我们视为极为稳健的计算机计算结果，其实也并不完全可靠。如果有外星人存在，是不是只需要在人类计算某个关键参数的时候，用高能粒子发生器，就能击中人类的计算机，让人类永远无法计算出这个参数? 也许我们哪个计算机模拟实验里无法复现的错误也只是高能粒子开的一个玩笑。</p><hr class="footnotes-sep"><section class="footnotes"><ol class="footnotes-list"><li id="fn1" class="footnote-item"><p><span class="exturl" data-url="aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1BYVpfUlN0MEtQOA==">https://www.youtube.com/watch?v=AaZ_RSt0KP8<i class="fa fa-external-link-alt"></i></span> <a href="#fnref1" class="footnote-backref">↩︎</a></p></li></ol></section>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;首先安利一下真理元素的这个视频&lt;/p&gt;
-&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 75%;&quot;&gt;
-&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=292841556&amp;bvid=BV1pf4y1J7bo&amp;cid=404656376&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-&lt;div class=&quot;note info&quot;&gt;&lt;h4 id=&quot;single-event-upsets&quot;&gt;&lt;a class=&quot;header-anchor&quot; href=&quot;#single-event-upsets&quot;&gt;¶&lt;/a&gt;Single Event Upsets&lt;/h4&gt;
-&lt;p&gt;A single-event upset (SEU), also known as a single-event error (SEE), is a change of state caused by one single ionizing particle (ions, electrons, photons…) striking a sensitive node in a micro-electronic device, such as in a microprocessor, semiconductor memory, or power transistors.&lt;/p&gt;
-&lt;/div&gt;</summary>
     
     
     
